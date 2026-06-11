@@ -1,0 +1,1582 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.30)  11 JUN 2026 16:22
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/robert/Documents/Dissertation Documents/RLee Dissertation/RLeeDissertation.tex"
+(/Users/robert/Documents/Dissertation Documents/RLee Dissertation/RLeeDissertation.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-19>
+(./ucsddissertation.cls (/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count284
+\calc@Bcount=\count285
+\calc@Adimen=\dimen149
+\calc@Bdimen=\dimen150
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count286
+\calc@Cskip=\skip53
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count287
+\Gm@cntv=\count288
+\c@Gm@tempcnt=\count289
+\Gm@bindingoffset=\dimen151
+\Gm@wd@mp=\dimen152
+\Gm@odd@mp=\dimen153
+\Gm@even@mp=\dimen154
+\Gm@layoutwidth=\dimen155
+\Gm@layoutheight=\dimen156
+\Gm@layouthoffset=\dimen157
+\Gm@layoutvoffset=\dimen158
+\Gm@dimlist=\toks18
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip54
+\cftbeforetoctitleskip=\skip55
+\cftaftertoctitleskip=\skip56
+\cftbeforepartskip=\skip57
+\cftpartnumwidth=\skip58
+\cftpartindent=\skip59
+\cftbeforechapskip=\skip60
+\cftchapindent=\skip61
+\cftchapnumwidth=\skip62
+\cftbeforesecskip=\skip63
+\cftsecindent=\skip64
+\cftsecnumwidth=\skip65
+\cftbeforesubsecskip=\skip66
+\cftsubsecindent=\skip67
+\cftsubsecnumwidth=\skip68
+\cftbeforesubsubsecskip=\skip69
+\cftsubsubsecindent=\skip70
+\cftsubsubsecnumwidth=\skip71
+\cftbeforeparaskip=\skip72
+\cftparaindent=\skip73
+\cftparanumwidth=\skip74
+\cftbeforesubparaskip=\skip75
+\cftsubparaindent=\skip76
+\cftsubparanumwidth=\skip77
+\cftbeforeloftitleskip=\skip78
+\cftafterloftitleskip=\skip79
+\cftbeforefigskip=\skip80
+\cftfigindent=\skip81
+\cftfignumwidth=\skip82
+\c@lofdepth=\count290
+\c@lotdepth=\count291
+\cftbeforelottitleskip=\skip83
+\cftafterlottitleskip=\skip84
+\cftbeforetabskip=\skip85
+\cfttabindent=\skip86
+\cfttabnumwidth=\skip87
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip88
+\aftertitleunit=\skip89
+\ttl@plus=\dimen159
+\ttl@minus=\dimen160
+\ttl@toksa=\toks19
+\titlewidth=\dimen161
+\titlewidthlast=\dimen162
+\titlewidthfirst=\dimen163
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titleps.sty)) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen164
+\captionmargin=\dimen165
+\caption@leftmargin=\dimen166
+\caption@rightmargin=\dimen167
+\caption@width=\dimen168
+\caption@indent=\dimen169
+\caption@parindent=\dimen170
+\caption@hangindent=\dimen171
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count292
+\c@continuedfloat=\count293
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks20
+\AP@partial=\box54
+\AP@footins=\box55
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count294
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip90
+\RaggedLeftLeftskip=\skip91
+\RaggedRightLeftskip=\skip92
+\CenteringRightskip=\skip93
+\RaggedLeftRightskip=\skip94
+\RaggedRightRightskip=\skip95
+\CenteringParfillskip=\skip96
+\RaggedLeftParfillskip=\skip97
+\RaggedRightParfillskip=\skip98
+\JustifyingParfillskip=\skip99
+\CenteringParindent=\skip100
+\RaggedLeftParindent=\skip101
+\RaggedRightParindent=\skip102
+\JustifyingParindent=\skip103
+)
+\titleskip=\skip104
+\satisfactionskip=\skip105
+\inskip=\skip106
+\degreeskip=\skip107
+\byskip=\skip108
+\authorskip=\skip109
+\committeeskip=\skip110
+\yearskip=\skip111
+\dissertationabstractskip=\skip112
+\Vspace@topskip=\skip113
+\ucsd@captionbox=\box56
+\ucsd@outputcaptionbox=\box57
+\ucsd@outputfigurebox=\box58
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/currvita/currvita.sty
+Package: currvita 1999/09/13 v0.9i Typesetting a Curriculum Vitae
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\@cvlistheading=\box59
+\cvlabelsep=\skip114
+\cvlabelskip=\skip115
+\cvlabelwidth=\skip116
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen172
+\ar@mcellbox=\box60
+\extrarowheight=\dimen173
+\NC@list=\toks21
+\extratabsurround=\skip117
+\backup@length=\skip118
+\ar@cellbox=\box61
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen174
+\TX@old@table=\dimen175
+\TX@old@col=\dimen176
+\TX@target=\dimen177
+\TX@delta=\dimen178
+\TX@cols=\count295
+\TX@ftn=\toks22
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen179
+\lightrulewidth=\dimen180
+\cmidrulewidth=\dimen181
+\belowrulesep=\dimen182
+\belowbottomsep=\dimen183
+\aboverulesep=\dimen184
+\abovetopsep=\dimen185
+\cmidrulesep=\dimen186
+\cmidrulekern=\dimen187
+\defaultaddspace=\dimen188
+\@cmidla=\count296
+\@cmidlb=\count297
+\@aboverulesep=\dimen189
+\@belowrulesep=\dimen190
+\@thisruleclass=\count298
+\@lastruleclass=\count299
+\@thisrulewidth=\dimen191
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
+\MT@toks=\toks23
+\MT@tempbox=\box62
+\MT@count=\count300
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks24
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen192
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count301
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip119
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen193
+\c@nlinenum=\count302
+\TeXr@lab=\toks25
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count303
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count304
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/xfrac/xfrac.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks26
+\ex@=\dimen194
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen195
+\Gin@req@width=\dimen196
+)
+Package: xfrac 2024-06-04 Split-level fractions
+\l__xfrac_slash_box=\box63
+\l__xfrac_tmp_box=\box64
+\l__xfrac_denominator_bot_sep_dim=\dimen197
+\l__xfrac_numerator_bot_sep_dim=\dimen198
+\l__xfrac_numerator_top_sep_dim=\dimen199
+\l__xfrac_slash_left_sep_dim=\dimen256
+\l__xfrac_slash_right_sep_dim=\dimen257
+\l__xfrac_slash_left_muskip=\muskip17
+\l__xfrac_slash_right_muskip=\muskip18
+
+LaTeX template Info: Declaring template type 'xfrac' taking 3 argument(s) on
+(template)           line 100.
+
+
+LaTeX template Info: Declaring instance 'cmr' of type xfrac on line 392.
+
+
+LaTeX template Info: Declaring instance 'cmss' of type xfrac on line 392.
+
+
+LaTeX template Info: Declaring instance 'cmtt' of type xfrac on line 392.
+
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count305
+\float@exts=\toks27
+\float@box=\box65
+\@float@everytoks=\toks28
+\@floatcapt=\box66
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count306
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen258
+\Hy@linkcounter=\count307
+\Hy@pagecounter=\count308
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count309
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 4066.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count310
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip19
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen259
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count311
+\Field@Width=\dimen260
+\Fld@charsize=\dimen261
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count312
+\c@Item=\count313
+\c@Hfootnote=\count314
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count315
+\c@bookmark@seq@number=\count316
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+)
+\Hy@SectionHShift=\skip120
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count317
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count318
+\c@listtotal=\count319
+\c@listcount=\count320
+\c@liststart=\count321
+\c@liststop=\count322
+\c@citecount=\count323
+\c@citetotal=\count324
+\c@multicitecount=\count325
+\c@multicitetotal=\count326
+\c@instcount=\count327
+\c@maxnames=\count328
+\c@minnames=\count329
+\c@maxitems=\count330
+\c@minitems=\count331
+\c@citecounter=\count332
+\c@maxcitecounter=\count333
+\c@savedcitecounter=\count334
+\c@uniquelist=\count335
+\c@uniquename=\count336
+\c@refsection=\count337
+\c@refsegment=\count338
+\c@maxextratitle=\count339
+\c@maxextratitleyear=\count340
+\c@maxextraname=\count341
+\c@maxextradate=\count342
+\c@maxextraalpha=\count343
+\c@abbrvpenalty=\count344
+\c@highnamepenalty=\count345
+\c@lownamepenalty=\count346
+\c@maxparens=\count347
+\c@parenlevel=\count348
+\blx@tempcnta=\count349
+\blx@tempcntb=\count350
+\blx@tempcntc=\count351
+\c@blx@maxsection=\count352
+\blx@maxsegment@0=\count353
+\blx@notetype=\count354
+\blx@parenlevel@text=\count355
+\blx@parenlevel@foot=\count356
+\blx@sectionciteorder@0=\count357
+\blx@sectionciteorderinternal@0=\count358
+\blx@entrysetcounter=\count359
+\blx@biblioinstance=\count360
+\labelnumberwidth=\skip121
+\labelalphawidth=\skip122
+\biblabelsep=\skip123
+\bibitemsep=\skip124
+\bibnamesep=\skip125
+\bibinitsep=\skip126
+\bibparsep=\skip127
+\bibhang=\skip128
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language90
+\c@mincomprange=\count361
+\c@maxcomprange=\count362
+\c@mincompwidth=\count363
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numerical.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count364
+\c@savedafterword=\count365
+\c@annotator=\count366
+\c@savedannotator=\count367
+\c@author=\count368
+\c@savedauthor=\count369
+\c@bookauthor=\count370
+\c@savedbookauthor=\count371
+\c@commentator=\count372
+\c@savedcommentator=\count373
+\c@editor=\count374
+\c@savededitor=\count375
+\c@editora=\count376
+\c@savededitora=\count377
+\c@editorb=\count378
+\c@savededitorb=\count379
+\c@editorc=\count380
+\c@savededitorc=\count381
+\c@foreword=\count382
+\c@savedforeword=\count383
+\c@holder=\count384
+\c@savedholder=\count385
+\c@introduction=\count386
+\c@savedintroduction=\count387
+\c@namea=\count388
+\c@savednamea=\count389
+\c@nameb=\count390
+\c@savednameb=\count391
+\c@namec=\count392
+\c@savednamec=\count393
+\c@translator=\count394
+\c@savedtranslator=\count395
+\c@shortauthor=\count396
+\c@savedshortauthor=\count397
+\c@shorteditor=\count398
+\c@savedshorteditor=\count399
+\c@labelname=\count400
+\c@savedlabelname=\count401
+\c@institution=\count402
+\c@savedinstitution=\count403
+\c@lista=\count404
+\c@savedlista=\count405
+\c@listb=\count406
+\c@savedlistb=\count407
+\c@listc=\count408
+\c@savedlistc=\count409
+\c@listd=\count410
+\c@savedlistd=\count411
+\c@liste=\count412
+\c@savedliste=\count413
+\c@listf=\count414
+\c@savedlistf=\count415
+\c@location=\count416
+\c@savedlocation=\count417
+\c@organization=\count418
+\c@savedorganization=\count419
+\c@origlocation=\count420
+\c@savedoriglocation=\count421
+\c@origpublisher=\count422
+\c@savedorigpublisher=\count423
+\c@publisher=\count424
+\c@savedpublisher=\count425
+\c@language=\count426
+\c@savedlanguage=\count427
+\c@origlanguage=\count428
+\c@savedoriglanguage=\count429
+\c@pageref=\count430
+\c@savedpageref=\count431
+\shorthandwidth=\skip129
+\shortjournalwidth=\skip130
+\shortserieswidth=\skip131
+\shorttitlewidth=\skip132
+\shortauthorwidth=\skip133
+\shorteditorwidth=\skip134
+\locallabelnumberwidth=\skip135
+\locallabelalphawidth=\skip136
+\localshorthandwidth=\skip137
+\localshortjournalwidth=\skip138
+\localshortserieswidth=\skip139
+\localshorttitlewidth=\skip140
+\localshortauthorwidth=\skip141
+\localshorteditorwidth=\skip142
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count432
+\c@textcitetotal=\count433
+\c@textcitemaxnames=\count434
+\c@biburlbigbreakpenalty=\count435
+\c@biburlbreakpenalty=\count436
+\c@biburlnumpenalty=\count437
+\c@biburlucpenalty=\count438
+\c@biburllcpenalty=\count439
+\biburlbigskip=\muskip20
+\biburlnumskip=\muskip21
+\biburlucskip=\muskip22
+\biburllcskip=\muskip23
+\c@smartand=\count440
+)
+Package biblatex Info: Trying to load bibliography style 'numerical'...
+Package biblatex Info: ... file 'numerical.bbx' not found.
+
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty:16439: Package biblatex Error: Style 'numerical' not found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16439 \RequireBibliographyStyle{\blx@bbxfile}
+                                               
+The bibliography style 'numerical' could not be found.
+
+Package biblatex Info: Trying to load citation style 'numerical'...
+Package biblatex Info: ... file 'numerical.cbx' not found.
+
+/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty:16440: Package biblatex Error: Style 'numerical' not found.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16440 \RequireCitationStyle{\blx@cbxfile}
+                                           
+The citation style 'numerical' could not be found.
+
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-07-19 L3 programming layer (loader) 
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count441
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2025-07-19 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/trace.sty
+Package: trace 2021/04/18 v1.1f trace LaTeX code
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/07/13 v25.11 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count442
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2045.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2047.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2049.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2050.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2051.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2053.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2078.
+\U@D=\dimen262
+\l@unhyphenated=\language91
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count443
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 12.
+)
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language22). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language22). Reported on input line 108.
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count444
+\c@Blindtext=\count445
+\c@blind@countparstart=\count446
+\blind@countxx=\count447
+\blindtext@numBlindtext=\count448
+\blind@countyy=\count449
+\c@blindlist=\count450
+\c@blindlistlevel=\count451
+\c@blindlist@level=\count452
+\blind@listitem=\count453
+\c@blind@listcount=\count454
+\c@blind@levelcount=\count455
+\blind@mathformula=\count456
+\blind@Mathformula=\count457
+\c@blind@randomcount=\count458
+\c@blind@randommax=\count459
+\c@blind@pangramcount=\count460
+\c@blind@pangrammax=\count461
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count462
+\@quotereset=\count463
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 57.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+No file RLeeDissertation.aux.
+\openout1 = `RLeeDissertation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <custom>
+* layout(width,height): (614.295pt,794.96999pt)
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(79.49742pt, 455.30016pt, 79.49742pt)
+* v-part:(T,H,B)=(79.49742pt, 635.97514pt, 79.49742pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=455.30016pt
+* \textheight=635.97514pt
+* \oddsidemargin=7.22743pt
+* \evensidemargin=7.22743pt
+* \topmargin=-40.90756pt
+* \headheight=12.0pt
+* \headsep=36.135pt
+* \topskip=12.0pt
+* \footskip=36.135pt
+* \marginparwidth=0.0pt
+* \marginparsep=0.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\big@size=\dimen263
+LaTeX Info: Redefining \microtypecontext on input line 57.
+Package microtype Info: Applying patch `item' on input line 57.
+Package microtype Info: Applying patch `toc' on input line 57.
+Package microtype Info: Applying patch `eqnum' on input line 57.
+Package microtype Info: Applying patch `footnote' on input line 57.
+Package microtype Info: Applying patch `verbatim' on input line 57.
+LaTeX Info: Redefining \microtypesetup on input line 57.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+) (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count464
+\scratchdimen=\dimen264
+\scratchbox=\box67
+\nofMPsegments=\count465
+\nofMParguments=\count466
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count467
+\MPscratchDim=\dimen265
+\MPnumerator=\count468
+\makeMPintoPDFobject=\count469
+\everyMPtoPDFconversion=\toks30
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package hyperref Info: Link coloring OFF on input line 57.
+\@outlinefile=\write4
+\openout4 = `RLeeDissertation.out'.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `RLeeDissertation.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'RLeeDissertation.bbl' found.
+ (./RLeeDissertation.bbl)
+Package biblatex Info: Reference section=0 on input line 57.
+Package biblatex Info: Reference segment=0 on input line 57.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 61.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ztmcm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 61.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 61.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 61.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
+
+
+[1
+
+
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+
+[2]
+
+[3]
+
+[4]
+
+[5]
+No file RLeeDissertation.toc.
+\tf@toc=\write5
+\openout5 = `RLeeDissertation.toc'.
+
+
+
+[6]
+No file RLeeDissertation.lof.
+\tf@lof=\write6
+\openout6 = `RLeeDissertation.lof'.
+
+
+
+[7]
+No file RLeeDissertation.lot.
+\tf@lot=\write7
+\openout7 = `RLeeDissertation.lot'.
+
+
+
+[8]
+
+[9]
+
+[10]
+
+[11]
+
+[12]
+
+[1
+
+
+]
+
+[2]
+Chapter 1.
+
+/Users/robert/Documents/Dissertation Documents/RLee Dissertation/RLeeDissertation.tex:218: Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 Theory Citations: \cite
+                             {SMOverview}: Short 1999 Overview of SM. \cite{...
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+/Users/robert/Documents/Dissertation Documents/RLee Dissertation/RLeeDissertation.tex:218: Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 ...erview}: Short 1999 Overview of SM. \cite
+                                                  {PDGReview}: 2024 review o...
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+/Users/robert/Documents/Dissertation Documents/RLee Dissertation/RLeeDissertation.tex:218: Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 ...}: 2024 review of particle physics. \cite
+                                                  {HiggsDiscovery2012}: 2012...
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+/Users/robert/Documents/Dissertation Documents/RLee Dissertation/RLeeDissertation.tex:218: Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 ...ry phys review letters publication. \cite
+                                                  {HiggsDiscovery2013} 2013 ...
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+/Users/robert/Documents/Dissertation Documents/RLee Dissertation/RLeeDissertation.tex:218: Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 ...3 JHEP Higgs discovery publication. \cite
+                                                  {CMS10YearReview} 2022 CMS...
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+/Users/robert/Documents/Dissertation Documents/RLee Dissertation/RLeeDissertation.tex:220: Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.220 Detector Citations: \cite
+                               {CMS2008} 2008 Early CMS Description. \cite{C...
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+/Users/robert/Documents/Dissertation Documents/RLee Dissertation/RLeeDissertation.tex:220: Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.220 ...MS2008} 2008 Early CMS Description. \cite
+                                                  {CMS2024} 2024 Run3 CMS De...
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+/Users/robert/Documents/Dissertation Documents/RLee Dissertation/RLeeDissertation.tex:220: Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.220 ... CMS Description (use this mainly). \cite
+                                                  {LHC2008} 2008 Overall LHC...
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+/Users/robert/Documents/Dissertation Documents/RLee Dissertation/RLeeDissertation.tex:222: Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 Trigger Citations: \cite
+                              {L12020} 2020 L1 Trigger review. \cite{CMSTrig...
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+/Users/robert/Documents/Dissertation Documents/RLee Dissertation/RLeeDissertation.tex:222: Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 ...ite{L12020} 2020 L1 Trigger review. \cite
+                                                  {CMSTrigger2017} 2017 over...
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+/Users/robert/Documents/Dissertation Documents/RLee Dissertation/RLeeDissertation.tex:222: Package biblatex Error: Command '\cite' undefined.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 ...17} 2017 overall trigger structure. \cite
+                                                  {Run2HLT2024} 2024 review ...
+The citation command '\cite' has not been defined
+by the selected citation style.
+
+
+
+[3
+
+]
+
+LaTeX Warning: Reference `sec:EW' on page 4 undefined on input line 228.
+
+<./Figures/HiggsProdModes_From10YearReview.png, id=86, 987.69pt x 449.68pt>
+File: ./Figures/HiggsProdModes_From10YearReview.png Graphic file (type png)
+<use ./Figures/HiggsProdModes_From10YearReview.png>
+Package pdftex.def Info: ./Figures/HiggsProdModes_From10YearReview.png  used on input line 249.
+(pdftex.def)             Requested size: 455.30016pt x 207.28758pt.
+<./Figures/SingleHProdCrossSections_From10YearReview.png, id=88, 638.385pt x 905.3825pt>
+File: ./Figures/SingleHProdCrossSections_From10YearReview.png Graphic file (type png)
+<use ./Figures/SingleHProdCrossSections_From10YearReview.png>
+Package pdftex.def Info: ./Figures/SingleHProdCrossSections_From10YearReview.png  used on input line 255.
+(pdftex.def)             Requested size: 455.30016pt x 645.72723pt.
+
+
+[4]
+
+[5 <./Figures/HiggsProdModes_From10YearReview.png>]
+Overfull \vbox (34.25208pt too high) has occurred while \output is active []
+
+
+
+[6 <./Figures/SingleHProdCrossSections_From10YearReview.png>]
+<./Figures/HiggsDecayModes_From10YearReview.png, id=112, 651.43375pt x 449.68pt>
+File: ./Figures/HiggsDecayModes_From10YearReview.png Graphic file (type png)
+<use ./Figures/HiggsDecayModes_From10YearReview.png>
+Package pdftex.def Info: ./Figures/HiggsDecayModes_From10YearReview.png  used on input line 262.
+(pdftex.def)             Requested size: 455.30016pt x 314.3004pt.
+
+Underfull \hbox (badness 1472) in paragraph at lines 263--263
+[]\OT1/ptm/b/n/12 (+20) Figure 1.3. |\OT1/ptm/m/n/12 (+20) Feyn-man di-a-grams of known Higgs de-cay modes. Re-pro-duced from
+ []
+
+<./Figures/SingleHBranchFracts_From10YearReview.png, id=113, 628.3475pt x 900.36375pt>
+File: ./Figures/SingleHBranchFracts_From10YearReview.png Graphic file (type png)
+<use ./Figures/SingleHBranchFracts_From10YearReview.png>
+Package pdftex.def Info: ./Figures/SingleHBranchFracts_From10YearReview.png  used on input line 268.
+(pdftex.def)             Requested size: 455.30016pt x 652.39668pt.
+
+Underfull \hbox (badness 3668) in paragraph at lines 269--269
+[]\OT1/ptm/b/n/12 (+20) Figure 1.4. |\OT1/ptm/m/n/12 (+20) De-cay branch-ing frac-tions for a sin-gle Higgs. Re-pro-duced from
+ []
+
+
+
+[7 <./Figures/HiggsDecayModes_From10YearReview.png>]
+Overfull \vbox (55.42152pt too high) has occurred while \output is active []
+
+
+
+[8 <./Figures/SingleHBranchFracts_From10YearReview.png>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 272.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 272.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 272.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 272.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 272.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 272.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 272.
+
+<./Figures/DiHiggsProdModes_From10YearReview.png, id=128, 1294.8375pt x 188.705pt>
+File: ./Figures/DiHiggsProdModes_From10YearReview.png Graphic file (type png)
+<use ./Figures/DiHiggsProdModes_From10YearReview.png>
+Package pdftex.def Info: ./Figures/DiHiggsProdModes_From10YearReview.png  used on input line 279.
+(pdftex.def)             Requested size: 455.30016pt x 66.35295pt.
+
+Underfull \hbox (badness 1472) in paragraph at lines 280--280
+[]\OT1/ptm/b/n/12 (+20) Figure 1.5. |\OT1/ptm/m/n/12 (+20) Feyn-man di-a-grams of known Higgs de-cay modes. Re-pro-duced from
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 284.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 284.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 284.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 284.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 284.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathaccent' on input line 284.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 284.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 284.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 284.
+
+
+
+[9 <./Figures/DiHiggsProdModes_From10YearReview.png>]
+Chapter 2.
+
+
+[10
+
+]
+
+LaTeX Warning: Reference `fig:FullCMS' on page 11 undefined on input line 295.
+
+<./Figures/FullCMS.png, id=152, 2392.43813pt x 1690.06406pt>
+File: ./Figures/FullCMS.png Graphic file (type png)
+<use ./Figures/FullCMS.png>
+Package pdftex.def Info: ./Figures/FullCMS.png  used on input line 299.
+(pdftex.def)             Requested size: 455.30016pt x 321.63127pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `sec:InnerTracker' on page 11 undefined on input line 304.
+
+
+LaTeX Warning: Reference `sec:ECal' on page 11 undefined on input line 306.
+
+
+
+[11]
+
+LaTeX Warning: Reference `sec:HCal' on page 12 undefined on input line 308.
+
+
+
+[12 <./Figures/FullCMS.png>]
+<./Figures/PixelDetector.png, id=164, 1110.1475pt x 368.37625pt>
+File: ./Figures/PixelDetector.png Graphic file (type png)
+<use ./Figures/PixelDetector.png>
+Package pdftex.def Info: ./Figures/PixelDetector.png  used on input line 317.
+(pdftex.def)             Requested size: 455.30016pt x 151.0802pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[13]
+<./Figures/FullTracker.png, id=172, 885.3075pt x 368.37625pt>
+File: ./Figures/FullTracker.png Graphic file (type png)
+<use ./Figures/FullTracker.png>
+Package pdftex.def Info: ./Figures/FullTracker.png  used on input line 328.
+(pdftex.def)             Requested size: 455.30016pt x 189.4545pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[14 <./Figures/PixelDetector.png>]
+
+[15 <./Figures/FullTracker.png>]
+
+[16]
+Chapter 3.
+
+LaTeX Warning: Reference `sec:L1' on page 17 undefined on input line 342.
+
+
+LaTeX Warning: Reference `sec:HLT' on page 17 undefined on input line 342.
+
+
+
+[17
+
+]
+
+[18]
+Chapter 4.
+
+
+[19
+
+]
+Chapter 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 367.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 367.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 367.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 367.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 367.
+
+
+LaTeX Warning: Reference `sec:HLT' on page 20 undefined on input line 368.
+
+
+LaTeX Warning: Reference `sec:singleHResults' on page 20 undefined on input line 368.
+
+
+LaTeX Warning: Reference `sec:timing' on page 20 undefined on input line 370.
+
+
+
+[20
+
+]
+
+LaTeX Warning: Reference `sec:HLT' on page 21 undefined on input line 373.
+
+
+LaTeX Warning: Reference `sec:hyperparameters' on page 21 undefined on input line 375.
+
+
+LaTeX Warning: Reference `sec:HLTImplementation' on page 21 undefined on input line 375.
+
+
+
+[21]
+
+[22]
+
+LaTeX Warning: Reference `tab:inputparams' on page 23 undefined on input line 386.
+
+
+
+[23]
+<./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png, id=252, 1603.9925pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png  used on input line 420.
+(pdftex.def)             Requested size: 218.54211pt x 119.79852pt.
+<./Figures/Trigger Training Plots/JustAll/r9_All.png, id=253, 1603.9925pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/JustAll/r9_All.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/JustAll/r9_All.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/JustAll/r9_All.png  used on input line 424.
+(pdftex.def)             Requested size: 218.54211pt x 119.79852pt.
+<./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png, id=254, 1603.9925pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png  used on input line 428.
+(pdftex.def)             Requested size: 218.54211pt x 119.79852pt.
+<./Figures/Trigger Training Plots/JustAll/eta_All.png, id=255, 1603.9925pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/JustAll/eta_All.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/JustAll/eta_All.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/JustAll/eta_All.png  used on input line 432.
+(pdftex.def)             Requested size: 218.54211pt x 119.79852pt.
+<./Figures/Trigger Training Plots/JustAll/etaW_All.png, id=256, 1603.9925pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/JustAll/etaW_All.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/JustAll/etaW_All.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/JustAll/etaW_All.png  used on input line 436.
+(pdftex.def)             Requested size: 218.54211pt x 119.79852pt.
+<./Figures/Trigger Training Plots/JustAll/phiW_All.png, id=257, 1603.9925pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/JustAll/phiW_All.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/JustAll/phiW_All.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/JustAll/phiW_All.png  used on input line 440.
+(pdftex.def)             Requested size: 218.54211pt x 119.79852pt.
+<./Figures/Trigger Training Plots/JustAll/HoE_All.png, id=258, 1603.9925pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/JustAll/HoE_All.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/JustAll/HoE_All.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/JustAll/HoE_All.png  used on input line 444.
+(pdftex.def)             Requested size: 218.54211pt x 119.79852pt.
+<./Figures/Trigger Training Plots/JustAll/iso_All.png, id=259, 1603.9925pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/JustAll/iso_All.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/JustAll/iso_All.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/JustAll/iso_All.png  used on input line 448.
+(pdftex.def)             Requested size: 218.54211pt x 119.79852pt.
+
+
+[24]
+
+[25 <./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png> <./Figures/Trigger Training Plots/JustAll/r9_All.png> <./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png> <./Figures/Trigger Training Plots/JustAll/eta_All.png> <./Figures/Trigger Training Plots/JustAll/etaW_All.png> <./Figures/Trigger Training Plots/JustAll/phiW_All.png> <./Figures/Trigger Training Plots/JustAll/HoE_All.png> <./Figures/Trigger Training Plots/JustAll/iso_All.png>]
+
+LaTeX Warning: Reference `fig:HLTMCOutputScores' on page 26 undefined on input line 460.
+
+<./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png, id=270, 1603.9925pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png  used on input line 464.
+(pdftex.def)             Requested size: 455.30016pt x 249.57915pt.
+
+
+[26]
+
+LaTeX Warning: Reference `fig:HLTDataOutputScores' on page 27 undefined on input line 469.
+
+
+LaTeX Warning: Reference `sec:HLTDataSamples' on page 27 undefined on input line 469.
+
+<./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png, id=277, 1603.9925pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png  used on input line 473.
+(pdftex.def)             Requested size: 455.30016pt x 249.57915pt.
+
+
+[27 <./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png>]
+
+LaTeX Warning: Reference `sec:HLTXGBInfo' on page 28 undefined on input line 478.
+
+
+LaTeX Warning: Reference `fig:HLTMCOutputScores' on page 28 undefined on input line 480.
+
+
+LaTeX Warning: Reference `fig:HLTDataOutputScores' on page 28 undefined on input line 480.
+
+
+LaTeX Warning: Reference `tab:HLTScoreCuts' on page 28 undefined on input line 480.
+
+
+
+[28 <./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png>]
+
+LaTeX Warning: Reference `fig:HLTMCOutputScores' on page 29 undefined on input line 513.
+
+
+LaTeX Warning: Reference `fig:HLTDataOutputScores' on page 29 undefined on input line 513.
+
+
+LaTeX Warning: Reference `fig:HLTAcceptedScoresBB' on page 29 undefined on input line 513.
+
+
+LaTeX Warning: Reference `fig:HLTAcceptedScoresEE' on page 29 undefined on input line 513.
+
+<./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png, id=289, 1603.9925pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png  used on input line 517.
+(pdftex.def)             Requested size: 455.30016pt x 249.57915pt.
+
+
+[29]
+<./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png, id=295, 1603.9925pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png  used on input line 524.
+(pdftex.def)             Requested size: 455.30016pt x 249.57915pt.
+
+
+[30 <./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png> <./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png>]
+<./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png, id=302, 1603.9925pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png  used on input line 533.
+(pdftex.def)             Requested size: 455.30016pt x 249.57915pt.
+<./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png, id=303, 1603.9925pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png  used on input line 540.
+(pdftex.def)             Requested size: 455.30016pt x 249.57915pt.
+
+
+[31 <./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png>]
+<./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png, id=310, 1603.9925pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png  used on input line 547.
+(pdftex.def)             Requested size: 455.30016pt x 249.57915pt.
+
+
+LaTeX Warning: Reference `sec:CMSSW' on page 32 undefined on input line 553.
+
+
+
+[32 <./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png> <./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png>]
+
+LaTeX Warning: Reference `sec:HLT' on page 33 undefined on input line 555.
+
+
+LaTeX Warning: Reference `sec:confDB' on page 33 undefined on input line 557.
+
+
+LaTeX Warning: Reference `sec:L1' on page 33 undefined on input line 557.
+
+
+
+[33]
+Chapter 6.
+
+
+[34
+
+]
+Chapter 7.
+<./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png, id=335, 1603.9925pt x 877.2775pt>
+File: ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png Graphic file (type png)
+<use ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png>
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png  used on input line 582.
+(pdftex.def)             Requested size: 455.30016pt x 249.00934pt.
+<./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png, id=336, 1603.9925pt x 877.2775pt>
+File: ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png Graphic file (type png)
+<use ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png>
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png  used on input line 588.
+(pdftex.def)             Requested size: 455.30016pt x 249.00934pt.
+
+
+[35
+
+]
+<./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png, id=348, 1603.9925pt x 877.2775pt>
+File: ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png Graphic file (type png)
+<use ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png>
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png  used on input line 594.
+(pdftex.def)             Requested size: 455.30016pt x 249.00934pt.
+
+
+[36 <./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png> <./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png>]
+File: ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png Graphic file (type png)
+<use ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png>
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png  used on input line 604.
+(pdftex.def)             Requested size: 455.30016pt x 249.00934pt.
+File: ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png Graphic file (type png)
+<use ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png>
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png  used on input line 610.
+(pdftex.def)             Requested size: 455.30016pt x 249.00934pt.
+
+
+[37 <./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png>]
+File: ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png Graphic file (type png)
+<use ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png>
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png  used on input line 616.
+(pdftex.def)             Requested size: 455.30016pt x 249.00934pt.
+
+
+[38]
+
+[39]
+
+[40]
+Chapter 8.
+
+
+[41
+
+]
+Chapter 9.
+
+
+[42
+
+]
+
+LaTeX Warning: Empty bibliography on input line 635.
+
+(./RLeeDissertation.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-19>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `RLeeDissertation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `RLeeDissertation.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  BF35D60A60504E56BA21EFE3ABCEDF2E;17679.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                RLeeDissertation
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'RLeeDissertation.run.xml'.
+\openout1 = `RLeeDissertation.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 23074 strings out of 467816
+ 414078 string characters out of 5432252
+ 1248176 words of memory out of 5000000
+ 50999 multiletter control sequences out of 15000+600000
+ 684637 words of font info for 286 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,16n,79p,1352b,1800s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on RLeeDissertation.pdf (54 pages, 4676722 bytes).
+PDF statistics:
+ 458 PDF objects out of 1000 (max. 8388607)
+ 352 compressed objects within 4 object streams
+ 174 named destinations out of 1000 (max. 500000)
+ 69763 words of extra memory for PDF output out of 74296 (max. 10000000)
+

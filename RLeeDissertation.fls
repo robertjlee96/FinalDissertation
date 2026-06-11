@@ -1,0 +1,491 @@
+PWD /Users/robert/Documents/Dissertation Documents/RLee Dissertation
+INPUT /usr/local/texlive/2025/texmf.cnf
+INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/robert/Documents/Dissertation Documents/RLee Dissertation/RLeeDissertation.tex
+OUTPUT RLeeDissertation.log
+INPUT ./ucsddissertation.cls
+INPUT ucsddissertation.cls
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/bk12.clo
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/bk12.clo
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/bk12.clo
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/fixltx2e.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/fixltx2e.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/indentfirst.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titleps.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titleps.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titleps.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/afterpage.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/afterpage.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/mathptmx.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/mathptmx.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/currvita/currvita.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/currvita/currvita.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/makecell/makecell.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/makecell/makecell.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/xfrac/xfrac.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/xfrac/xfrac.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/trace.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/trace.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-en.ini
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/blindtext/blindtext.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/xspace.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/xspace.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+OUTPUT RLeeDissertation.aux
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+OUTPUT RLeeDissertation.out
+OUTPUT RLeeDissertation.pdf
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+OUTPUT RLeeDissertation.bcf
+INPUT RLeeDissertation.bbl
+INPUT ./RLeeDissertation.bbl
+INPUT ./RLeeDissertation.bbl
+INPUT ./RLeeDissertation.bbl
+INPUT RLeeDissertation.bbl
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7m.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7m.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7m.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7y.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7y.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7y.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7v.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7v.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7v.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
+OUTPUT RLeeDissertation.toc
+OUTPUT RLeeDissertation.lof
+OUTPUT RLeeDissertation.lot
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT ./Figures/HiggsProdModes_From10YearReview.png
+INPUT ./Figures/HiggsProdModes_From10YearReview.png
+INPUT ./Figures/HiggsProdModes_From10YearReview.png
+INPUT ./Figures/HiggsProdModes_From10YearReview.png
+INPUT ./Figures/HiggsProdModes_From10YearReview.png
+INPUT ./Figures/SingleHProdCrossSections_From10YearReview.png
+INPUT ./Figures/SingleHProdCrossSections_From10YearReview.png
+INPUT ./Figures/SingleHProdCrossSections_From10YearReview.png
+INPUT ./Figures/SingleHProdCrossSections_From10YearReview.png
+INPUT ./Figures/SingleHProdCrossSections_From10YearReview.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT ./Figures/HiggsDecayModes_From10YearReview.png
+INPUT ./Figures/HiggsDecayModes_From10YearReview.png
+INPUT ./Figures/HiggsDecayModes_From10YearReview.png
+INPUT ./Figures/HiggsDecayModes_From10YearReview.png
+INPUT ./Figures/HiggsDecayModes_From10YearReview.png
+INPUT ./Figures/SingleHBranchFracts_From10YearReview.png
+INPUT ./Figures/SingleHBranchFracts_From10YearReview.png
+INPUT ./Figures/SingleHBranchFracts_From10YearReview.png
+INPUT ./Figures/SingleHBranchFracts_From10YearReview.png
+INPUT ./Figures/SingleHBranchFracts_From10YearReview.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7m.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7m.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7y.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7y.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7v.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7v.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT ./Figures/DiHiggsProdModes_From10YearReview.png
+INPUT ./Figures/DiHiggsProdModes_From10YearReview.png
+INPUT ./Figures/DiHiggsProdModes_From10YearReview.png
+INPUT ./Figures/DiHiggsProdModes_From10YearReview.png
+INPUT ./Figures/DiHiggsProdModes_From10YearReview.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7m.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7m.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7m.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7y.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7y.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7y.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7v.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7v.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7v.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT ./Figures/FullCMS.png
+INPUT ./Figures/FullCMS.png
+INPUT ./Figures/FullCMS.png
+INPUT ./Figures/FullCMS.png
+INPUT ./Figures/FullCMS.png
+INPUT ./Figures/PixelDetector.png
+INPUT ./Figures/PixelDetector.png
+INPUT ./Figures/PixelDetector.png
+INPUT ./Figures/PixelDetector.png
+INPUT ./Figures/PixelDetector.png
+INPUT ./Figures/FullTracker.png
+INPUT ./Figures/FullTracker.png
+INPUT ./Figures/FullTracker.png
+INPUT ./Figures/FullTracker.png
+INPUT ./Figures/FullTracker.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT ./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT ./Figures/Trigger Training Plots/JustAll/r9_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/r9_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/r9_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/r9_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/r9_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/eta_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/eta_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/eta_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/eta_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/eta_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/etaW_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/etaW_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/etaW_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/etaW_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/etaW_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/phiW_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/phiW_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/phiW_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/phiW_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/phiW_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/HoE_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/HoE_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/HoE_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/HoE_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/HoE_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/iso_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/iso_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/iso_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/iso_All.png
+INPUT ./Figures/Trigger Training Plots/JustAll/iso_All.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png
+INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png
+INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png
+INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png
+INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png
+INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png
+INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png
+INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png
+INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png
+INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png
+INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png
+INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png
+INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png
+INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png
+INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png
+INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png
+INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png
+INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png
+INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png
+INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png
+INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png
+INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png
+INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png
+INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png
+INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png
+INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png
+INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png
+INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png
+INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png
+INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png
+INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png
+INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png
+INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png
+INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
+INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
+INPUT RLeeDissertation.aux
+INPUT ./RLeeDissertation.out
+INPUT ./RLeeDissertation.out
+OUTPUT RLeeDissertation.run.xml
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb

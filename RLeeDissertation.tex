@@ -1,0 +1,637 @@
+\documentclass[12pt]{ucsddissertation}
+% mathptmx is a Times Roman look-alike (don't use the times package)
+% It isn't clear if Times is required. The OGS manual lists several
+% "standard fonts" but never says they need to be used.
+\usepackage{mathptmx}
+\usepackage[NoDate]{currvita}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{ragged2e}
+\usepackage{microtype}
+\usepackage{makecell}
+\usepackage{subcaption}
+\usepackage{xfrac}
+\usepackage{float}
+\usepackage[breaklinks=true,pdfborder={0 0 0}]{hyperref}
+\usepackage{graphicx}
+\usepackage[
+    backend=biber,
+    style=numerical,
+  ]{biblatex}
+
+ \addbibresource{RLeeDissertation.bib}
+
+\AtBeginDocument{%
+	\settowidth\cvlabelwidth{\cvlabelfont 0000--0000}%
+}
+
+% OGS recommends increasing the margins slightly.
+\increasemargins{.1in}
+
+% These are just for testing/examples, delete them
+\usepackage{trace}
+%\usepackage{showframe} % This package was just to see page margins
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\overfullrule5pt
+% ---
+
+% Required information
+\title{Increasing the Signal Efficiency of $H \rightarrow \gamma \gamma$ and $HH \rightarrow b\bar{b} \gamma \gamma$ Analyses Using Machine Learning Techniques}
+\author{Robert John Lee}
+\degree{Physics}{Doctor of Philosophy}
+% Each member of the committee should be listed as Professor Foo Bar.
+% If Professor is not the correct title for one, then titles should be
+% omitted entirely.
+\chair{Professor James G. Branson}
+%\cochair{Professor Gamma Delta} % Optional
+% Your committee members (other than the chairs) must be in alphabetical order
+\committee{Professor Javier Duerte}
+\committee{Professor Michael Gilson}
+\committee{Doctor Marco Pieri}
+\committee{Professor Yi-Zhuang You }
+\degreeyear{2025}
+
+% Start the document
+\begin{document}
+% Begin with frontmatter and so forth
+\frontmatter
+\maketitle
+\makecopyright
+\makesignature
+% Optional
+\begin{dedication}
+\setsinglespacing
+\raggedright % It would be better to use \RaggedRight from ragged2e
+\parindent0pt\parskip\baselineskip
+In recognition of reading this manual before beginning to format the
+doctoral dissertation or master's thesis; for following the
+instructions written herein; for consulting with OGS Academic Affairs
+Advisers; and for not relying on other completed manuscripts, this
+manual is dedicated to all graduate students about to complete the
+doctoral dissertation or master's thesis.
+
+In recognition that this is my one chance to use whichever
+justification, spacing, writing style, text size, and/or textfont that
+I want to while still keeping my headings and margins consistent.
+\end{dedication}
+% Optional
+\begin{epigraph}
+\vskip0pt plus.5fil
+\setsinglespacing
+{\flushright
+True ease in writing comes from art, not chance,\\
+As those move easiest who have learn'd to dance.\\
+'T is not enough to no harshness gives offence,---\\
+The sound must seem an echo to the sense.
+
+\vskip\baselineskip
+\textit{Alexander Pope}\par}
+\vfil
+\begin{center}
+You write with ease to show your breeding,\\
+But easy writing's curst hard reading.
+
+\vskip\baselineskip
+\textit{Richard Brinsley Sheridan}
+\end{center}
+\vfil
+\noindent Writing, at its best, is a lonely life. Organizations for
+writers palliate the writer's loneliness, but I doubt if they improve
+his writing. He grows in public stature as he sheds his loneliness and
+often his work deteriorates. For he does his work alone and if he is a
+good enough writer he must face eternity, or the lack of it, each day.
+
+\vskip\baselineskip
+\hskip0pt plus1fil\textit{Ernest Hemingway}\hskip0pt plus4fil\null
+
+\vfil
+\end{epigraph}
+
+% Next comes the table of contents, list of figures, list of tables,
+% etc. If you have code listings, you can use \listoflistings (or
+% \lstlistoflistings) to have it be produced here as well. Same with
+% \listofalgorithms.
+\tableofcontents
+\listoffigures
+\listoftables
+
+% Preface
+\begin{preface}
+Almost nothing is said in the manual about the preface. There is no
+indication about how it is to be typeset. Given that, one is forced to
+simply typeset it and hope it is accepted. It is, however, optional
+and may be omitted.
+\end{preface}
+
+% Your fancy acks here. Keep in mind you need to ack each paper you
+% use. See the examples here. In addition, each chapter ack needs to
+% be repeated at the end of the relevant chapter.
+\begin{acknowledgements}
+I would like to acknowledge Professor Eta Theta for his support as the
+chair of my committee. Through multiple drafts and many long nights,
+his guidance has proved to be invaluable.
+
+I would also like to acknowledge the ``Smith Clan'' of lab~28, without
+whom my research would have no doubt taken fives times as long. It is
+their support that helped me in an immeasureable way.
+
+Chapter 2, in full, is a reprint of the material as it appears in
+Numerical Grid Generational in Computational Fluid Mechanics~2009.
+Smith, Laura; Smith, Jane~D., Pineridge Press,~2009. The dissertation
+author was the primary investigator and author of this paper.
+
+Chapter 3, in part, has been submitted for publication of the material
+as it may appear in Education Mechanics,~2009, Smith, Laura; Smith,
+Jane~D., Trailor Press,~2009. The dissertation author was the primary
+investigator and author of this paper.
+
+Chapter 5, in part is currently being prepared for submission for
+publication of the material. Smith, Laura; Smith, Jane~D\@. The
+dissertation author was the primary investigator and author of this
+material.
+\end{acknowledgements}
+
+% Stupid vita goes next
+\begin{vita}
+\noindent
+\begin{cv}{}
+\begin{cvlist}{}
+\item[2015--2018] Teaching Assistant, Department of Physics \\Arizona State University
+\item[2015--2018] Research Assistant \\Arizona State University Meson Physics Group
+\item[2018] Bachelor of Science \\Arizona State University Barret Honor's College
+\item[2018--2019] Teaching Assistant, Department of Physics \\University of California, San Diego
+\item[2019--2025] Graduate Student Researcher, University of California, San
+Diego
+\item[2026] Doctor of Philosophy, University of California, San Diego
+\end{cvlist}
+\end{cv}
+
+% % This puts in the PUBLICATIONS header. Note that it appears inside
+% % the vita environment. It is optional.
+% \publications
+% \noindent``Distributions of Control Points in a System for Analysis of Stress
+% Distribution'' IRE Transactions of the I.R.E\@. Professional Group on
+% Automatic Control, vol. AC-7, pp 272--289, September 2005
+
+% % This puts in the FIELDS OF STUDY. Also inside vita and also
+% % optional.
+% \fieldsofstudy
+% \noindent Major Field: Engineering (Specialization or Focused Studies)
+% \vskip\baselineskip
+% Studies in Applied Mathematics\par
+% Professors Alpha Beta and Gamma Delta
+% \vskip\baselineskip
+% Studies in Mechanices\par
+% Professors Epsilon Zeta and Eta Theta
+% \vskip\baselineskip
+% Studies in Electromagnetism\par
+% Professors Iota Kappa and Lambda Mu
+\end{vita}
+
+% Put your maximum 350 word abstract here.
+\begin{dissertationabstract}
+The Abstract begins here. The abstract is limited to 350 words for a
+doctoral dissertation. It should consist of a short statement of the
+problem, a brief explanation of the methods and procedures employed in
+generating the data, and a condensed summary of the findings of the
+study. The abstract may continute onto a second page if necessary. The
+text of the abstract must be double spaced.
+\end{dissertationabstract}
+
+% This is where the main body of your dissertation goes!
+\mainmatter
+
+% Optional Introduction
+\begin{dissertationintroduction}
+First theorized in 1964, the Higgs field consitutes a vital component of the Standard Model (SM) of particle physics. The insertion of this field to the SM allowed a mechanism for the spontaneous breaking of the electroweak symmetry, a necessary fix to the versions of the antecedent theories of fundamental particles. This spontaneous symmetry breaking provides an avenue though which the fundamental particles may gain their masses; until the formulation of the Higgs fields, the prevailing version of the SM could not account for the existence of -- let alone the values of -- the masses of quarks and the force-carrying gauge bosons. Luckily, the prediction of the Higgs field proposed a corresponding bosonic particle to mediate the interactions of this field. As the fundamental particles prediced by the SM were discovered throughout the 20th century, the Higgs boson proved to be elusive, in fact eventually becoming the last undescovered fundamental particle prediced by the SM. 
+
+Since the discovery of the Higgs boson in 2012, the Large Hadron Collider has undertaken continuously more precise measurements of its properties. As the amount of available data has accumulated, increasingly rare channels of analysis have become explorable. To enable these high-quality analyses, the hardware and software of the LHC and its detectors has had to be improved considerably. Due to the abundance of background processes created at the high energies achieved by the LHC, coupled with the relative rarity of the processes by which the Higgs boson is produced and decays, complex software is necessary to disentagle the signal processes.
+
+This software is constructed using a layered approach, where each subsequent step in the processing of the data serves to further reduce the total ammount of data events being analyzed, while, ideally, preserving as many events considered signal as possible. The first stages of this data reduction are achieved by a set of triggers. These triggers are relatively coarse-grain, seeking to reject the most obvious background events and thereby reduce the amount of data being stored and analyzed by three to four orders of magnitude. Of course, given the large number of different final states of the Higgs boson decay, many different triggers must be developed to dig out the specific signal signature required for a specific analysis. Once these triggers are applied, further analysis software is used on the resulting data to produce final results of the measurements of the various properies of the desired physics process. 
+
+The goal of this paper is to examine the improvement of a specific set of these triggers and analysis-level cuts. While many channels of Higgs boson decay exist, the decay into two photons has been proven to be a major component of the analysis of the Higgs boson; this process provides a relatively clean decay signature, and occurs at a high enough rate to provide ample statistics for analysis.
+\end{dissertationintroduction}
+
+\chapter{The Standard Model and Higgs Boson}
+Theory Citations: \cite{SMOverview}: Short 1999 Overview of SM. \cite{PDGReview}: 2024 review of particle physics. \cite{HiggsDiscovery2012}: 2012 Higgs Discovery phys review letters publication. \cite{HiggsDiscovery2013} 2013 JHEP Higgs discovery publication. \cite{CMS10YearReview} 2022 CMS Higgs 10 year review. 
+
+Detector Citations: \cite{CMS2008} 2008 Early CMS Description. \cite{CMS2024} 2024 Run3 CMS Description (use this mainly). \cite{LHC2008} 2008 Overall LHC design.
+
+Trigger Citations: \cite{L12020} 2020 L1 Trigger review. \cite{CMSTrigger2017} 2017 overall trigger structure. \cite{Run2HLT2024} 2024 review of Run2 HLT performance. 
+
+The standard model (SM) of particle physics is the quantum gauge field theory that describes all currently known physical interactions besides gravity. Early formulations considered there to be three distinct gauge theories that ruled interactions between physical objects: Quantum Electrodynamics (QED), which describes the elctromagnetic force between charged objects; Quantum Chromodynamics (QCD), which describes the strong nuclear force; and Weak Theory, which describes the weak nuclear force. 
+
+Within the SM, there are two major forms of particle. Spin 1/2 particles, called fermions, comprise all matter as we know it, and include quarks and leptons. Integer spin particles, called bosons, act as the force carriers that mediate interactions between these fermions. QED posits the photon as the gague boson, which mediates interactions between all electrically charged particles -- including both charged leptons and quarks. QCD describes eight gluons as the force mediators between color-charged quarks. The weak theory describes the massive $W^{\pm}$ and $Z^0$ bosons as the mediators of the weak force, which is responsible for radioactive decay.
+
+As will be discussed in \ref{sec:EW}, experimental findings pointed early theorests towards the unification of the electromagnetic and weak forces into what is now known as the electroweak (EW) theory. 
+
+\section{Quantum Electrodynamics (QED)}\label{sec:QED}
+Use Gaillard, Grannis, and Sciulli
+
+\section{Quantum Chromodynamics (QCD)}\label{sec:QCD}
+Use Gaillard, Grannis, and Sciulli AND PDG Physics summary page 153
+
+\section{Electroweak (EW) Theory}\label{sec:EW}
+Use Gaillard, Grannis, and Sciulli AND PDG Physics summary page 185
+
+\section{The Higgs Field and Higgs Boson}\label{sec:Higgs}
+Use PDG Physics summary page 211-218
+
+
+\subsection{Motivation for the Higgs Field}
+\subsection{Properties of the Higgs Potential}
+\subsection{Production Modes of a Single Higgs Boson}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/HiggsProdModes_From10YearReview.png}
+	\caption[]{Feynman diagrams of known Higgs production modes. Reproduced from [CMS10YearReview]}
+	\label{fig:FDSingleHProdModes}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/SingleHProdCrossSections_From10YearReview.png}
+	\caption[]{Production cross sections for Higgs creation. Reproduced from [CMS10YearReview]}
+	\label{fig:XSSingleHProdModes}
+\end{figure}
+\subsection{Decay Modes of a Single Higgs Boson}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/HiggsDecayModes_From10YearReview.png}
+	\caption[]{Feynman diagrams of known Higgs decay modes. Reproduced from [CMS10YearReview]}
+	\label{fig:SingleHDecayModes}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/SingleHBranchFracts_From10YearReview.png}
+	\caption[]{Decay branching fractions for a single Higgs. Reproduced from [CMS10YearReview]}
+	\label{fig:BRSingleHDecayModes}
+\end{figure}
+\section{Higgs Boson Decaying to Two Photons ($H \rightarrow \gamma\gamma$) }
+\subsection{Useful Properties for Analysis}
+\subsection{Historical Results}
+\section{Di-Higgs Production and Properties}
+\subsection{Di-Higgs Production Modes}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/DiHiggsProdModes_From10YearReview.png}
+	\caption[]{Feynman diagrams of known Higgs decay modes. Reproduced from [CMS10YearReview]}
+	\label{fig:DiHiggsProdModes}
+\end{figure}
+\subsection{Di-Higgs Decay Modes}
+\subsection{Usefulness of the $HH \rightarrow b\bar{b}\gamma\gamma$ Channel}
+
+\chapter{The LHC and CMS Detector}
+\section{The Large Hadron Collider}
+The Large Hadron Collider, which replaced the prexisting Large Electron-Positron Collider, was constructed between 2000 and 2008. Designed to reach new energy fronteirs by colliding protons at up to 14 TeV, the LHC provided particles physicists with their most powerful tool yet to test the Standard Model and beyond. At the most basic level, these proton-proton collisions are achieved by crossing two counter-rotating proton beams at specific points. These counter-rotating beams are accelerated along the 26.7 km circumference of the LHC within a tunnel of 3.7 m internal diameter. Initial designes proposed two completely separated proton beam pipes, but it became clear that the space requirements of the existing CERN tunnel (constructed for LEP) precluded this possibility. As a result, a "two-in-one" superconducting magnet design was adopted that allowed the two beams to be transported in separate magnetic coils sharing the same mechanical and cryostat space.
+\subsection{LHC Design} 
+\subsection{Collisions at the LHC}
+\subsection{LHC Experiments}
+Collisions at the LHC occur at 4 major interaction points, where 4 separate detectors have been constructed to allow independent measurements of target physics processes. Two of these detectors, ATLAS and the Compact Muon Solenoid (CMS), are designed as general-purpose detectors with systems allowing the measurement of a broad range of physics processes. Since these detectors are constructed using different technologies and detector elements, the LHC is able to produce separate physics results that can be cross-checked. A major motivation for the construction of these experiments was the detection of the Higgs boson in its various decay modes. 
+
+\section{The Compact Muon Solenoid Detector}
+The Compact Muon Solenoid is designed as a 22 m cylinder with a total diameter of 15 m. Centered on the beampipe where a proton-proton bunch crossing occurs, the detector consists of various layers of detector elements designed to track and measure different resultant particles. The general structure of the detector will be described beginning at the center and moving outward. A schematic of the detector can be seen in Figure \ref{fig:FullCMS}. Later sections will provide additional detail on elements of particular interest for our $H \rightarrow \gamma\gamma$ analyses. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/FullCMS.png}
+	\caption[]{A full view of the CMS Detector, with each major system labled. Reproduced from [CMSRun3Paper]}
+	\label{fig:FullCMS}
+\end{figure}
+
+After particles collide and are scattered, they first interact with the central beampipe that houses the incoming proton bunches. While this element does not provide any detecting capabilities, interactions between the outgoing particles and the material of the beampipe may cause additional scattering and particle production. Next, the particles enter the robust inner tracking system, designed to be able to reconstruct the path of charged particles through the detector. This inner tracking system is composed of an internal pixel detector surrounded by an externam strip detector. These elements will be described in section \ref{sec:InnerTracker}.
+
+The next detector element encountered is the Electromagnetic Calorimeter (ECal), which aims to measure the energies and locations of electrons and photons. Of course, given that the following analysis will be centered on photons, this detector element will be of great interest. This ECal is composed of scintillating $PbWO_{4}$ crystals arranged into both a cylindrical ECal Barrel (EB) concentric with the beamline and two circular ECal Endcaps (EE) oriented orthogonally to the beamline. A Preshower detector is inserted in front of the EE detectors. More details on this detector element will be provided in section \ref{sec:ECal}. 
+
+Further from the beamline, the Hadronic calorimeter (HCal) aims to measure the locations and energies of charged and neutral hadronic particles using plastic scintillator tiles imbeded in a brass volume. Similarly to the ECal, the HCal is composed of a barrel (HB) region and two endcaps (EB). This detector will be described in more detail in section \ref{sec:HCal}. 
+
+A superconducting solenoid encases all three of these internal regions, providing an internal magnetic field of 3.8T. This magnetic field allows the paths of charged particles to be bent, providing more precise measurement of their properties. While vital to the physics of the detector, this solenoid does not contain any detecting elements. Beyond this magnet lies the highly complicated Muon chambers, which will not be described for this anlysis. Close to the beamline but at the ends of the z-axis of the detector lies the forward calorimeter, which will also not be described for this analysis. The entire detector is shrouded in a steel return yoke. 
+\subsection{Beampipe and Inner Tracking System} \label{sec:InnerTracker}
+A major goal of the CMS detector is to reconstruct the tracks of charged particles. This allows the software to not only track and measure the flight of an individual particle, but it allows the primary interaction vertex (PV) to be measured more accuretely. This is achieved by a two-layerd approach; the pixel detectors closest to the beamline prived high-accuracy three-dimmensiional spatial information on the particles immediately after they leave the beampipe, while the strip detectors are used to reconstruct where the particle went after this precise initial location. Since the analysis of $H \rightarrow \gamma\gamma $ is focused on photons, charged tracks are not expected for the final state particles of interest. This does not mean they are of no use to us, however -- charged tracks can be used to exclude particles from out final state analysis, allowing us to reduce the number of resultant particles and increase the likelihood that the final particles analyzed are photons. 
+\subsubsection{Pixel Detector}
+The pixel detectors achieve high spatial resolution by using 124 million channels each composed of a single pixel. As with most detector elements at CMS, the pixel detectors are formed by a barrel region (BPIX) and two circular disk endcap regions (FPIX). The barrels use 4 layers of silicon pixels, located at 29, 68, 109, and 160 mm from the beamline. The endcap detectors use 3 layers of pixels, at distances of 291, 396, and 516 mm from the center of the detector along the z-axis.This layout ensures that any charged particle will strike the pixel trackers 4 times at varying distances from the interaction vertex, allowing precise reconstruction of the track starting at the edge of the beampipe. 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/PixelDetector.png}
+	\caption[]{Longitudinal view of the pixel detector, where the beampipe is represented at the bottom of the image. Reproduced from [CMSRun3Paper]}
+	\label{fig:PixelDetector}
+\end{figure}
+[?Table of number of modules for each pixel detector? Table 1 Run3CMSDetector]
+
+The individual pixels, of the same size in both the BPIX and FPIX, are housed on sensor modules with 160x416 pixels each (with a total size of 100 x 150 $\mu m^{2}$). This modular structure allows easy replacement of faulty modules, as well as allowing more efficienct production. The BPIX contains 1184 such modules, across its 4 layers, whereas the FPIX contains 672 modules. Light-weight mechanical structures provide the mounting points for these modules, and include cooling aparati. 
+\subsubsection{Strip Detector}
+The innermost pixel detector is rather small, only extending 160mm radially from the beamline, and 516mm along the beam direction from the interaction point. The majority of the tracking system is composed of the silicon strip tracker (SST). The SST contains 9.3 million silicon micro-strips grouped into 15,148 modules. While there are far fewer channels in the SST, the volume covered is much larger; once the origin of a particle track is pinpointed by the pixel detectors, the strip detectors are able to detect the particle as it travels through a large volume of the detector. The SST has a diameter of 2.5m and a length along the beamline of 5m, so it is clearly a more coarse-grain tracking sensor. 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/FullTracker.png}
+	\caption[]{Full view of the tracker system. The inner pixel tracker is shown in green. Reproduced from [CMSRun3Paper]}
+	\label{fig:FullTracker}
+\end{figure}
+\subsection{Electromagnetic Calorimeter} \label{sec:ECal}
+Beyond the inner tracking system, the ECAL system is designed to measure the energies, locations, and arrival times of electrons and photons. Given that this paper will be dealing with a two-photon final state, the details of this detector are highly relevant. Similarly to the inner tracker, the ECAL is composed of modules of individual detector elements. Here, however, since the goal is to measure photons and electrons, scintillating material is required. As a result, the individual detector elements are composed of scintillating lead tungstate ($PbWO_{4}$) crystals. These crystals were chosen because, in addition to being optically clear, they are radiaton-hard. Given that the detector will be exposed to high levels of radiation for long continuous stretches, it is imperative that the crystals need not be replaced frequently. The photons from the scintillation of these crystals are detected by photodetectors. The photodetectors differ, however, between the barrel and endcap as explained in detail below. 
+\subsubsection{ECal Barrel (EB)}
+The barrel component of the ECAL (EB) is designed, of course, with cylindrical symmetry. In the azimuthal direction, $\phi$, there are 360 crystals per "ring". The barrel detector coveres the pseudorapidity range of $|\eta| < 1.479$, and there are 180 crystals per "row" in this range. As a result, the EB consists of 61,200 total $PbWO_{4}$ crystals. These crystals are tapered, such that the scintillated photons are funneled to the back of the crystal where two avalanche photodiodes (APDs) per crystal collect them. The cross-sectional area of the crystal faces is 22x22 $mm^{2}$. The face of each crystal lies at a distance of 1.29m from the center of the beamline. 
+
+As with the tracker, the individual crystals are combined into submodules and modules, where readout and power-supplying electronics are consolidated. These submodules are of an "aveolar" structure, where the dividing walls between individual crystals ar 0.1mm thick and are made of a combination of alluminum and fibre-epoxy resin. This leads to a total crystal-to-crystal distance of 0.35mm within each submodule. This provides sufficient granularity while still ensuring complete geometric coverage with a reasonable number of individual channels. 
+\subsubsection{ECal Endcaps (EE)}
+\subsection{Hadron Calorimeter} \label{sec:HCal}
+
+\chapter{Triggering and Offline Software}
+In Run3 of the LHC, the increased luminosity leads to an average of 60 collisions per bunch crossing (termed "Pileup") (REF?). Given that these bunch crossings occur at a rate of 40MHz (every 25ns) and can create a large number of individual particles, the procesing and storage facilities of are incapable of saving and analyzing every interaction generated in each bunch crossing. The triggering system, therefore, is designed to drastically reduce the number of output events while presevering as many events matching signal signatures as possible. Overall, the triggers aim to reduce the data rate from 40MHz down to just 5kHz. This reduction is achieved by a two-tierd triger system consisting of the Level 1 (L1) triggers and the High Level Triggers (HLT). Since there are many possible signal signatures depending on the analysis being conducted, there are many individual triggers at both L1 and HLT. Details of the L1 triggers will be given below in section \ref{sec:L1}, and the HLT will be described in great detail in section \ref{sec:HLT}. 
+\section{Level-1 Trigger} \label{sec:L1}
+The L1 trigger aims to reduce the rate from the initial 40MHz down to just 100kHz. This collection of triggers is designed to take the basic rea
+\subsection{Information Available to L1 Triggers}
+\subsection{The L1 Menu}
+\section{The Data Aquisition System (DAQ)} \label{sec:DAQ}
+\section{High Level Trigger} \label{sec:HLT}
+The final step of tiggering before data is output for analysis, the HLT aims to reduce the rate from the 100kHz output by the L1 trigger down to just 5kHz. 
+\subsection{HLT Event Reconstruction}
+\subsection{HLT Trigger Rates and Timing}
+\subsection{HLT Software and ConfDB}
+\section{Analysis Software}
+\subsection{Offline Reconstruction}
+\subsection{The NanoAOD File Format}
+\subsection{NanoAOD Event Reconstruction}
+\subsection{HiggsDNA}
+
+\chapter{Data Samples and Simulated Events}
+\section{Data Samples}
+\subsection{Data Corrections and Systematics}
+\section{Monte Carlo Simulation Samples}
+\subsection{Monte Carlo Corrections and Systematics}
+
+
+\chapter{Development of an MVA-Based High Level Trigger}
+\section{Limitations and Benefits of Current $H\rightarrow\gamma\gamma$ Trigger}
+As discussed in section \ref{sec:HLT}, the current $H\rightarrow\gamma\gamma$ HLT uses hard cuts on kinematic, isolation, and showershape variables to select events. While cuts on some of these variables -- such as $R_{9}$ and H/E -- serve to remove low quality photon candidates, others reduce the phase space of the trigger while not necessarily increasing the quality of the analysis. Principally, the current HLT makes rather tight cuts on the $P_{T}$ of the two photon candidates. These cuts significantly reduce the trigger rate, as many background processes produce showers with low $P_{T}$. Many signal events, however, have at least one candidate with low $P_{T}$. It will be shown in section \ref{sec:singleHResults} that these $P_{T}$ significantly decrease the acceptance of simulated Monte Carlo signal events. Since many future analyses we be searching for either very rare processes or physics beyond our current understanding of the standard model, constraining the phase space of available information may affect the collaboration's ability to probe novel processes. 
+
+The relative simplicity of the standard HLT, however, provides multiple benefits. Firstly, the numerical cuts can be closely examined and understood very easily. Though the cuts have been relatively stable in time, they may adjusted and reexamined with relative ease. The effects of cuts on individual variables can be quantified, which allows maximum transparency into how a decision is made on an event-by-event basis. Secondly, a decision for each event can be made very rapidly. As discussed in section \ref{sec:timing}, minimizing computation time for each event is vital given the huge number of triggers deployed at the trigger farm. Since all of the quantities used by the current HLT are already being saved for each event, there is very little additional computation needed to arrive at a triggering decision. Any proposed changes to the $H\rightarrow\gamma\gamma$ trigger must have minimal impact on decision speed given the stringent restrictions on computation time.
+
+\section{Development of a Boosted Decision Tree for Photon Candidate Classification}
+The HLT is a binary classification problem, where the two classes are signal events to keep and background events to discard. While the HLT is a per-event selection, $H \rightarrow \gamma\gamma$ events contain two photon candidates. As described in \ref{sec:HLT}, the current HLT first makes requirements on individual photons, then applies a final filter that considers both photons together. Our MVA-HLT uses a similar philosphy; a binary classifier can be used to calculate an identification score for each photon, then combined cuts can be made on these scores for two photon candidates. The process of creating the MVA-HLT, then, is twofold. Firstly, the single photon binary classifier must be constructed such that signal-like photon candidates are given a high score and background-like photon candidates are given a low score. Secondly, cuts on both photon candidate scores must be selected such that the signal efficiency is maximized while the data rate is minimized.
+\subsection{XGBoost-Based BDT Software}\label{sec:HLTXGBInfo}
+XGBoost is a commonly-used software package throughout CMS, as it excells at binary classification problems. Specifically, Boosted Decision Trees (BDTs) are used commonly in CMS software (REF?). BDTs provide a good balance between model complexity and transparency. By tuning a relatively small number of model hyperparameters, as discussed in section \ref{sec:hyperparameters}, model complexity can be controlled and understood. For the development of this BDT, the python version of XGBoost was used, though the final implementation of the model must be done in the C-based CMSSW (as discussed in section \ref{sec:HLTImplementation}). 
+
+\subsection{Signal and Background Samples for Classification}
+The first -- and perhaps most important -- step in creating a binary classifier is selecting samples on which to train the BDT. It is important that the signal sample chosen accurately represents the type of events that should be kept at the HLT, while the background sample must encompass all possible source of background events. 
+\subsubsection{Signal Samples}\label{sec:HLTMCSamples}
+As discussed in (REF?), Monte Carlo simulations exist for various physics processes that contribute to $H \rightarrow \gamma\gamma$. While there are several common production modes for the Higgs boson (as discussed in section (REF?)), gluon fusion Higgs production (ggH) has the largest production cross section. In addition to the large cross section, ggH production has fewer assiciated productions when compared to VBF or ttH Higgs production. For these reasons, ggH signal MC provides a clean signal that maximizes the photon discrimination ability of a BDT. 
+
+In order to validated the performance of the model, the acceptance of these signal MC events must be quantified. As a result, half of the sample is used for training, while the other half is reserved for later validation. Events are split by event number into two separate categories: even event nubers are used for the training sample, and odd event numbers will be used for the validaiton of the model performance. 
+\subsubsection{Background Samples}\label{sec:HLTDataSamples}
+At the trigger level, background simulation poses a major challenge. Background events for $H \rightarrow \gamma\gamma$ fall into three major categories: events containing two photons diphoton, events containing a photon and a jet, and events containing two jets. While it is possible to simulate these background sources, the simulation -- especially of the jet-jet events -- is challenging and therefore may not perfectly allign with the real data. The most obvious resolution to this issue is to simply treat the data sample as background. While, of course, the goal of the trigger is to preserve signal signatures from the data, it has been shown in (REF?) that the overall expected count of signal events in this data sample is relatively low. As long as a clean signal sample is provided to the BDT, the incredibly small percentage of possible $H \rightarrow \gamma\gamma$ events in the data should not appreciably mar the model's ability to differentiate signal and background photon candidates. As with the signal MC, even event numbers are used for the training, while odd event numbers are reserved for later validation of model performance.
+\subsection{Determination of Input Variables}
+After signal and background samples are selected, input variables for the BDT must be chosen such that signal and background events can be separated. The most obvious starting place for this is by analogy to the current HLT; since cuts on the kinematic, isolation, and showershape variables have been successfully used in the preexisting trigger, a BDT should be able to use these variables to even greater effect. Below, in table \ref{tab:inputparams}, the chosen input variables are listed along with their definitions.
+\begin{table}
+	\centering
+	\caption[E]{Table of input variable names, and a short description of each.}
+	\label{tab:inputparams}
+	\begin{tabular}{ | c | c | } 
+		\hline
+		\textbf{Variable Name} & \textbf{Description} \\
+		\Xhline{2pt}
+	  	Raw Energy & The total energy deposited in the 5x5 supercluster  \\ 
+		\hline
+		$R_{9}$ & \makecell{The proportion of the energy contained in the central 3x3 crystals \\ relative to the raw energy}  \\ 
+		\hline
+		$\sigma_{i \eta i \eta}$ & The covariance in terms of crystal spacing ($i_{\eta}$)\\ 
+		\hline
+		$\eta_{SC}$ & The eta coordinate of the center of the supercluster  \\ 
+		\hline
+		$\eta$ Width &  The supercluster width in $\eta$ \\ 
+		\hline
+		$\phi$ Width &  The supercluster width in $\phi$ \\ 
+		\hline
+		H/E & \makecell{The ratio of the total supercluster energy measured in the HCal \\ to that measured in the ECal}  \\ 
+		\hline
+		ECalPFIso & The isolation energy of the particle deposited in the ECal\\ 
+		\hline
+	\end{tabular}
+\end{table}
+
+The chosen variables are largely showershape variables, as these can be used to differentiate a legitimate photon signature from a jet shower. A major goal of the BDT is to increase kinematic coverage; relying primarily on showershape variables ensures that the selection is not biased towards a specific kinematic region. Below we can see side-by-side plots of the above input variables, where the signal MC is shown on the left and the data (background) is shown on the right. 
+
+\begin{figure}[H]
+	\subfloat[Raw energy][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png}
+		\label{subfig:a}
+	} \hfill
+	\subfloat[$R_{9}$][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/JustAll/r9_All.png}
+		\label{subfig:b}
+	}\\
+	\subfloat[$\sigma_{i \eta i \eta}$][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png}
+		\label{subfig:c}
+	}\hfill
+	\subfloat[$\eta_{SC}$][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/JustAll/eta_All.png}
+		\label{subfig:d}
+	}\\
+	\subfloat[$\eta$ width][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/JustAll/etaW_All.png}
+		\label{subfig:e}
+	}\hfill
+	\subfloat[$\phi$ width][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/JustAll/phiW_All.png}
+		\label{subfig:f}
+	}\\
+	\subfloat[H/E][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/JustAll/HoE_All.png}
+		\label{subfig:g}
+	}\hfill
+	\subfloat[ECalPFIso][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/JustAll/iso_All.png}
+		\label{subfig:h}
+	}
+	\caption{Plots of the input variables to the BDT, where the signal MC is shown on the left and the data is shown on the right}
+	\label{fig:HLTTrainingVars}
+\end{figure}
+
+\subsection{Hyperparameter Tuning}\label{sec:hyperparameters}
+Once the input samples and variables are determined, the technical details of the model must by optimized. The structure of the BDTs is determined by the hyperparameters of the model. 
+\section{Determination of BDT Cuts}
+After the tuning and training of the model was optimized, a score is generated for each photon in each event. Each event may contain several photon candidates, but the job of the HLT is to determine if any pair of candidates exists that plausibly originates from $H \rightarrow \gamma\gamma$. Given that the BDT was trained such that photons originating from $H \rightarrow \gamma\gamma$ MC are assigned a high score whereas background processes are given a low score, the photon candidates are first sorted by the output BDT score. Then, the highest two scores can be selected and the values analyzed for both signal MC and data events. 
+
+Since the HLT path simply renders a decision about whether an event contains a $H \rightarrow \gamma\gamma$ process, cuts on the pairs of output scores must be chosen such that the number of signal events kept is maximized (high signal efficiency) while the total number of data events kept is minimized (low trigger rate). 
+
+Below, in figure \ref{fig:HLTMCOutputScores}, the high and low scores for signal MC are shown. Since these are purely signal events, we expect the scores to be clustered near 1. As we can see, the higher of the two scores (along the x axis) tends to be above 0.9 for a large percentage of events. Meanwhile, while the lower of the two scores does cluster above 0.8, there is still a large band of score values extending down to 0. This means that there are many signal events for which one photon has a very high score, but the second photon has a lower score. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png}
+	\caption[]{XGBoost output scores for two selected photon candidates in the Winter 2024 ggH signal MC. The higher of the two scores is plotted on the X-axis, while the lower of the two is plotted on the Y-axis.}
+	\label{fig:HLTMCOutputScores}
+\end{figure}
+
+Next, we can consider the scores of the data sample shown in \ref{fig:HLTDataOutputScores}. Given the rarity of $H \rightarrow \gamma\gamma$ events at the trigger level, we expect essentially all of these data events to correspond to background processes. As a result, we expect the vast majority of these data photon candidates to be assigned a BDT score close to zero. As we can see, the lower of the two photon scores very rarely extends above 0.1. Though the higher of the two scores is often close to 0, there are still many events where the value extends towards 1. Since this BDT is designed to indentify individual photon candidates, we can infer that many of these data events have one real photon (which is a major source of background as discussed in section \ref{sec:HLTDataSamples}).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png}
+	\caption[]{XGBoost output scores for two selected photon candidates in the 2023 Data. The higher of the two scores is plotted on the X-axis, while the lower of the two is plotted on the Y-axis.}
+	\label{fig:HLTDataOutputScores}
+\end{figure}
+
+As discussed in section \ref{sec:HLTXGBInfo}, the single photon BDTs are trained separately for photon candidates in the barrel and those in the endcap. Due to the separate trainings -- as well as the differences in kinematics and detector geometry -- the score distributions for barrel and endcap photon candidates are not perfectly equivalent. As a result, the chosen cuts must be tuned separately for the barrel and endcap photons. This presents an issue, as diphoton events may contain two barrel photon candidates (BB), two endcap photon candidates (EE), or one photon candidate in each region of the detector (BE). The simplest way to deal with this is to choose the single photon cuts by reference to the BB and EE distributions, then apply the chosen barrel and endcap cuts to all photons in either region.
+
+Given the shapes of the output distributions in figures \ref{fig:HLTMCOutputScores} and \ref{fig:HLTDataOutputScores}, it is clear that a single cut value for both photons will not achieve maximum signal efficiency. While many of the high score photons are clustered above 0.9, there are still many events with a second photon candidate that has a lower score. In order to preserve these signal events while still removing much of the background, cuts can be selected such that the cut value on the lower score depends on the higher score. For first photons with a very high score, we can apply a very loose cut on the second photon. As the score of the first photon decreases, we can tighten the cuts on the second photon. In the case where the first photon has a relatively low score, we can apply a tighter cut on the second photon to help reduce the number of events with two bad photon candidates in the data while still preserving much of the signal. Since the data at the trigger level is strongly dominated by di-jet or single photon events, these cuts can drastically reduce the data rate while still preserving much of the signal. These cuts were experimentally determined, and are tabulated in table \ref{tab:HLTScoreCuts}.
+
+\begin{table}[h]
+    \centering
+    \caption{Chosen score cuts for BB and EE events}
+	\label{tab:HLTScoreCuts}
+    \begin{subtable}{.45\textwidth}
+        \centering
+        \caption{Score cuts for BB events}
+        \begin{tabular}{|c|c|}
+            \hline
+            \textbf{High Score} & \textbf{Minimum Low Score} \\
+			\Xhline{2pt}
+            0.92 & 0.02 \\ \hline
+            0.85 & 0.04 \\ \hline
+            0.30 & 0.14 \\ \hline
+        \end{tabular}
+    \end{subtable}
+    \hfill
+    \begin{subtable}{.45\textwidth}
+        \centering
+        \caption{Score cuts for EE events}
+        \begin{tabular}{|c|c|}
+            \hline
+			\textbf{High Score} & \textbf{Minimum Low Score} \\
+			\Xhline{2pt}
+            0.95 & 0.04 \\ \hline
+            0.85 & 0.08 \\ \hline
+            0.5 & 0.20 \\ \hline
+        \end{tabular}
+    \end{subtable}
+\end{table}
+
+Events that satisfy these requirements can be plotted on top of figures \ref{fig:HLTMCOutputScores} and \ref{fig:HLTDataOutputScores}. In figure \ref{fig:HLTAcceptedScoresBB} and \ref{fig:HLTAcceptedScoresEE} below, the selected events for BB and EE can be seen, respectively, in red. Yellow lines are added to the plots to demarcate the cuts. These plots contain both the signal MC (left) and the Data (right).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png}
+	\caption[]{XGBoost output scores for the signal MC (left) and data (right) where both photon candidates are in the Barrel. Events accepted by the cuts are show in red, and the values of the cuts are shown by the yellow lines.}
+	\label{fig:HLTAcceptedScoresBB}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png}
+	\caption[]{XGBoost output scores for the signal MC (left) and data (right) where both photon candidates are in the Endcap.Events accepted by the cuts are show in red, and the values of the cuts are shown by the yellow lines.}
+	\label{fig:HLTAcceptedScoresEE}
+\end{figure}
+
+This choice of cuts, clearly, is able to preserve much of the signal MC while accepting very few of the data events examined. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png}
+	\caption[]{Diphoton mass for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in blue, while events accepted by the standard HLT are shown in green.}
+	\label{fig:HLTAcceptedMass}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png}
+	\caption[]{Photon $\eta$ for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in blue, while events accepted by the standard HLT are shown in green.}
+	\label{fig:HLTAcceptedEta}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png}
+	\caption[]{Photon $E_T$ for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in blue, while events accepted by the standard HLT are shown in green.}
+	\label{fig:HLTAcceptedEt}
+\end{figure}
+
+\section{Final Implementation in HLT Menu} \label{sec:HLTImplementation}
+As discussed in section \ref{sec:CMSSW}, triggering and event reconstruction is handled by the distributed CMSSW software framework. As a result, any proposed trigger developments must be deployed in a central CMSSW release. While the software strategy is the same as the original python implementation, the code must of couse be rewritten in C and adapted to work within the trigger.
+
+As described in section \ref{sec:HLT}, the HLT operates on all photon candidates in an event, then simply renders an event-by-event decision if any pair of photons satisfy the chosen conditions. As a result, the first step of the implementation is to create a module that calculates the BDT score for each photon candidate in every event. Once these scores are stored within the trigger path, another module most be constructed to check if any possible pair of photon candidates passes the two-fold cuts described above. Importantly, due to the constraints on storage space, the scores of the individual photon candidates cannot be saved to the event. As a result, the only output from the MVA-HLT is a decision on whether the event should be accepted or rejected.
+
+Luckily, these two modules are the only software additions required to add the BDT to the trigger menu. Beyond that, standard modules can be used (with some modifications to the cuts made) within ConfDB to construct the entire trigger path as discussed in section \ref{sec:confDB}. The first step of the HLT path is to require the necessary L1 triggers. The standrd L1 suite required by the existing HLT is used here, which consistes of a combination of single and double EGamma triggers as described in section \ref{sec:L1}. 
+
+In order to reduce the amount of MVA scores that must be calculated, the very loose kinematic cuts are applied to all photon candidates in the event as the first step. While these cuts are, as discussed, quite loose, they still serve to reduce the number of candidates considered. Since many data events may have many photon candidates, this will help reduce the time taken to calculate the BDT scores.
+
+With the preliminary cuts in place, the module that calculates the 
+\chapter{MVA-Based Offline Selection}
+\section{Current Diphoton Selection}
+\subsection{Single Photon Preselection Cuts}
+\subsection{Single Photon idMVA}
+\subsection{Diphoton Cuts and Pair Selection}
+\section{Development of MVA-Based Offline selection}
+\subsection{Creation of Single Photon MVAs}
+\subsection{Determination of Loose Single Photon MVA Cuts}
+\subsection{Creation of Diphoton MVA}
+
+\chapter{Evaluation of the MVA-HLT and Complementary Offline Selection} \label{chapter:Results}
+\section{Measurement of Trigger Rate}
+\subsection{Method of Rate Measurement}
+\subsection{Trigger Rate of MVA-HLT}
+\section{Evaluation of MVA-HLT Eficiency on Selected Signal Samples}
+\subsection{Method of Signal Efficiency Measurement}
+\subsection{Single Higgs Signal Efficiency}
+Here are some plots of the MVA-HLT efficiency on NanoAOD samples.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png}
+	\caption[]{Diphoton invariant mass for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
+	\label{fig:SingleHOfflineAcceptedMass}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png}
+	\caption[]{The $\eta_{sc}$ of both photons for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
+	\label{fig:SingleHOfflineAcceptedMass}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png}
+	\caption[]{The $p_{T}/M_{\gamma \gamma}$ of both photons for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
+	\label{fig:SingleHOfflineAcceptedMass}
+\end{figure}
+
+\subsection{DiHiggs Signal Efficiency}
+
+\section{Evaluation of Offline Selection Eficiency with MVA-HLT }
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png}
+	\caption[]{Diphoton invariant mass for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
+	\label{fig:SingleHOfflineAcceptedMass}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png}
+	\caption[]{The $\eta_{sc}$ of both photons for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
+	\label{fig:SingleHOfflineAcceptedMass}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png}
+	\caption[]{The $p_{T}/M_{\gamma \gamma}$ of both photons for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
+	\label{fig:SingleHOfflineAcceptedMass}
+\end{figure}
+\subsection{Method of Signal Efficiency Measurement}
+\subsection{Single Higgs Signal Efficiency}
+\subsection{DiHiggs Signal Efficiency}
+
+
+\chapter{Summary}
+
+\chapter{Acknowledgements}
+
+
+\appendix
+Appendix
+
+% Stuff at the end of the dissertation goes in the back matter
+\backmatter
+\printbibliography
+
+\end{document}
