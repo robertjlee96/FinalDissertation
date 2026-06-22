@@ -12,12 +12,13 @@
 \usepackage{makecell}
 \usepackage{subcaption}
 \usepackage{xfrac}
+\usepackage{amsmath}
 \usepackage{float}
 \usepackage[breaklinks=true,pdfborder={0 0 0}]{hyperref}
 \usepackage{graphicx}
 \usepackage[
     backend=biber,
-    style=numerical,
+    style=numeric,
   ]{biblatex}
 
  \addbibresource{RLeeDissertation.bib}
@@ -65,16 +66,7 @@
 \setsinglespacing
 \raggedright % It would be better to use \RaggedRight from ragged2e
 \parindent0pt\parskip\baselineskip
-In recognition of reading this manual before beginning to format the
-doctoral dissertation or master's thesis; for following the
-instructions written herein; for consulting with OGS Academic Affairs
-Advisers; and for not relying on other completed manuscripts, this
-manual is dedicated to all graduate students about to complete the
-doctoral dissertation or master's thesis.
-
-In recognition that this is my one chance to use whichever
-justification, spacing, writing style, text size, and/or textfont that
-I want to while still keeping my headings and margins consistent.
+Probably no dedication.
 \end{dedication}
 % Optional
 \begin{epigraph}
@@ -119,38 +111,14 @@ good enough writer he must face eternity, or the lack of it, each day.
 
 % Preface
 \begin{preface}
-Almost nothing is said in the manual about the preface. There is no
-indication about how it is to be typeset. Given that, one is forced to
-simply typeset it and hope it is accepted. It is, however, optional
-and may be omitted.
+Probably no preface
 \end{preface}
 
 % Your fancy acks here. Keep in mind you need to ack each paper you
 % use. See the examples here. In addition, each chapter ack needs to
 % be repeated at the end of the relevant chapter.
 \begin{acknowledgements}
-I would like to acknowledge Professor Eta Theta for his support as the
-chair of my committee. Through multiple drafts and many long nights,
-his guidance has proved to be invaluable.
-
-I would also like to acknowledge the ``Smith Clan'' of lab~28, without
-whom my research would have no doubt taken fives times as long. It is
-their support that helped me in an immeasureable way.
-
-Chapter 2, in full, is a reprint of the material as it appears in
-Numerical Grid Generational in Computational Fluid Mechanics~2009.
-Smith, Laura; Smith, Jane~D., Pineridge Press,~2009. The dissertation
-author was the primary investigator and author of this paper.
-
-Chapter 3, in part, has been submitted for publication of the material
-as it may appear in Education Mechanics,~2009, Smith, Laura; Smith,
-Jane~D., Trailor Press,~2009. The dissertation author was the primary
-investigator and author of this paper.
-
-Chapter 5, in part is currently being prepared for submission for
-publication of the material. Smith, Laura; Smith, Jane~D\@. The
-dissertation author was the primary investigator and author of this
-material.
+Acknowledgements
 \end{acknowledgements}
 
 % Stupid vita goes next
@@ -192,12 +160,7 @@ Diego
 
 % Put your maximum 350 word abstract here.
 \begin{dissertationabstract}
-The Abstract begins here. The abstract is limited to 350 words for a
-doctoral dissertation. It should consist of a short statement of the
-problem, a brief explanation of the methods and procedures employed in
-generating the data, and a condensed summary of the findings of the
-study. The abstract may continute onto a second page if necessary. The
-text of the abstract must be double spaced.
+Abstract
 \end{dissertationabstract}
 
 % This is where the main body of your dissertation goes!
@@ -214,7 +177,7 @@ This software is constructed using a layered approach, where each subsequent ste
 The goal of this paper is to examine the improvement of a specific set of these triggers and analysis-level cuts. While many channels of Higgs boson decay exist, the decay into two photons has been proven to be a major component of the analysis of the Higgs boson; this process provides a relatively clean decay signature, and occurs at a high enough rate to provide ample statistics for analysis.
 \end{dissertationintroduction}
 
-\chapter{The Standard Model and Higgs Boson}
+\chapter{The Standard Model and Higgs Boson} \label{chapter:Theory}
 Theory Citations: \cite{SMOverview}: Short 1999 Overview of SM. \cite{PDGReview}: 2024 review of particle physics. \cite{HiggsDiscovery2012}: 2012 Higgs Discovery phys review letters publication. \cite{HiggsDiscovery2013} 2013 JHEP Higgs discovery publication. \cite{CMS10YearReview} 2022 CMS Higgs 10 year review. 
 
 Detector Citations: \cite{CMS2008} 2008 Early CMS Description. \cite{CMS2024} 2024 Run3 CMS Description (use this mainly). \cite{LHC2008} 2008 Overall LHC design.
@@ -225,7 +188,7 @@ The standard model (SM) of particle physics is the quantum gauge field theory th
 
 Within the SM, there are two major forms of particle. Spin 1/2 particles, called fermions, comprise all matter as we know it, and include quarks and leptons. Integer spin particles, called bosons, act as the force carriers that mediate interactions between these fermions. QED posits the photon as the gague boson, which mediates interactions between all electrically charged particles -- including both charged leptons and quarks. QCD describes eight gluons as the force mediators between color-charged quarks. The weak theory describes the massive $W^{\pm}$ and $Z^0$ bosons as the mediators of the weak force, which is responsible for radioactive decay.
 
-As will be discussed in \ref{sec:EW}, experimental findings pointed early theorests towards the unification of the electromagnetic and weak forces into what is now known as the electroweak (EW) theory. 
+As will be discussed in \ref{sec:EW}, experimental findings pointed early theorests towards the unification of the electromagnetic and weak forces into what is now known as the electroweak (EW) theory. The 
 
 \section{Quantum Electrodynamics (QED)}\label{sec:QED}
 Use Gaillard, Grannis, and Sciulli
@@ -238,7 +201,6 @@ Use Gaillard, Grannis, and Sciulli AND PDG Physics summary page 185
 
 \section{The Higgs Field and Higgs Boson}\label{sec:Higgs}
 Use PDG Physics summary page 211-218
-
 
 \subsection{Motivation for the Higgs Field}
 \subsection{Properties of the Higgs Potential}
@@ -338,7 +300,7 @@ As with the tracker, the individual crystals are combined into submodules and mo
 \subsubsection{ECal Endcaps (EE)}
 \subsection{Hadron Calorimeter} \label{sec:HCal}
 
-\chapter{Triggering and Offline Software}
+\chapter{Triggering and Offline Software} \label{chapter:Software}
 In Run3 of the LHC, the increased luminosity leads to an average of 60 collisions per bunch crossing (termed "Pileup") (REF?). Given that these bunch crossings occur at a rate of 40MHz (every 25ns) and can create a large number of individual particles, the procesing and storage facilities of are incapable of saving and analyzing every interaction generated in each bunch crossing. The triggering system, therefore, is designed to drastically reduce the number of output events while presevering as many events matching signal signatures as possible. Overall, the triggers aim to reduce the data rate from 40MHz down to just 5kHz. This reduction is achieved by a two-tierd triger system consisting of the Level 1 (L1) triggers and the High Level Triggers (HLT). Since there are many possible signal signatures depending on the analysis being conducted, there are many individual triggers at both L1 and HLT. Details of the L1 triggers will be given below in section \ref{sec:L1}, and the HLT will be described in great detail in section \ref{sec:HLT}. 
 \section{Level-1 Trigger} \label{sec:L1}
 The L1 trigger aims to reduce the rate from the initial 40MHz down to just 100kHz. This collection of triggers is designed to take the basic rea
@@ -362,10 +324,25 @@ The final step of tiggering before data is output for analysis, the HLT aims to 
 \section{Monte Carlo Simulation Samples}
 \subsection{Monte Carlo Corrections and Systematics}
 
+\chapter{Boosted Decision Trees and XGBoost} \label{chapter:BDTs}
+The newly-proposed trigger and complementary offline selection -- discussed in chapters \ref{chapter:HLT} and \ref{chapter:OfflineSelection}, respectively -- is based on a machine learning construct called a Boosted Decision Tree (BDT). This ML method provides a robust and relatively simple algorithm for binary classification problems, which works well both with the HLT and with subsequent offline classification and event selection. The theoretical details and structure of BDTs is described in section \ref{sec:BDTBasics}. The software package XGBoost (short for eXtreme Gradient Boosting) will be used for both the creation and evaluation of the BDTs employed at the trigger and offline analysis levels. This software is described in more detail in section \ref{sec:XGBoost}.
+\section{Gradient Descent Boosting} \label{sec:BDTBasics}
+The original description of boosted decision trees and gradient descent boosting is described in "Greedy Function Approximation: A Gradient Boosting Machine" by Jerome H. Friedman \cite{BDTPaper}. The following section is largely based on this seminal paper, with emphasis placed on the facets of the technique most relevant to this paper. 
 
-\chapter{Development of an MVA-Based High Level Trigger}
-\section{Limitations and Benefits of Current $H\rightarrow\gamma\gamma$ Trigger}
-As discussed in section \ref{sec:HLT}, the current $H\rightarrow\gamma\gamma$ HLT uses hard cuts on kinematic, isolation, and showershape variables to select events. While cuts on some of these variables -- such as $R_{9}$ and H/E -- serve to remove low quality photon candidates, others reduce the phase space of the trigger while not necessarily increasing the quality of the analysis. Principally, the current HLT makes rather tight cuts on the $P_{T}$ of the two photon candidates. These cuts significantly reduce the trigger rate, as many background processes produce showers with low $P_{T}$. Many signal events, however, have at least one candidate with low $P_{T}$. It will be shown in section \ref{sec:singleHResults} that these $P_{T}$ significantly decrease the acceptance of simulated Monte Carlo signal events. Since many future analyses we be searching for either very rare processes or physics beyond our current understanding of the standard model, constraining the phase space of available information may affect the collaboration's ability to probe novel processes. 
+At its core, a binary classification problem is a function estimation problem; a function must be constructed that maps some input values onto a single output score. The general parlance is to label the input variables for a single event as $\vec{x} = \{x_1, x_2, ... x_n\}$, where n is the total number of selected input values. The output, however, is a single score, usually labeled $y$. There exists some theoretical function, $F^{*}(\vec{x})$ that directly maps $\vec{x}$ onto $y$. This function cannot be known exactly for problems of moderate complexity, so an estimate of this function, $\hat{F}(\vec{x})$, is the goal of the gradient boosting process. 
+
+To quantify how closely the approximation $\hat{F}(\vec{x})$ follows the true $F^{*}(\vec{x})$, some loss function must be defined. There are many forms of loss function, as will be described in section \ref{sec:Objective Function}. The loss function is termed $L(y,F(\vec{x}))$, meaning that  it quantifies how closely the approximate points, $F(\vec{x})$ , follow the true classification values of the events, $y$. Given these definitions, the goal of the BDT algorithm can be written as given by Friedman \cite{BDTPaper}.
+\begin{equation}\label{eqn:FriedmanOverallFunction}
+    F^{*} = \underset{F}{min} \: E_{y,\vec{x}}[L(y,F(\vec{x}))]
+\end{equation}
+So, the goal is to find the 
+\section{The Objective Function} \label{sec:Objective Function}
+\section{XGBoost Software} \label{sec:XGBoost}
+
+
+\chapter{Development of an MVA-Based High Level Trigger}\label{chapter:HLT}
+\section{Limitations and Benefits of Current $H \rightarrow \gamma \gamma$ Trigger} 
+As discussed in section \ref{sec:HLT}, the current $H \rightarrow \gamma \gamma$ HLT uses hard cuts on kinematic, isolation, and showershape variables to select events. While cuts on some of these variables -- such as $R_{9}$ and H/E -- serve to remove low quality photon candidates, others reduce the phase space of the trigger while not necessarily increasing the quality of the analysis. Principally, the current HLT makes rather tight cuts on the $p_{T}$ of the two photon candidates. These cuts significantly reduce the trigger rate, as many background processes produce showers with low $p_{T}$. Many signal events, however, have at least one candidate with low $p_{T}$. It will be shown in section \ref{sec:singleHResults} that these $p_{T}$ significantly decrease the acceptance of simulated Monte Carlo signal events. Since many future analyses we be searching for either very rare processes or physics beyond our current understanding of the standard model, constraining the phase space of available information may affect the collaboration's ability to probe novel processes. 
 
 The relative simplicity of the standard HLT, however, provides multiple benefits. Firstly, the numerical cuts can be closely examined and understood very easily. Though the cuts have been relatively stable in time, they may adjusted and reexamined with relative ease. The effects of cuts on individual variables can be quantified, which allows maximum transparency into how a decision is made on an event-by-event basis. Secondly, a decision for each event can be made very rapidly. As discussed in section \ref{sec:timing}, minimizing computation time for each event is vital given the huge number of triggers deployed at the trigger farm. Since all of the quantities used by the current HLT are already being saved for each event, there is very little additional computation needed to arrive at a triggering decision. Any proposed changes to the $H\rightarrow\gamma\gamma$ trigger must have minimal impact on decision speed given the stringent restrictions on computation time.
 
@@ -381,13 +358,13 @@ As discussed in (REF?), Monte Carlo simulations exist for various physics proces
 
 In order to validated the performance of the model, the acceptance of these signal MC events must be quantified. As a result, half of the sample is used for training, while the other half is reserved for later validation. Events are split by event number into two separate categories: even event nubers are used for the training sample, and odd event numbers will be used for the validaiton of the model performance. 
 \subsubsection{Background Samples}\label{sec:HLTDataSamples}
-At the trigger level, background simulation poses a major challenge. Background events for $H \rightarrow \gamma\gamma$ fall into three major categories: events containing two photons diphoton, events containing a photon and a jet, and events containing two jets. While it is possible to simulate these background sources, the simulation -- especially of the jet-jet events -- is challenging and therefore may not perfectly allign with the real data. The most obvious resolution to this issue is to simply treat the data sample as background. While, of course, the goal of the trigger is to preserve signal signatures from the data, it has been shown in (REF?) that the overall expected count of signal events in this data sample is relatively low. As long as a clean signal sample is provided to the BDT, the incredibly small percentage of possible $H \rightarrow \gamma\gamma$ events in the data should not appreciably mar the model's ability to differentiate signal and background photon candidates. As with the signal MC, even event numbers are used for the training, while odd event numbers are reserved for later validation of model performance.
+At the trigger level, background simulation poses a major challenge. Background events for $H \rightarrow \gamma\gamma$ fall into three major categories: events containing two photons diphoton, events containing a photon and a jet, and events containing two jets. While it is possible to simulate these background sources, the simulation -- especially of the jet-jet events -- is challenging and therefore may not perfectly allign with the real data. The most obvious resolution to this issue is to simply treat the data sample as background. While, of course, the goal of the trigger is to preserve signal signatures from the data, it has been shown in chapter \ref{chater:Theory} that the overall expected count of signal events in this data sample is relatively low. As long as a clean signal sample is provided to the BDT, the incredibly small percentage of possible $H \rightarrow \gamma\gamma$ events in the data should not appreciably mar the model's ability to differentiate signal and background photon candidates. As with the signal MC, even event numbers are used for the training, while odd event numbers are reserved for later validation of model performance.
 \subsection{Determination of Input Variables}
-After signal and background samples are selected, input variables for the BDT must be chosen such that signal and background events can be separated. The most obvious starting place for this is by analogy to the current HLT; since cuts on the kinematic, isolation, and showershape variables have been successfully used in the preexisting trigger, a BDT should be able to use these variables to even greater effect. Below, in table \ref{tab:inputparams}, the chosen input variables are listed along with their definitions.
+After signal and background samples are selected, input variables for the BDT must be chosen such that signal and background events can be separated. The most obvious starting place for this is by analogy to the current HLT; since cuts on the kinematic, isolation, and showershape variables have been successfully used in the preexisting trigger, a BDT should be able to use these variables to even greater effect. Below, in table \ref{tab:HLTInputVars}, the chosen input variables are listed along with their definitions.
 \begin{table}
 	\centering
 	\caption[E]{Table of input variable names, and a short description of each.}
-	\label{tab:inputparams}
+	\label{tab:HLTInputVars}
 	\begin{tabular}{ | c | c | } 
 		\hline
 		\textbf{Variable Name} & \textbf{Description} \\
@@ -411,69 +388,81 @@ After signal and background samples are selected, input variables for the BDT mu
 	\end{tabular}
 \end{table}
 
-The chosen variables are largely showershape variables, as these can be used to differentiate a legitimate photon signature from a jet shower. A major goal of the BDT is to increase kinematic coverage; relying primarily on showershape variables ensures that the selection is not biased towards a specific kinematic region. Below we can see side-by-side plots of the above input variables, where the signal MC is shown on the left and the data (background) is shown on the right. 
+The chosen variables are largely showershape and isolation variables, as these can be used to differentiate a legitimate photon signature from a jet shower. A major goal of the BDT is to increase kinematic coverage; relying primarily on showershape variables ensures that the selection is not biased towards a specific kinematic region. Below we can see plots of the above input variables, where the signal MC is shown in black and the data (background) is shown in red.
 
 \begin{figure}[H]
 	\subfloat[Raw energy][]{
-		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png}
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/rawEnergy_All.png}
 		\label{subfig:a}
 	} \hfill
 	\subfloat[$R_{9}$][]{
-		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/JustAll/r9_All.png}
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/r9_All.png}
 		\label{subfig:b}
 	}\\
 	\subfloat[$\sigma_{i \eta i \eta}$][]{
-		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png}
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/siEtaiEta_All.png}
 		\label{subfig:c}
 	}\hfill
 	\subfloat[$\eta_{SC}$][]{
-		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/JustAll/eta_All.png}
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/eta_All.png}
 		\label{subfig:d}
-	}\\
+	}
+	\caption{Plots of the input variables to the BDT, where the signal MC is shown in black and the data is shown in red.}
+	\label{fig:HLTTrainingVars1}
+\end{figure}
+\begin{figure}[H]
 	\subfloat[$\eta$ width][]{
-		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/JustAll/etaW_All.png}
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/etaW_All.png}
 		\label{subfig:e}
 	}\hfill
 	\subfloat[$\phi$ width][]{
-		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/JustAll/phiW_All.png}
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/phiW_All.png}
 		\label{subfig:f}
 	}\\
 	\subfloat[H/E][]{
-		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/JustAll/HoE_All.png}
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/HoE_All.png}
 		\label{subfig:g}
 	}\hfill
 	\subfloat[ECalPFIso][]{
-		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/JustAll/iso_All.png}
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/iso_All.png}
 		\label{subfig:h}
 	}
-	\caption{Plots of the input variables to the BDT, where the signal MC is shown on the left and the data is shown on the right}
-	\label{fig:HLTTrainingVars}
+	\caption{Plots of the input variables to the BDT, where the signal MC is shown in black and the data is shown in red.}
+	\label{fig:HLTTrainingVars2}
 \end{figure}
 
+
 \subsection{Hyperparameter Tuning}\label{sec:hyperparameters}
-Once the input samples and variables are determined, the technical details of the model must by optimized. The structure of the BDTs is determined by the hyperparameters of the model. 
-\section{Determination of BDT Cuts}
+Once the input samples and variables are determined, the technical details of the model must by optimized. The structure of the BDTs is determined by the hyperparameters of the model as discussed in chapter \ref{chapter:BDTs}. The most fundamental hyperparameters are the maximum depth, the learning rate, and the total number of trees in the model. The max depth and number of trees directly determine the complexity of the model. A model with more trees will, based on the boosted gradient descent method discussed in chapter \ref{chapter:BDTs}, more precisely estimate the function that maps the chosen input variables from the training sample onto the correct labels of signal versus background. To mitigate the risks of overtraining the model, XGBoost early stopping is used to determine the number of trees. As the software adds additional trees to the ensemble, it measures the chosen objective function at each step on a testing sample not used in the training. Early stopping ends the training of the model when the chosen metric hasn't improved in a chosen number of rounds. For this training, 50 early stopping rounds were used and the area under the curve (AUC) was used as the target metric. So, then, this hyperparameter is essentially fixed while the others must be optimized.
+
+The maximum depth controls the complexity of each individual tree in the ensemble. As discussed in chapter \ref{chapter:BDTs}, the depth determines the number of layers each tree is able to employ. Deeper trees generally allow more precise mapping from input values to output scores at the cost of computation time; each layer of depth constitutes another set of weights that must be computed for each tree. Since it is vital that the computation time is minimized at the trigger level, this is a major consideration. Deeper trees also tend to overfit the training data more, as there are essentially more degrees of freedom with which to fit the mapping function. So, the max depth must be kept as low as possible to avoid both overfitting and unreasonable computation time.
+
+The learning rate controls the size of the individual feature weights from each new tree added to the ensemble. A higher learning rate allows each tree to have heigher weights, which will therefore affect the model performance more drastically. Lowering the learning weight directly makes the model more conservative, as it reduces the overall change to the model predictions provided by each additional tree. Having a higher learning rate generally reduces the number of trees necessary to converge, but decreases the accuracy since statistical fluctuations within each tree can be assigned higher weights. 
+
+It was found that the max depth and learning rate are best optimized in tandem; as the trees become more complex (higher max depth), it was found that making the individual steps more conservative (lower learning rate) lead to less overfitting and higher performance. As a result, a 2D grid search was used to optimize these two hyperparameters. A range of both max depth and learning rate was defined, then a model was trained for each combination. The resulting models were appraised in terms of not only their objective scores (AUC and logistic loss in this case, both described in chapter \ref{chapter:BDTs}), but also in terms of the number of trees and the overall model size in megabytes. Since the model must be loaded into RAM at the trigger farm and then the weights applied to each photon in each incoming data event, a model taking up more space will increase both the computation time and memory load at the trigger level. 
+
+After many trials, the best balance of model performance, minimization of overtaining, and model size was found to be a max depth of 7 and a learning rate of 0.25. Experimentally, it was determined that many of the other hyperparameters had minimal impact on the model performance and size, so they were therefore left at their default values.
+
+\section{Determination of BDT Cuts}\label{sec:cutChoices}
 After the tuning and training of the model was optimized, a score is generated for each photon in each event. Each event may contain several photon candidates, but the job of the HLT is to determine if any pair of candidates exists that plausibly originates from $H \rightarrow \gamma\gamma$. Given that the BDT was trained such that photons originating from $H \rightarrow \gamma\gamma$ MC are assigned a high score whereas background processes are given a low score, the photon candidates are first sorted by the output BDT score. Then, the highest two scores can be selected and the values analyzed for both signal MC and data events. 
 
 Since the HLT path simply renders a decision about whether an event contains a $H \rightarrow \gamma\gamma$ process, cuts on the pairs of output scores must be chosen such that the number of signal events kept is maximized (high signal efficiency) while the total number of data events kept is minimized (low trigger rate). 
 
-Below, in figure \ref{fig:HLTMCOutputScores}, the high and low scores for signal MC are shown. Since these are purely signal events, we expect the scores to be clustered near 1. As we can see, the higher of the two scores (along the x axis) tends to be above 0.9 for a large percentage of events. Meanwhile, while the lower of the two scores does cluster above 0.8, there is still a large band of score values extending down to 0. This means that there are many signal events for which one photon has a very high score, but the second photon has a lower score. 
+Below, in figure \ref{fig:HLTOutputScores}, the high and low scores for signal MC are shown at left. Since these are purely signal events, we expect the scores to be clustered near 1. As we can see, the higher of the two scores (along the x axis) tends to be above 0.9 for a large percentage of events. Meanwhile, while the lower of the two scores does cluster above 0.8, there is still a large band of score values extending down to 0. This means that there are many signal events for which one photon has a very high score, but the second photon has a lower score. 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png}
+	\subfloat[SigScores][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png}
+	} \hfill
+	\subfloat[BkgScores][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png}
+	}
 	\caption[]{XGBoost output scores for two selected photon candidates in the Winter 2024 ggH signal MC. The higher of the two scores is plotted on the X-axis, while the lower of the two is plotted on the Y-axis.}
-	\label{fig:HLTMCOutputScores}
+	\label{fig:HLTOutputScores}
 \end{figure}
 
-Next, we can consider the scores of the data sample shown in \ref{fig:HLTDataOutputScores}. Given the rarity of $H \rightarrow \gamma\gamma$ events at the trigger level, we expect essentially all of these data events to correspond to background processes. As a result, we expect the vast majority of these data photon candidates to be assigned a BDT score close to zero. As we can see, the lower of the two photon scores very rarely extends above 0.1. Though the higher of the two scores is often close to 0, there are still many events where the value extends towards 1. Since this BDT is designed to indentify individual photon candidates, we can infer that many of these data events have one real photon (which is a major source of background as discussed in section \ref{sec:HLTDataSamples}).
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png}
-	\caption[]{XGBoost output scores for two selected photon candidates in the 2023 Data. The higher of the two scores is plotted on the X-axis, while the lower of the two is plotted on the Y-axis.}
-	\label{fig:HLTDataOutputScores}
-\end{figure}
+Next, we can consider the scores of the data sample shown at right in in \ref{fig:HLTOutputScores}. Given the rarity of $H \rightarrow \gamma\gamma$ events at the trigger level, we expect essentially all of these data events to correspond to background processes. As a result, we expect the vast majority of these data photon candidates to be assigned a BDT score close to zero. As we can see, the lower of the two photon scores very rarely extends above 0.1. Though the higher of the two scores is often close to 0, there are still many events where the value extends towards 1. Since this BDT is designed to indentify individual photon candidates, we can infer that many of these data events have one real photon (which is a major source of background as discussed in section \ref{sec:HLTDataSamples}).
 
 As discussed in section \ref{sec:HLTXGBInfo}, the single photon BDTs are trained separately for photon candidates in the barrel and those in the endcap. Due to the separate trainings -- as well as the differences in kinematics and detector geometry -- the score distributions for barrel and endcap photon candidates are not perfectly equivalent. As a result, the chosen cuts must be tuned separately for the barrel and endcap photons. This presents an issue, as diphoton events may contain two barrel photon candidates (BB), two endcap photon candidates (EE), or one photon candidate in each region of the detector (BE). The simplest way to deal with this is to choose the single photon cuts by reference to the BB and EE distributions, then apply the chosen barrel and endcap cuts to all photons in either region.
 
@@ -510,45 +499,123 @@ Given the shapes of the output distributions in figures \ref{fig:HLTMCOutputScor
     \end{subtable}
 \end{table}
 
-Events that satisfy these requirements can be plotted on top of figures \ref{fig:HLTMCOutputScores} and \ref{fig:HLTDataOutputScores}. In figure \ref{fig:HLTAcceptedScoresBB} and \ref{fig:HLTAcceptedScoresEE} below, the selected events for BB and EE can be seen, respectively, in red. Yellow lines are added to the plots to demarcate the cuts. These plots contain both the signal MC (left) and the Data (right).
+Events that satisfy these requirements can be plotted on top of figures \ref{fig:HLTOutputScores} . In figure \ref{fig:HLTAcceptedScoresBB} and \ref{fig:HLTAcceptedScoresEE} below, the selected events for BB and EE can be seen, respectively, in red. Yellow lines are added to the plots to demarcate the cuts. These plots contain both the signal MC (left) and the Data (right).
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png}
-	\caption[]{XGBoost output scores for the signal MC (left) and data (right) where both photon candidates are in the Barrel. Events accepted by the cuts are show in red, and the values of the cuts are shown by the yellow lines.}
+	\subfloat[][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png}
+	} \hfill
+	\subfloat[][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png}
+	}
+	\caption[]{XGBoost output scores for two selected photon candidates in the Winter 2024 ggH signal MC (a), and 2023 Data (b). The higher of the two scores is plotted on the X-axis, while the lower of the two is plotted on the Y-axis.}
 	\label{fig:HLTAcceptedScoresBB}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png}
-	\caption[]{XGBoost output scores for the signal MC (left) and data (right) where both photon candidates are in the Endcap.Events accepted by the cuts are show in red, and the values of the cuts are shown by the yellow lines.}
+	\subfloat[][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png}
+	} \hfill
+	\subfloat[][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png}
+	}
+	\caption[]{XGBoost output scores for two selected photon candidates in the Winter 2024 ggH signal MC (a), and 2023 Data (b). The higher of the two scores is plotted on the X-axis, while the lower of the two is plotted on the Y-axis.}
 	\label{fig:HLTAcceptedScoresEE}
 \end{figure}
 
-This choice of cuts, clearly, is able to preserve much of the signal MC while accepting very few of the data events examined. 
+This choice of cuts, clearly, is able to preserve much of the signal MC while accepting very few of the data events examined. While the overall signal efficiency and data rate are key metrics to appraise our MVA-HLT, it is also important to examine where in the kinematic phase space we are gaining events relative to the standard diphoton HLT. While a more complete measurement of this will be shown in chapter \ref{chapter:Results}, a preliminary analysis can be made with the cuts applied in this initial development framework. 
+
+Below, plots of selected kinematic variables are shown. The events accepted by the current diphoton HLT are shown in green, while the events accepted by the new MVA-HLT are shown in blue. As with the previous score plots, the Winter24 GGH signal MC will be shown at left, whereas the 2023 Data will be shown at right.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png}
-	\caption[]{Diphoton mass for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in blue, while events accepted by the standard HLT are shown in green.}
+	\subfloat[][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png}
+	} \hfill
+	\subfloat[][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png}
+	}
+	\caption[]{Diphoton mass for the signal MC (a) and data (b). Events accepted by the MVA-HLT are shown in blue, while events accepted by the standard HLT are shown in green.}
 	\label{fig:HLTAcceptedMass}
 \end{figure}
 
+
+Beginning with the mass, we can immediately see that MVA-HLT accepts 94.2\% of signal MC events, which is an approximately 13.6\% relative gain in signal efficiency compared to the 82.9\% acceptance of the standard diphoton HLT. Additionally, the data rate appears considerably lower; while the standard HLT accepts 1.44\% of the analyzed events, the MVA-HLT only accepts 0.86\%, which corresponds to a 40.3\% reduction in data rate. 
+
+One major consideration when examining the mass is the measured mass width of the accepted signal events. Generally, a more narrow peak is considered a cleaner signal. By treating the mass distribution as approximately gaussian, the width can be easily understood by measuring the standard deviation. Since the distribution is only approximately gaussian, it is safer to instead construct the quantity $2\sigma_{effective}$, which is simply the width (in $GeV/c^{2}$) that contains 95\% of the peak. Although this is not a statistically rigorous construct, it can be used to compare the approximate shapes of similar distributions in an interally consistent way. It can be seen that the $2\sigma_{effective}$ is marginally increased for the MVA-HLT, reaching 6.58 compared to the 6.07 of the events accepted by the standard trigger. Some increase in width is to be expected, as accepting more events will necessarily bring the distribution closer to the "all" curve that has a wider width than either selection. 
+
+(Statments about the background mass distribution?)
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png}
+	\subfloat[][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png}
+	} \hfill
+	\subfloat[][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png}
+	}
 	\caption[]{Photon $\eta$ for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in blue, while events accepted by the standard HLT are shown in green.}
 	\label{fig:HLTAcceptedEta}
 \end{figure}
 
+
+Above, the next kinematic variable shown is the $\eta_{sc}$ of both photons plotted together. As seen in both signal and background, the separation between the ECal Barrel (EB) and ECal Endcap (EE) can be seen at $\eta_{sc} \approx \pm 1.5$. For the signal, thoughout the barrel, both the MVA-HLT and standard HLT accept photon candidates in relatively constant propotion to the total distribution, though the MVA-HLT has overall improved acceptance. While the MVA-HLT still has relatively constant acceptance in the EE, it can immediately be seen that the standard HLT is excluding many events in the lowest-$\eta_{sc}$ region of the endcap. Investigations have shown that this is due to the $R_{9}$ cuts made within the trigger. This represents a reduction in kinematic coverage for the standard HLT, whereas the MVA-HLT is able to resolve this issue and maintain maximum kinematic coverage. 
+
+Considering the background, it can immediately be seen that the MVA-HLT has a relatively flat acceptance in both the EB and EE, while the standard HLT appears to accept more data at the extreme-$\eta_{sc}$ reigions of the endcap. As can be seen from the  MC, this region tends to contain less of the $H \rightarrow \gamma \gamma$ signal events and therefore represents a lower signal to background ratio. 
+
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png}
+	\subfloat[][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png}
+	} \hfill
+	\subfloat[][]{
+		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png}
+	}
 	\caption[]{Photon $E_T$ for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in blue, while events accepted by the standard HLT are shown in green.}
 	\label{fig:HLTAcceptedEt}
 \end{figure}
 
+
+Finally, we can consider the transverse energy of the photon candidates, $E_T$. Here, both candidates are again shown on the same plot, which explains the double-peaking behavior in the background distribution. The standard diphoton HLT contains cuts at 30 and 22 $GeV/c^2$ for the lead and sublead photon, respectively. The sublead cut can clearly be seen in both the signal, at left, and the background at right. While the new MVA-HLT selection accepts more of these low-$E_T$ photons, it is clear that little of the gain comes from this kinematic region. Below about 30 $GeV/c^2$, both selections tend to cut out many photons from the total distribution. In the case of the MVA-HLT, this is likely due to those photon candidates being of lower quality and therefore being assigned a lower BDT score.
+
+Below, in table \ref{tab:HLTEffs}, the acceptance percentages are given for the 3 different diphoton $\eta_{sc}$ 
+configurations, as well as the total acceptance for both signal and background, compared to the standard HLT cuts.
+
+\begin{table}[h]
+    \centering
+    \caption{Signal efficiencies and background acceptances for both triggers, broken down by diphoton $\eta_{sc}$}
+	\label{tab:HLTEffs}
+    \begin{subtable}{.49\textwidth}
+        \centering
+        \caption{Signal Efficiencies}
+        \begin{tabular}{|c|c|c|}
+            \hline
+            \textbf{Region} & \textbf{MVA-HLT(\%)} & \textbf{Std. HLT(\%)}\\
+			\Xhline{2pt}
+            B-B & 95.93 & 89.32\\ \hline
+            B-E & 91.91 & 74.10\\ \hline
+            E-E & 89.46 & 76.85\\ \hline
+            All & 93.86 & 82.64\\ \hline
+        \end{tabular}
+    \end{subtable}
+    \hfill
+	\begin{subtable}{.49\textwidth}
+        \centering
+        \caption{Data Acceptances}
+        \begin{tabular}{|c|c|c|}
+            \hline
+            \textbf{Region} & \textbf{MVA-HLT(\%)} & \textbf{Std. HLT(\%)}\\
+			\Xhline{2pt}
+            B-B & 0.65 & 1.06\\ \hline
+            B-E & 1.20 & 2.17\\ \hline
+            E-E & 0.58 & 1.07\\ \hline
+            All & 0.88 & 1.56\\ \hline
+        \end{tabular}
+    \end{subtable}
+\end{table}
 \section{Final Implementation in HLT Menu} \label{sec:HLTImplementation}
 As discussed in section \ref{sec:CMSSW}, triggering and event reconstruction is handled by the distributed CMSSW software framework. As a result, any proposed trigger developments must be deployed in a central CMSSW release. While the software strategy is the same as the original python implementation, the code must of couse be rewritten in C and adapted to work within the trigger.
 
@@ -556,21 +623,78 @@ As described in section \ref{sec:HLT}, the HLT operates on all photon candidates
 
 Luckily, these two modules are the only software additions required to add the BDT to the trigger menu. Beyond that, standard modules can be used (with some modifications to the cuts made) within ConfDB to construct the entire trigger path as discussed in section \ref{sec:confDB}. The first step of the HLT path is to require the necessary L1 triggers. The standrd L1 suite required by the existing HLT is used here, which consistes of a combination of single and double EGamma triggers as described in section \ref{sec:L1}. 
 
-In order to reduce the amount of MVA scores that must be calculated, the very loose kinematic cuts are applied to all photon candidates in the event as the first step. While these cuts are, as discussed, quite loose, they still serve to reduce the number of candidates considered. Since many data events may have many photon candidates, this will help reduce the time taken to calculate the BDT scores.
+In order to reduce the amount of MVA scores that must be calculated, the very loose kinematic cuts are applied to all photon candidates in the event as the first step. While these cuts are quite loose, they still serve to reduce the number of candidates considered. Since many data events may have many photon candidates, this will help reduce the time taken to calculate the BDT scores. (Is this true? Do individual photon candidates get removed at the HLT level, or just events?)
 
-With the preliminary cuts in place, the module that calculates the 
-\chapter{MVA-Based Offline Selection}
-\section{Current Diphoton Selection}
-\subsection{Single Photon Preselection Cuts}
-\subsection{Single Photon idMVA}
-\subsection{Diphoton Cuts and Pair Selection}
-\section{Development of MVA-Based Offline selection}
-\subsection{Creation of Single Photon MVAs}
+With the preliminary cuts in place, the module that calculates the scores is placed in the HLT path, followed by the module that makes the cuts as described in section \label{cutChoices}. Finally, a combined module is created that combines these BDT cuts on both photons with a mass cut of $M_{\gamma \gamma} > 90 GeV/c^{2}$. So, then, the whole HLT path serves to check if there is any possible pair of photon candidates that passes the loose kinematic cuts, the pairwise BDT cuts, and the $M_{\gamma \gamma}$ cut. If any pair satisfies these conditions, a flag is added to the event and all photon candidates are kept at the RAW level. 
+
+\chapter{MVA-Based Offline Preselection} \label{chapter:OfflineSelection}
+As discussed in chapter \ref{chapter:Software}, the HLT is one of the first steps in selecting data and MC events for analysis. Once a decision has been rendered by the HLT, the event is read out and saved in either the appropriate data stream or in the corresponding MC sample. Once these files are read in by the analysis software -- in this case HiggsDNA as described in section \ref{sec:HiggsDNA} -- further selection cuts are made to create a final analysis sample on which measurements can be made. 
+
+\section{Current Diphoton Preselection}\label{sec:StandardPresel}
+The current diphoton selection is created by direct analogy to the standard diphoton HLT; firstly, $p_T$, showershape, and isolation cuts are made on individual photons in an event, then the single photons are paired together and cuts are made on the resulting diphoton. In the case of the HLT, a simple diphoton mass cut is made. At the offline analysis level, however, the diphoton cuts are made on $p_T/M_{\gamma \gamma}$. 
+
+The $H \rightarrow \gamma \gamma$ preselection is described in detail in \cite{Run2Hgg2018}. First, loose cuts of $p_T$ > 20 $GeV/c$, $R_9$ > 0.5, H/E > 0.08, and idMVA > 0.9 are applied to each photon candidate. Additionally, the |$\eta_{sc}$| is constrained to be below 2.5, and the gap region between the EB and EE is excluded (1.444 < |$\eta_{sc}|$ < 1.556). Additionally, the electron veto is required to exclude photons origininating from electron tracks. Beyond that, the remaining isolation and showershape cuts are only applied on low-$\eta$ photons. Above $R_9 = ??$ in the barrel and $R_9 = ??$ in the endcap, no further preselection cuts are applied. For photons below this $R_9$, cuts are applied on the $\sigma_{i\eta i \eta}$, -- 
+
+Once these single photon preselection cuts are applied, all remaining photon canidates are paired together into a collection of diphotons. For each pair, the higher of the two photons must satistfy $p_T > 30 GeV/c$. Paired with the baseline requirement of $p_T > 20 GeV/c$, these cuts closely mimic the 30 and 22 GeV/c cuts applied at the trigger level. Then, the $p_T/M_{\gamma \gamma}$ cuts are applied to the diphoton pairs. 
+
+At this point, many of the diphoton pairs have been removed. A final diphoton combination must be selected, however, as HiggsDNA is designed to output a single photon pair of photons. The remaining pairs in the event are sorted by their diphoton $p_T$, and the pair with the highest value is written out into the event.
+
+There is no explicit $M_{\gamma \gamma}$ cut applied within the preselection, as the possibility for high- and low-mass Higgs analysis is left open. For the purposes of comparing this preselection to the new MVA-based selection, only the standard mass Higgs is considered. So, a loose cut of $90 < M_{\gamma \gamma} < 180 GeV/c^2$ is applied to all resulting diphotons.
+
+\section{Development of MVA-Based Offline Preselection}
+Since the offline selection is designed to cover the HLT used, it is clear that applying the preexisting preselection described above on top of the MVA-HLT is a suboptimal strategy. In fact, since these cuts mirror the standard HLT quite closely, it is expected that applying the standard preselection on top of the MVA-HLT would likely reduce or even entirely remove the signal efficiency gains obtained by the new trigger. As a result, an alternative set of preselection cuts must be proposed that allows the trigger-level gains to be realized at the offline analysis level. 
+
+Just as the standard preselection cuts are designed to not only cover the standard HLT but work in much the same way, a new preselection can be created with maximum similarity to the MVA-HLT. One major complication of this is that the same BDTs cannot be used for both the trigger and offline selection. Since the reconstruction differs for the NanoAOD vs the RAW, the input variable distributions will be different enough that the models are not directly comperable. Instead, a new BDT-based preselection framework must be developed and its coverage of the MVA-HLT must be analyzed.
+\subsection{Creation of Single Photon BDTs}
+\subsubsection{A $\gamma + Jet$ BDT}
+As discussed in section \ref{sec:StandardPresel}, there already exists an MVA within the standard preselection. While this idMVA is now a centralized part of the NanoAOD format, historical preselections used an MVA trained of $\gamma + Jet$ MC (REF?). Events in $\gamma + Jet$ MCs will contain one real (prompt) photon and one jet that looks like a photon, termed a "fake". This MC provides a very easy-to-use training sample, as one can simply use the prompt $\gamma$ as the signal photon and the fake as the background photon. This standard $\gamma + Jet$ idMVA is usually only used to make relatively loose cuts as part of the much broader preselection cuts as described above. 
+
+
+\subsubsection{A Data/MC BDT}
+While the above $\gamma + Jet$ BDT can help differentiate real photon candidates from fakes, it cannot, in principle, differentiate a photon candidate coming from a signal process from a photon candidate coming from a background process. Since the EGamma trigger selections will already cut out many events with jet-like photon candidates, much of the $H \rightarrow \gamma \gamma$ preselection is aimed at removing real photons coming from non-resonant processes (or even non-Higgs resonances). For the standard preselection, the $p_T$ and $p_T/M_{\gamma \gamma}$ cuts achieve this. 
+
+Furthermore, the $\gamma + Jet$ BDT does not properly mirror the MVA-HLT; since the trigger-level BDT was training using Higgs MC as the signal and real data as the background, the offline selection should employ a similar strategy. 
+
 \subsection{Determination of Loose Single Photon MVA Cuts}
-\subsection{Creation of Diphoton MVA}
+The preexisting preselection first makes decently loose cuts on individual photons, then tighter $p_T$ and $p_T/M_{\gamma \gamma}$ cuts on selected diphoton combinations. A very similar strategy can be used for the BDT-based offline selection. Firstly, loose cuts on the above BDT scores can be applied to the individual photon candidates, which will reduce the number of possible diphoton combinations and cut out many events with no reasonable photon candidates. Then, with the list of individual photons cleaned up a bit, a tighter selection can be applied to the resulting diphoton objects for the selection of a final pair of photons. 
+
+So, then, the aim is to choose a loose set of cuts on the $\gamma + Jet$ and Data/MC BDT scores before applying a tighter final selection on the resulting diphoton combinations. One great advantage of a BDT-based approach is the ease with which these cuts can be adjusted and optimized; while a many-variable preselection has several different cuts to optimize, a binary classifier BDT only has a single output score on which to make cuts. 
+
+\subsection{Creation of Diphoton BDT}
+With the single photon preselection cuts determined, an additional selection must be placed on the diphoton objects. The most obvious continuation of the current strategy is to create an additional MVA that now works on diphoton quantities. Previous analysis strategies have, in fact, employed a diphoton MVA for the classification of events \cite{Run2Hgg2018}. A new diphoton BDT can be constructed in reference to this, with the aim of making final cuts on this score such that the background rate is controlled while maintaining maximum signal efficiency.
+
+While the goal of the single photon BDTs is to reject individual candidates that appear to not be photons, the diphoton BDT aims to properly differentiate diphton candidates coming from $H \rightarrow \gamma \gamma$ from both events that do not contain two real photons and events with two real photons originating from background processes. 
+
+Below, in table \ref{tab:DiphotonBDTInputs}, each of the input variables is listed and described.
+\begin{table}
+	\centering
+	\caption[E]{Table of diphoton BDT input variable names, and a short description of each.}
+	\label{tab:DiphotonBDTInputs}
+	\begin{tabular}{ | c | c | } 
+		\hline
+		\textbf{Variable Name} & \textbf{Description} \\
+		\Xhline{2pt}
+	  	$p^{Lead}_{T}/M_{\gamma \gamma}$ and $p^{Sub}_{T}/M_{\gamma \gamma}$ & The mass-normalized $p_T$ for each photon \\ 
+		\hline
+		$\eta^{Lead}_{sc}$ and $\eta^{Sub}_{sc}$ & The supercluster $\eta$ for each photon  \\ 
+		\hline
+		$BDT^{Lead}_{\gamma + jet}$ and $BDT^{Sub}_{\gamma + jet}$& The $\gamma + jet$ BDT score for each photon\\ 
+		\hline
+		$BDT^{Lead}_{Data/MC}$ and $BDT^{Sub}_{Data/MC}$& The Data/MC BDT score for each photon\\ 
+		\hline
+		Lead and Sublead Electron Veto &  A boolean to reject photons origininating from electrons\\ 
+		\hline
+		$cos(\Delta \phi)$ &  The cosine of the $\phi$ separation of the two photons \\ 
+		\hline
+		$\sigma(M_{\gamma \gamma})/M_{\gamma \gamma}$ & A relative mass resolution estimate \\ 
+		\hline
+	\end{tabular}
+\end{table}
+
 
 \chapter{Evaluation of the MVA-HLT and Complementary Offline Selection} \label{chapter:Results}
 \section{Measurement of Trigger Rate}
+As discussed in chapter \ref{chapter:HLT}, the first main consideration for any HLT is the trigger rate, usually measured in Hz. 
 \subsection{Method of Rate Measurement}
 \subsection{Trigger Rate of MVA-HLT}
 \section{Evaluation of MVA-HLT Eficiency on Selected Signal Samples}
@@ -599,26 +723,26 @@ Here are some plots of the MVA-HLT efficiency on NanoAOD samples.
 \subsection{DiHiggs Signal Efficiency}
 
 \section{Evaluation of Offline Selection Eficiency with MVA-HLT }
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png}
-	\caption[]{Diphoton invariant mass for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
-	\label{fig:SingleHOfflineAcceptedMass}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png}
-	\caption[]{The $\eta_{sc}$ of both photons for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
-	\label{fig:SingleHOfflineAcceptedMass}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png}
-	\caption[]{The $p_{T}/M_{\gamma \gamma}$ of both photons for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
-	\label{fig:SingleHOfflineAcceptedMass}
-\end{figure}
 \subsection{Method of Signal Efficiency Measurement}
 \subsection{Single Higgs Signal Efficiency}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/hggMass_All.png}
+	\caption[]{Diphoton invariant mass for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
+	\label{fig:SingleHOfflineAcceptedMassTotal}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/scEta_All.png}
+	\caption[]{The $\eta_{sc}$ of both photons for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
+	\label{fig:SingleHOfflineAcceptedEtaTotal}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/ptOvrM_All.png}
+	\caption[]{The $p_{T}/M_{\gamma \gamma}$ of both photons for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
+	\label{fig:SingleHOfflineAcceptedPtMTotal}
+\end{figure}
 \subsection{DiHiggs Signal Efficiency}
 
 

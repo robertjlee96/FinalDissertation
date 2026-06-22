@@ -1,8 +1,8 @@
-PWD /Users/robert/Documents/Dissertation Documents/RLee Dissertation
+PWD /Users/robert/Documents/Dissertation
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/robert/Documents/Dissertation Documents/RLee Dissertation/RLeeDissertation.tex
+INPUT /Users/robert/Documents/Dissertation/RLeeDissertation.tex
 OUTPUT RLeeDissertation.log
 INPUT ./ucsddissertation.cls
 INPUT ucsddissertation.cls
@@ -88,6 +88,12 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -153,6 +159,15 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.cfg
@@ -184,6 +199,9 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT ./RLeeDissertation.aux
+INPUT ./RLeeDissertation.aux
+INPUT RLeeDissertation.aux
 OUTPUT RLeeDissertation.aux
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-ptm.cfg
@@ -196,8 +214,14 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.st
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-OUTPUT RLeeDissertation.out
+INPUT ./RLeeDissertation.out
+INPUT ./RLeeDissertation.out
+INPUT RLeeDissertation.out
+INPUT RLeeDissertation.out
 OUTPUT RLeeDissertation.pdf
+INPUT ./RLeeDissertation.out
+INPUT ./RLeeDissertation.out
+OUTPUT RLeeDissertation.out
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -252,9 +276,22 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
+INPUT ./RLeeDissertation.toc
+INPUT ./RLeeDissertation.toc
+INPUT RLeeDissertation.toc
 OUTPUT RLeeDissertation.toc
+INPUT ./RLeeDissertation.lof
+INPUT ./RLeeDissertation.lof
+INPUT RLeeDissertation.lof
 OUTPUT RLeeDissertation.lof
+INPUT ./RLeeDissertation.lot
+INPUT ./RLeeDissertation.lot
+INPUT RLeeDissertation.lot
 OUTPUT RLeeDissertation.lot
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
@@ -368,90 +405,111 @@ INPUT ./Figures/FullTracker.png
 INPUT ./Figures/FullTracker.png
 INPUT ./Figures/FullTracker.png
 INPUT ./Figures/FullTracker.png
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT ./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/rawEnergy_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/rawEnergy_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/rawEnergy_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/rawEnergy_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/rawEnergy_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/rawEnergy_All.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
-INPUT ./Figures/Trigger Training Plots/JustAll/r9_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/r9_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/r9_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/r9_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/r9_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/siEtaiEta_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/eta_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/eta_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/eta_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/eta_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/eta_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/etaW_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/etaW_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/etaW_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/etaW_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/etaW_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/phiW_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/phiW_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/phiW_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/phiW_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/phiW_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/HoE_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/HoE_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/HoE_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/HoE_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/HoE_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/iso_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/iso_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/iso_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/iso_All.png
-INPUT ./Figures/Trigger Training Plots/JustAll/iso_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/r9_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/r9_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/r9_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/r9_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/r9_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/siEtaiEta_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/siEtaiEta_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/siEtaiEta_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/siEtaiEta_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/siEtaiEta_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/eta_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/eta_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/eta_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/eta_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/eta_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/etaW_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/etaW_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/etaW_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/etaW_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/etaW_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/phiW_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/phiW_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/phiW_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/phiW_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/phiW_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/HoE_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/HoE_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/HoE_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/HoE_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/HoE_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/iso_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/iso_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/iso_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/iso_All.png
+INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/iso_All.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png
-INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png
-INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png
-INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png
-INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Sig_0529_All.png
-INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png
-INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png
-INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png
-INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png
-INPUT ./Figures/Trigger Training Plots/Winter24Training_SingleSample_NoCuts/highandLowScore_XGBCut_M90_Bkg_0529_All.png
-INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png
-INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png
-INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png
-INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png
-INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png
-INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png
-INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png
-INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png
-INPUT ./Figures/Trigger Training Plots/Winter24TrainingWithCuts/highandLowScore_XGBCut_M90_0529_EE.png
-INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png
-INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png
-INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png
-INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png
-INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/mass_All.png
-INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png
-INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png
-INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png
-INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png
-INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/eta_All.png
-INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png
-INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png
-INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png
-INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png
-INPUT ./Figures/Trigger Training Plots/MoreSimplifiedPlots/et_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
 INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png
 INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png
 INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png
@@ -467,24 +525,33 @@ INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
 INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
 INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
 INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
-INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png
-INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png
-INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png
-INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/hggMass_All.png
-INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png
-INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png
-INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png
-INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/scEta_All.png
-INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
-INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
-INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
-INPUT ./Figures/Offline Selection Plots/0410_SingleH_JustHLTCuts/ptOvrM_All.png
+INPUT ./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/hggMass_All.png
+INPUT ./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/hggMass_All.png
+INPUT ./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/hggMass_All.png
+INPUT ./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/hggMass_All.png
+INPUT ./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/hggMass_All.png
+INPUT ./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/scEta_All.png
+INPUT ./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/scEta_All.png
+INPUT ./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/scEta_All.png
+INPUT ./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/scEta_All.png
+INPUT ./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/scEta_All.png
+INPUT ./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/ptOvrM_All.png
+INPUT ./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/ptOvrM_All.png
+INPUT ./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/ptOvrM_All.png
+INPUT ./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/ptOvrM_All.png
+INPUT ./Figures/Offline Selection Plots/0511_SingleH_FinalTraining_AllCurves/ptOvrM_All.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT RLeeDissertation.aux
 INPUT ./RLeeDissertation.out
 INPUT ./RLeeDissertation.out
+INPUT RLeeDissertation.run.xml
 OUTPUT RLeeDissertation.run.xml
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
