@@ -39,60 +39,58 @@
 \contentsline {subsubsection}{ECal Barrel (EB)}{15}{subsubsection*.24}%
 \contentsline {subsubsection}{ECal Endcaps (EE)}{16}{subsubsection*.25}%
 \contentsline {subsection}{\numberline {2.2.3}Hadron Calorimeter}{16}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Forward Calorimeter}{16}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}The Muon Detector}{16}{subsection.2.2.5}%
 \contentsline {chapter}{\numberline {3}Triggering and Offline Software}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Level-1 Trigger}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Level-1 Triggers}{17}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Information Available to L1 Triggers}{18}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}The L1 Menu}{18}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}The Data Aquisition System (DAQ)}{18}{section.3.2}%
-\contentsline {section}{\numberline {3.3}High Level Trigger}{18}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}HLT Event Reconstruction}{18}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}HLT Trigger Rates and Timing}{18}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}HLT Software and ConfDB}{18}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Analysis Software}{18}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Offline Reconstruction}{18}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}The NanoAOD File Format}{18}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}NanoAOD Event Reconstruction}{18}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}HiggsDNA}{18}{subsection.3.4.4}%
-\contentsline {chapter}{\numberline {4}Data Samples and Simulated Events}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Data Samples}{19}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Data Corrections and Systematics}{19}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Monte Carlo Simulation Samples}{19}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Monte Carlo Corrections and Systematics}{19}{subsection.4.2.1}%
-\contentsline {chapter}{\numberline {5}Boosted Decision Trees and XGBoost}{20}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Gradient Descent Boosting}{20}{section.5.1}%
-\contentsline {section}{\numberline {5.2}The Objective Function}{21}{section.5.2}%
-\contentsline {section}{\numberline {5.3}XGBoost Software}{21}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Development of an MVA-Based High Level Trigger}{22}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Limitations and Benefits of Current $H \rightarrow \gamma \gamma $ Trigger}{22}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Development of a Boosted Decision Tree for Photon Candidate Classification}{23}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}XGBoost-Based BDT Software}{23}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Signal and Background Samples for Classification}{24}{subsection.6.2.2}%
-\contentsline {subsubsection}{Signal Samples}{24}{subsubsection*.26}%
-\contentsline {subsubsection}{Background Samples}{24}{subsubsection*.27}%
-\contentsline {subsection}{\numberline {6.2.3}Determination of Input Variables}{25}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Hyperparameter Tuning}{27}{subsection.6.2.4}%
-\contentsline {section}{\numberline {6.3}Determination of BDT Cuts}{29}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Final Implementation in HLT Menu}{37}{section.6.4}%
-\contentsline {chapter}{\numberline {7}MVA-Based Offline Preselection}{39}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Current Diphoton Preselection}{39}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Development of MVA-Based Offline Preselection}{40}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Creation of Single Photon BDTs}{41}{subsection.7.2.1}%
-\contentsline {subsubsection}{A $\gamma + Jet$ BDT}{41}{subsubsection*.39}%
-\contentsline {subsubsection}{A Data/MC BDT}{41}{subsubsection*.40}%
-\contentsline {subsection}{\numberline {7.2.2}Determination of Loose Single Photon MVA Cuts}{42}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Creation of Diphoton BDT}{42}{subsection.7.2.3}%
-\contentsline {chapter}{\numberline {8}Evaluation of the MVA-HLT and Complementary Offline Selection}{44}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Measurement of Trigger Rate}{44}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Method of Rate Measurement}{44}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.1.2}Trigger Rate of MVA-HLT}{44}{subsection.8.1.2}%
-\contentsline {section}{\numberline {8.2}Evaluation of MVA-HLT Eficiency on Selected Signal Samples}{44}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}Method of Signal Efficiency Measurement}{44}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}Single Higgs Signal Efficiency}{44}{subsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.2.3}DiHiggs Signal Efficiency}{47}{subsection.8.2.3}%
-\contentsline {section}{\numberline {8.3}Evaluation of Offline Selection Eficiency with MVA-HLT }{47}{section.8.3}%
-\contentsline {subsection}{\numberline {8.3.1}Method of Signal Efficiency Measurement}{47}{subsection.8.3.1}%
-\contentsline {subsection}{\numberline {8.3.2}Single Higgs Signal Efficiency}{47}{subsection.8.3.2}%
-\contentsline {subsection}{\numberline {8.3.3}DiHiggs Signal Efficiency}{49}{subsection.8.3.3}%
-\contentsline {chapter}{\numberline {9}Summary}{50}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Acknowledgements}{51}{chapter.10}%
+\contentsline {subsection}{\numberline {3.1.2}The L1 Trigger Architecture}{19}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}The L1 e/$\gamma $ Reconstruction}{20}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}The L1 Menu}{21}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}The Data Aquisition System (DAQ)}{21}{section.3.2}%
+\contentsline {section}{\numberline {3.3}High Level Trigger}{21}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}HLT Event Reconstruction}{21}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}HLT Trigger Rates and Timing}{21}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}HLT Software and ConfDB}{21}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Analysis Software}{21}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Offline Reconstruction}{21}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}The NanoAOD File Format}{21}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}NanoAOD Event Reconstruction}{21}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}HiggsDNA}{21}{subsection.3.4.4}%
+\contentsline {chapter}{\numberline {4}Boosted Decision Trees and XGBoost}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Gradient Descent Boosting}{22}{section.4.1}%
+\contentsline {section}{\numberline {4.2}The Objective Function}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.3}XGBoost Software}{23}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Development of an MVA-Based High Level Trigger}{24}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Limitations and Benefits of Current $H \rightarrow \gamma \gamma $ Trigger}{24}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Development of a Boosted Decision Tree for Photon Candidate Classification}{25}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}XGBoost-Based BDT Software}{25}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Signal and Background Samples for Classification}{26}{subsection.5.2.2}%
+\contentsline {subsubsection}{Signal Samples}{26}{subsubsection*.27}%
+\contentsline {subsubsection}{Background Samples}{26}{subsubsection*.28}%
+\contentsline {subsection}{\numberline {5.2.3}Determination of Input Variables}{27}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Hyperparameter Tuning}{29}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}Determination of BDT Cuts}{31}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Final Implementation in HLT Menu}{41}{section.5.4}%
+\contentsline {chapter}{\numberline {6}MVA-Based Offline Preselection}{43}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Current Diphoton Preselection}{43}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Development of MVA-Based Offline Preselection}{44}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Creation of Single Photon BDTs}{45}{subsection.6.2.1}%
+\contentsline {subsubsection}{A $\gamma + Jet$ BDT}{45}{subsubsection*.40}%
+\contentsline {subsubsection}{A Data/MC BDT}{47}{subsubsection*.42}%
+\contentsline {subsection}{\numberline {6.2.2}Determination of Loose Single Photon MVA Cuts}{47}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Creation of Diphoton BDT}{48}{subsection.6.2.3}%
+\contentsline {chapter}{\numberline {7}Evaluation of the MVA-HLT and Complementary Offline Selection}{50}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Measurement of Trigger Rate}{50}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Method of Rate Measurement}{50}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Trigger Rate of MVA-HLT}{50}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}Evaluation of MVA-HLT Eficiency on Selected Signal Samples}{50}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Single Higgs Signal Efficiency}{53}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}DiHiggs Signal Efficiency}{56}{subsection.7.2.2}%
+\contentsline {section}{\numberline {7.3}Evaluation of Offline Selection Eficiency with MVA-HLT }{56}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Method of Signal Efficiency Measurement}{58}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Single Higgs Signal Efficiency}{58}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}DiHiggs Signal Efficiency}{61}{subsection.7.3.3}%
+\contentsline {chapter}{\numberline {8}Summary}{62}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Acknowledgements}{63}{chapter.9}%
 \def \@chapapp {\appendixname }
