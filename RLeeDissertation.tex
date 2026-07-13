@@ -52,7 +52,7 @@
 \committee{Professor Michael Gilson}
 \committee{Doctor Marco Pieri}
 \committee{Professor Yi-Zhuang You }
-\degreeyear{2025}
+\degreeyear{2026}
 
 % Start the document
 \begin{document}
@@ -130,7 +130,7 @@ Acknowledgements
 \item[2015--2018] Research Assistant \\Arizona State University Meson Physics Group
 \item[2018] Bachelor of Science \\Arizona State University Barret Honor's College
 \item[2018--2019] Teaching Assistant, Department of Physics \\University of California, San Diego
-\item[2019--2025] Graduate Student Researcher, University of California, San
+\item[2019--2026] Graduate Student Researcher, University of California, San
 Diego
 \item[2026] Doctor of Philosophy, University of California, San Diego
 \end{cvlist}
@@ -333,7 +333,7 @@ Since photons and electrons have no associated tracking information, the only wa
 
 \section{The Data Aquisition System (DAQ)} \label{sec:DAQ}
 \section{High Level Trigger} \label{sec:HLT}
-The final step of tiggering before data is output for analysis, the HLT aims to reduce the rate from the 100kHz output by the L1 trigger down to just 5kHz. 
+The final step of tiggering before data is output for analysis, the HLT aims to reduce the rate from the 100kHz output by the L1 trigger down to a total of just 5kHz \cite{Run2HLT2024}. In contrast to the hardware-based L1 trigger, the HLT is a software-based suite of triggers that runs on a dedicated server of processors called the HLT filter farm. 
 \subsection{HLT Event Reconstruction}
 \subsection{HLT Trigger Rates and Timing}
 \subsection{HLT Software and ConfDB} \label{sec:TriggerSoftware}
@@ -712,28 +712,294 @@ The original idMVA was trained using many of the variables from the preselection
 	\end{tabular}
 \end{table}
 
+As with the trigger level BDT, the sparation between the signal and background in the various input variables can be examined. For the subsequent plots (\ref{fig:GJetVars1}-\ref{fig:GJetVars7}), the prompt and fake will be shown for both the barrel and endcap, as the trainings are separated. The prompt photons will be shown in dark and light blue for the barrel and endcap, respectively. The fake distributions will be shown in red and pink for the barrel and endcap, respectively. All the input variable distributions have been normalized to 1, so that their shapes can be directly compared.
+
+
+The SC raw energy, in \ref{GJetVars:RawE}, shows rather clear separation for both the barrel and endcap. It can be seen that the prompt photons tend, on average, to have higher total supercluster energy than the fake photons. The separation in $\eta_{SC}$, however, is primarily seen in the endcap, where the fake photons tend towards the higher values. Since the BDT works by creating correlations between variables, and the $\eta_{SC}$ is a strongly kinematic-dependent variable, it will still be shown to be a relatively powerful discrimination variable. 
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png}
+		\caption{Raw Energy}
+		\label{GJetVars:RawE}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png}
+		\caption{$\eta_{SC}$}
+		\label{GJetVars:eta}
+	\end{subfigure}
+	\caption{Plots of the Supercluster raw energy and $\eta{SC}$. The prompt signal is shown in dark blue for the barrel and light blue for the endcap, whereas the fake background is shown in red for the barrel and pink for the endcap.}
+	\label{fig:GJetVars1}
+\end{figure}
+
+Next, the energy ratios, $R_9$ and $S_4$ can be examined. It is expected that a real (prompt) photon will have relatively well-localized energy; since the photon is a relatively clean signal in the detector, it is expected that most of the energy will be deposited in the center of the supercluster. It is clear that this is the case for both the barrel and endcap, as seen in figure \ref{fig:GJetVars2}. Since the fake photon corresponds to a jet, it is expected that the energy deposition will be more spread in the supercluster, which can also be seen in the plots. As a result, $R_9$ and $S_4$ can be relativelty powerful discrimination variables. 
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png}
+		\caption{$R_9$}
+		\label{GJetVars:r9}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png}
+		\caption{$S_4$}
+		\label{GJetVars:s4}
+	\end{subfigure}
+	\caption{Plots of the $R_9$ and $S_4$. The prompt signal is shown in dark blue for the barrel and light blue for the endcap, whereas the fake background is shown in red for the barrel and pink for the endcap.}
+	\label{fig:GJetVars2}
+\end{figure}
+
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png}
+		\caption{$\sigma_{i \eta i \eta}$}
+		\label{GJetVars:sieie}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png}
+		\caption{cov($i \eta i \phi$)}
+		\label{GJetVars:covIetaIphi}
+	\end{subfigure}
+	\caption{Plots of the $\sigma_{i \eta i \eta}$ and cov($i \eta i \phi$). The prompt signal is shown in dark blue for the barrel and light blue for the endcap, whereas the fake background is shown in red for the barrel and pink for the endcap.}
+	\label{fig:GJetVars3}
+\end{figure}
+
+Similarly to the $R_9$ and $S_4$, the $\eta$ and $\phi$ widths are powerful showershape variables that provide some measure of how well-localized the energy deposition is. It is expected that these values are different for the barrel and endcap, as the crystal size and spacing are different in the two different regions of the detector. This can be seen in both plots in figure \ref{fig:GJetVars4}. Additionally, the separation between prompt and fake photons can be clearly seen, especially in $\eta$ width.
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/etaWidth.png}
+		\caption{$\eta$ Width}
+		\label{GJetVars:etaW}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phiWidth.png}
+		\caption{$\phi$ Width}
+		\label{GJetVars:phiW}
+	\end{subfigure}
+	\caption{Plots of the $\eta$ and $\phi$ widths. The prompt signal is shown in dark blue for the barrel and light blue for the endcap, whereas the fake background is shown in red for the barrel and pink for the endcap.}
+	\label{fig:GJetVars4}
+\end{figure}
+
+The measure of the HCal energy vs the ECal energy, H/E, provides a powerful measure of whether the energy deposition more closely matches an electromagnetic process -- such as a photon or electron -- or a hadronic process such as a jet. It is expected that most photons will have a value consistent with 0, as they should deposit all of their energy into the ECal. There is, of course, some level of energy leakage that ensures that even photons often do not have an H/E of identically 0. Clearly, however, the prompt photons in both the barrel and endcap strongly peak near 0 and fall off rather quickly below this. Note that figure \ref{sub@GJetVars:hoe} is a log plot, so that the secondary peak below 0 is down by more than a factor of 10 relative to the primary peak at 0. Since the fake photons are jet signatures designed to mimic a prompt signature, they still exhibit a strong peak near 0. It can be seen, however, that the distribution extends to much higher values of H/E overall.  
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/hadronicOverEm.png}
+		\caption{H/E}
+		\label{GJetVars:hoe}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phoIso03.png}
+		\caption{Photon Isolation}
+		\label{GJetVars:phoIso}
+	\end{subfigure}
+	\caption{Plots of the H/E and photon isolation. The prompt signal is shown in dark blue for the barrel and light blue for the endcap, whereas the fake background is shown in red for the barrel and pink for the endcap.}
+	\label{fig:GJetVars5}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtWorstVtx.png}
+		\caption{Chg. Iso. W.r.t. Worst Vertex}
+		\label{GJetVars:chgIsoWorst}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtChosenVtx.png}
+		\caption{Chg. Iso. W.r.t. Chosen Vertex}
+		\label{GJetVars:chgIsoChosen}
+	\end{subfigure}
+	\caption{Plots of the charged isolations with respect to the chosen and worst vertices. The prompt signal is shown in dark blue for the barrel and light blue for the endcap, whereas the fake background is shown in red for the barrel and pink for the endcap.}
+	\label{fig:GJetVars6}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEffSigmaRR.png}
+		\caption{ES Eff. Sigma RR}
+		\label{GJetVars:esEffSigmaRR}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEnergyOverRawE.png}
+		\caption{ES Energy over Raw E}
+		\label{GJetVars:esEnergyOverRawE}
+	\end{subfigure}
+	\caption{Plots of two endcap-specific variables: esEffSigmaRR and esEnergyOverRawE. The prompt signal is shown in light blue, whereas the fake background is shown in pink.}
+	\label{fig:GJetVars7}
+\end{figure}
+
+
 Comparing to the MVA-HLT variables shown in \ref{tab:HLTInputVars}, it can be seen that a few variables have been added at the offline selection level. The photon isolation is analogous to the ECalIso used at the trigger level, but is calculated differently (how?). The two charged isolations used are entirely new additions, as the MVA-HLT is calculated before any complex vertexing is implemented. (Why are both used?). (Statements on rho, and the endcap variables)
 
 The hyperparameter optimization at the offline level was performed very similarly to the MVA-HLT; the max depth and learning rate were varied in tandem until an optimal point was found. The same process of early stopping within XGBoost was used, as well. The hyperparameters were, however, found to be quite different from the trigger-level optimization. Since there are considerably more input variables used (13/15 for the barrel/endcap versus the 8 for the trigger), the max depth was necessarily higher. Consequently, the learning rate was also made lower. The optimum hyperparameters were, then, found to be a maximum depth of 18 and a learning rate of 0.06. 
 
 \subsubsection{A Data/MC BDT}
-While the above $\gamma + Jet$ BDT can help differentiate real photon candidates from fakes, it cannot, in principle, properly differentiate a photon candidate coming from a signal process from a photon candidate coming from a background process. Since the EGamma trigger selections will already cut out many events with jet-like photon candidates, much of the $H \rightarrow \gamma \gamma$ preselection is aimed at removing real photons coming from non-resonant processes (or even non-Higgs resonances). For the standard preselection, the $p_T$ and $p_T/M_{\gamma \gamma}$ cuts achieve this. 
+While the above $\gamma + Jet$ BDT can help differentiate real photon candidates from fakes, it cannot, in principle, properly differentiate a photon candidate coming from a signal process from a photon candidate coming from a background process. Since the EGamma trigger selections will already cut out many events with jet-like photon candidates, much of the $H \rightarrow \gamma \gamma$ preselection is aimed at removing real photons coming from non-resonant processes (or even non-Higgs resonances). For the standard preselection, the $p_T$ and $p_T/M_{\gamma \gamma}$ cuts achieve this.  
 
 Furthermore, the $\gamma + Jet$ BDT does not properly mirror the MVA-HLT; since the trigger-level BDT was training using Higgs MC as the signal and real data as the background, the offline selection should employ a similar strategy. So, in the same way that the trigger was trained using signal photon candidates originating from a ggH MC sample and background photon candidates originating from the data. The same input variables used in the $\gamma + Jet$ BDT were then used to train and optimimize the new model.
 
-The same process of hyperparameter optimzation as the previous models was used. Whereas the variable separation was quite 
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/SCRawE.png}
+		\caption{Raw Energy}
+		\label{DataMCVars:RawE}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/scEta.png}
+		\caption{$\eta_{SC}$}
+		\label{DataMCVars:eta}
+	\end{subfigure}
+	\caption{Plots of the Supercluster raw energy and $\eta{SC}$. The prompt signal is shown in dark blue for the barrel and light blue for the endcap, whereas the fake background is shown in red for the barrel and pink for the endcap.}
+	\label{fig:DataMCVars1}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/r9.png}
+		\caption{$R_9$}
+		\label{DataMCVars:r9}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/s4.png}
+		\caption{$S_4$}
+		\label{DataMCVars:s4}
+	\end{subfigure}
+	\caption{Plots of the $R_9$ and $S_4$. The prompt signal is shown in dark blue for the barrel and light blue for the endcap, whereas the fake background is shown in red for the barrel and pink for the endcap.}
+	\label{fig:DataMCVars2}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/sigmaIetaIeta.png}
+		\caption{$\sigma_{i \eta i \eta}$}
+		\label{DataMCVars:sieie}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/covIEtaIPhi.png}
+		\caption{cov($i \eta i \phi$)}
+		\label{DataMCVars:covIetaIphi}
+	\end{subfigure}
+	\caption{Plots of the $\sigma_{i \eta i \eta}$ and cov($i \eta i \phi$). The prompt signal is shown in dark blue for the barrel and light blue for the endcap, whereas the fake background is shown in red for the barrel and pink for the endcap.}
+	\label{fig:DataMCVars3}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/etaWidth.png}
+		\caption{$\eta$ Width}
+		\label{DataMCVars:etaW}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phiWidth.png}
+		\caption{$\phi$ Width}
+		\label{DataMCVars:phiW}
+	\end{subfigure}
+	\caption{Plots of the $\eta$ and $\phi$ widths. The prompt signal is shown in dark blue for the barrel and light blue for the endcap, whereas the fake background is shown in red for the barrel and pink for the endcap.}
+	\label{fig:DataMCVars4}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/hadronicOverEm.png}
+		\caption{H/E}
+		\label{DataMCVars:hoe}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phoIso03.png}
+		\caption{Photon Isolation}
+		\label{DataMCVars:phoIso}
+	\end{subfigure}
+	\caption{Plots of the H/E and photon isolation. The prompt signal is shown in dark blue for the barrel and light blue for the endcap, whereas the fake background is shown in red for the barrel and pink for the endcap.}
+	\label{fig:DataMCVars5}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png}
+		\caption{Chg. Iso. W.r.t. Worst Vertex}
+		\label{DataMCVars:chgIsoWorst}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png}
+		\caption{Chg. Iso. W.r.t. Chosen Vertex}
+		\label{DataMCVars:chgIsoChosen}
+	\end{subfigure}
+	\caption{Plots of the charged isolations with respect to the chosen and worst vertices. The prompt signal is shown in dark blue for the barrel and light blue for the endcap, whereas the fake background is shown in red for the barrel and pink for the endcap.}
+	\label{fig:DataMCVars6}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEffSigmaRR.png}
+		\caption{ES Eff. Sigma RR}
+		\label{DataMCVars:esEffSigmaRR}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEnergyOverRawE.png}
+		\caption{ES Energy over Raw E}
+		\label{DataMCVars:esEnergyOverRawE}
+	\end{subfigure}
+	\caption{Plots of two endcap-specific variables: esEffSigmaRR and esEnergyOverRawE. The prompt signal is shown in light blue, whereas the fake background is shown in pink.}
+	\label{fig:DataMCVars7}
+\end{figure}
+
+The same process of hyperparameter optimzation as the previous models was used. 
 
 \subsection{Determination of Loose Single Photon MVA Cuts}
 The preexisting preselection first makes decently loose cuts on individual photons, then tighter $p_T$ and $p_T/M_{\gamma \gamma}$ cuts on selected diphoton combinations. A very similar strategy can be used for the BDT-based offline selection. Firstly, loose cuts on the above BDT scores can be applied to the individual photon candidates, which will reduce the number of possible diphoton combinations and cut out many events with no reasonable photon candidates. Then, with the list of individual photons cleaned up a bit, a tighter selection can be applied to the resulting diphoton objects for the selection of a final pair of photons. 
 
-So, then, the aim is to choose a loose set of cuts on the $\gamma + Jet$ and Data/MC BDT scores before applying a tighter final selection on the resulting diphoton combinations. One great advantage of a BDT-based approach is the ease with which these cuts can be adjusted and optimized; while a many-variable preselection has several different cuts to optimize, a binary classifier BDT only has a single output score on which to make cuts. 
+So, then, the aim is to choose a loose set of cuts on the $\gamma + Jet$ and Data/MC BDT scores before applying a tighter final selection on the resulting diphoton combinations. One great advantage of a BDT-based approach is the ease with which these cuts can be adjusted and optimized; while a many-variable preselection has several different cuts to optimize, a binary classifier BDT only has a single output score on which to make cuts. These cuts were, for now, 
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png}
+		\caption{Signal MC $M_{\gamma \gamma}$}
+		\label{SinglePhoCuts:MggSig}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png}
+		\caption{Data $M_{\gamma \gamma}$}
+		\label{SinglePhoCuts:MggBkg}
+	\end{subfigure}
+	\caption{Acceptance of the MVA-HLT (blue) vs. the current standard diphoton HLT (green) for $M_{\gamma \gamma}$}
+	\label{fig:SinglePhoCutsMgg}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png}
+		\caption{Signal MC $\eta_{SC}$}
+		\label{SinglePhoCuts:EtaSig}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png}
+		\caption{Data $\eta_{SC}$}
+		\label{SinglePhoCuts:EtaBkg}
+	\end{subfigure}
+	\caption{Acceptance of the MVA-HLT (blue) vs. the current standard diphoton HLT (green) for $\eta_{SC}$. Both the lead and sublead photons are plotted together.}
+	\label{fig:SinglePhoCutsEta}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png}
+		\caption{Signal MC $p_{T}$}
+		\label{SinglePhoCuts:PtSig}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png}
+		\caption{Data $p_{T}$}
+		\label{SinglePhoCuts:PtBkg}
+	\end{subfigure}
+	\caption{Acceptance of the MVA-HLT (blue) vs. the current standard diphoton HLT (green) for $p_{T}$. Both the lead and sublead photons are plotted together.}
+	\label{fig:SinglePhoCutsPt}
+\end{figure}
 
 \subsection{Creation of Diphoton BDT}
 With the single photon preselection cuts determined, an additional selection must be placed on the diphoton objects. The most obvious continuation of the current strategy is to create an additional MVA that now works on diphoton quantities. Previous analysis strategies have, in fact, employed a diphoton MVA for the classification of events \cite{Run2Hgg2018}. A new diphoton BDT can be constructed in reference to this, with the aim of making final cuts on this score such that the background rate is controlled while maintaining maximum signal efficiency.
 
-While the goal of the single photon BDTs is to reject individual candidates that appear to not be photons, the diphoton BDT aims to properly differentiate diphton candidates coming from $H \rightarrow \gamma \gamma$ from both events that do not contain two real photons and events with two real photons originating from background processes. 
-
-Below, in table \ref{tab:DiphotonBDTInputs}, each of the input variables is listed and described.
+While the goal of the single photon BDTs is to reject individual candidates that appear to not be photons, the diphoton BDT aims to properly differentiate diphton candidates coming from $H \rightarrow \gamma \gamma$ from both events that do not contain two real photons and events with two real photons originating from background processes. As a result, the inputs to this model will consist primarily of lead and sublead single photon variables. By providing both the lead and sublead values to one model, correlations can be found that ensure that selected events contain two real photons with the necessary kinematics to possibly comprise a signal event. Below, in table \ref{tab:DiphotonBDTInputs}, each of the input variables is listed and described. These were largely adopted from the Run2 Diphoton photonID, with a few differences. 
 \begin{table}
 	\centering
 	\caption[E]{Table of diphoton BDT input variable names, and a short description of each.}
@@ -759,6 +1025,92 @@ Below, in table \ref{tab:DiphotonBDTInputs}, each of the input variables is list
 	\end{tabular}
 \end{table}
 
+Since the goal of this model is to differentiate signal diphoton combinations from those in the background, signal MC and data can again be used for the signal and background for the BDT, as with the data/MC BDT described above. Again, the input variable distributions can be examined to see the separation between signal and background class events.
+
+The first two variables are related directly to the kinematics of the diphoton object, and therefore are not split into lead and sublead values. The first, $\sigma(M_{\gamma \gamma})/M_{\gamma \gamma}$, provides a relative invariant mass resolution estimate of the diphoton combination. It can clearly be seen in figure \ref{DiphoVars:sigmaMovrM}, that there is great separation between the signal MC and data events. The signal MC tends to have a much lower $\sigma(M_{\gamma \gamma})/M_{\gamma \gamma}$, which corresponds to a higher mass resolution. This is to be expected, as the two selected photons in the $H \rightarrow \gamma \gamma$ are much more likely to come from a resonant process than those in the  data. The cos($\Delta \phi$), however, does not exhibit the same strong separation. This variable aims to measure the separation in $\phi$ of the two selected photon candidates. Based on the other selections at play, however, it seems that this variable will not be a strong discrimination variable.
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/sigMovrM.png}
+		\caption{$\sigma(M_{\gamma \gamma})/M_{\gamma \gamma}$}
+		\label{DiphoVars:sigmaMovrM}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/cosDPhi.png}
+		\caption{cos($\Delta \phi$)}
+		\label{DiphoVars:cosDPhi}
+	\end{subfigure}
+	\caption{The two per-event diphoton input variables,$\sigma(M_{\gamma \gamma})/M_{\gamma \gamma}$ and cos($\Delta \phi$). The signal MC is in black, whereas the data events are in red.}
+	\label{fig:DiphoVars1}
+\end{figure}
+
+The next two pairs of input variables are the single photon BDT scores. Firstly, the $\gamma$ + Jet single photon BDT scores are shown below in figure \ref{fig:DiphoVars2}. As with all XGBoost BDT binary classification scores, a value near 0 shows that the algorithm has identified the photon as being part of the background class, while a score near 1 corresponds to an event identified as part of the signal class. For the signal MC, it can be seen that the scores peak very well near 1. This is to be expected, as the signal MC photons here are matched to a generated photon and therefore guaranteed to be a real photon. This effect is clear for both the lead and sublead photons.
+
+Clearly, however, the background photons in red are not constrained entirely near 0. In fact, there are two peajs in both the lead and sublead score distributions. While many of the background photon candidates can easily be assigned a score near 0, there are also a large number for which the $\gamma$ + Jet scores are not adequate to differentiate the background from the signal. This likely due, at least in part, to the composition of the data overall. While many of the data events consist of dijet QCD background, there are likely many events for which one or even two real photons have been selected. This is exacerbated by the triggers required for this training sample; here, since either the MVA-HLT trigger or the standard diphoton trigger must be passed to enter the training sample, the odds of a data event containing one or two real photons is much higher than it would be for other data samples. This demonstrate why the $\gamma$ + Jet BDT alone is not adequate to correctly differentiate between signal and background events.  
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png}
+		\caption{Lead $\gamma$ + Jet BDT Score}
+		\label{DiphoVars:leadGJetXGBScore}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subGJetXGBScore.png}
+		\caption{Sub $\gamma$ + Jet BDT Score}
+		\label{DiphoVars:subGJetXGBScore}
+	\end{subfigure}
+	\caption{The lead and sublead $\gamma$ + Jet XGBoost BDT scores. The signal MC is in black, whereas the data events are in red.}
+	\label{fig:DiphoVars2}
+\end{figure}
+
+Secondly, the data/MC scores for both the lead and sublead photons are shown in figure \ref{fig:DiphoVars3} on a logarithmic scale. As expected, there is clear separation between the signal MC in black and the data in red. It is expected that the signal MC distributions will largely cluster near 1, which corresponds to a positive identification as signal. While this is true for both the lead and sublead scores, the identification of the background is perhaps a stronger effect. It can be seen that the data events are very closely clustered near 0. Very few of the background events, on the other hand, are placed near a score of 1. 
+
+Similarly to the $\gamma$ + Jet single photon BDT, then, it is clear that this data/MC BDT is not adequate alone to differentiate signal and background. The diphoton BDT, then, is a crucial step of the signal and background selection; by having access to both the single photon BDTs, the diphoton BDT can construct correlations that allow the final model to be considerably more discerning than input scores it uses. As will be shown in (REF?), this works to great effect. 
+
+\begin{figure}
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png}
+		\caption{Lead Data/MC BDT Score}
+		\label{DiphoVars:leadDataMCXGBScore}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png}
+		\caption{Sub Data/MC BDT Score}
+		\label{DiphoVars:subDataMCXGBScore}
+	\end{subfigure}
+	\caption{The lead and sublead Data/MC XGBoost BDT scores. The signal MC is in black, whereas the data events are in red.}
+	\label{fig:DiphoVars3}
+\end{figure}
+
+While the single photon quality scores given by the single photon BDTs are quite helpful, the diphoton kinematics are additionall a very strong source of discrimination power.
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadScEta.png}
+		\caption{Lead $\eta_{SC}$}
+		\label{DiphoVars:leadEta}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subScEta.png}
+		\caption{Sub $\eta_{SC}$}
+		\label{DiphoVars:subEta}
+	\end{subfigure}
+	\caption{The lead and sublead $\eta_{SC}$. The signal MC is in black, whereas the data events are in red.}
+	\label{fig:DiphoVars4}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadElectronVeto.png}
+		\caption{Lead Electron Veto}
+		\label{DiphoVars:leadEVeto}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subElectronVeto.png}
+		\caption{Sub Electron Veto}
+		\label{DiphoVars:subEVeto}
+	\end{subfigure}
+	\caption{The lead and sublead electron veto. The signal MC is in black, whereas the data events are in red.}
+	\label{fig:DiphoVars5}
+\end{figure}
 
 \chapter{Evaluation of the MVA-HLT and Complementary Offline Selection} \label{chapter:Results}
 \section{Measurement of Trigger Rate}
