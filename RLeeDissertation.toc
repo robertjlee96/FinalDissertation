@@ -4,11 +4,11 @@
 \contentsline {chapter}{Epigraph}{v}{section*.4}%
 \contentsline {chapter}{Table of Contents}{vi}{section*.5}%
 \contentsline {chapter}{List of Figures}{ix}{section*.6}%
-\contentsline {chapter}{List of Tables}{xi}{section*.7}%
-\contentsline {chapter}{Preface}{xii}{section*.8}%
-\contentsline {chapter}{Acknowledgements}{xiii}{section*.9}%
-\contentsline {chapter}{Vita}{xiv}{section*.10}%
-\contentsline {chapter}{Abstract of the Dissertation}{xv}{section*.11}%
+\contentsline {chapter}{List of Tables}{xii}{section*.7}%
+\contentsline {chapter}{Preface}{xiii}{section*.8}%
+\contentsline {chapter}{Acknowledgements}{xiv}{section*.9}%
+\contentsline {chapter}{Vita}{xv}{section*.10}%
+\contentsline {chapter}{Abstract of the Dissertation}{xvi}{section*.11}%
 \contentsline {chapter}{Introduction}{1}{section*.12}%
 \contentsline {chapter}{\numberline {1}The Standard Model and Higgs Boson}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Quantum Electrodynamics (QED)}{4}{section.1.1}%
@@ -77,20 +77,20 @@
 \contentsline {section}{\numberline {6.2}Development of MVA-Based Offline Preselection}{44}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}Creation of Single Photon BDTs}{45}{subsection.6.2.1}%
 \contentsline {subsubsection}{A $\gamma + Jet$ BDT}{45}{subsubsection*.40}%
-\contentsline {subsubsection}{A Data/MC BDT}{52}{subsubsection*.49}%
-\contentsline {subsection}{\numberline {6.2.2}Determination of Loose Single Photon MVA Cuts}{56}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Creation of Diphoton BDT}{58}{subsection.6.2.3}%
-\contentsline {chapter}{\numberline {7}Evaluation of the MVA-HLT and Complementary Offline Selection}{64}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Measurement of Trigger Rate}{64}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Method of Rate Measurement}{64}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Trigger Rate of MVA-HLT}{64}{subsection.7.1.2}%
-\contentsline {section}{\numberline {7.2}Evaluation of MVA-HLT Eficiency on Selected Signal Samples}{64}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Single Higgs Signal Efficiency}{67}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}DiHiggs Signal Efficiency}{70}{subsection.7.2.2}%
-\contentsline {section}{\numberline {7.3}Evaluation of Offline Selection Eficiency with MVA-HLT }{70}{section.7.3}%
+\contentsline {subsubsection}{A Data/MC BDT for $H \rightarrow \gamma \gamma $}{54}{subsubsection*.49}%
+\contentsline {subsection}{\numberline {6.2.2}Determination of Loose Single Photon MVA Cuts for $H \rightarrow \gamma \gamma $}{58}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Creation of Diphoton BDT for $H \rightarrow \gamma \gamma $}{61}{subsection.6.2.3}%
+\contentsline {chapter}{\numberline {7}Evaluation of the MVA-HLT and Complementary Offline Selection}{69}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Measurement of Trigger Rate}{69}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Method of Rate Measurement}{69}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Trigger Rate of MVA-HLT}{69}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}Evaluation of MVA-HLT Eficiency on Selected Signal Samples}{69}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Single Higgs MVA-HLT Acceptance}{70}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}DiHiggs MVA-HLT Acceptance}{72}{subsection.7.2.2}%
+\contentsline {section}{\numberline {7.3}Evaluation of Offline Selection Eficiency with MVA-HLT }{72}{section.7.3}%
 \contentsline {subsection}{\numberline {7.3.1}Method of Signal Efficiency Measurement}{72}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Single Higgs Signal Efficiency}{72}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}DiHiggs Signal Efficiency}{75}{subsection.7.3.3}%
-\contentsline {chapter}{\numberline {8}Summary}{76}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Acknowledgements}{77}{chapter.9}%
+\contentsline {subsection}{\numberline {7.3.2}Single Higgs Offline Selection Acceptance}{72}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Single Higgs Offline Selection Acceptance}{72}{subsection.7.3.3}%
+\contentsline {chapter}{\numberline {8}Summary}{73}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Acknowledgements}{74}{chapter.9}%
 \def \@chapapp {\appendixname }

@@ -283,14 +283,14 @@ OUTPUT RLeeDissertation.toc
 INPUT ./RLeeDissertation.lof
 INPUT ./RLeeDissertation.lof
 INPUT RLeeDissertation.lof
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 OUTPUT RLeeDissertation.lof
 INPUT ./RLeeDissertation.lot
 INPUT ./RLeeDissertation.lot
@@ -746,6 +746,16 @@ INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/s
 INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subScEta.png
 INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subScEta.png
 INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subScEta.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subPtOvrM.png
 INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadElectronVeto.png
 INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadElectronVeto.png
 INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadElectronVeto.png
@@ -756,66 +766,46 @@ INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/s
 INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subElectronVeto.png
 INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subElectronVeto.png
 INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subElectronVeto.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/hggMass_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/hggMass_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/hggMass_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/hggMass_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/hggMass_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/hggMass_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/hggMass_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/hggMass_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/hggMass_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/hggMass_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/scEta_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/scEta_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/scEta_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/scEta_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/scEta_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/scEta_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/scEta_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/scEta_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/scEta_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/scEta_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/ptOvrM_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/ptOvrM_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/ptOvrM_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/ptOvrM_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/ptOvrM_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/ptOvrM_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/ptOvrM_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/ptOvrM_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/ptOvrM_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/ptOvrM_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/hggMass_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/hggMass_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/hggMass_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/hggMass_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/hggMass_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/hggMass_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/hggMass_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/hggMass_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/hggMass_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/hggMass_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/scEta_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/scEta_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/scEta_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/scEta_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/scEta_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/scEta_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/scEta_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/scEta_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/scEta_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/scEta_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/ptOvrM_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/ptOvrM_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/ptOvrM_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/ptOvrM_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/ptOvrM_All_Sig.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/ptOvrM_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/ptOvrM_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/ptOvrM_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/ptOvrM_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm

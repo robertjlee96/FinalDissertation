@@ -334,11 +334,11 @@ Since photons and electrons have no associated tracking information, the only wa
 \section{The Data Aquisition System (DAQ)} \label{sec:DAQ}
 \section{High Level Trigger} \label{sec:HLT}
 The final step of tiggering before data is output for analysis, the HLT aims to reduce the rate from the 100kHz output by the L1 trigger down to a total of just 5kHz \cite{Run2HLT2024}. In contrast to the hardware-based L1 trigger, the HLT is a software-based suite of triggers that runs on a dedicated server of processors called the HLT filter farm. 
-\subsection{HLT Event Reconstruction}
+\subsection{HLT Event Reconstruction}\label{sec:HLTReco}
 \subsection{HLT Trigger Rates and Timing}
 \subsection{HLT Software and ConfDB} \label{sec:TriggerSoftware}
 \section{Analysis Software} \label{sec:AnalysisSoftware}
-\subsection{Offline Reconstruction}
+\subsection{Offline Reconstruction} \label{sec:OfflineReco}
 \subsection{The NanoAOD File Format}
 \subsection{NanoAOD Event Reconstruction}
 \subsection{HiggsDNA}
@@ -652,11 +652,9 @@ As discussed in chapter \ref{chapter:Software}, the HLT is one of the first step
 \section{Current Diphoton Preselection}\label{sec:StandardPresel}
 The current diphoton selection is created by direct analogy to the standard diphoton HLT; firstly, $p_T$, showershape, and isolation cuts are made on individual photons in an event, then the single photons are paired together and cuts are made on the resulting diphoton. In the case of the HLT, a simple diphoton mass cut is made. At the offline analysis level, however, the diphoton cuts are made on $p_T/M_{\gamma \gamma}$. 
 
-The $H \rightarrow \gamma \gamma$ preselection is described in detail in \cite{Run2Hgg2018}. First, loose cuts of $p_T > 20 GeV/c$, $R_9 > 0.5$, $H/E > 0.08$, and $idMVA > 0.9$ are applied to each photon candidate. Additionally, the $ \lvert \eta_{sc} \rvert$ is constrai ned to be below 2.5, and the gap region between the EB and EE is excluded (1.444 $< \lvert \eta_{sc} \rvert <$ 1.556). Additionally, the electron veto is required to exclude photons origininating from electron tracks. Beyond that, the remaining isolation and showershape cuts are only applied on low-$\eta$ photons. Above $R_9 = ??$ in the barrel and $R_9 = ??$ in the endcap, no further preselection cuts are applied. For photons below this $R_9$, cuts are applied on the $\sigma_{i\eta i \eta}$, -- 
+The $H \rightarrow \gamma \gamma$ preselection is described in detail in \cite{Run2Hgg2018}. First, loose cuts of $p_T > 20 GeV/c$, $R_9 > 0.5$, $H/E > 0.08$, and $idMVA > 0.9$ are applied to each photon candidate. Additionally, the $ \lvert \eta_{sc} \rvert$ is constrained to be below 2.5, and the gap region between the EB and EE is excluded (1.444 $< \lvert \eta_{sc} \rvert <$ 1.556). Additionally, the electron veto is required to exclude photons origininating from electron tracks. Beyond that, the remaining isolation and showershape cuts are only applied on low-$\eta$ photons. Above $R_9 = ??$ in the barrel and $R_9 = ??$ in the endcap, no further preselection cuts are applied. For photons below this $R_9$, cuts are applied on the $\sigma_{i\eta i \eta}$, -- 
 
-Once these single photon preselection cuts are applied, all remaining photon canidates are paired together into a collection of diphotons. For each pair, the higher of the two photons must satistfy $p_T > 30 GeV/c$. Paired with the baseline requirement of $p_T > 20 GeV/c$, these cuts closely mimic the 30 and 22 GeV/c cuts applied at the trigger level. Then, the $p_T/M_{\gamma \gamma}$ cuts are applied to the diphoton pairs. 
-
-At this point, many of the diphoton pairs have been removed. A final diphoton combination must be selected, however, as HiggsDNA is designed to output a single photon pair of photons. The remaining pairs in the event are sorted by their diphoton $p_T$, and the pair with the highest value is written out into the event.
+Once these single photon preselection cuts are applied, all remaining photon canidates are paired together into a collection of diphotons. For each pair, the higher of the two photons must satistfy $p_T > 30 GeV/c$. Paired with the baseline requirement of $p_T > 20 GeV/c$, these cuts closely mimic the 30 and 22 GeV/c cuts applied at the trigger level. Then, the $p_T/M_{\gamma \gamma}$ cuts are applied to the diphoton pairs. At this point, many of the possible photon combinations have been removed. A final diphoton combination must be selected, however, as HiggsDNA is designed to output a single photon pair of photons. The remaining pairs in the event are sorted by their diphoton $p_T$, and the pair with the highest value is written out into the event \cite{Run2Hgg2018}.
 
 There is no explicit $M_{\gamma \gamma}$ cut applied within the preselection, as the possibility for high- and low-mass Higgs analysis is left open. For the purposes of comparing this preselection to the new MVA-based selection, only the standard mass Higgs is considered. So, a loose cut of $90 < M_{\gamma \gamma} < 180 GeV/c^2$ is applied to all resulting diphotons.
 
@@ -728,7 +726,7 @@ The SC raw energy, in \ref{GJetVars:RawE}, shows rather clear separation for bot
 		\caption{$\eta_{SC}$}
 		\label{GJetVars:eta}
 	\end{subfigure}
-	\caption{Plots of the Supercluster raw energy and $\eta{SC}$. The prompt signal is shown in dark blue for the barrel and light blue for the endcap, whereas the fake background is shown in red for the barrel and pink for the endcap.}
+	\caption{Plots of the Supercluster raw energy and $\eta_{SC}$. The prompt signal is shown in dark blue for the barrel and light blue for the endcap, whereas the fake background is shown in red for the barrel and pink for the endcap.}
 	\label{fig:GJetVars1}
 \end{figure}
 
@@ -749,6 +747,8 @@ Next, the energy ratios, $R_9$ and $S_4$ can be examined. It is expected that a 
 	\label{fig:GJetVars2}
 \end{figure}
 
+The next showershape variables, $\sigma_{i \eta i \eta}$ and cov($i \eta i \phi$), provide information about the energy depositions in terms of the crystal spacing. $\sigma_{i \eta i \eta}$ quantifies the standard deviation of the energy depisited in terms of the $\eta$ crystals in the supercluster. Cov($i \eta i \phi$), on the other hand, quantifies the covariance between the energy deposited in the $\eta$ and $\phi$ directions. Since these measurements both depend on the crystal size and spacing, their values differ considerably between the varrel and endcap. This can be seen clearly in figure \ref{fig:GJetVars3}. In the barrel, the $\sigma_{i \eta i \eta}$ and cov($i \eta i \phi$) both prove to be very good discrimination variables; the fake photons tend to have considerably larger spread in both measures compared to the prompt photons. In the endcap, the signal $\sigma_{i \eta i \eta}$ is still clearly well-separated from the background, though the separation in cov($i \eta i \phi$) is much smaller.
+
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
@@ -765,7 +765,7 @@ Next, the energy ratios, $R_9$ and $S_4$ can be examined. It is expected that a 
 	\label{fig:GJetVars3}
 \end{figure}
 
-Similarly to the $R_9$ and $S_4$, the $\eta$ and $\phi$ widths are powerful showershape variables that provide some measure of how well-localized the energy deposition is. It is expected that these values are different for the barrel and endcap, as the crystal size and spacing are different in the two different regions of the detector. This can be seen in both plots in figure \ref{fig:GJetVars4}. Additionally, the separation between prompt and fake photons can be clearly seen, especially in $\eta$ width.
+Similarly to the $\sigma_{i \eta i \eta}$ and cov($i \eta i \phi$), the $\eta$ and $\phi$ widths are powerful showershape variables that provide some measure of how well-localized the energy deposition is. It is expected that these values are different for the barrel and endcap, as the crystal size and spacing are different in the two different regions of the detector. This can be seen in both plots in figure \ref{fig:GJetVars4}. Additionally, the separation between prompt and fake photons can be clearly seen, especially in $\eta$ width.
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
@@ -799,6 +799,8 @@ The measure of the HCal energy vs the ECal energy, H/E, provides a powerful meas
 	\label{fig:GJetVars5}
 \end{figure}
 
+The charge isolation variables are the next input variables, and represent the isolation energy (in GeV) relative to a specific vertex. The vertexing described in section \ref{sec:OfflineReco} provides multiple vertices at the NanoAOD level. Isolations are measured relative to both the worst possible vertex (figure \ref{GJetVars:chgIsoWorst}), and the final chosen vertex (figure \ref{GJetVars:chgIsoChosen}). While the chosen vertex often has 0 isolation energy, the worst vertex very rarely does. In both cases, however, the separation between signal and background is clear for both the barrel and endcap. The charge isolation w.r.t. worst vertex, specifically, shows very clear and powerful spearation.
+
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtWorstVtx.png}
@@ -813,6 +815,8 @@ The measure of the HCal energy vs the ECal energy, H/E, provides a powerful meas
 	\caption{Plots of the charged isolations with respect to the chosen and worst vertices. The prompt signal is shown in dark blue for the barrel and light blue for the endcap, whereas the fake background is shown in red for the barrel and pink for the endcap.}
 	\label{fig:GJetVars6}
 \end{figure}
+
+The final two variables in the model are only used in the endcap models. In fact, these variables only exist for endcap events.
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
@@ -834,7 +838,7 @@ Comparing to the MVA-HLT variables shown in \ref{tab:HLTInputVars}, it can be se
 
 The hyperparameter optimization at the offline level was performed very similarly to the MVA-HLT; the max depth and learning rate were varied in tandem until an optimal point was found. The same process of early stopping within XGBoost was used, as well. The hyperparameters were, however, found to be quite different from the trigger-level optimization. Since there are considerably more input variables used (13/15 for the barrel/endcap versus the 8 for the trigger), the max depth was necessarily higher. Consequently, the learning rate was also made lower. The optimum hyperparameters were, then, found to be a maximum depth of 18 and a learning rate of 0.06. 
 
-\subsubsection{A Data/MC BDT}
+\subsubsection{A Data/MC BDT for $H \rightarrow \gamma \gamma$}
 While the above $\gamma + Jet$ BDT can help differentiate real photon candidates from fakes, it cannot, in principle, properly differentiate a photon candidate coming from a signal process from a photon candidate coming from a background process. Since the EGamma trigger selections will already cut out many events with jet-like photon candidates, much of the $H \rightarrow \gamma \gamma$ preselection is aimed at removing real photons coming from non-resonant processes (or even non-Higgs resonances). For the standard preselection, the $p_T$ and $p_T/M_{\gamma \gamma}$ cuts achieve this.  
 
 Furthermore, the $\gamma + Jet$ BDT does not properly mirror the MVA-HLT; since the trigger-level BDT was training using Higgs MC as the signal and real data as the background, the offline selection should employ a similar strategy. So, in the same way that the trigger was trained using signal photon candidates originating from a ggH MC sample and background photon candidates originating from the data. The same input variables used in the $\gamma + Jet$ BDT were then used to train and optimimize the new model.
@@ -868,6 +872,8 @@ Furthermore, the $\gamma + Jet$ BDT does not properly mirror the MVA-HLT; since 
 	\caption{Plots of the $R_9$ and $S_4$. The prompt signal is shown in dark blue for the barrel and light blue for the endcap, whereas the fake background is shown in red for the barrel and pink for the endcap.}
 	\label{fig:DataMCVars2}
 \end{figure}
+
+The features of the $\eta_{SC}$ distributions for the data and MC differ considerably more than those for the $\gamma$ + Jet prompt and fake distributions.
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
@@ -946,10 +952,10 @@ Furthermore, the $\gamma + Jet$ BDT does not properly mirror the MVA-HLT; since 
 
 The same process of hyperparameter optimzation as the previous models was used. 
 
-\subsection{Determination of Loose Single Photon MVA Cuts}
+\subsection{Determination of Loose Single Photon MVA Cuts for $H \rightarrow \gamma \gamma$}
 The preexisting preselection first makes decently loose cuts on individual photons, then tighter $p_T$ and $p_T/M_{\gamma \gamma}$ cuts on selected diphoton combinations. A very similar strategy can be used for the BDT-based offline selection. Firstly, loose cuts on the above BDT scores can be applied to the individual photon candidates, which will reduce the number of possible diphoton combinations and cut out many events with no reasonable photon candidates. Then, with the list of individual photons cleaned up a bit, a tighter selection can be applied to the resulting diphoton objects for the selection of a final pair of photons. 
 
-So, then, the aim is to choose a loose set of cuts on the $\gamma + Jet$ and Data/MC BDT scores before applying a tighter final selection on the resulting diphoton combinations. One great advantage of a BDT-based approach is the ease with which these cuts can be adjusted and optimized; while a many-variable preselection has several different cuts to optimize, a binary classifier BDT only has a single output score on which to make cuts. These cuts were, for now, 
+So, then, the aim is to choose a loose set of cuts on the $\gamma + Jet$ and Data/MC BDT scores before applying a tighter final selection on the resulting diphoton combinations. One great advantage of a BDT-based approach is the ease with which these cuts can be adjusted and optimized; while a many-variable preselection has several different cuts to optimize, a binary classifier BDT only has a single output score on which to make cuts. While the goal of this current offline selection is to demonstrate an example analysis that leverages the increased signal efficiency of the MVA-HLT, the existence of these single photon scores allows very easy tuning of the photon preselection for any given analysis. The example cuts chosen below were designed to reduce the signal efficiency by about 2\%, which primarily serves to reduce the number of possible photon combinations for final selection; ultimately, the diphoton cuts described in \ref{sec:DiphotonBDT} will be the primary final selection used to achieve the desired data rate. 
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
@@ -966,6 +972,8 @@ So, then, the aim is to choose a loose set of cuts on the $\gamma + Jet$ and Dat
 	\label{fig:SinglePhoCutsMgg}
 \end{figure}
 
+Clearly, as seen in figure \ref{fig:SinglePhoCutsMgg}, these chosen single photon cuts (in blue) leave the signal MC relatively untouched. The final chosen signal efficiency for this gluon fusion $H \rightarrow \gamma \gamma$ is 98.3\%, which is much higher than the standard single photon preselection efficiency of 78.5\%. Of course, it can be seen that the background rate is much higher -- while the standard preselection cuts achieve a background rejection of 96.8\%, the loose single photon BDT cuts only achieve an 85.9\% rejection. 
+
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png}
@@ -980,6 +988,9 @@ So, then, the aim is to choose a loose set of cuts on the $\gamma + Jet$ and Dat
 	\caption{Acceptance of the MVA-HLT (blue) vs. the current standard diphoton HLT (green) for $\eta_{SC}$. Both the lead and sublead photons are plotted together.}
 	\label{fig:SinglePhoCutsEta}
 \end{figure}
+
+Maximizing the kinematic acceptance of the signal events in $\eta_{SC}$ is a key consideration to any photon selection. In figure \ref{fig:SinglePhoCutsEta}, the acceptance of the different single photon selections is shown. Given that the signal acceptance is so high for these loose single photon cuts, it can be seen immediately that there are no regions of the detector shown for which the acceptance is problematic. Considering the preselection (yellow), however, a relative drop in efficiency can be seen in the low-$\eta$ regions at the start of the endcap (near |$\eta$| = 1.5). Investigations showed that the hard $R_9$ cuts placed on the photons by the standard preselection are responsible for this relative dip in efficiency. Utilizing the $R_9$ in the BDT, as opposed to these hard cuts, ensures that the kinematic coverage for the loose single photon BDT selection is better than that of the standard preselection.
+
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
@@ -996,7 +1007,9 @@ So, then, the aim is to choose a loose set of cuts on the $\gamma + Jet$ and Dat
 	\label{fig:SinglePhoCutsPt}
 \end{figure}
 
-\subsection{Creation of Diphoton BDT}
+A major advantage to these loose single photon cuts can be seen in figure \ref{fig:SinglePhoCutsPt}. Clearly, the standard preselection cuts considerably reduce the signal MC kinematic phase space by making relatively tight cuts of $p^{Lead}_{T} > 35 GeV/c^2$ and $p^{Sub}_{T} > 25 GeV/c^2$. While this also leads to a considerable reduction in data rate, the loss of good Higgs events with low-$p_T$ photons may impact future analyses with different kinematics. By comparison, the loose single photon cuts, being based entirely on the single photon BDT scores, do not noticably impact the $p_T$ distributions of either the signal or background.
+
+\subsection{Creation of Diphoton BDT for $H \rightarrow \gamma \gamma$}\label{sec:DiphotonBDT}
 With the single photon preselection cuts determined, an additional selection must be placed on the diphoton objects. The most obvious continuation of the current strategy is to create an additional MVA that now works on diphoton quantities. Previous analysis strategies have, in fact, employed a diphoton MVA for the classification of events \cite{Run2Hgg2018}. A new diphoton BDT can be constructed in reference to this, with the aim of making final cuts on this score such that the background rate is controlled while maintaining maximum signal efficiency.
 
 While the goal of the single photon BDTs is to reject individual candidates that appear to not be photons, the diphoton BDT aims to properly differentiate diphton candidates coming from $H \rightarrow \gamma \gamma$ from both events that do not contain two real photons and events with two real photons originating from background processes. As a result, the inputs to this model will consist primarily of lead and sublead single photon variables. By providing both the lead and sublead values to one model, correlations can be found that ensure that selected events contain two real photons with the necessary kinematics to possibly comprise a signal event. Below, in table \ref{tab:DiphotonBDTInputs}, each of the input variables is listed and described. These were largely adopted from the Run2 Diphoton photonID, with a few differences. 
@@ -1046,7 +1059,7 @@ The first two variables are related directly to the kinematics of the diphoton o
 
 The next two pairs of input variables are the single photon BDT scores. Firstly, the $\gamma$ + Jet single photon BDT scores are shown below in figure \ref{fig:DiphoVars2}. As with all XGBoost BDT binary classification scores, a value near 0 shows that the algorithm has identified the photon as being part of the background class, while a score near 1 corresponds to an event identified as part of the signal class. For the signal MC, it can be seen that the scores peak very well near 1. This is to be expected, as the signal MC photons here are matched to a generated photon and therefore guaranteed to be a real photon. This effect is clear for both the lead and sublead photons.
 
-Clearly, however, the background photons in red are not constrained entirely near 0. In fact, there are two peajs in both the lead and sublead score distributions. While many of the background photon candidates can easily be assigned a score near 0, there are also a large number for which the $\gamma$ + Jet scores are not adequate to differentiate the background from the signal. This likely due, at least in part, to the composition of the data overall. While many of the data events consist of dijet QCD background, there are likely many events for which one or even two real photons have been selected. This is exacerbated by the triggers required for this training sample; here, since either the MVA-HLT trigger or the standard diphoton trigger must be passed to enter the training sample, the odds of a data event containing one or two real photons is much higher than it would be for other data samples. This demonstrate why the $\gamma$ + Jet BDT alone is not adequate to correctly differentiate between signal and background events.  
+Clearly, however, the background photons in red are not constrained entirely near 0. In fact, there are two peaks in both the lead and sublead score distributions. While many of the background photon candidates can easily be assigned a score near 0, there are also a large number for which the $\gamma$ + Jet scores are not adequate to differentiate the background from the signal. This likely due, at least in part, to the composition of the data overall. While many of the data events consist of dijet QCD background, there are likely many events for which one or even two real photons have been selected. This is exacerbated by the triggers required for this training sample; here, since either the MVA-HLT trigger or the standard diphoton trigger must be passed to enter the training sample, the odds of a data event containing one or two real photons is much higher than it would be for other data samples. This demonstrate why the $\gamma$ + Jet BDT alone is not adequate to correctly differentiate between signal and background events.  
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png}
@@ -1064,7 +1077,7 @@ Clearly, however, the background photons in red are not constrained entirely nea
 
 Secondly, the data/MC scores for both the lead and sublead photons are shown in figure \ref{fig:DiphoVars3} on a logarithmic scale. As expected, there is clear separation between the signal MC in black and the data in red. It is expected that the signal MC distributions will largely cluster near 1, which corresponds to a positive identification as signal. While this is true for both the lead and sublead scores, the identification of the background is perhaps a stronger effect. It can be seen that the data events are very closely clustered near 0. Very few of the background events, on the other hand, are placed near a score of 1. 
 
-Similarly to the $\gamma$ + Jet single photon BDT, then, it is clear that this data/MC BDT is not adequate alone to differentiate signal and background. The diphoton BDT, then, is a crucial step of the signal and background selection; by having access to both the single photon BDTs, the diphoton BDT can construct correlations that allow the final model to be considerably more discerning than input scores it uses. As will be shown in (REF?), this works to great effect. 
+Similarly to the $\gamma$ + Jet single photon BDT, then, it is clear that this data/MC BDT is not adequate alone to differentiate signal and background. The diphoton BDT, then, is a crucial step of the signal and background selection; by having access to both the single photon BDTs, the diphoton BDT can construct correlations that allow the final model to be considerably more discerning than input scores it uses. As will be shown in chapter \ref{chapter:Results}, this works to great effect. 
 
 \begin{figure}
 	\begin{subfigure}{0.50\linewidth}
@@ -1081,7 +1094,7 @@ Similarly to the $\gamma$ + Jet single photon BDT, then, it is clear that this d
 	\label{fig:DiphoVars3}
 \end{figure}
 
-While the single photon quality scores given by the single photon BDTs are quite helpful, the diphoton kinematics are additionall a very strong source of discrimination power.
+While the single photon quality scores given by the single photon BDTs are quite helpful, the diphoton kinematics are additionally a very strong source of discrimination power. As sean for both the lead (figure \ref{DiphoVars:leadEta}) and sublead (figure \ref{DiphoVars:leadEta}) $\eta_{SC}$ distributions, the shape of the single Higgs signal MC in black and the data in red are quite different. Due to the kinematics of the Higgs production, as discussed in \ref{chapter:Theory}, the signal MC tends to be much more central in the barrel detector (closer to perpendicular to the beamline). Meanwhile, in the endcaps, the amount of signal photons rapidly drops as the edges of the chose $\eta_{SC}$ range are approached. Due to this good separation between signal and background, the $\eta_{SC}$ of the lead and sublead photon provide good discrimination power to the binary classifier BDT.
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadScEta.png}
@@ -1097,6 +1110,27 @@ While the single photon quality scores given by the single photon BDTs are quite
 	\label{fig:DiphoVars4}
 \end{figure}
 
+The other diphoton kinematic quantities used by the diphoton BDT are the $p_T/M_{\gamma \gamma}$ of the two selected photons. This mass-normalized measure of the photon candidates' transverse momentum is used in the standard diphoton preselection given its great discrimination power. Of course, if hard cuts on a variable are successful in separating signal from background, a BDT should be able to leverage the information to even greater effect. Furthermore, as with the $p_T$ cuts, removing the hard cuts on this variable considerably improve the kinematic coverage of the offline selection. In figure \ref{fig:DiphoVars5}, a clear separation between the signal and background events can be seen for both the lead and sublead photon candidates. Paired with the corresponding $\eta_{SC}$ values, this lends considerable kinematic discrimination power to the diphoton BDT.
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadPtOvrM.png}
+		\caption{Lead $p_{T}/M_{\gamma \gamma}$}
+		\label{DiphoVars:leadPtM}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subPtOvrM.png}
+		\caption{Sub $p_{T}/M_{\gamma \gamma}$}
+		\label{DiphoVars:subPtM}
+	\end{subfigure}
+	\caption{The lead and sublead $p_{T}/M_{\gamma \gamma}$. The signal MC is in black, whereas the data events are in red.}
+	\label{fig:DiphoVars5}
+\end{figure}
+
+Finally, the electron veto values can be used to help differentiate between photons and electrons in the final selection. As discussed in section \ref{sec:OfflineReco}, photons and electrons are quite hard to differentiate purely from ECal information. The electron veto was designed to leverage charged track information to provide a conversion-safe way to reject electrons from photon candidates \cite{OfflineReco2021}. This quantity has not historically been deployed in the diphotonMVA; since the standard preselection generally makes a hard requirement on the electron veto, there is no need to use it in the diphotonMVA. By adding the lead and sublead electron veto decision to the diphoton BDT, however, the information can be correlated with the other variables provided to more elegantly reject electrons in the data while still maximizing the signal efficiency.
+
+The values of the electron veto are shown in figure \ref{fig:DiphoVars6}. Since this is just a veto decision, the variable is saved as a boolean. As a result, the plots show a value of 0 for false (failing the electron veto) and 1 for true (passing the electron veto). A very clear separation can be seen between the signal MC (black) and data (red). Very few of the selected signal MC lead or sublead photon candidates fail the electron veto, wheareas there are a considerable portion of the data events that fail. It can be seen, however, that there are still many data events that pass the electron veto. 
+
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadElectronVeto.png}
@@ -1109,10 +1143,13 @@ While the single photon quality scores given by the single photon BDTs are quite
 		\label{DiphoVars:subEVeto}
 	\end{subfigure}
 	\caption{The lead and sublead electron veto. The signal MC is in black, whereas the data events are in red.}
-	\label{fig:DiphoVars5}
+	\label{fig:DiphoVars6}
 \end{figure}
 
+As with the other two BDTs, the hyperparameters must of course be optimized once the input variables are selected. This was, again, a relatively experimental process. Given the reduced number of input variables relative to the single photon BDTs, lower maximum depths were explored. A max depth of 10 was selected in conjunction with a learning rate of 0.1. This lower max depth and higher learning rate allows to model to still leverage the reduced number of input variables without considerable overtraining.
+
 \chapter{Evaluation of the MVA-HLT and Complementary Offline Selection} \label{chapter:Results}
+
 \section{Measurement of Trigger Rate}
 As discussed in chapter \ref{chapter:HLT}, the first main consideration for any HLT is the trigger rate, usually measured in Hz. There are two main corresponding numbers: the total rate measures the total number of events being accepted by the trigger, whereas the pure rate measures the number of events being accepted by a trigger that would not be accepted by any other trigger. 
 \subsection{Method of Rate Measurement}
@@ -1121,82 +1158,105 @@ As discussed in chapter \ref{chapter:HLT}, the first main consideration for any 
 Once it has been verified that the trigger rate is within the limits posed by the collaboration, the next major task is ensuring that the signal efficiency for the MVA-HLT is a noticable improvement over the standard HLT.  Since the reconstruction, calibrations, and corrections are different at the NanoAOD level, the measurements made at the RAW level in section \ref{sec:cutChoices} must be verified on independent analysis-level (NanoAOD) samples. 
 
 As in section \ref{sec:cutChoices}, plots can be made of selected input variables and the resulting accepted distributions can be compared for the MVA-HLT versus the standard diphoton HLT. 
-\subsection{Single Higgs Signal Efficiency}
+\subsection{Single Higgs MVA-HLT Acceptance}
 \begin{figure}[H]
-	\centering
-	\subfloat[][]{
-		\includegraphics[width=.6\linewidth]{./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/hggMass_All_Sig.png}
-	} \hfill \\
-	\subfloat[][]{
-		\includegraphics[width=.6\linewidth]{./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/hggMass_All_Bkg.png}
-	}
-	\caption[]{Diphoton invariant mass for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
-	\label{fig:SingleHOfflineAcceptedMass}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\subfloat[][]{
-		\includegraphics[width=.6\linewidth]{./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/scEta_All_Sig.png}
-	} \hfill \\
-	\subfloat[][]{
-		\includegraphics[width=.6\linewidth]{./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/scEta_All_Bkg.png}
-	}
-	\caption[]{The $\eta_{sc}$ of both photons for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
-	\label{fig:SingleHOfflineAcceptedEta}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\subfloat[][]{
-		\includegraphics[width=.6\linewidth]{./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/ptOvrM_All_Sig.png}
-	} \hfill \\
-	\subfloat[][]{
-		\includegraphics[width=.6\linewidth]{./Figures/Offline Selection Plots/0618_SingleH_JustHLTCuts/ptOvrM_All_Bkg.png}
-	}
-	\caption[]{The $p_{T}/M_{\gamma \gamma}$ of both photons for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
-	\label{fig:SingleHOfflineAcceptedPtm}
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png}
+		\caption{Signal MC $M_{\gamma \gamma}$}
+		\label{SingleHSig:HLTAcceptance:Mgg}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png}
+		\caption{Data $M_{\gamma \gamma}$}
+		\label{SingleHBkg:HLTAcceptance:Mgg}
+	\end{subfigure}
+	\caption{Acceptance of the MVA-HLT (blue) vs. the current standard diphoton HLT (green) for $M_{\gamma \gamma}$}
+	\label{fig:SingleH:HLTAcceptance:Mgg}
 \end{figure}
 
-\subsection{DiHiggs Signal Efficiency}
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png}
+		\caption{Signal MC $\eta_{SC}$}
+		\label{SingleHSig:HLTAcceptance:Eta}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png}
+		\caption{Data $\eta_{SC}$}
+		\label{SingleHBkg:HLTAcceptance:Eta}
+	\end{subfigure}
+	\caption{Acceptance of the MVA-HLT (blue) vs. the current standard diphoton HLT (green) for $\eta_{SC}$. Both the lead and sublead photons are plotted together.}
+	\label{fig:SingleH:HLTAcceptance:Eta}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png}
+		\caption{Signal MC $p_{T}/M_{\gamma \gamma}$}
+		\label{SingleHSig:HLTAcceptance:Ptm}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png}
+		\caption{Data $p_{T}/M_{\gamma \gamma}$}
+		\label{SingleHBkg:HLTAcceptance:Ptm}
+	\end{subfigure}
+	\caption{Acceptance of the MVA-HLT (blue) vs. the current standard diphoton HLT (green) for $p_{T}/M_{\gamma \gamma}$. Both the lead and sublead photons are plotted together.}
+	\label{fig:SingleH:HLTAcceptance:Ptm}
+\end{figure}
+
+\begin{table}[h]
+    \centering
+    \caption{Signal efficiencies and background acceptances for both triggers, broken down by diphoton $\eta_{sc}$}
+	\label{tab:offlineHLTEffs}
+    \begin{subtable}{.49\textwidth}
+        \centering
+        \caption{Signal Efficiencies}
+        \begin{tabular}{|c|c|c|}
+            \hline
+            \textbf{Region} & \textbf{MVA-HLT(\%)} & \textbf{Std. HLT(\%)}\\
+			\Xhline{2pt}
+            B-B & 98.65 & 93.39 \\ \hline
+            B-E & 95.20 & 81.27\\ \hline
+            E-E & 96.70 & 86.24\\ \hline
+            All & 97.32 & 88.68 \\ \hline
+        \end{tabular}
+    \end{subtable}
+    \hfill
+	\begin{subtable}{.49\textwidth}
+        \centering
+        \caption{Data Acceptances}
+        \begin{tabular}{|c|c|c|}
+            \hline
+            \textbf{Region} & \textbf{MVA-HLT(\%)} & \textbf{Std. HLT(\%)}\\
+			\Xhline{2pt}
+            B-B & 21.07 & 37.27 \\ \hline
+            B-E & 23.11 & 46.57 \\ \hline
+            E-E & 22.26 & 32.32 \\ \hline
+            All & 22.41 & 42.62 \\ \hline
+        \end{tabular}
+    \end{subtable}
+\end{table}
+
+\subsection{DiHiggs MVA-HLT Acceptance}
 
 \section{Evaluation of Offline Selection Eficiency with MVA-HLT }
-As discussed in chapter \ref{chapter:OfflineSelection}, no HLT exists 
 \subsection{Method of Signal Efficiency Measurement}
-\subsection{Single Higgs Signal Efficiency}
+\subsection{Single Higgs Offline Selection Acceptance}
 \begin{figure}[H]
-	\centering
-	\subfloat[][]{
-		\includegraphics[width=.6\linewidth]{./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/hggMass_All_Sig.png}
-	} \hfill \\
-	\subfloat[][]{ 
-		\includegraphics[width=.6\linewidth]{./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/hggMass_All_Bkg.png}
-	}
-	\caption[]{Diphoton invariant mass for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
-	\label{fig:SingleHOfflineAcceptedMass}
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png}
+		\caption{Signal MC $\eta_{SC}$}
+		\label{SingleHSig:OfflineAcceptance:Mgg}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png}
+		\caption{Data $\eta_{SC}$}
+		\label{SingleHBkg:OfflineAcceptance:Mgg}
+	\end{subfigure}
+	\caption{Acceptance of the MVA-HLT (blue) vs. the current standard diphoton HLT (green) for $\eta_{SC}$. Both the lead and sublead photons are plotted together.}
+	\label{fig:SingleH:OfflineAcceptance:Mgg}
 \end{figure}
-\begin{figure}[H]
-	\centering
-	\subfloat[][]{
-		\includegraphics[width=.6\linewidth]{./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/scEta_All_Sig.png}
-	} \hfill \\
-	\subfloat[][]{
-		\includegraphics[width=.6\linewidth]{./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/scEta_All_Bkg.png}
-	}
-	\caption[]{The $\eta_{sc}$ of both photons for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
-	\label{fig:SingleHOfflineAcceptedEta}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\subfloat[][]{
-		\includegraphics[width=.6\linewidth]{./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/ptOvrM_All_Sig.png}
-	} \hfill \\
-	\subfloat[][]{
-		\includegraphics[width=.6\linewidth]{./Figures/Offline Selection Plots/0618_SingleH_OfflineSelectionCuts/ptOvrM_All_Bkg.png}
-	}
-	\caption[]{The $p_{T}/M_{\gamma \gamma}$ of both photons for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in dark blue, while events accepted by the standard HLT are shown in dark green.}
-	\label{fig:SingleHOfflineAcceptedPtm}
-\end{figure}
-
-\subsection{DiHiggs Signal Efficiency}
+\subsection{Single Higgs Offline Selection Acceptance}
 
 
 \chapter{Summary}
