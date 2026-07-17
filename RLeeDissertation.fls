@@ -56,6 +56,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
@@ -283,14 +285,14 @@ OUTPUT RLeeDissertation.toc
 INPUT ./RLeeDissertation.lof
 INPUT ./RLeeDissertation.lof
 INPUT RLeeDissertation.lof
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 OUTPUT RLeeDissertation.lof
 INPUT ./RLeeDissertation.lot
 INPUT ./RLeeDissertation.lot
@@ -410,159 +412,159 @@ INPUT ./Figures/L1TriggerArchitecture.png
 INPUT ./Figures/L1TriggerArchitecture.png
 INPUT ./Figures/L1TriggerArchitecture.png
 INPUT ./Figures/L1TriggerArchitecture.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/rawEnergy_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/rawEnergy_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/rawEnergy_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/rawEnergy_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/rawEnergy_All.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/r9_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/r9_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/r9_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/r9_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/r9_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/siEtaiEta_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/siEtaiEta_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/siEtaiEta_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/siEtaiEta_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/siEtaiEta_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/eta_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/eta_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/eta_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/eta_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/eta_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/etaW_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/etaW_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/etaW_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/etaW_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/etaW_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/phiW_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/phiW_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/phiW_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/phiW_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/phiW_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/HoE_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/HoE_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/HoE_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/HoE_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/HoE_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/iso_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/iso_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/iso_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/iso_All.png
-INPUT ./Figures/Trigger Training Plots/0618_DualAxisTrainingPlots/iso_All.png
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7m.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7y.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7v.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png
-INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
+INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png
+INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png
 INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/etaWidth.png
 INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/etaWidth.png
 INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/etaWidth.png
@@ -766,6 +768,166 @@ INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/s
 INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subElectronVeto.png
 INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subElectronVeto.png
 INPUT ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subElectronVeto.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/SCRawE.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/SCRawE.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/SCRawE.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/SCRawE.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/SCRawE.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/scEta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/scEta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/scEta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/scEta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/scEta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/r9.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/r9.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/r9.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/r9.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/r9.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/s4.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/s4.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/s4.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/s4.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/s4.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/sigmaIetaIeta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/sigmaIetaIeta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/sigmaIetaIeta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/sigmaIetaIeta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/sigmaIetaIeta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/covIEtaIPhi.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/covIEtaIPhi.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/covIEtaIPhi.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/covIEtaIPhi.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/covIEtaIPhi.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/etaWidth.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/etaWidth.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/etaWidth.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/etaWidth.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/etaWidth.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phiWidth.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phiWidth.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phiWidth.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phiWidth.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phiWidth.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/hadronicOverEm.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/hadronicOverEm.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/hadronicOverEm.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/hadronicOverEm.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/hadronicOverEm.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phoIso03.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phoIso03.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phoIso03.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phoIso03.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phoIso03.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEffSigmaRR.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEffSigmaRR.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEffSigmaRR.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEffSigmaRR.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEffSigmaRR.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEnergyOverRawE.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEnergyOverRawE.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEnergyOverRawE.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEnergyOverRawE.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEnergyOverRawE.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/sigMovrM.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/sigMovrM.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/sigMovrM.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/sigMovrM.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/sigMovrM.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/cosDPhi.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/cosDPhi.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/cosDPhi.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/cosDPhi.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/cosDPhi.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subGJetXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subGJetXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subGJetXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subGJetXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subGJetXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadScEta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadScEta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadScEta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadScEta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadScEta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subScEta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subScEta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subScEta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subScEta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subScEta.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subPtOvrM.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadElectronVeto.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadElectronVeto.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadElectronVeto.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadElectronVeto.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadElectronVeto.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subElectronVeto.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subElectronVeto.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subElectronVeto.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subElectronVeto.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subElectronVeto.png
 INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png
 INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png
 INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png
@@ -796,6 +958,46 @@ INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_S
 INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png
 INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png
 INPUT ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png
 INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
 INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
 INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
@@ -806,6 +1008,46 @@ INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/s
 INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
 INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
 INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png
+INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
