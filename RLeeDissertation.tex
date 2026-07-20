@@ -1478,15 +1478,21 @@ For this final BDT, the same steps of hyperparameter optimization and training w
 
 \chapter{Evaluation of the MVA-HLT and Complementary Offline Selection} \label{chapter:Results}
 
-\section{Measurement of Trigger Rate}
+\section{Measurement of Trigger Rate} \label{sec:TriggerRate}
 As discussed in chapter \ref{chapter:HLT}, the first main consideration for any HLT is the trigger rate, usually measured in Hz. There are two main corresponding numbers: the total rate measures the total number of events being accepted by the trigger, whereas the pure rate measures the number of events being accepted by a trigger that would not be accepted by any other trigger. 
 \subsection{Method of Rate Measurement}
 \subsection{Trigger Rate of MVA-HLT}
+ 
 \section{Evaluation of MVA-HLT Eficiency on Selected Signal Samples}
 Once it has been verified that the trigger rate is within the limits posed by the collaboration, the next major task is ensuring that the signal efficiency for the MVA-HLT is a noticable improvement over the standard HLT.  Since the reconstruction, calibrations, and corrections are different at the NanoAOD level, the measurements made at the RAW level in section \ref{sec:cutChoices} must be verified on independent analysis-level (NanoAOD) samples. 
 
-As in section \ref{sec:cutChoices}, plots can be made of selected input variables and the resulting accepted distributions can be compared for the MVA-HLT versus the standard diphoton HLT. 
+As in section \ref{sec:cutChoices}, plots can be made of selected input variables and the resulting accepted distributions can be compared for the MVA-HLT versus the standard diphoton HLT. For these susequent plots, the acceptance of MVA-HLT will be shown in dark blue, while the acceptance of the standard HLT will be shown in dark blue. Additionally, the light blue curve will show events that pass the MVA-HLT but fail the standard HLT. Therefore, the light blue curve will our signal gain directly. 
+
 \subsection{Single Higgs MVA-HLT Acceptance}
+Beginning with the $M_{\gamma \gamma}$ distribution (fig. \ref{fig:SingleH:HLTAcceptance:Mgg}), it can be seen that the MVA-HLT (blue) has considerably improved signal MC acceptance compared to the standard HLT. In fact, there is a 9.7\% relative signal efficiency gain (97.32\% vs 88.68\%) when considering both the barrel and endcap events together. This is a bit lower than the 13.6\% signal gain seen at the RAW trigger level (93.86\% vs 82.64\%). This is partly due to the improvement in overall signal efficiency for the standard HLT at the NanoAOD level. Because the NanoAOD reconnstruction is imrpoved relative to that at the trigger RAW level, it is expected that the overall signal efficiency at this level will be improved. Overall, however, it can be seen that the $H \rightarrow \gamma \gamma$ signal eficiency is very high for the MVA-HLT, as desired.
+
+Another major advantage of the MVA-HLT is the reduction in data rate. As demonstrated in section \ref{sec:TriggerRate}, the MVA-HLT has approximately half the trigger rate of the standard trigger. This is approximately confirmed by data distribution shown in \ref{SingleHBkg:HLTAcceptance:Mgg}. For all $\eta_{SC}$, the total data acceptance is 22.41\% compared to thr 42.62\% of the standard HLT. The light blue curve, additionally, can be used as a proxy for seeing the pure rate measured in section \ref{sec:TriggerRate}; about 13.4\% of the data passes the MVA-HLT but fails the standard HLT. 
+
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png}
@@ -1498,9 +1504,13 @@ As in section \ref{sec:cutChoices}, plots can be made of selected input variable
 		\caption{Data $M_{\gamma \gamma}$}
 		\label{SingleHBkg:HLTAcceptance:Mgg}
 	\end{subfigure}
-	\caption{Acceptance of the MVA-HLT (blue) vs. the current standard diphoton HLT (green) for $M_{\gamma \gamma}$}
+	\caption{Acceptance of the MVA-HLT (dark blue) vs. the current standard diphoton HLT (green) for $M_{\gamma \gamma}$. Events that pass the MVA-HLT but fail the standard HLT can be seen in light blue.}
 	\label{fig:SingleH:HLTAcceptance:Mgg}
 \end{figure}
+
+Next, the acceptance in the trigger in $\eta_{SC}$ \ref{fig:SingleH:HLTAcceptance:Eta} can be considered. The MVA-HLT has relatively consistent acceptance in $\eta_{SC}$, whereas the standard trigger shows holes in the acceptance in the lowest-$\eta$ regions of the endcap. Investigations have shown that the $R_9$ cuts of the standard trigger are responsible for this inefficiency. As seen in the light blue curve, the MVA-HLT is able to close this gap and provide more consistent kinematic coverage. Otherwise, the gain relative to the standard MVA-HLT is relatively flat throughout the barrel and the rest of the endcap. These features shown that the kinematic coverage is improved relative to that of the standard HLT.
+
+The acceptance of the data, shown in figure \ref{SingleHBkg:HLTAcceptance:Eta}, shows a few relevant features. Whereas the standard HLT accepts more data in the center of the barrel and cuts out more of the barrel above $\lvert \eta_{SC} \rvert > 1.0$. The MVA-HLT, on the other hand, exhibits the opposite features. In the data, the standard HLT closely matches the shape of the full distribution in black, including considerable acceptance in the high-$\eta$ horns. The MVA-HLT is relatively flat throughout the enecap, though it does also accept a small amount more data in the high-$\eta$ horns.
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
@@ -1513,9 +1523,10 @@ As in section \ref{sec:cutChoices}, plots can be made of selected input variable
 		\caption{Data $\eta_{SC}$}
 		\label{SingleHBkg:HLTAcceptance:Eta}
 	\end{subfigure}
-	\caption{Acceptance of the MVA-HLT (blue) vs. the current standard diphoton HLT (green) for $\eta_{SC}$. Both the lead and sublead photons are plotted together.}
+	\caption{Acceptance of the MVA-HLT (dark blue) vs. the current standard diphoton HLT (green) for $\eta_{SC}$. Both the lead and sublead photons are plotted together. Events that pass the MVA-HLT but fail the standard HLT can be seen in light blue.}
 	\label{fig:SingleH:HLTAcceptance:Eta}
 \end{figure}
+
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
@@ -1528,9 +1539,11 @@ As in section \ref{sec:cutChoices}, plots can be made of selected input variable
 		\caption{Data $p_{T}/M_{\gamma \gamma}$}
 		\label{SingleHBkg:HLTAcceptance:Ptm}
 	\end{subfigure}
-	\caption{Acceptance of the MVA-HLT (blue) vs. the current standard diphoton HLT (green) for $p_{T}/M_{\gamma \gamma}$. Both the lead and sublead photons are plotted together.}
+	\caption{Acceptance of the MVA-HLT (dark blue) vs. the current standard diphoton HLT (green) for $p_{T}/M_{\gamma \gamma}$. Both the lead and sublead photons are plotted together. Events that pass the MVA-HLT but fail the standard HLT can be seen in light blue.}
 	\label{fig:SingleH:HLTAcceptance:Ptm}
 \end{figure}
+
+Finally, the results of the signal MC efficiency and the data acceptance are tabulated in table \ref{tab:offlineHLTEffs}. The different $\eta_{SC}$ configurations are separated here -- B-B and E-E events correspond to both photons being located in the barrel and endcap, respectively, while the B-E events have one photon in the barrel and the other in the endcap. Immediately, it can be seen that the MVA-HLT has relatively constant signal acceptance for each region, varrying by a total of 3.45\% between the B-E events (95.2\%) and the B-B events (93.39\%). Meanhile, the standard HLT has considerably reduced signal efficiency in the B-E. This allows the MVA-HLT to have a relative efficency gain of 17.1\% in this region. This is another way in which the kinematic coverage of the MVA-HLT is greatly improved relative to the standard HLT. 
 
 \begin{table}[h]
     \centering
@@ -1565,7 +1578,11 @@ As in section \ref{sec:cutChoices}, plots can be made of selected input variable
     \end{subtable}
 \end{table}
 
+Overall, it can be seen that the MVA-HLT achieves the desired result at the NanoAOD analysis level. The signal efficiency is about 9.7\% higher for the $H \rightarrow \gamma \gamma$ signal MC relative to the standard HLT. The overall efficiency sits at 97.3\%, which allows virtually all of the signal MC to be considered for subsequent analyses. In addition, no holes in kinematic coverage can be seen, meaning that the MVA-HLT is able to more-completely cover the full range of possible physics that can be gleaned from $H \rightarrow \gamma \gamma$ processes.
+
 \subsection{DiHiggs MVA-HLT Acceptance}
+
+Where the MVA-HLT can sine best, however, is for more rare processes like the $HH \rightarrow b \bar{b} \gamma \gamma$.
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png}
