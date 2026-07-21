@@ -88,12 +88,11 @@
 \contentsline {subsection}{\numberline {7.1.1}Method of Rate Measurement}{88}{subsection.7.1.1}%
 \contentsline {subsection}{\numberline {7.1.2}Trigger Rate of MVA-HLT}{88}{subsection.7.1.2}%
 \contentsline {section}{\numberline {7.2}Evaluation of MVA-HLT Eficiency on Selected Signal Samples}{88}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Single Higgs MVA-HLT Acceptance}{89}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}DiHiggs MVA-HLT Acceptance}{92}{subsection.7.2.2}%
-\contentsline {section}{\numberline {7.3}Evaluation of Offline Selection Eficiency with MVA-HLT }{95}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Method of Signal Efficiency Measurement}{95}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Single Higgs Offline Selection Acceptance}{95}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}DiHiggs Offline Selection Acceptance}{97}{subsection.7.3.3}%
-\contentsline {chapter}{\numberline {8}Summary}{100}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Acknowledgements}{101}{chapter.9}%
+\contentsline {subsection}{\numberline {7.2.1}$H \rightarrow \gamma \gamma $ MVA-HLT Acceptance}{90}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}$HH \rightarrow b \bar {b} \gamma \gamma $ MVA-HLT Acceptance}{94}{subsection.7.2.2}%
+\contentsline {section}{\numberline {7.3}Evaluation of Offline Selection Eficiency with MVA-HLT }{98}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Single Higgs Offline Selection Acceptance}{99}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}DiHiggs Offline Selection Acceptance}{101}{subsection.7.3.2}%
+\contentsline {chapter}{\numberline {8}Summary}{103}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Acknowledgements}{104}{chapter.9}%
 \def \@chapapp {\appendixname }

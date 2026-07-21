@@ -1,7 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1782410590.28451 "/Users/robert/Documents/Dissertation/PageSubsetDocument.tex" "PageSubsetDocument.pdf" "PageSubsetDocument" 1782410590.82408 0
-  "/Users/robert/Documents/Dissertation/PageSubsetDocument.tex" 1782235086.37221 179 b8fd408b800bfb90c06831e6fd01530e ""
+["pdflatex"] 1784569629.22711 "/Users/robert/Documents/Dissertation/PageSubsetDocument.tex" "PageSubsetDocument.pdf" "PageSubsetDocument" 1784569629.85607 0
+  "/Users/robert/Documents/Dissertation/PageSubsetDocument.tex" 1784569628.53396 180 cbb84e1dcff211efa2131be273995e95 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb" 1136849748 33709 b09d2e140b7e807d3a97058263ab6693 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1136849748 44729 811d6c62865936705a31c797a1d5dada ""
@@ -36,9 +38,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1753911422 5526361 5adee4aa342457daf971a29efd2119d0 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1753911588 3604532 99fa68364536562113a7843cdfbebf93 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "PageSubsetDocument.aux" 1782410590.78508 33 7c0742bf35ce21725e3e7ead3b0fecc6 "pdflatex"
-  "PageSubsetDocument.tex" 1782235086.37221 179 b8fd408b800bfb90c06831e6fd01530e ""
-  "RLeeDissertation.pdf" 1782410589.87361 4859507 0cdb6b0ba148731a0033c814cffc58bb ""
+  "PageSubsetDocument.aux" 1784569629.78565 33 7108ccf81ed082005bcbdc75fe9599fd "pdflatex"
+  "PageSubsetDocument.tex" 1784569628.53396 180 cbb84e1dcff211efa2131be273995e95 ""
+  "RLeeDissertation.pdf" 1784569497.73237 6625531 575add040f56e7a9e3dac95fcd392d06 ""
   (generated)
   "PageSubsetDocument.aux"
   "PageSubsetDocument.log"

@@ -14,6 +14,7 @@
 \usepackage{subcaption}
 \usepackage{xfrac}
 \usepackage{amsmath}
+\usepackage{mathtools}
 \usepackage{float}
 \usepackage[breaklinks=true,pdfborder={0 0 0}]{hyperref}
 \usepackage{graphicx}
@@ -1007,7 +1008,7 @@ In figure \ref{fig:DataMCVars6}, it can immediately be seen that the two charge 
 
 The same process of hyperparameter optimzation as the previous models was used. Notably, the signal MC and data show much more similarity in the input variable distributions relative to the $\gamma$ + Jet samples. As a result, the model must become a bit more complex to achieve the desired discrimination power. The same experimental optimization process led to a maximum depth of 18 paired with a learning rate of 0.025. While the maximum depth is the same as that of the $\gamma$ + Jet model, the learning rate is quite a bit lower than the 0.06 used for that BDT.
  
-\subsection{Determination of Loose Single Photon MVA Cuts for $H \rightarrow \gamma \gamma$}
+\subsection{Determination of Loose Single Photon MVA Cuts for $H \rightarrow \gamma \gamma$} \label{sec:SingleHSinglePhoCuts}
 The preexisting preselection first makes decently loose cuts on individual photons, then tighter $p_T$ and $p_T/M_{\gamma \gamma}$ cuts on selected diphoton combinations. A very similar strategy can be used for the BDT-based offline selection. Firstly, loose cuts on the above BDT scores can be applied to the individual photon candidates, which will reduce the number of possible diphoton combinations and cut out many events with no reasonable photon candidates. Then, with the list of individual photons cleaned up a bit, a tighter selection can be applied to the resulting diphoton objects for the selection of a final pair of photons. 
 
 So, then, the aim is to choose a loose set of cuts on the $\gamma + Jet$ and Data/MC BDT scores before applying a tighter final selection on the resulting diphoton combinations. One great advantage of a BDT-based approach is the ease with which these cuts can be adjusted and optimized; while a many-variable preselection has several different cuts to optimize, a binary classifier BDT only has a single output score on which to make cuts. While the goal of this current offline selection is to demonstrate an example analysis that leverages the increased signal efficiency of the MVA-HLT, the existence of these single photon scores allows very easy tuning of the photon preselection for any given analysis. The example cuts chosen below were designed to reduce the signal efficiency by about 2\%, which primarily serves to reduce the number of possible photon combinations for final selection; ultimately, the diphoton cuts described in \ref{sec:DiphotonBDT} will be the primary final selection used to achieve the desired data rate. 
@@ -1045,7 +1046,6 @@ Clearly, as seen in figure \ref{fig:SinglePhoCutsMgg}, these chosen single photo
 \end{figure}
 
 Maximizing the kinematic acceptance of the signal events in $\eta_{SC}$ is a key consideration to any photon selection. In figure \ref{fig:SinglePhoCutsEta}, the acceptance of the different single photon selections is shown. Given that the signal acceptance is so high for these loose single photon cuts, it can be seen immediately that there are no regions of the detector shown for which the acceptance is problematic. Considering the preselection (yellow), however, a relative drop in efficiency can be seen in the low-$\eta$ regions at the start of the endcap (near $\lvert \eta \rvert$  = 1.5). Investigations showed that the hard $R_9$ cuts placed on the photons by the standard preselection are responsible for this relative dip in efficiency. Utilizing the $R_9$ in the BDT, as opposed to these hard cuts, ensures that the kinematic coverage for the loose single photon BDT selection is better than that of the standard preselection.
-
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
@@ -1316,7 +1316,7 @@ Relative to the data selected by the single Higgs workflow, the DiHiggs data sel
 	\label{fig:DiHiggs:DataMCVars6}
 \end{figure}
 
-\subsection{Determination of Loose Single Photon MVA Cuts for $HH \rightarrow b \bar{b} \gamma \gamma$}
+\subsection{Determination of Loose Single Photon MVA Cuts for $HH \rightarrow b \bar{b} \gamma \gamma$}\label{sec:DiHiggsSinglePhoCuts}
 
 Given the difference in the resulting output BDT score distributions, the loose single photon cuts must be reexamined for the DiHiggs sample. As previously mentioned, this readjustment of the cuts is a relatively straightforward process. Again, the general goal was to achieve an approximately 98\% signal efficiency. Relative to the single H cuts, both the $\gamma$ + Jet and Data/MC cuts are numerically tighter. The chosen cuts yielded a total signal efficiency of 97.35\% and a corresponding data acceptance of 14.7\%. While both of these values are fractionally lower than that of the single Higgs, there is still ample signal efficiency with which to realize the gains from the trigger level. On the other hand, the preselection yields a signal efficiency of 67.78\%, which is considerably lower than that of the single Higgs. 
 \begin{figure}[H]
@@ -1472,7 +1472,7 @@ While the separation between the signal and background for both lead and sublead
 	\label{fig:DiHiggs:DiphoVars6}
 \end{figure}
 
-Finally, the electron veto values look very similar to those of the single Higgs data and MC. Shown in figure \ref{fig:DiHiggs:DiphoVars6}, it is still the case that the signal MC has both photons passing the veto in >95\% of cases. Again, this will prove a very useful discrimination variable.
+Finally, the electron veto values look very similar to those of the single Higgs data and MC. Shown in figure \ref{fig:DiHiggs:DiphoVars6}, it is still the case that the signal MC has both photons passing the veto in \textgreater 95\% of cases. Again, this will prove a very useful discrimination variable.
 
 For this final BDT, the same steps of hyperparameter optimization and training were followed. It was found that, for the diHiggs diphoton BDT, the same hyperparameters could be used as for the single Higgs version of the same BDT. 
 
@@ -1484,11 +1484,16 @@ As discussed in chapter \ref{chapter:HLT}, the first main consideration for any 
 \subsection{Trigger Rate of MVA-HLT}
  
 \section{Evaluation of MVA-HLT Eficiency on Selected Signal Samples}
-Once it has been verified that the trigger rate is within the limits posed by the collaboration, the next major task is ensuring that the signal efficiency for the MVA-HLT is a noticable improvement over the standard HLT.  Since the reconstruction, calibrations, and corrections are different at the NanoAOD level, the measurements made at the RAW level in section \ref{sec:cutChoices} must be verified on independent analysis-level (NanoAOD) samples. 
+Once it has been verified that the trigger rate is within the limits posed by the collaboration, the next major task is ensuring that the signal efficiency for the MVA-HLT is a noticable improvement over the standard HLT.  Since the reconstruction, calibrations, and corrections are different at the NanoAOD level, the measurements made at the RAW level in section \ref{sec:cutChoices} must be verified on independent analysis-level (NanoAOD) samples. HiggsDNA was used to produce these samples and plots, which is described in more detail in \ref{sec:HiggsDNA}. One major point of note is that here the "All Events" curve shown must be carefully defined. For these MVA-HLT plots, there will be no additional preselection. Only minimal kinematic cuts of $p_T > 14.25$, $\lvert \eta_{SC} \rvert < 2.5$, and $100 < M_{\gamma \gamma} < 180$ are applied. Additionally, both the signal and data are required to pass one or both of the triggers of interest. So, every event replicated below will pass either the sHLT, MVA-HLT, or both. 
 
 As in section \ref{sec:cutChoices}, plots can be made of selected input variables and the resulting accepted distributions can be compared for the MVA-HLT versus the standard diphoton HLT. For these susequent plots, the acceptance of MVA-HLT will be shown in dark blue, while the acceptance of the standard HLT will be shown in dark blue. Additionally, the light blue curve will show events that pass the MVA-HLT but fail the standard HLT. Therefore, the light blue curve will our signal gain directly. 
 
-\subsection{Single Higgs MVA-HLT Acceptance}
+In order to assess these results in terms of real physics yeilds, the counts of signal and data must be luminosity-normalized. The EGamma dataset for the 2024I run consists of a total of 11.56 $fb^{-1}$ of integrated luminosity. In contrast, monte carlo signal samples are produced with a specific number of events in mind. Then, an "equivalent luminosity" is calculated, essentially measuring how much real integrated luminosity would be required to capture the generated number of events. Additionally, each MC has an associated cross-section (XS) given in pb. When combining this with the event-by-event weights calculated at the generator, the number of expected events can be constructed as given in equation \ref{eqn:ExpectedCount}. The ratio at the end of the equation, (Target Lumi/Equivalent Lumi) is added so that the MC counts are scaled to the same luminosity as the selected data.
+\begin{equation}\label{eqn:ExpectedCount}
+    Expected Count = Event Weight * XS (pb) * Equiv Lumi (fb^{-1}) * 1000 * \left(\frac{Target Lumi (fb^{-1})}{Equiv Lumi (fb^{-1})}\right)
+\end{equation}
+
+\subsection{$H \rightarrow \gamma \gamma$ MVA-HLT Acceptance}
 Beginning with the $M_{\gamma \gamma}$ distribution (fig. \ref{fig:SingleH:HLTAcceptance:Mgg}), it can be seen that the MVA-HLT (blue) has considerably improved signal MC acceptance compared to the standard HLT. In fact, there is a 9.7\% relative signal efficiency gain (97.32\% vs 88.68\%) when considering both the barrel and endcap events together. This is a bit lower than the 13.6\% signal gain seen at the RAW trigger level (93.86\% vs 82.64\%). This is partly due to the improvement in overall signal efficiency for the standard HLT at the NanoAOD level. Because the NanoAOD reconnstruction is imrpoved relative to that at the trigger RAW level, it is expected that the overall signal efficiency at this level will be improved. Overall, however, it can be seen that the $H \rightarrow \gamma \gamma$ signal eficiency is very high for the MVA-HLT, as desired.
 
 Another major advantage of the MVA-HLT is the reduction in data rate. As demonstrated in section \ref{sec:TriggerRate}, the MVA-HLT has approximately half the trigger rate of the standard trigger. This is approximately confirmed by data distribution shown in \ref{SingleHBkg:HLTAcceptance:Mgg}. For all $\eta_{SC}$, the total data acceptance is 22.41\% compared to thr 42.62\% of the standard HLT. The light blue curve, additionally, can be used as a proxy for seeing the pure rate measured in section \ref{sec:TriggerRate}; about 13.4\% of the data passes the MVA-HLT but fails the standard HLT. 
@@ -1527,19 +1532,19 @@ The acceptance of the data, shown in figure \ref{SingleHBkg:HLTAcceptance:Eta}, 
 	\label{fig:SingleH:HLTAcceptance:Eta}
 \end{figure}
 
-
+Next, the photon candidate $p_T/M_{\gamma \gamma}$ can be examined. Given the lower $p_T$ thresholds of the MVA-HLT, it is expected that there will be some enhancement in acceptance for low-$p_T$ candidates. For the sHLT, the signal MC in figure \ref{SingleHSig:HLTAcceptance:Ptm} goes to 0 around $p_T/M_{\gamma \gamma} = 0.15$, which corresponds to the sublead $p_T > 25$ cut. This leads to an enhancement in the gain below this value, as the MVA-HLT keeps consistent kinematic coverage down to the lowerst values plotted. Of course, these low-$p_T/M_{\gamma \gamma}$ sublead photons correspond to a higher-$p_T/M_{\gamma \gamma}$ lead photon, which is usually not cut out by the sHLT. Since the HLT is a per-event decision, both of these photons will be cut out by the sHLT. So, gains across the whoe $p_T/M_{\gamma \gamma}$ range can be seen for the MVA-HLT. For the background, it can be seen that the sHLT begins to fall off at lower values. The MVA-HLT achieves considerably lower data acceptance without explicity cutting out any region of the $p_T/M_{\gamma \gamma}$ distribution. 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png}
-		\caption{Signal MC $p_{T}/M_{\gamma \gamma}$}
+		\caption{Signal MC Diphoton $p_{T}$}
 		\label{SingleHSig:HLTAcceptance:Ptm}
 	\end{subfigure}\hfill
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png}
-		\caption{Data $p_{T}/M_{\gamma \gamma}$}
+		\caption{Data Diphoton $p_{T}$}
 		\label{SingleHBkg:HLTAcceptance:Ptm}
 	\end{subfigure}
-	\caption{Acceptance of the MVA-HLT (dark blue) vs. the current standard diphoton HLT (green) for $p_{T}/M_{\gamma \gamma}$. Both the lead and sublead photons are plotted together. Events that pass the MVA-HLT but fail the standard HLT can be seen in light blue.}
+	\caption{Acceptance of the MVA-HLT (dark blue) vs. the current standard diphoton HLT (green) for $p_{T}$. Both the lead and sublead photons are plotted together. Events that pass the MVA-HLT but fail the standard HLT can be seen in light blue.}
 	\label{fig:SingleH:HLTAcceptance:Ptm}
 \end{figure}
 
@@ -1580,9 +1585,12 @@ Finally, the results of the signal MC efficiency and the data acceptance are tab
 
 Overall, it can be seen that the MVA-HLT achieves the desired result at the NanoAOD analysis level. The signal efficiency is about 9.7\% higher for the $H \rightarrow \gamma \gamma$ signal MC relative to the standard HLT. The overall efficiency sits at 97.3\%, which allows virtually all of the signal MC to be considered for subsequent analyses. In addition, no holes in kinematic coverage can be seen, meaning that the MVA-HLT is able to more-completely cover the full range of possible physics that can be gleaned from $H \rightarrow \gamma \gamma$ processes.
 
-\subsection{DiHiggs MVA-HLT Acceptance}
+\subsection{$HH \rightarrow b \bar{b} \gamma \gamma$ MVA-HLT Acceptance}
 
-Where the MVA-HLT can sine best, however, is for more rare processes like the $HH \rightarrow b \bar{b} \gamma \gamma$.
+Where the MVA-HLT can sine best, however, is for more rare processes like the $HH \rightarrow b \bar{b} \gamma \gamma$. As with the single Higgs results, plots can be made comparing the signal efficiency and data acceptance for the sHLT versus the MVA-HLT. These distributions are shown in figures \ref{fig:DiHiggs:HLTAcceptance:Mgg}-\ref{fig:DiHiggs:HLTAcceptance:Ptm}. Given that the cross section of the DiHiggs is much lower than that of the single Higgs (as described in section \ref{sec:Higgs}), the equivalent counts for this signal MC are lower.
+
+Similarly to the MVA-HLT results for the $H \rightarrow \gamma \gamma$ signal MC, very high signal efficiency is immediately seen for $HH \rightarrow b \bar{b} \gamma \gamma$. In figure \ref{fig:DiHiggs:HLTAcceptance:Mgg}, it can be seen that the signal acceptance has near-perfect kinematic coverage in $M_{\gamma \gamma}$ and achieves a total efficiency of 98.45\%. Compared to the sHLT (88.45\%), this is an 11.3\% relative gain.  This is, in fact, slightly higher than the 97.32\% achieved for the single Higgs. Since the MVA-HLT is largely aimed at improving the signal efficiency for rarer processes, this is a welcome result. The data acceptance is lower than that for the single Higgs, but the ratio between the sHLT and the MVA-HLT is approximately constant -- while the sHLT accepts 33.2\% of the data, the MVA-HLT accepts 16.86\%. There is no particular $M_{\gamma \gamma}$ dependence to the acceptance of either HLT for the signal or background.
+
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png}
@@ -1597,6 +1605,8 @@ Where the MVA-HLT can sine best, however, is for more rare processes like the $H
 	\caption{Acceptance of the MVA-HLT (blue) vs. the current standard diphoton HLT (green) for $M_{\gamma \gamma}$}
 	\label{fig:DiHiggs:HLTAcceptance:Mgg}
 \end{figure}
+
+Upon examining the $\eta_{SC}$ distributions, the kinematic differences between the single Higgs and diHiggs are again borne out; the $HH \rightarrow b \bar{b} \gamma \gamma$ signal MC tends to have far fewer events in the endcap and is quite central near 0 for the barrel. The same gains in signal efficiency around the low-$\eta$ endcap can be seen, though they are smaller for the DiHiggs. The shape of the background acceptance is essentially unchanged, though the dip at $\eta = 0$ is perhaps marginally larger. Again, this reaffirms the fact that the kinematic coverage in $\eta_{SC}$ is improved for the signal MC relative to the MVA-HLT.
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
@@ -1613,6 +1623,8 @@ Where the MVA-HLT can sine best, however, is for more rare processes like the $H
 	\label{fig:DiHiggs:HLTAcceptance:Eta}
 \end{figure}
 
+As seen in figure \ref{DiHiggsSig:HLTAcceptance:Eta}, the diHiggs signal MC shows some clear kinematic differences compared to the single Higgs MC. Whereas the single Higgs drops off much faster in $p_T/M_{\gamma \gamma}$, the diHiggs distribution is much broader and extends to higher values. In fact, the overflow bin in the distribution has a very high population, showing that the distribution continues on for quite some time past the bounds of the graph shown. Like the single Higgs, however, the sHLT cuts out the low-$p_T/M_{\gamma \gamma}$ values. The MVA-HLT keeps virtually all of these photons, meaning that there is considerable gain in signal efficiency in this region. The behavior of the data is much the same as that of the single Higgs. 
+
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png}
@@ -1625,8 +1637,10 @@ Where the MVA-HLT can sine best, however, is for more rare processes like the $H
 		\label{DiHiggsBkg:HLTAcceptance:PtM}
 	\end{subfigure}
 	\caption{Acceptance of the MVA-HLT (blue) vs. the current standard diphoton HLT (green) for $p_T/M_{\gamma \gamma}$}
-	\label{fig:DiHiggs:HLTAcceptance:Eta}
+	\label{fig:DiHiggs:HLTAcceptance:Ptm}
 \end{figure}
+
+Table \ref{tab:DiHiggs:offlineHLTEffs} shows the total efficiencies for both the $HH \rightarrow b \bar{b} \gamma \gamma$ signal MC and data in the different detector regions. While the signal MC efficiencies for the sHLT are approximately equal to those of the single Higgs, the MVA-HLT achieves marginally high efficiencies in all of the detector regions relative to the single Higgs. The relative gain, as a result, is higher for the diHiggs MVA0-HLT. Meanwhile, the data acceptance of both HLTs is lower than that of the single Higgs, though the relative proportion stays consistent.
 
 \begin{table}[h]
     \centering
@@ -1642,7 +1656,7 @@ Where the MVA-HLT can sine best, however, is for more rare processes like the $H
             B-B & 98.90 & 91.01 \\ \hline
             B-E & 97.25 & 81.10 \\ \hline
             E-E & 98.26 & 89.18 \\ \hline
-            All & 94.45 & 88.45 \\ \hline
+            All & 98.45 & 88.45 \\ \hline
         \end{tabular}
     \end{subtable}
     \hfill
@@ -1662,7 +1676,10 @@ Where the MVA-HLT can sine best, however, is for more rare processes like the $H
 \end{table}
 
 \section{Evaluation of Offline Selection Eficiency with MVA-HLT }
-\subsection{Method of Signal Efficiency Measurement}
+As discussed in chapter \ref{chapter:OfflineSelection}, the offline selection cuts are designed to cover the corresponding HLT cuts. Since the sHLT is based on hard cuts on the $p_T$, showershape, and isolation cuts, the offline selection is created using similar principles. The offline selection BDTs developed in chapter \ref{chapter:OfflineSelection} are, on the other hand, designed to cover the MVA-HLT. While the single photon preselection cuts on single Higgs and diHiggs samples were discussed in sections \ref{sec:SingleHSinglePhoCuts} and \ref{sec:DiHiggsSinglePhoCuts}, respectively, the cuts on the corresponding diphoton BDTs were not investigated. The results of these final selections will be shown in the subsequent sections.
+
+Any chosen offline selection cuts are only given as a point of comparison; the power of a BDT-based approach lies in its ability to be easily tuned for each analysis. As a result, multiple points of comparison will be shown in subsequent plots for both single Higgs and diHiggs samples.
+
 \subsection{Single Higgs Offline Selection Acceptance}
 
 \begin{figure}[H]
