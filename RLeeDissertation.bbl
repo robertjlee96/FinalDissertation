@@ -19,6 +19,37 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{Run3Hgg2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhashraw}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhashraw}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{JHEP 09 (2025) 070}
+      \field{title}{Measurements of inclusive and differential Higgs boson production cross sections at $\sqrt{s}$ = 13.6 TeV in the H $\to$ $\gamma \gamma$ decay channel}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1007/JHEP09(2025)070
+      \endverb
+      \verb{eprint}
+      \verb arXiv:2504.17755
+      \endverb
+    \endentry
     \entry{CMS10YearReview}{article}{}{}
       \name{author}{1}{}{%
         {{hash=4cb2e77a14335bb3218633a36b56e696}{%
@@ -39,7 +70,7 @@
       \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
@@ -72,7 +103,7 @@
       \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}

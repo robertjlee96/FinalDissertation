@@ -71,7 +71,8 @@
 \contentsline {subsection}{\numberline {5.2.3}Determination of Input Variables}{27}{subsection.5.2.3}%
 \contentsline {subsection}{\numberline {5.2.4}Hyperparameter Tuning}{32}{subsection.5.2.4}%
 \contentsline {section}{\numberline {5.3}Determination of BDT Cuts}{34}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Final Implementation in HLT Menu}{44}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Evaluation of BDT Cuts}{38}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Final Implementation in HLT Menu}{44}{section.5.5}%
 \contentsline {chapter}{\numberline {6}MVA-Based Offline Preselection}{46}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Current Diphoton Preselection}{46}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Development of MVA-Based Offline Preselection}{48}{section.6.2}%
@@ -84,15 +85,13 @@
 \contentsline {subsection}{\numberline {6.2.4}Determination of Loose Single Photon MVA Cuts for $HH \rightarrow b \bar {b} \gamma \gamma $}{79}{subsection.6.2.4}%
 \contentsline {subsection}{\numberline {6.2.5}Creation of Diphoton BDT for $HH \rightarrow b \bar {b} \gamma \gamma $}{81}{subsection.6.2.5}%
 \contentsline {chapter}{\numberline {7}Evaluation of the MVA-HLT and Complementary Offline Selection}{88}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Measurement of Trigger Rate}{88}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Method of Rate Measurement}{88}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Trigger Rate of MVA-HLT}{88}{subsection.7.1.2}%
-\contentsline {section}{\numberline {7.2}Evaluation of MVA-HLT Eficiency on Selected Signal Samples}{88}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}$H \rightarrow \gamma \gamma $ MVA-HLT Acceptance}{90}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}$HH \rightarrow b \bar {b} \gamma \gamma $ MVA-HLT Acceptance}{94}{subsection.7.2.2}%
-\contentsline {section}{\numberline {7.3}Evaluation of Offline Selection Eficiency with MVA-HLT }{98}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}$H \rightarrow \gamma \gamma $ Offline Selection Acceptance}{99}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}$HH \rightarrow b \bar {b} \gamma \gamma $ Offline Selection Acceptance}{103}{subsection.7.3.2}%
-\contentsline {chapter}{\numberline {8}Summary}{106}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Acknowledgements}{107}{chapter.9}%
+\contentsline {section}{\numberline {7.1}Measurement of Trigger Rate and Timing}{88}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Evaluation of MVA-HLT Eficiency on Selected Signal Samples}{89}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}$H \rightarrow \gamma \gamma $ MVA-HLT Acceptance}{91}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}$HH \rightarrow b \bar {b} \gamma \gamma $ MVA-HLT Acceptance}{95}{subsection.7.2.2}%
+\contentsline {section}{\numberline {7.3}Evaluation of Offline Selection Eficiency with MVA-HLT }{99}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}$H \rightarrow \gamma \gamma $ Offline Selection Acceptance}{100}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}$HH \rightarrow b \bar {b} \gamma \gamma $ Offline Selection Acceptance}{105}{subsection.7.3.2}%
+\contentsline {chapter}{\numberline {8}Summary}{109}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Acknowledgements}{110}{chapter.9}%
 \def \@chapapp {\appendixname }
