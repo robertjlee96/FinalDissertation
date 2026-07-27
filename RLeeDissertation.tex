@@ -75,27 +75,19 @@ Probably no dedication.
 \vskip0pt plus.5fil
 \setsinglespacing
 {\flushright
-True ease in writing comes from art, not chance,\\
-As those move easiest who have learn'd to dance.\\
-'T is not enough to no harshness gives offence,---\\
-The sound must seem an echo to the sense.
+
 
 \vskip\baselineskip
 \textit{Alexander Pope}\par}
 \vfil
 \begin{center}
-You write with ease to show your breeding,\\
-But easy writing's curst hard reading.
+
 
 \vskip\baselineskip
 \textit{Richard Brinsley Sheridan}
 \end{center}
 \vfil
-\noindent Writing, at its best, is a lonely life. Organizations for
-writers palliate the writer's loneliness, but I doubt if they improve
-his writing. He grows in public stature as he sheds his loneliness and
-often his work deteriorates. For he does his work alone and if he is a
-good enough writer he must face eternity, or the lack of it, each day.
+
 
 \vskip\baselineskip
 \hskip0pt plus1fil\textit{Ernest Hemingway}\hskip0pt plus4fil\null
@@ -192,8 +184,6 @@ Within the SM, there are two major forms of particle. Spin 1/2 particles, called
 
 As will be discussed in \ref{sec:EW}, experimental findings pointed early theorests towards the unification of the electromagnetic and weak forces into what is now known as the electroweak (EW) theory. The 
 
-\section{Quantum Electrodynamics (QED)}\label{sec:QED}
-Use Gaillard, Grannis, and Sciulli
 
 \section{Quantum Chromodynamics (QCD)}\label{sec:QCD}
 Use Gaillard, Grannis, and Sciulli AND PDG Physics summary page 153
@@ -248,10 +238,17 @@ Use PDG Physics summary page 211-218
 \subsection{Usefulness of the $HH \rightarrow b\bar{b}\gamma\gamma$ Channel}
 
 \chapter{The LHC and CMS Detector}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/LHCFullLayout.png}
+	\caption[]{A simplified schematic of the overall layout of the LHC. The counter-rotating beams are shown in red (clockwise) and blue (counterclockwise). Reproduced from \cite{LHC2008}. }
+	\label{fig:LHCLayout}
+\end{figure}
 \section{The Large Hadron Collider}
 The Large Hadron Collider, which replaced the prexisting Large Electron-Positron Collider, was constructed between 2000 and 2008. Designed to reach new energy fronteirs by colliding protons at up to 14 TeV, the LHC provided particles physicists with their most powerful tool yet to test the Standard Model and beyond. At the most basic level, these proton-proton collisions are achieved by crossing two counter-rotating proton beams at specific points. These counter-rotating beams are accelerated along the 26.7 km circumference of the LHC within a tunnel of 3.7 m internal diameter. Initial designes proposed two completely separated proton beam pipes, but it became clear that the space requirements of the existing CERN tunnel (constructed for LEP) precluded this possibility. As a result, a "two-in-one" superconducting magnet design was adopted that allowed the two beams to be transported in separate magnetic coils sharing the same mechanical and cryostat space.
 \subsection{LHC Design} 
 \subsection{Collisions at the LHC} \label{sec:Collisions}
+
 \subsection{LHC Experiments}
 Collisions at the LHC occur at 4 major interaction points, where 4 separate detectors have been constructed to allow independent measurements of target physics processes. Two of these detectors, ATLAS and the Compact Muon Solenoid (CMS), are designed as general-purpose detectors with systems allowing the measurement of a broad range of physics processes. Since these detectors are constructed using different technologies and detector elements, the LHC is able to produce separate physics results that can be cross-checked. A major motivation for the construction of these experiments was the detection of the Higgs boson in its various decay modes. 
 
@@ -300,9 +297,13 @@ The barrel component of the ECAL (EB) is designed, of course, with cylindrical s
 
 As with the tracker, the individual crystals are combined into submodules and modules, where readout and power-supplying electronics are consolidated. These submodules are of an "aveolar" structure, where the dividing walls between individual crystals ar 0.1mm thick and are made of a combination of alluminum and fibre-epoxy resin. This leads to a total crystal-to-crystal distance of 0.35mm within each submodule. This provides sufficient granularity while still ensuring complete geometric coverage with a reasonable number of individual channels. 
 \subsubsection{ECal Endcaps (EE)}
+The ECal endcaps (EE) cover the pseudorapidity range of $ 1.479 < |\eta| < 3.0$, and are located symmetrically 315.4cm from the interaction point. The EE is designed as a symmetric disk, with identically shaped crystals grouped in units of 5x5 crystals. The crystals are pointed at a focus point 1300mm beyond the interaction point, meaning that they are angled towards the beam line with an increasing angle (between 2 and 8 degrees) as they move further from the center of the endcap. The cross-sections of these crystals are slightly larger than those in the barrel, measuring at 28.62x28.62 $mm^2$. In total, there are 7,324 crystals for each of the two endcaps laid out in a regular x-y grid. Since this detector element represents much less coverage in terms of area, there are of course fewer total crystals. The difference in the crystal sizes and arrangements relative to the EB means that many of the geometric quanities measured by later reconstructions will differ in the EE.  
 \subsection{Hadron Calorimeter} \label{sec:HCal}
-\subsection{Forward Calorimeter} \label{sec:HF}
+While the hadron calorimeter can provide useful measurements for rejecting hadronic backgrounds from the desired photon signatures of this analysis, most measurements it provides are not of great use for the $H \rightarrow \gamma \gamma$ process. As a result, only a basic understanding of this detector will be summarized from \cite{CMS2008}. As with the ECal system, the HCal consists of a barrel (HB) and endcap (HE) detector element. Located further from the interaction point than the ECal, these elements are much larger than the more inner detector elements. Still, the major operating principle is to cause scintillation and therefore measure energy deposition in individual crystals. As with the ECal, this allows the examination of the energy deposition in both size and location.
+
+The HB consists of 36 identical "wedges" arranged azimuthally around the beamline, and extend between the end of the EB (at R = 1.77m) and the start of the magnetic coil (R - 2.95m). As a result, these HB wedges are considerably thicker than the ECal detector elements. The HB extends less in $\eta$ than the EB, covering the area between $|\eta| < 1.3$. Since the barrel extends away from the interaction point (in z), the interaction length, $\lambda_I$ increases with increasing distance from the interaction point. As a result, at higher $\eta$ values, signatures pass through considerably more of the detector. The HE consists of two circular caps that cover the range $1.3 < |\eta| < 3.0$. 
 \subsection{The Muon Detector} \label{sec:MuonDetector}
+The final, outermost detector element is the muon detector. This is the crowning jewel of the CMS detector, and was a major motivator for its construction. The muon system is designed entirely to measure muon signatures across the entire kinematic range of the LHC. As with the two calorimeter elements, the muon system is designed as a large barrel detector with two additional endcaps covering the higher-$\eta$ regions near the beamline. While this impressive system marks a monumental step towards precision measurements of processes containing muons (such as Z boson decay), it has little relation to the measurement of $H \rightarrow \gamma \gamma$ signatures. The general size and shape of the muon system can be seen in figure \ref{fig:FullCMS}, but no further details need be supplied for this analysis.
 
 \chapter{Triggering and Offline Software} \label{chapter:Software}
 In Run3 of the LHC, the increased luminosity leads to an average of 60 collisions per bunch crossing (termed "Pileup") (REF?). Given that these bunch crossings occur at a rate of 40MHz (every 25ns) and can create a large number of individual particles, the procesing and storage facilities of are incapable of saving and analyzing every interaction generated in each bunch crossing. The triggering system, therefore, is designed to drastically reduce the number of output events while presevering as many events matching signal signatures as possible. Overall, the triggers aim to reduce the data rate from 40MHz down to just 5kHz. This reduction is achieved by a two-tierd triger system consisting of the Level 1 (L1) triggers and the High Level Triggers (HLT). Since there are many possible signal signatures depending on the analysis being conducted, there are many individual triggers at both L1 and HLT. Details of the L1 triggers will be given below in section \ref{sec:L1}, and the HLT will be described in great detail in section \ref{sec:HLT}. 
@@ -330,8 +331,32 @@ Both the Layer-2 calorimeter trigger and the $\mu$GMT output to the Global Trigg
 	\label{fig:L1Architecture}
 \end{figure}
 \subsection{The L1 e/$\gamma$ Reconstruction}
-Since photons and electrons have no associated tracking information, the only way that they can be identified is by their energy signatures. 
+Since photons and electrons have no associated tracking information, the only way that they can be identified is by their energy signatures \cite{L12020}. The only way to reconstruct e/$\gamma$ objects, then, is to very carefully reconstruct the shape, size, and magnitude of these energy signatures deposited in the TTs of the ECal and HCal. The major tenet of this is called clustering. Firstly, the "seed tower" is defined as the trigger tower that has the highest energy deposition in a local region. Then, contiguous towers are taken where the energy threshold exceeds $E_T = 1$ GeV. These clusters are created dynamically, allowing different signature shapes for later analysis. 
+
+Of course, due to the effects of pileup in the detector elements (as discussed in section (REF?)), care must be taken to consider only those contiguous towers which appear to be part of a genuine e/$\gamma$ signature. There are a few clustering vetos as the L1 level designed to remove signatures that do not appear to origin ate from an e/$\gamma$ candidate: a shape veto is applied to select contiguous clusters that appear to have the correct shape, thereby excluding wider or more irregular pileup showers wherever possible; a fine grain veto bit measures the compactness of the signature in the seed tower and discriminates against hadron-induced showers; an H/E veto measures the ratio of energies deposited in the HCal and ECal, rejecting signatures with higher HCal energy depositions \cite{L12020}.
+
+The next major reconstructed quantity at the L1 trigger is the energy isolation. Essentially, a 6x9 region ($\eta x \phi$) around the main cluster is defined, and the total energy deposited in this region is measured and compared against a chosen threshold for the specific L1 trigger. So, then, a higher isolation energy means that the cluster may not be a clean individual e/$\gamma$ signature and instead could come from a larger hadronic shower or from pileup energy deposition. This isolation energy will be a major component of the HLT and offline reconstructions, as well. The components of the L1 clustering algorithm are shown in figure \ref{fig:L1Clustering}, reproduced from \cite{L12020}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\linewidth]{./Figures/L1Clustering.png}
+	\caption[]{A diagram of an L1 e/$\gamma$ cluster. The central seed tower is shown in red, and the clustered contiguous towers are shown in orange and yellow. The isolation region is shown in blue. Reproduced from \cite{L12020}.}
+	\label{fig:L1Clustering}
+\end{figure}
+
+The full energy of the cluster, excluding the isolation region, is taken as the "raw energy" of the event and is then compared to various thresholds imposed by differnt L1 triggers. The L1 trigger only has access to this raw energy, the general shape of the energy shower, and the isolation energy. While these quantities will be further refined in later, more sophisticated steps of reconstruction, they still prove powerful enough to reduce the L1 trigger rate to the required value without discarding an unacceptable amount of possibly genuine e/$\gamma$ signatures.
 \subsection{The L1 Menu}\label{sec:L1Menu}
+
+The full L1 consists of a suite of many individual triggers combined together, which is termed an L1 menu. While several different menus exist for different physics programs and for testing/calibration, the Global Trigger (GT) menu is the standardized full menu used for normal p-p collisions. This menu consists of the full suite of hadronic, heavy lepton, and e/$\gamma$ triggers. The percentage of the 100kHz rate allowed for each type of trigger in Run 2 is shown in figure \ref{fig:L1Menu}. Clearly, e/$\gamma$ triggers are a major component of the full L1 menu; combining both single and double e/$\gamma$ triggers gives a total percentage of 31.2\%. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\linewidth]{./Figures/L1MenuPercents.png}
+	\caption[]{A comparison of the percentage of the total rate allowed for each category of trigger. Reproduced from \cite{L12020}.}
+	\label{fig:L1Menu}
+\end{figure}
+
+Of these classes of triggers, the single and double e/$\gamma$ triggers are the most relevant to the $H \rightarrow \gamma \gamma$.
 
 \section{The Data Aquisition System (DAQ)} \label{sec:DAQ}
 \section{High Level Trigger} \label{sec:HLT}
@@ -1497,7 +1522,7 @@ In order to assess these results in terms of real physics yeilds, the counts of 
 \end{equation}
 
 \subsection{$H \rightarrow \gamma \gamma$ MVA-HLT Acceptance} \label{sec:OfflineHLTSingleH}
-Beginning with the $M_{\gamma \gamma}$ distribution (fig. \ref{fig:SingleH:HLTAcceptance:Mgg}), it can be seen that the MVA-HLT (blue) has considerably improved signal MC acceptance compared to the standard HLT. In fact, there is a 9.7\% relative signal efficiency gain (97.32\% vs 88.68\%) when considering both the barrel and endcap events together. This is a bit lower than the 13.6\% signal gain seen at the RAW trigger level (93.86\% vs 82.64\%). This is partly due to the improvement in overall signal efficiency for the standard HLT at the NanoAOD level. Because the NanoAOD reconnstruction is imrpoved relative to that at the trigger RAW level, it is expected that the overall signal efficiency at this level will be improved. Overall, however, it can be seen that the $H \rightarrow \gamma \gamma$ signal eficiency is very high for the MVA-HLT, as desired.
+Beginning with the $M_{\gamma \gamma}$ distribution (fig. \ref{fig:SingleH:HLTAcceptance:Mgg}), it can be seen that the MVA-HLT (blue) has considerably improved signal MC acceptance compared to the standard HLT. In fact, there is a 9.7\% relative signal efficiency gain (97.32\% vs 88.68\%) when considering both the barrel and endcap events together. This is a bit lower than the 13.6\% signal gain seen at the RAW trigger level (93.86\% vs 82.64\%). This is partly due to the improvement in overall signal efficiency for the standard HLT at the NanoAOD level. Because the NanoAOD reconnstruction is imrpoved relative to that at the trigger RAW level, it is expected that the total signal efficiency at this level will be improved. Overall, however, it can be seen that the $H \rightarrow \gamma \gamma$ signal eficiency is very high for the MVA-HLT, as desired.
 
 Another major advantage of the MVA-HLT is the reduction in data rate. As demonstrated in section \ref{sec:TriggerRate}, the MVA-HLT has approximately half the trigger rate of the standard trigger. This is approximately confirmed by data distribution shown in \ref{SingleHBkg:HLTAcceptance:Mgg}. For all $\eta_{SC}$, the total data acceptance is 22.41\% compared to thr 42.62\% of the standard HLT. The light blue curve, additionally, can be used as a proxy for seeing the pure rate measured in section \ref{sec:TriggerRate}; about 13.4\% of the data passes the MVA-HLT but fails the standard HLT. 
 
@@ -1535,7 +1560,7 @@ The acceptance of the data, shown in figure \ref{SingleHBkg:HLTAcceptance:Eta}, 
 	\label{fig:SingleH:HLTAcceptance:Eta}
 \end{figure}
 
-Next, the photon candidate $p_T/M_{\gamma \gamma}$ can be examined. Given the lower $p_T$ thresholds of the MVA-HLT, it is expected that there will be some enhancement in acceptance for low-$p_T$ candidates. For the sHLT, the signal MC in figure \ref{SingleHSig:HLTAcceptance:Ptm} goes to 0 around $p_T/M_{\gamma \gamma} = 0.15$, which corresponds to the sublead $p_T > 25$ cut. This leads to an enhancement in the gain below this value, as the MVA-HLT keeps consistent kinematic coverage down to the lowerst values plotted. Of course, these low-$p_T/M_{\gamma \gamma}$ sublead photons correspond to a higher-$p_T/M_{\gamma \gamma}$ lead photon, which is usually not cut out by the sHLT. Since the HLT is a per-event decision, both of these photons will be cut out by the sHLT. So, gains across the whoe $p_T/M_{\gamma \gamma}$ range can be seen for the MVA-HLT. For the background, it can be seen that the sHLT begins to fall off at lower values. The MVA-HLT achieves considerably lower data acceptance without explicity cutting out any region of the $p_T/M_{\gamma \gamma}$ distribution. 
+Next, the photon candidate $p_T/M_{\gamma \gamma}$ can be examined. Given the lower $p_T$ thresholds of the MVA-HLT, it is expected that there will be some enhancement in acceptance for low-$p_T$ candidates. For the sHLT, the signal MC in figure \ref{SingleHSig:HLTAcceptance:Ptm} goes to 0 around $p_T/M_{\gamma \gamma} = 0.15$, which corresponds to the sublead $p_T > 25$ cut. This leads to an enhancement in the gain below this value, as the MVA-HLT keeps consistent kinematic coverage down to the lowerst values plotted. Of course, these low-$p_T/M_{\gamma \gamma}$ sublead photons correspond to a higher-$p_T/M_{\gamma \gamma}$ lead photon, which is usually not cut out by the sHLT. Since the HLT is a per-event decision, both of these photons will be cut out by the sHLT. So, gains across the whole $p_T/M_{\gamma \gamma}$ range can be seen for the MVA-HLT. For the background, it can be seen that the sHLT begins to fall off at lower values. The MVA-HLT achieves considerably lower data acceptance without explicity cutting out any region of the $p_T/M_{\gamma \gamma}$ distribution. 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png}

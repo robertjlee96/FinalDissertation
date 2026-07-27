@@ -395,6 +395,11 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./Figures/LHCFullLayout.png
+INPUT ./Figures/LHCFullLayout.png
+INPUT ./Figures/LHCFullLayout.png
+INPUT ./Figures/LHCFullLayout.png
+INPUT ./Figures/LHCFullLayout.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT ./Figures/FullCMS.png
 INPUT ./Figures/FullCMS.png
@@ -416,6 +421,16 @@ INPUT ./Figures/L1TriggerArchitecture.png
 INPUT ./Figures/L1TriggerArchitecture.png
 INPUT ./Figures/L1TriggerArchitecture.png
 INPUT ./Figures/L1TriggerArchitecture.png
+INPUT ./Figures/L1Clustering.png
+INPUT ./Figures/L1Clustering.png
+INPUT ./Figures/L1Clustering.png
+INPUT ./Figures/L1Clustering.png
+INPUT ./Figures/L1Clustering.png
+INPUT ./Figures/L1MenuPercents.png
+INPUT ./Figures/L1MenuPercents.png
+INPUT ./Figures/L1MenuPercents.png
+INPUT ./Figures/L1MenuPercents.png
+INPUT ./Figures/L1MenuPercents.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
