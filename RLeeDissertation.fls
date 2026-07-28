@@ -431,6 +431,11 @@ INPUT ./Figures/L1MenuPercents.png
 INPUT ./Figures/L1MenuPercents.png
 INPUT ./Figures/L1MenuPercents.png
 INPUT ./Figures/L1MenuPercents.png
+INPUT ./Figures/ECalMustache.png
+INPUT ./Figures/ECalMustache.png
+INPUT ./Figures/ECalMustache.png
+INPUT ./Figures/ECalMustache.png
+INPUT ./Figures/ECalMustache.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
@@ -1082,6 +1087,8 @@ INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquar
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT RLeeDissertation.aux
 INPUT ./RLeeDissertation.out
 INPUT ./RLeeDissertation.out

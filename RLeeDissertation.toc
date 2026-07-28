@@ -48,48 +48,49 @@
 \contentsline {section}{\numberline {3.2}The Data Aquisition System (DAQ)}{26}{section.3.2}%
 \contentsline {section}{\numberline {3.3}High Level Trigger}{26}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}HLT Event Reconstruction}{27}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}HLT Trigger Rates and Timing}{27}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}HLT Software and ConfDB}{27}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Analysis Software}{27}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Offline Reconstruction}{27}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}The NanoAOD File Format}{27}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}NanoAOD Event Reconstruction}{27}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}HiggsDNA}{27}{subsection.3.4.4}%
-\contentsline {chapter}{\numberline {4}Boosted Decision Trees and XGBoost}{28}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Gradient Descent Boosting}{28}{section.4.1}%
-\contentsline {section}{\numberline {4.2}The Objective Function}{29}{section.4.2}%
-\contentsline {section}{\numberline {4.3}XGBoost Software}{29}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Development of an MVA-Based High Level Trigger}{30}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Limitations and Benefits of Current $H \rightarrow \gamma \gamma $ Trigger}{30}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Development of a Boosted Decision Tree for Photon Candidate Classification}{31}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}XGBoost-Based BDT Software}{31}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Signal and Background Samples for Classification}{32}{subsection.5.2.2}%
-\contentsline {subsubsection}{Signal Samples}{32}{subsubsection*.30}%
-\contentsline {subsubsection}{Background Samples}{32}{subsubsection*.31}%
-\contentsline {subsection}{\numberline {5.2.3}Determination of Input Variables}{33}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Hyperparameter Tuning}{38}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}Determination of BDT Cuts}{40}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Evaluation of BDT Cuts}{44}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Final Implementation in HLT Menu}{50}{section.5.5}%
-\contentsline {chapter}{\numberline {6}MVA-Based Offline Preselection}{52}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Current Diphoton Preselection}{52}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Development of MVA-Based Offline Preselection}{54}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Creation of Single Photon BDTs}{54}{subsection.6.2.1}%
-\contentsline {subsubsection}{A $\gamma + Jet$ BDT}{54}{subsubsection*.46}%
-\contentsline {subsubsection}{A Data/MC BDT for $H \rightarrow \gamma \gamma $}{63}{subsubsection*.55}%
-\contentsline {subsection}{\numberline {6.2.2}Determination of Loose Single Photon MVA Cuts for $H \rightarrow \gamma \gamma $}{70}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Creation of Diphoton BDT for $H \rightarrow \gamma \gamma $}{73}{subsection.6.2.3}%
-\contentsline {subsubsection}{A Data/MC BDT for $HH \rightarrow b \bar {b} \gamma \gamma $}{80}{subsubsection*.73}%
-\contentsline {subsection}{\numberline {6.2.4}Determination of Loose Single Photon MVA Cuts for $HH \rightarrow b \bar {b} \gamma \gamma $}{85}{subsection.6.2.4}%
-\contentsline {subsection}{\numberline {6.2.5}Creation of Diphoton BDT for $HH \rightarrow b \bar {b} \gamma \gamma $}{87}{subsection.6.2.5}%
-\contentsline {chapter}{\numberline {7}Evaluation of the MVA-HLT and Complementary Offline Selection}{94}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Measurement of Trigger Rate and Timing}{94}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Evaluation of MVA-HLT Eficiency on Selected Signal Samples}{95}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}$H \rightarrow \gamma \gamma $ MVA-HLT Acceptance}{97}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}$HH \rightarrow b \bar {b} \gamma \gamma $ MVA-HLT Acceptance}{101}{subsection.7.2.2}%
-\contentsline {section}{\numberline {7.3}Evaluation of Offline Selection Eficiency with MVA-HLT }{105}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}$H \rightarrow \gamma \gamma $ Offline Selection Acceptance}{106}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}$HH \rightarrow b \bar {b} \gamma \gamma $ Offline Selection Acceptance}{111}{subsection.7.3.2}%
-\contentsline {chapter}{\numberline {8}Summary}{115}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Acknowledgements}{116}{chapter.9}%
+\contentsline {subsection}{\numberline {3.3.2}HLT Trigger Rates and Timing}{30}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}HLT Software and ConfDB}{31}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Current Standard HLT (sHLT) for $H \rightarrow \gamma \gamma $}{31}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Analysis Software}{31}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Offline Reconstruction}{31}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}The NanoAOD File Format}{31}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}NanoAOD Event Reconstruction}{31}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}HiggsDNA}{31}{subsection.3.4.4}%
+\contentsline {chapter}{\numberline {4}Boosted Decision Trees and XGBoost}{32}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Gradient Descent Boosting}{32}{section.4.1}%
+\contentsline {section}{\numberline {4.2}The Objective Function}{33}{section.4.2}%
+\contentsline {section}{\numberline {4.3}XGBoost Software}{33}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Development of an MVA-Based High Level Trigger}{34}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Limitations and Benefits of Current $H \rightarrow \gamma \gamma $ Trigger}{34}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Development of a Boosted Decision Tree for Photon Candidate Classification}{35}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}XGBoost-Based BDT Software}{35}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Signal and Background Samples for Classification}{36}{subsection.5.2.2}%
+\contentsline {subsubsection}{Signal Samples}{36}{subsubsection*.31}%
+\contentsline {subsubsection}{Background Samples}{36}{subsubsection*.32}%
+\contentsline {subsection}{\numberline {5.2.3}Determination of Input Variables}{37}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Hyperparameter Tuning}{42}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}Determination of BDT Cuts}{44}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Evaluation of BDT Cuts}{48}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Final Implementation in HLT Menu}{54}{section.5.5}%
+\contentsline {chapter}{\numberline {6}MVA-Based Offline Preselection}{56}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Current Diphoton Preselection}{56}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Development of MVA-Based Offline Preselection}{58}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Creation of Single Photon BDTs}{58}{subsection.6.2.1}%
+\contentsline {subsubsection}{A $\gamma + Jet$ BDT}{58}{subsubsection*.47}%
+\contentsline {subsubsection}{A Data/MC BDT for $H \rightarrow \gamma \gamma $}{67}{subsubsection*.56}%
+\contentsline {subsection}{\numberline {6.2.2}Determination of Loose Single Photon MVA Cuts for $H \rightarrow \gamma \gamma $}{74}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Creation of Diphoton BDT for $H \rightarrow \gamma \gamma $}{77}{subsection.6.2.3}%
+\contentsline {subsubsection}{A Data/MC BDT for $HH \rightarrow b \bar {b} \gamma \gamma $}{84}{subsubsection*.74}%
+\contentsline {subsection}{\numberline {6.2.4}Determination of Loose Single Photon MVA Cuts for $HH \rightarrow b \bar {b} \gamma \gamma $}{89}{subsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.2.5}Creation of Diphoton BDT for $HH \rightarrow b \bar {b} \gamma \gamma $}{91}{subsection.6.2.5}%
+\contentsline {chapter}{\numberline {7}Evaluation of the MVA-HLT and Complementary Offline Selection}{98}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Measurement of Trigger Rate and Timing}{98}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Evaluation of MVA-HLT Eficiency on Selected Signal Samples}{99}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}$H \rightarrow \gamma \gamma $ MVA-HLT Acceptance}{101}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}$HH \rightarrow b \bar {b} \gamma \gamma $ MVA-HLT Acceptance}{105}{subsection.7.2.2}%
+\contentsline {section}{\numberline {7.3}Evaluation of Offline Selection Eficiency with MVA-HLT }{109}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}$H \rightarrow \gamma \gamma $ Offline Selection Acceptance}{110}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}$HH \rightarrow b \bar {b} \gamma \gamma $ Offline Selection Acceptance}{115}{subsection.7.3.2}%
+\contentsline {chapter}{\numberline {8}Summary}{119}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Acknowledgements}{120}{chapter.9}%
 \def \@chapapp {\appendixname }
