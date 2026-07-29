@@ -406,6 +406,14 @@ INPUT ./Figures/FullCMS.png
 INPUT ./Figures/FullCMS.png
 INPUT ./Figures/FullCMS.png
 INPUT ./Figures/FullCMS.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7v.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT ./Figures/PixelDetector.png
 INPUT ./Figures/PixelDetector.png
 INPUT ./Figures/PixelDetector.png
@@ -563,10 +571,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7v.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png
 INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png
 INPUT ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png
@@ -1099,6 +1103,7 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
