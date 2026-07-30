@@ -281,7 +281,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT ./RLeeDissertation.toc
 INPUT ./RLeeDissertation.toc
 INPUT RLeeDissertation.toc
@@ -444,6 +443,11 @@ INPUT ./Figures/ECalMustache.png
 INPUT ./Figures/ECalMustache.png
 INPUT ./Figures/ECalMustache.png
 INPUT ./Figures/ECalMustache.png
+INPUT ./Figures/HLTRateConsumptionPieChartRun2.png
+INPUT ./Figures/HLTRateConsumptionPieChartRun2.png
+INPUT ./Figures/HLTRateConsumptionPieChartRun2.png
+INPUT ./Figures/HLTRateConsumptionPieChartRun2.png
+INPUT ./Figures/HLTRateConsumptionPieChartRun2.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
@@ -1091,6 +1095,7 @@ INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquar
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT RLeeDissertation.aux

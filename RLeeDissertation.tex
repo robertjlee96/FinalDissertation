@@ -71,29 +71,31 @@
 Probably no dedication.
 \end{dedication}
 % Optional
-\begin{epigraph}
-\vskip0pt plus.5fil
-\setsinglespacing
-{\flushright
+% \begin{epigraph}
+% \vskip0pt plus.5fil
+% \setsinglespacing
+% {\flushright
 
 
-\vskip\baselineskip
-\textit{Alexander Pope}\par}
-\vfil
-\begin{center}
+% \vskip\baselineskip
+% In physics, you don't have to go around making trouble for yourself -- nature does it for you.
+% \textit{Frank Wilczek}\par}
+% \vfil
+% \begin{center}
 
 
-\vskip\baselineskip
-\textit{Richard Brinsley Sheridan}
-\end{center}
-\vfil
+% % \vskip\baselineskip
+
+% % \textit{Richard Brinsley Sheridan}
+% % \end{center}
+% % \vfil
 
 
-\vskip\baselineskip
-\hskip0pt plus1fil\textit{Ernest Hemingway}\hskip0pt plus4fil\null
+% % \vskip\baselineskip
+% % \hskip0pt plus1fil\textit{Ernest Hemingway}\hskip0pt plus4fil\null
 
-\vfil
-\end{epigraph}
+% \vfil
+% \end{epigraph}
 
 % Next comes the table of contents, list of figures, list of tables,
 % etc. If you have code listings, you can use \listoflistings (or
@@ -252,8 +254,6 @@ The following section is summarized from \cite{LHC2008}. A simplified schematic 
 	\label{fig:LHCLayout}
 \end{figure}
 
-
-
 \subsection{Collisions at the LHC} \label{sec:Collisions}
 At each of the interaction points shown in figure \ref{fig:LHCLayout}, the proton bunches cross over and the individual protons within each bunch interact with each other. There are two major quantities that define the character of these interactions: center of mass energy and luminosity. Center of mass energy, $\sqrt{s}$, is defined as the total combined energy of both protons in their center of mass frame of refernce (where the two protons are moving in opposite directions at equal speeds). This directly measures how much energy is available to produce additional particles. The original design of the LHC allowed collision energies up to 14TeV, though Run3 at the LHC has only been able to achieve a value of $\sqrt{s} = 13.6$TeV \cite{Run3Hgg2025}. 
 
@@ -331,7 +331,7 @@ The HB consists of 36 identical "wedges" arranged azimuthally around the beamlin
 The final, outermost detector element is the muon detector. This is the crowning jewel of the CMS detector, and was a major motivator for its construction. The muon system is designed entirely to measure muon signatures across the entire kinematic range of the LHC. As with the two calorimeter elements, the muon system is designed as a large barrel detector with two additional endcaps covering the higher-$\eta$ regions near the beamline. While this impressive system marks a monumental step towards precision measurements of processes containing muons (such as Z boson decay), it has little relation to the measurement of $H \rightarrow \gamma \gamma$ signatures. The general size and shape of the muon system can be seen in figure \ref{fig:FullCMS}, but no further details need be supplied for this analysis.
 
 \chapter{Triggering and Offline Software} \label{chapter:Software}
-In Run3 of the LHC, the increased luminosity leads to an average of 60 collisions per bunch crossing (termed "Pileup") (REF?). Given that these bunch crossings occur at a rate of 40MHz (every 25ns) and can create a large number of individual particles, the procesing and storage facilities of are incapable of saving and analyzing every interaction generated in each bunch crossing. The triggering system, therefore, is designed to drastically reduce the number of output events while presevering as many events matching signal signatures as possible. Overall, the triggers aim to reduce the data rate from 40MHz down to just 5kHz. This reduction is achieved by a two-tierd triger system consisting of the Level 1 (L1) triggers and the High Level Triggers (HLT). Since there are many possible signal signatures depending on the analysis being conducted, there are many individual triggers at both L1 and HLT. Details of the L1 triggers will be given below in section \ref{sec:L1}, and the HLT will be described in great detail in section \ref{sec:HLT}. 
+In Run3 of the LHC, the increased luminosity leads to an average of 60 collisions per bunch crossing (termed "Pileup") (REF?). Given that these bunch crossings occur at a rate of 40MHz (every 25ns) and can create a large number of individual particles, the procesing and storage facilities of are incapable of saving and analyzing every interaction generated in each bunch crossing. In fact, storing all of the raw data at this rate of 40MHz would generate up to 40 TB/s of data \cite{Run3HLTPerformanceConference}. The triggering system, therefore, is designed to drastically reduce the number of output events while presevering as many events matching signal signatures as possible. Overall, the triggers aim to reduce the data rate from 40MHz down to just 7kHz. This reduction is achieved by a two-tierd triger system consisting of the Level 1 (L1) triggers and the High Level Triggers (HLT). Since there are many possible signal signatures depending on the analysis being conducted, there are many individual triggers at both L1 and HLT. Details of the L1 triggers will be given below in section \ref{sec:L1}, and the HLT will be described in great detail in section \ref{sec:HLT}. 
 \section{Level-1 Triggers} \label{sec:L1}
 The Level 1 trigger is described in detail in \cite{L12020}, but the primary points are summarized in this section. As described in section \ref{sec:Collisions}, collisions in CMS during Run 3 occur at a rate of 40 million per second (40MHz). The goal of the L1 trigger is to select at most 110,000 of these events per second (110kHz) to pass on to the next level of the trigger, the HLT. The L1 trigger is designed to operate as quickly as possible, with a target latency of just 4 $\mu$seconds. In order to acheive this very low latency, minimal event reconstruction is done at L1; instead, this trigger performs minimal processing on the so-called trigger primitives (TP), which are the raw outputs from detector elements. The details of these TPs will be discussed below in section \ref{sec:L1Info}. 
 
@@ -410,12 +410,48 @@ Once a supercluster is constructed and the relevant clusters are added together,
 
 \subsection{HLT Trigger Rates and Timing}
 
-In order to appraise the online HLT performance, to major metrics are used: the trigger rate gives a direct measure of how many events the trigger will accept, and the trigger timing measures how long it takes for a decision to be rendered for each event. These two metrics strike at the heart of the major considerations of the HLT; it is vital for storage space that the HLT reduces the total number of saved events, and it is vital for the CPU processing time that each event can be accepted or rejected quickly. 
+In order to appraise the online HLT performance, two major metrics are used: the trigger rate gives a direct measure of how many events the trigger will accept, and the trigger timing measures how long it takes for a decision to be rendered for each event. These two metrics strike at the heart of the major considerations of the HLT; it is vital for storage space that the HLT reduces the total number of saved events, and it is vital for the CPU processing time that each event can be accepted or rejected quickly. 
 
-The limit for the total rate of the HLT in Run 3 is 7kHz \cite{Run3HLTPerformanceConference}. This total rate is composed of 2.5kHz of data processed immediately (prompt data) and 4.5kHz stored for later processing (data parking). 
+The limit for the total rate of the HLT in Run 3 is 7kHz \cite{Run3HLTPerformanceConference}. This total rate is composed of 2.5kHz of data processed immediately (prompt data) and 4.5kHz stored for later processing (data parking). Of course, this is the entire rate of the whole HLT menu. As with the L1 trigger menu, there are many types of physics analyses comprising the HLT menu. Figure \ref{fig:HLTRateShares} shows an example of the HLT rate alloted to each physics group. This plot is reproduced from \cite{Run2HLT2024}, and is for Run2 2018 data. While the trigger rate and instantaneous luminosity will be higher for Run 3, the general proportion of rate allotment still holds. Only 12.1\% of the trigger rate is dedicated to Higgs processes, of which there are many. As a result, the overall data rate specifically for $H \rightarrow \gamma \gamma$ analyses will be considerably lower than this. 
 
-\subsection{HLT Software and ConfDB} \label{sec:TriggerSoftware}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\linewidth]{./Figures/HLTRateConsumptionPieChartRun2.png}
+	\caption[]{A pie chart showing the percentage of the full rate alloted for each physics object group for 2018 data. Note that this example of rate shares operates at a lower instantaneous luminosity and trigger rate than the Run3 data will have. Reproduced from \cite{Run2HLT2024}.}
+	\label{fig:HLTRateShares}
+\end{figure}
+
+In addition to parking and prompt data streams, 
+
+\subsection{HLT Architecture}
+
 \subsection{Current Standard HLT (sHLT) for $H \rightarrow \gamma \gamma$} \label{sec:sHLT}
+
+Currently, standard $H \rightarrow \gamma \gamma$ analyses rely on a single trigger to accept events for the analysis. This trigger will be termed the sHLT for the remainder of this dissertation. This diphoton trigger is designed to look for a pair of photons that could be constructed to originate from the decay of the Higgs boson. This trigger depends largely on cuts on the showershape, isolation, and kinematics of each photon. After these single photon cuts are applied, possible combinations of the remaining photons are constructed and checked against a final diphoton invariant mass requirement \cite{Run3Hgg2025}. 
+
+Before applying any HLT cuts, the sHLT begins by only considering events passing certain L1 triggers. Specifically, only events passing either the single or double e/$\gamma$ triggers are passed onto the next modules. The single e/$\gamma$ L1 triggers generally have higher $E_T$ requirements on the single photons, whereas the double e/$\gamma$ L1 triggers have looser requirements on the $E_T$ of each photon. The full trigger consists of a combination of two filters. The first "leg" requires a photon candidate to pass a single e/$\gamma$ L1 trigger with an $E_T > 30 GeV$ cut. This L1 seeded leg is the tighter of the two cuts. Then, a second "leg" does not require the tight $E_T > 30 GeV$ L1 seed. Instead, it makes an independent cut on $E_T > 22GeV$. This leg is refered to as the unseeded leg. The final HLT cut requires one photon passing the seeded leg, and another passing the unseeded leg. Each of these filters makes requirements on the showershape and isolation of each photon candidate.
+
+The first showershape cut applied is to the $R_9$. Since this measure of the supercluster shape does a great job excluding non-photon signatures, a hard cut on it allows many QCD-like signatures to be immediately discarded; if a sufficiently large ammount of the super cluster energy is not in the central 9 crystals, the signature is considerably less likely to originate from a photon. The cuts are placed at $R_9 > 0.5$ in the barrel and $R_9 > 0.8$ in the endcap. The values on this cut are different for the two detector regions to account for the different crystal geometries. Next, a hard cut on the H/E is applied. It is expected that hadronic jets will have considerably higher energy deposition in the HCal than the ECal, so large values of H/E are more likely to correspond to non-photon particles. So, then, this cut is placed at $H/E < 0.12$ in the barrel and $H/E < 0.1$ in the endcap. 
+
+The rest of the showershape and isolation cuts depend on the $R_9$ of the photon candidate. If a photon candidate is of high $R_9$ (above 0.85 in the barrel and 0.9 in the endcap), no further cuts are applied. Generally, signatures with such a high $R_9$ are very likely real photon candidates. Below these thresholds, though, additional cuts are applied. Firstly, cuts of $\sigma_{i \eta i \eta} < 0.015$ and $\sigma_{i \eta i \eta} < 0.035$ are applied in the barrel and endcap, respectively. After this, an ECal isolation cut is applied at $\mathcal{I}_{ECal} < 6 GeV$. Taken together, these cuts allow a photon candidate with poor $R_9$ to be preserved if the supercluster is well-isolated with a reasonable shower shape. Finally, to the unseeded leg filter, an additional track isolation cut is applied at $\mathcal{I}_{Track} < 6 GeV$.
+
+Finally, these two filter legs are combined into one final filter. This filter also applies a minimum mass requirement at $M_{\gamma \gamma} > 90 GeV/c^2$. So, then, the final HLT requires that two photons (one with $E_T > 30 GeV$, another with $E_T > 22GeV$) pass the showershape and isolation cuts, and that their combined invariant mass is greater than $90 GeV/c^2$. These showershape and isolation cuts are tabulated in table \ref{tab:sHLTCuts}.
+\begin{table}
+	\centering
+	\caption[E]{Table showing the cuts applied by the standard diphoton HLT for $H \rightarrow \gamma \gamma$. The track isolation cut is only applied to the unseeded second leg.}
+	\label{tab:sHLTCuts}
+	\begin{tabular}{| c | c | c | c | c | c | c |} 
+		\hline
+		\textbf{Region} & \textbf{$R_9$} & \textbf{H/E} & \textbf{$\sigma_{i \eta i \eta}$} & \textbf{$\mathcal{I}_{ECal}$} (GeV) & \textbf{$\mathcal{I}_{Track}$} (GeV)\\
+		\Xhline{2pt}
+		Barrel & [0.5,0.85] & $<$ 0.12 & $>$ 0.015 & $<$ 6.0 & $<$ 6.0\\
+		 & $>$ 0.85 & $<$ 0.12 & -- & -- & --\\
+		Endcap & [0.5,0.9] & $<$ 0.15 & $>$ 0.035 & $<$ 6.0 & $<$ 6.0\\
+		 & $>$ 0.9 & $<$ 0.15 & -- & -- & --\\ 
+		\hline
+	\end{tabular}
+\end{table}
+
 \section{Analysis Software} \label{sec:AnalysisSoftware}
 \subsection{Offline Reconstruction} \label{sec:OfflineReco}
 \subsection{The NanoAOD File Format}
@@ -708,7 +744,7 @@ Considering the background, it can immediately be seen that the MVA-HLT has a re
 \end{figure}
 
 
-Finally, consider the transverse energy of the photon candidates, $E_T$. Here, both candidates are again shown on the same plot, which explains the double-peaking behavior in the background distribution. The standard diphoton HLT contains cuts at 30 and 22 $GeV/c^2$ for the lead and sublead photon, respectively. The sublead cut can clearly be seen in both the signal, at left, and the background at right. While the new MVA-HLT selection accepts more of these low-$E_T$ photons, it is clear that little of the gain comes from this kinematic region. Below about 30 $GeV/c^2$, both selections tend to cut out many photons from the total distribution. In the case of the MVA-HLT, this is likely due to those photon candidates being of lower quality and therefore being assigned a lower BDT score.
+Finally, consider the transverse energy of the photon candidates, $E_T$. Here, both candidates are again shown on the same plot, which explains the double-peaking behavior in the background distribution. The standard diphoton HLT contains cuts at 30 and 22 $GeV2$ for the lead and sublead photon, respectively. The sublead cut can clearly be seen in both the signal, at left, and the background at right. While the new MVA-HLT selection accepts more of these low-$E_T$ photons, it is clear that little of the gain comes from this kinematic region. Below about 30 $GeV$, both selections tend to cut out many photons from the total distribution. In the case of the MVA-HLT, this is likely due to those photon candidates being of lower quality and therefore being assigned a lower BDT score.
 
 Below, in table \ref{tab:HLTEffs}, the acceptance percentages are given for the 3 different diphoton $\eta_{sc}$ 
 configurations, as well as the total acceptance for both signal and background, compared to the standard HLT cuts.
@@ -771,12 +807,12 @@ Once these single photon preselection cuts are applied, all remaining photon can
 	\label{tab:PreselCuts}
 	\begin{tabular}{| c | c | c | c | c | c | c |} 
 		\hline
-		\textbf{Region} & \textbf{$R_9$} & \textbf{H/E} & \textbf{idMVA} & \textbf{$\sigma_{i \eta i \eta}$} & \textbf{Pho Iso} (GeV) & \textbf{Track Iso} (GeV)\\
+		\textbf{Region} & \textbf{$R_9$} & \textbf{H/E} & \textbf{idMVA} & \textbf{$\sigma_{i \eta i \eta}$} & \textbf{$\mathcal{I}_{Pho}$} (GeV) & \textbf{$\mathcal{I}_{Track}$} (GeV)\\
 		\Xhline{2pt}
 		Barrel & [0.5,0.85] & $<$ 0.08 & $'
-		>$ 0.9 & $>$ 0.015 & $<$ 4.0 & $<$ 4.0\\
+		>$ 0.9 & $<$ 0.015 & $<$ 4.0 & $<$ 4.0\\
 		 & $>$ 0.85 & $<$ 0.08 & $>$ 0.9 & -- & -- & --\\
-		Endcap & [0.5,0.9] & $<$ 0.08 & $>$ 0.9 & $>$ 0.035 & $<$ 4.0 & $<$ 4.0\\
+		Endcap & [0.5,0.9] & $<$ 0.08 & $>$ 0.9 & $<$ 0.035 & $<$ 4.0 & $<$ 4.0\\
 		 & $>$ 0.9 & $<$ 0.08 & $>$ 0.9 & -- & -- & --\\ 
 		\hline
 	\end{tabular}
