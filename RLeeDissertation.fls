@@ -423,6 +423,11 @@ INPUT ./Figures/FullTracker.png
 INPUT ./Figures/FullTracker.png
 INPUT ./Figures/FullTracker.png
 INPUT ./Figures/FullTracker.png
+INPUT ./Figures/ECalSchematic.png
+INPUT ./Figures/ECalSchematic.png
+INPUT ./Figures/ECalSchematic.png
+INPUT ./Figures/ECalSchematic.png
+INPUT ./Figures/ECalSchematic.png
 INPUT ./Figures/L1TriggerArchitecture.png
 INPUT ./Figures/L1TriggerArchitecture.png
 INPUT ./Figures/L1TriggerArchitecture.png
@@ -448,6 +453,11 @@ INPUT ./Figures/HLTRateConsumptionPieChartRun2.png
 INPUT ./Figures/HLTRateConsumptionPieChartRun2.png
 INPUT ./Figures/HLTRateConsumptionPieChartRun2.png
 INPUT ./Figures/HLTRateConsumptionPieChartRun2.png
+INPUT ./Figures/Run3RatesAndTimings.png
+INPUT ./Figures/Run3RatesAndTimings.png
+INPUT ./Figures/Run3RatesAndTimings.png
+INPUT ./Figures/Run3RatesAndTimings.png
+INPUT ./Figures/Run3RatesAndTimings.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
@@ -1093,9 +1103,9 @@ INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquar
 INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png
 INPUT ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT RLeeDissertation.aux

@@ -19,6 +19,85 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{ParkingAndScouting2024}{article}{}{}
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{issn}{0370-1573}
+      \field{journaltitle}{Physics Reports}
+      \field{month}{4}
+      \field{volume}{1115}
+      \field{year}{2025}
+      \field{pages}{678\bibrangedash 772}
+      \range{pages}{95}
+      \verb{doi}
+      \verb 10.1016/j.physrep.2024.09.006
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.physrep.2024.09.006
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.physrep.2024.09.006
+      \endverb
+    \endentry
+    \entry{GSFTracking}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=3e2872e7b083881b9e21df137964a7b5}{%
+           family={Adam},
+           familyi={A\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod}}}%
+        {{hash=4c3042252e8d06204259c915a43511c9}{%
+           family={Frühwirth},
+           familyi={F\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a3bcb1bfa84780d66eb9272a8c488e23}{%
+           family={Strandlie},
+           familyi={S\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=116925ac51245ecdcb1a91375644d045}{%
+           family={Todorov},
+           familyi={T\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{8d1d4b8aafa5f124f701b79ee65cff8c}
+      \strng{fullhash}{9a7a81e179c41d0dafa4bf4e55b15dbd}
+      \strng{fullhashraw}{9a7a81e179c41d0dafa4bf4e55b15dbd}
+      \strng{bibnamehash}{8d1d4b8aafa5f124f701b79ee65cff8c}
+      \strng{authorbibnamehash}{8d1d4b8aafa5f124f701b79ee65cff8c}
+      \strng{authornamehash}{8d1d4b8aafa5f124f701b79ee65cff8c}
+      \strng{authorfullhash}{9a7a81e179c41d0dafa4bf4e55b15dbd}
+      \strng{authorfullhashraw}{9a7a81e179c41d0dafa4bf4e55b15dbd}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1361-6471}
+      \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
+      \field{number}{9}
+      \field{title}{Reconstruction of electrons with the Gaussian-sum filter in the CMS tracker at the LHC}
+      \field{volume}{31}
+      \field{year}{2005}
+      \field{pages}{N9\bibrangedash N20}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/0954-3899/31/9/n01
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/0954-3899/31/9/n01
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/0954-3899/31/9/n01
+      \endverb
+    \endentry
     \entry{Run3Hgg2025}{article}{}{}
       \name{author}{1}{}{%
         {{hash=e742ba4e105e5341464c3528b118ff41}{%

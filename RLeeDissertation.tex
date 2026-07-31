@@ -278,12 +278,12 @@ For any given signal process, as described in chapter \ref{chapter:Theory}, ther
 \end{equation}
 
 \section{The Compact Muon Solenoid Detector}
-The Compact Muon Solenoid is designed as a 22 m cylinder with a total diameter of 15 m. Centered on the beampipe where a proton-proton bunch crossing occurs, the detector consists of various layers of detector elements designed to track and measure different resultant particles. The general structure of the detector will be described beginning at the center and moving outward. A schematic of the detector can be seen in Figure \ref{fig:FullCMS}. Later sections will provide additional detail on elements of particular interest for our $H \rightarrow \gamma\gamma$ analyses. 
+This section is largely summarized from \cite{CMS2008} and \cite{CMS2024}. The Compact Muon Solenoid is designed as a 22 m cylinder with a total diameter of 15 m. Centered on the beampipe where a proton-proton bunch crossing occurs, the detector consists of various layers of detector elements designed to track and measure different resultant particles. The general structure of the detector will be described beginning at the center and moving outward. A schematic of the detector can be seen in Figure \ref{fig:FullCMS}. Later sections will provide additional detail on elements of particular interest for our $H \rightarrow \gamma\gamma$ analyses. 
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{./Figures/FullCMS.png}
-	\caption[]{A full view of the CMS Detector, with each major system labled. Reproduced from [CMSRun3Paper]}
+	\caption[]{A full view of the CMS Detector, with each major system labled. Reproduced from \cite{CMS2024}.}
 	\label{fig:FullCMS}
 \end{figure}
 
@@ -301,10 +301,9 @@ The pixel detectors achieve high spatial resolution by using 124 million channel
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{./Figures/PixelDetector.png}
-	\caption[]{Longitudinal view of the pixel detector, where the beampipe is represented at the bottom of the image. Reproduced from [CMSRun3Paper]}
+	\caption[]{Longitudinal view of the pixel detector, where the beampipe is represented at the bottom of the image. Reproduced from \cite{CMS2024}}
 	\label{fig:PixelDetector}
 \end{figure}
-[?Table of number of modules for each pixel detector? Table 1 Run3CMSDetector]
 
 The individual pixels, of the same size in both the BPIX and FPIX, are housed on sensor modules with 160x416 pixels each (with a total size of 100 x 150 $\mu m^{2}$). This modular structure allows easy replacement of faulty modules, as well as allowing more efficienct production. The BPIX contains 1184 such modules, across its 4 layers, whereas the FPIX contains 672 modules. Light-weight mechanical structures provide the mounting points for these modules, and include cooling aparati. 
 \subsubsection{Strip Detector}
@@ -312,11 +311,18 @@ The innermost pixel detector is rather small, only extending 160mm radially from
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{./Figures/FullTracker.png}
-	\caption[]{Full view of the tracker system. The inner pixel tracker is shown in green. Reproduced from [CMSRun3Paper]}
+	\caption[]{Full view of the tracker system. The inner pixel tracker is shown in green. Reproduced from \cite{CMS2024}}
 	\label{fig:FullTracker}
 \end{figure}
 \subsection{Electromagnetic Calorimeter} \label{sec:ECal}
-Beyond the inner tracking system, the ECAL system is designed to measure the energies, locations, and arrival times of electrons and photons. Given that this paper will be dealing with a two-photon final state, the details of this detector are highly relevant. Similarly to the inner tracker, the ECAL is composed of modules of individual detector elements. Here, however, since the goal is to measure photons and electrons, scintillating material is required. As a result, the individual detector elements are composed of scintillating lead tungstate ($PbWO_{4}$) crystals. These crystals were chosen because, in addition to being optically clear, they are radiaton-hard. Given that the detector will be exposed to high levels of radiation for long continuous stretches, it is imperative that the crystals need not be replaced frequently. The photons from the scintillation of these crystals are detected by photodetectors. The photodetectors differ, however, between the barrel and endcap as explained in detail below. 
+Beyond the inner tracking system, the ECAL system is designed to measure the energies, locations, and arrival times of electrons and photons. A schematic of this detector element can be seen in figure \ref{fig:ECal}, reproduced from \cite{CMS2008}. Given that this paper will be dealing with a two-photon final state, the details of this detector are highly relevant. Similarly to the inner tracker, the ECAL is composed of modules of individual detector elements. Here, however, since the goal is to measure photons and electrons, scintillating material is required. As a result, the individual detector elements are composed of scintillating lead tungstate ($PbWO_{4}$) crystals. These crystals were chosen because, in addition to being optically clear, they are radiaton-hard. Given that the detector will be exposed to high levels of radiation for long continuous stretches, it is imperative that the crystals need not be replaced frequently. The photons from the scintillation of these crystals are detected by photodetectors. The photodetectors differ, however, between the barrel and endcap as explained in detail below. 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/ECalSchematic.png}
+	\caption[]{A simplified schematic of the ECal. Reproduced from \cite{CMS2008}}
+	\label{fig:ECal}
+\end{figure}
+
 \subsubsection{ECal Barrel (EB)}
 The barrel component of the ECAL (EB) is designed, of course, with cylindrical symmetry. In the azimuthal direction, $\phi$, there are 360 crystals per "ring". The barrel detector coveres the pseudorapidity range of $|\eta| < 1.479$, and there are 180 crystals per "row" in this range. As a result, the EB consists of 61,200 total $PbWO_{4}$ crystals. These crystals are tapered, such that the scintillated photons are funneled to the back of the crystal where two avalanche photodiodes (APDs) per crystal collect them. The cross-sectional area of the crystal faces is 22x22 $mm^{2}$. The face of each crystal lies at a distance of 1.29m from the center of the beamline. 
 
@@ -408,11 +414,11 @@ Photons originating from the primary vertex very often convert to an electron-po
 
 Once a supercluster is constructed and the relevant clusters are added together, various quantities can be reconstructed at the trigger level. Measures of the energy, the shape of the ECal showers, and various isolation measurements can be constructed by using the ECal energy signatures and the tracking information obtained. These variables will be described in more detail in section \ref{sec:OfflineReco}.
 
-\subsection{HLT Trigger Rates and Timing}
+\subsection{HLT Trigger Rates and Timing}\label{sec:TriggerRateAndTiming}
 
 In order to appraise the online HLT performance, two major metrics are used: the trigger rate gives a direct measure of how many events the trigger will accept, and the trigger timing measures how long it takes for a decision to be rendered for each event. These two metrics strike at the heart of the major considerations of the HLT; it is vital for storage space that the HLT reduces the total number of saved events, and it is vital for the CPU processing time that each event can be accepted or rejected quickly. 
 
-The limit for the total rate of the HLT in Run 3 is 7kHz \cite{Run3HLTPerformanceConference}. This total rate is composed of 2.5kHz of data processed immediately (prompt data) and 4.5kHz stored for later processing (data parking). Of course, this is the entire rate of the whole HLT menu. As with the L1 trigger menu, there are many types of physics analyses comprising the HLT menu. Figure \ref{fig:HLTRateShares} shows an example of the HLT rate alloted to each physics group. This plot is reproduced from \cite{Run2HLT2024}, and is for Run2 2018 data. While the trigger rate and instantaneous luminosity will be higher for Run 3, the general proportion of rate allotment still holds. Only 12.1\% of the trigger rate is dedicated to Higgs processes, of which there are many. As a result, the overall data rate specifically for $H \rightarrow \gamma \gamma$ analyses will be considerably lower than this. 
+The limit for the total rate of the HLT in Run 3 is 7kHz \cite{Run3HLTPerformanceConference}. This total rate is composed of 2.5kHz of data processed immediately (prompt data) and 4.5kHz stored for later processing (data parking). Of course, this is the entire rate of the whole HLT menu. As with the L1 trigger menu, there are many types of physics analyses comprising the HLT menu. Figure \ref{fig:HLTRateShares} shows an example of the HLT rate alloted to each physics group. This plot is reproduced from \cite{Run2HLT2024}, and is for Run2 2018 data. While the trigger rate and instantaneous luminosity will be higher for Run 3, the general proportion of rate allotment still holds. Only 12.1\% of the trigger rate is dedicated to Higgs processes, of which there are many. As a result, the overall data rate specifically for $H \rightarrow \gamma \gamma$ analyses will be considerably lower than this. So, any proposed trigger development must be carefully monitored to ensure it does not exceed the rate budgeted to the corresponding analysis.
 
 \begin{figure}[H]
 	\centering
@@ -421,9 +427,27 @@ The limit for the total rate of the HLT in Run 3 is 7kHz \cite{Run3HLTPerformanc
 	\label{fig:HLTRateShares}
 \end{figure}
 
-In addition to parking and prompt data streams, 
+In addition to parking and prompt data streams, "scouting" data streams are taken at a very high rate but with highly compressed information. In early Run 3, these scouting steams reached an average of 26kHz of rate \cite{ParkingAndScouting2024}. These streams only save HLT-level information, and use a simple reconstruction in order to capture rare physics processes at the trigger level using very high rate.
 
-\subsection{HLT Architecture}
+Since many of the events at the trigger level are processed in real time, the amount of time taken per event is a key metric. This timing includes all of the necessary HLT-level reconstruction, as well as the application of whatever cuts and calculations that each individual HLT requires. Since 110kHz of events are passed from the L1 trigger during a standard run period, it is vital that the processing time per event is carefully monitored. As with the trigger rate, any proposed addition to the HLT menu must be verified to have little to no impact on the overall processing time per event. Since much of the time spent processing each event goes towards reconstruction and tracking algorithms, and individual HLT is not liklely to noticably impact the total processing time unless it is egregiously inefficiency.
+
+Moving from Run2 into Run3, the overall data rate has consistently increased year over year. As the storage and processing capabilities have risen, the total allowed rate of the prompt, parking, and scouting datasets has also risen. Additionally, due to improvements to the hardware used to perform the HLT reconstruction (namely, the addition of GPUs in addition to CPUs used in many algorithms), the processing time per event has actually decreased considerably during Run3. Figure \ref{fig:HLTRateAndTiming} , reproduced from (REF? LHCP PAPER), shows both of these effects in detail. At the left, the rates of the various data streams as well as the instantaneous luminosity is shown as a function of the run year. At the right, the total timing is shown for both CPU-only and CPU+GPU processing for the 2022 running year. Of particular interest for this paper is the 2024 run period, as this will be used for the results given in chapter \ref{chapter:Results}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.99\linewidth]{./Figures/Run3RatesAndTimings.png}
+	\caption[]{On the left, the rates of the scouting dataset (top), prompt (middle, solid), and parking (middle, hatched) data streams are shown. Additionally, the instantaneous luminosity is shown (bottom). To the right, the menu timing is shown with CPU-only and CPU+GPU processing for the 2022 running year. Reproduced from (REF? LHCP PAPER)}
+	\label{fig:HLTRateAndTiming}
+\end{figure}
+
+\subsection{HLT Software Framework}
+The HLT software is built within the CMS Software (CMSSW) framework. Since this is the same software framework used for many future steps of analysis, this provides a relatively standardized set of tools and functions by which the HLT can be constructed. The HLT is of a modular design, where individual modules can be written once and then used by multiple HLTs; many tools, such as the reconstruction of certain quantities or the application of cuts on a specific variable, will be used by a large range of HLTs within the full menu.
+
+There are two major types of HLT modules; EDProducers and EDFilters. An EDProducer module performs a specific step of the reconstruction, starting with a specific prerequisite input and producing a new value as an output. These EDProducers are what allow the input information being passed from the L1 trigger to be reconstructed and combined into more complex variables. For the $H \rightarrow \gamma \gamma$ triggers, EDProducers begin with the e/$\gamma$ candidates constructed at the L1 and produce reconstructed showershape and isolation variables sequentially. These EDProducers vary greatly in there complexity; while some producers perform simple calculations to construct new quantities, many apply complex algorithms and MVA methods to reconstruct objects like tracks. 
+
+After a quantity has been produced by an EDProducer, cuts are often applied to the newly constructed variable using EDFilters. These EDFilters are considerably more simple than EDProducers -- instead of outputting an event, they simply remove candidates that do not pass the selection from the event. An EDFilter can make different cuts on events in the barrel and endcap ECal detectors.
+
+The general structure of the HLT menu is a sequence of EDProducers interspersed with EDFilters. To reduce processing time as much as possible, simple quantities are usually calculated first and cut on, so that the next producer has fewer candidate inputs for which to calculate more complex quantities \cite{OfflineReco2021}. Luckily, a software package called ConfDB exists to more easily handle this construction of an HLT path. Modules (EDProducers and EDFilters) are defined within CMSSW, but then are combined together into sequences and full paths in a graphical interface that allows simple insertion and rearrangenent of modules. This allows preexisting modules to effortlessly be deployed in a new path, minimizing the amount of additional software development necessary to insert a new path into the menu. 
 
 \subsection{Current Standard HLT (sHLT) for $H \rightarrow \gamma \gamma$} \label{sec:sHLT}
 
@@ -454,6 +478,9 @@ Finally, these two filter legs are combined into one final filter. This filter a
 
 \section{Analysis Software} \label{sec:AnalysisSoftware}
 \subsection{Offline Reconstruction} \label{sec:OfflineReco}
+Many of the details of the offline reconstruction have already been given in section \ref{sec:HLTReco}, as the offline and online reconstruction are designed to be as similar as trigger-level resources will allow. The superclustering performed at the HLT is still performed offline, as this is a relatively lightweight algorithm that provides great power to the HLT. The major difference for e/$\gamma$ objects between the two levels of reconstruction, however, lies in the tracking information. Since tracks must be constructed by complex algorithms combining many tracker hits, this process is largely pared back at the trigger level. 
+
+Both the HLT and offline electron track reconstruction are based on a Gaussian Sum Filter (GSF) \cite{GSFTracking}. 
 \subsection{The NanoAOD File Format}
 \subsection{NanoAOD Event Reconstruction}
 \subsection{HiggsDNA}\label{sec:HiggsDNA}
