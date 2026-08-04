@@ -407,7 +407,7 @@
       \verb http://dx.doi.org/10.1007/JHEP06(2013)081
       \endverb
     \endentry
-    \entry{Run2HLT2024}{article}{}{}
+    \entry{ParticleFlow}{article}{}{}
       \name{author}{1}{}{%
         {{hash=4cb2e77a14335bb3218633a36b56e696}{%
            family={Collaboration},
@@ -427,6 +427,49 @@
       \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
       \field{extraname}{9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Particle-flow reconstruction and global event description with the CMS detector}
+      \field{volume}{12}
+      \field{year}{2017}
+      \field{pages}{P10003\bibrangedash P10003}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/12/10/p10003
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1748-0221/12/10/P10003
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1748-0221/12/10/P10003
+      \endverb
+    \endentry
+    \entry{Run2HLT2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelima CMS},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \field{extraname}{10}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
@@ -469,7 +512,7 @@
       \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{10}
+      \field{extraname}{11}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
@@ -512,7 +555,7 @@
       \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{11}
+      \field{extraname}{12}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
@@ -554,7 +597,7 @@
       \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
       \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{12}
+      \field{extraname}{13}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
@@ -576,6 +619,82 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1088/1748-0221/12/01/P01020
+      \endverb
+    \endentry
+    \entry{NanoAOD}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=8f4199881644ef6d3451bdb6727882c8}{%
+           family={Ehatäht},
+           familyi={E\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+      }
+      \name{editor}{6}{}{%
+        {{hash=b91804adecb2246153e6628b7e21b5b2}{%
+           family={Doglioni},
+           familyi={D\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a3ee7bee5a5ecb7a55a51ecdd4e78cef}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=15ed541dccf4571d529123c49ed13f93}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={G.A.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=39b91e9705a818ad2f37d8358a90307a}{%
+           family={Silvestris},
+           familyi={S\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e0dbbea4048ce99738ceeeeaabb574e4}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=fc7fcc4cf5e83cae20b3e32ef741df2d}{%
+           family={Kamleh},
+           familyi={K\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {EDP Sciences}%
+      }
+      \strng{namehash}{8f4199881644ef6d3451bdb6727882c8}
+      \strng{fullhash}{8f4199881644ef6d3451bdb6727882c8}
+      \strng{fullhashraw}{8f4199881644ef6d3451bdb6727882c8}
+      \strng{bibnamehash}{8f4199881644ef6d3451bdb6727882c8}
+      \strng{authorbibnamehash}{8f4199881644ef6d3451bdb6727882c8}
+      \strng{authornamehash}{8f4199881644ef6d3451bdb6727882c8}
+      \strng{authorfullhash}{8f4199881644ef6d3451bdb6727882c8}
+      \strng{authorfullhashraw}{8f4199881644ef6d3451bdb6727882c8}
+      \strng{editorbibnamehash}{45b3528a3f1a979c11ce6bbaf476c404}
+      \strng{editornamehash}{45b3528a3f1a979c11ce6bbaf476c404}
+      \strng{editorfullhash}{030505ccada724ffd55c871411d8098e}
+      \strng{editorfullhashraw}{030505ccada724ffd55c871411d8098e}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2100-014X}
+      \field{journaltitle}{EPJ Web of Conferences}
+      \field{title}{NANOAOD: a new compact event data format in CMS}
+      \field{volume}{245}
+      \field{year}{2020}
+      \field{pages}{06002}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1051/epjconf/202024506002
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1051/epjconf/202024506002
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1051/epjconf/202024506002
       \endverb
     \endentry
     \entry{LHC2008}{article}{}{}
@@ -1995,6 +2114,58 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevD.110.030001
+      \endverb
+    \endentry
+    \entry{MiniAOD}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=7dd92ee1295eee95f3745b1073267304}{%
+           family={Petrucciani},
+           familyi={P\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=15bbdb2921e0d2367499b63e7c8c9c49}{%
+           family={Rizzi},
+           familyi={R\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4b6b0acf3ef3d207df3d6a6c4583a258}{%
+           family={Vuosalo},
+           familyi={V\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{e5da7091939ec85bc0bf8083094ca834}
+      \strng{fullhash}{e5da7091939ec85bc0bf8083094ca834}
+      \strng{fullhashraw}{e5da7091939ec85bc0bf8083094ca834}
+      \strng{bibnamehash}{e5da7091939ec85bc0bf8083094ca834}
+      \strng{authorbibnamehash}{e5da7091939ec85bc0bf8083094ca834}
+      \strng{authornamehash}{e5da7091939ec85bc0bf8083094ca834}
+      \strng{authorfullhash}{e5da7091939ec85bc0bf8083094ca834}
+      \strng{authorfullhashraw}{e5da7091939ec85bc0bf8083094ca834}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1742-6596}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{month}{12}
+      \field{number}{7}
+      \field{title}{Mini-AOD: A New Analysis Data Format for CMS}
+      \field{volume}{664}
+      \field{year}{2015}
+      \field{pages}{072052}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1742-6596/664/7/072052
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1742-6596/664/7/072052
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1742-6596/664/7/072052
       \endverb
     \endentry
   \enddatalist
