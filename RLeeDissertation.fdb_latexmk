@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber RLeeDissertation"] 1785801275.57431 "RLeeDissertation.bcf" "RLeeDissertation.bbl" "RLeeDissertation" 1785801692.19951 0
-  "RLeeDissertation.bcf" 1785801692.04184 113539 10ea4fc83558cd9dcdee0c08da69cf11 "pdflatex"
-  "RLeeDissertation.bib" 1785788707.65021 13253 a2f156c9f2fb20595d95c400c0e46625 ""
+["biber RLeeDissertation"] 1785898679.98547 "RLeeDissertation.bcf" "RLeeDissertation.bbl" "RLeeDissertation" 1785898692.67154 0
+  "RLeeDissertation.bcf" 1785898692.53408 114012 d1f2a584e9b561fdd9211b1d9d122fc7 "pdflatex"
+  "RLeeDissertation.bib" 1785889629.01152 14119 0b21743301c400ed5617c997247b89ce ""
   (generated)
   "RLeeDissertation.bbl"
   "RLeeDissertation.blg"
   (rewritten before read)
-["pdflatex"] 1785801679.62883 "/Users/robert/Documents/Dissertation/RLeeDissertation.tex" "RLeeDissertation.pdf" "RLeeDissertation" 1785801692.19984 0
-  "/Users/robert/Documents/Dissertation/RLeeDissertation.tex" 1785801666.1211 240069 a785c15b9400307efa9f386acd22307f ""
+["pdflatex"] 1785898681.35065 "/Users/robert/Documents/Dissertation/RLeeDissertation.tex" "RLeeDissertation.pdf" "RLeeDissertation" 1785898692.67181 0
+  "/Users/robert/Documents/Dissertation/RLeeDissertation.tex" 1785898656.25831 249772 4d38ce65334c6fe83a062c96c6628516 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -267,8 +267,9 @@
   "Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png" 1784654127 25671 bf0580662c1045386082ad933f5fed11 ""
   "Figures/PixelDetector.png" 1781221306.16426 345871 6145451d96ea75a79cbfe1b3da42f187 ""
   "Figures/Run3RatesAndTimings.png" 1785434629.9079 285696 f9f6c9bbc94b06ee9c6fb70408aef6e1 ""
-  "Figures/SingleHBranchFracts_From10YearReview.png" 1781221306.16534 572899 793b4e79491125431338b65b9a0c2968 ""
-  "Figures/SingleHProdCrossSections_From10YearReview.png" 1781221306.16791 498717 0933f8d803a9bcdaa38ea20baf5ecdec ""
+  "Figures/SMChart.png" 1785867454.11453 349472 3fbc31335c5ef28a93ec7f1d737b22b5 ""
+  "Figures/SingleHBRPieChart.png" 1785894470.01443 69836 b5f0b24e9d5459f87021f363c70f10b6 ""
+  "Figures/SingleHProdXSPieChart.png" 1785890763.83264 77063 74f8602c4111fcc81aebdbac5d000476 ""
   "Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png" 1781888944 22283 dec8e96d98d014a8a04da5d88f8e5b73 ""
   "Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png" 1781888944 26075 8a5e64ee4b7366b108332f7d0d00c4c2 ""
   "Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png" 1781888944 20405 6b75e6464f592d7e752d85bc9e5b46b6 ""
@@ -289,14 +290,14 @@
   "Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png" 1784235235 16399 9988ffafa84192be4e8c305ec85bebf9 ""
   "Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png" 1784235235 20832 3fd2c3905b2bd1535dcc832e51308a3e ""
   "Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png" 1784235235 15802 cca0fbd60e13cd31e971dd226e6a1042 ""
-  "RLeeDissertation.aux" 1785801692.03209 81912 75ee78100891682454b2166b6f575ec0 "pdflatex"
-  "RLeeDissertation.bbl" 1785801277.12265 83829 b783e306cdc70c0f4f37603169a5e277 "biber RLeeDissertation"
-  "RLeeDissertation.lof" 1785801692.04352 15674 23e1e405a1d6afa32a0b33af7282cf62 "pdflatex"
-  "RLeeDissertation.lot" 1785801692.04373 1768 1bdcb66f72aec2dd7cc94ae8d64e6d9b "pdflatex"
-  "RLeeDissertation.out" 1785801692.0407 16984 0ed9095d8cbcc7319bd806f44b90d3a7 "pdflatex"
-  "RLeeDissertation.run.xml" 1785801692.04291 2395 dc03be23a0a9ebf7d6bb9084a26d1948 "pdflatex"
-  "RLeeDissertation.tex" 1785801666.1211 240069 a785c15b9400307efa9f386acd22307f ""
-  "RLeeDissertation.toc" 1785801692.04302 8624 8f867a8b837322a0ea2904c0cb459fa1 "pdflatex"
+  "RLeeDissertation.aux" 1785898692.52423 97475 78ebcda1b2f5acc553dc2079e3f6106b "pdflatex"
+  "RLeeDissertation.bbl" 1785898681.33148 36970 24661aac15b07afe618700f3ad6d1042 "biber RLeeDissertation"
+  "RLeeDissertation.lof" 1785898692.53475 22499 c576c7edc2ed7f93ef8bdd8707177c27 "pdflatex"
+  "RLeeDissertation.lot" 1785898692.53477 2863 e65ab196ea81390753f1d63874ae17f3 "pdflatex"
+  "RLeeDissertation.out" 1785898692.53325 17196 a65eda703851001e02210d1eb6bf07b6 "pdflatex"
+  "RLeeDissertation.run.xml" 1785898692.53464 2395 dc03be23a0a9ebf7d6bb9084a26d1948 "pdflatex"
+  "RLeeDissertation.tex" 1785898656.25831 249772 4d38ce65334c6fe83a062c96c6628516 ""
+  "RLeeDissertation.toc" 1785898692.5347 8722 9db776f7d424966931478fcb14c6e4bf "pdflatex"
   "ucsddissertation.cls" 1781221306.61383 15561 c9b358d8c355dfa224c8591e662be6c4 ""
   (generated)
   "RLeeDissertation.aux"

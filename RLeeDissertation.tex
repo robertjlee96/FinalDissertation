@@ -174,58 +174,121 @@ The goal of this paper is to examine the improvement of a specific set of these 
 \end{dissertationintroduction}
 
 \chapter{The Standard Model and Higgs Boson} \label{chapter:Theory}
-Theory Citations: \cite{SMOverview}: Short 1999 Overview of SM. \cite{PDGReview}: 2024 review of particle physics. \cite{HiggsDiscovery2012}: 2012 Higgs Discovery phys review letters publication. \cite{HiggsDiscovery2013} 2013 JHEP Higgs discovery publication. \cite{CMS10YearReview} 2022 CMS Higgs 10 year review. 
+The standard model (SM) of particle physics is the quantum gauge field theory that describes all currently known physical interactions besides gravity \cite{SMOverview}. Early formulations considered there to be three distinct gauge theories that ruled interactions between physical objects: Quantum Electrodynamics (QED), which describes the elctromagnetic force between charged objects; Quantum Chromodynamics (QCD), which describes the strong nuclear force; and Weak Theory, which describes the weak nuclear force. 
 
-Detector Citations: \cite{CMS2008} 2008 Early CMS Description. \cite{CMS2024} 2024 Run3 CMS Description (use this mainly). \cite{LHC2008} 2008 Overall LHC design.
+Within the SM, there are two major forms of particle. Spin 1/2 particles, called fermions, comprise all matter as we know it, and include quarks and leptons. Integer spin particles, called bosons, act as the force carriers that mediate interactions between these fermions. QED posits the photon as the gague boson, which mediates interactions between all electrically charged particles -- including both charged leptons and quarks. This theory will be touched on in section \ref{sec:QED}. QCD describes eight gluons as the force mediators between color-charged quarks. A minimal summary of QCD will be given in section \ref{sec:QCD}. The weak theory describes the massive $W^{\pm}$ and $Z^0$ bosons as the mediators of the weak force, which is responsible for radioactive decay. More details on this theory, as well as its unification with QED, will be given in section \ref{sec:EW}. 
 
-Trigger Citations: \cite{L12020} 2020 L1 Trigger review. \cite{CMSTrigger2017} 2017 overall trigger structure. \cite{Run2HLT2024} 2024 review of Run2 HLT performance. 
+The final piece of the standard model, the Higgs Boson, was first theorized in 1964 in a seminal paper by Peter Higgs \cite{Higgs1964}. This discovery was motivated by the need for a way to unify QED with weak theory, as will be discussed in section \ref{sec:Higgs}. The Higgs boson wasn't discovered until the LHC was able to release its first results in 2012; previous accelerators were not capable of producing the required energy to produce the Higgs boson at the mass it was later discovered to have. These results, published simultaneously by the CMS and ATLAS experiments at LHC proved the existence of the Higgs Boson and provided the final piece to the standard model \cite{HiggsDiscovery2013}.
 
-The standard model (SM) of particle physics is the quantum gauge field theory that describes all currently known physical interactions besides gravity. Early formulations considered there to be three distinct gauge theories that ruled interactions between physical objects: Quantum Electrodynamics (QED), which describes the elctromagnetic force between charged objects; Quantum Chromodynamics (QCD), which describes the strong nuclear force; and Weak Theory, which describes the weak nuclear force. 
+In figure \ref{fig:SMOverview}, an overview of the component fundamental particles of the SM is presented. The three generations of quarks are shown in purple. These quarks are bound together by the strong nuclear force, which is mediated by gluons and described by QCD. Below the quarks in green are the three generations of leptons, which interact through the electroweak force mediated by the photon, $W^{\pm}$, and $Z^0$ bosons. All four of these force-mediators, termed gauge bosons, are shown in red. Finally, the Higgs boson, which occupies a special role in electroweak theory, is shown in yellow.
 
-Within the SM, there are two major forms of particle. Spin 1/2 particles, called fermions, comprise all matter as we know it, and include quarks and leptons. Integer spin particles, called bosons, act as the force carriers that mediate interactions between these fermions. QED posits the photon as the gague boson, which mediates interactions between all electrically charged particles -- including both charged leptons and quarks. QCD describes eight gluons as the force mediators between color-charged quarks. The weak theory describes the massive $W^{\pm}$ and $Z^0$ bosons as the mediators of the weak force, which is responsible for radioactive decay.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{./Figures/SMChart.png}
+	\caption{A chart of all the known irreducible particles of the standard model of particle physics. The three generations of quarks are shown in purple. The three generations of leptons are shown in green. The gauge bosons, which mediate the strong, weak, and electromagentic forces are shown in red. The Higgs boson is shown in yellow.}
+	\label{fig:SMOverview}
+\end{figure}
 
-As will be discussed in \ref{sec:EW}, experimental findings pointed early theorests towards the unification of the electromagnetic and weak forces into what is now known as the electroweak (EW) theory. The 
-
+\section{Quantum Electrodynamics (QED)}\label{sec:QED}
+Quantum electrodynamics was the first successful field theory proposed, and was originally created to describe the phenomena of the electromagnetic forces \cite{SMOverview}. This original theory was built on U(1) gauge symmetry, and therefore has one gauge boson (the photon). 
 
 \section{Quantum Chromodynamics (QCD)}\label{sec:QCD}
 Use Gaillard, Grannis, and Sciulli AND PDG Physics summary page 153
+
+Mention quark confinement, hadronic jets!
 
 \section{Electroweak (EW) Theory}\label{sec:EW}
 Use Gaillard, Grannis, and Sciulli AND PDG Physics summary page 185
 
 \section{The Higgs Field and Higgs Boson}\label{sec:Higgs}
-Use PDG Physics summary page 211-218
-
 \subsection{Motivation for the Higgs Field}
 \subsection{Properties of the Higgs Potential}
-\subsection{Production Modes of a Single Higgs Boson}
+\subsection{Production Modes of a Single Higgs Boson}\label{sec:SingleHProdModes}
+With the establishment of the existence of the Higgs boson, both the production and decay modes of the particle must be studied and measured. The production modes are all of the theoretically-allowable ways in which a Higgs boson may be created. Determining which modes are allowable is a complicated process of using the relevant quantum field theories (QCD and EW theory for the Higgs boson) to constrain possible interactions using the conservation laws of each theory. 
+
+The primary production modes for the Higgs boson are all shown as feynman diagrams in figure \ref{fig:FDSingleHProdModes}, reproduced from \cite{CMS10YearReview}. Figure \ref{fig:FDSingleHProdModes}a shows what is called gluon fusion (ggH), where two gluons directly fuse through a virtual (top or less commonly bottom) quark loop. It can immediately be seen that this ggH production mode does not produce any additional particles from the primary interaction. The next mode, in figure \ref{fig:FDSingleHProdModes}b is known as Vector Boson Fusion (VBF). This occurs when two quarks each radiate a vector boson (either $W^{\pm}$ or $Z^0$). These vector bosons then interact, and can produce a Higgs boson. VBF production also only produces a single Higgs boson, with the other two outgoing particles simply being the recoiling quarks that originally produced the vector bosons.
+
+The other Higgs production modes shown are called associated production modes; instead of simply combining the energy of two particles together to produce a single Higgs boson, associated production modes create the Higgs in conjunction with some other particle. In figure \ref{fig:FDSingleHProdModes}c, vector boson associated production is shown. In this mode, two quarks directly interact to create a vector boson, which then branches into a Higgs in associated with an additional vector boson. For this process, that vector boson may be either a $W^{\pm}$ or $Z^0$. The next diagram, shown in figure \ref{fig:FDSingleHProdModes}d, is the production of the Higgs in association with a quark pair, either the top or bottom quark. These are termed ttH or bbH production, and often produce considerable background given the jets of hadronic particles that originate from the top or bottom quarks. The final two diagrams, \ref{fig:FDSingleHProdModes}e\&f, are the production of a Higgs in association with a single top quark. 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{./Figures/HiggsProdModes_From10YearReview.png}
-	\caption[]{Feynman diagrams of known Higgs production modes. Reproduced from [CMS10YearReview]}
+	\caption{Feynman diagrams of known Higgs production modes. a is known as gluon fusion, termed ggH. b is known as vector boson fusion (VBF). c is production of the Higgs in association with a vector boson (either a $W^{\pm}$ or $Z^0$ boson), called VH production. d is the production of the Higgs in association with a pair of top (ttH) or bottom (bbH) quarks. e and f both show Higgs production in association with a single top quark (tH). Reproduced from \cite{CMS10YearReview}}
 	\label{fig:FDSingleHProdModes}
 \end{figure}
+
+Not all allowed production modes are of equal probability, however; each possible mode has an associated cross-section, represented by $\sigma$. This cross-secton is generally measured in a unit of area called a picobarn (pb), where one picobarn is equal to $10^{-36} cm^2$. The cross-section depends on the total center-of-mass collision energy, $\sqrt{s}$ (measured in units of energy, in this case teraelectronvolt {TeV}). At a center of mass energy of $\sqrt{s} = 13$TeV, recent results have shown the total Higgs boson production cross section as $\sigma_H = 54 \pm 2.6$pb \cite{HiggsCrossSection}. Gluon fusion production accounts for about 87\% of this total cross-section \cite{CMS10YearReview}. Taken together with the next most common mode, VBF, over 93\% of the total cross-section can be accounted for. The cross-section for different production modes are tabulated in table \ref{tab:singleHProductionXS}. The proportions are represented in the pie chart shown in figure \ref{fig:XSSingleHProdModes}, reproduced from \cite{CMS10YearReview}.
+
+\begin{table}
+	\centering
+	\caption{Table showing the calculated cross-sections (in pb) of the single Higgs boson production modes for $\sqrt{s} = 13$TeV. This data has been taken from \cite{HiggsCrossSection}.}
+	\label{tab:singleHProductionXS}
+	\begin{tabular}{c c} 
+		\hline
+		\textbf{Production Mode} & \textbf{Cross-section (pb)} \\
+		\Xhline{2pt}
+		ggH & 48.31 $\pm$ 2.44\\
+		VBF & 3.771 $\pm$ 0.807\\
+		WH & 1.359 $\pm$ 0.028\\
+		ZH & 0.877 $\pm$ 0.036\\
+		ttH & 0.503 $\pm$ 0.035\\
+		bbH & 0.482 $\pm$ 0.097\\
+		tH & 0.092 $\pm$ 0.008\\
+		\hline
+	\end{tabular}
+\end{table}
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\linewidth]{./Figures/SingleHProdCrossSections_From10YearReview.png}
-	\caption[]{Production cross sections for Higgs creation. Reproduced from [CMS10YearReview]}
+	\includegraphics[width=0.75\linewidth]{./Figures/SingleHProdXSPieChart.png}
+	\caption{A pie chart of the relative proportions of the total $\sigma_H$ attributed to each production mode. Reproduced from \cite{CMS10YearReview}.}
 	\label{fig:XSSingleHProdModes}
 \end{figure}
-\subsection{Decay Modes of a Single Higgs Boson}
+
+\subsection{Decay Modes of a Single Higgs Boson}\label{sec:SingleHDecayModes}
+While section \ref{sec:SingleHProdModes} covers the ways to create a Higgs boson at the LHC, the ways in which the Higgs decays are of even more vital importance. With a SM lifetime of $\tau_H = 1.6 \times 10^{-22}$s, the Higgs itself cannot be directly measured \cite{CMS10YearReview}. Instead, the final state particles must be measured and the Higgs reconstructed from them. Feynman diagrams for the possible decay modes are show in figure \ref{fig:SingleHDecayModes}. There are 4 major classes of Higgs decays: vector bosonic decays where the final state is a pair of W or Z bosons (figure \ref{fig:SingleHDecayModes}g); fermionic decays where the final state is a fermion-antifermion pair (figure \ref{fig:SingleHDecayModes}h); photonic decays where the final state is either two photons or a photon and a $Z^0$ boson(figure \ref{fig:SingleHDecayModes}i\&j); and decays into two gluons, which are mediated by a b/t quark loop (not shown in figure \ref{fig:SingleHDecayModes}).
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{./Figures/HiggsDecayModes_From10YearReview.png}
-	\caption[]{Feynman diagrams of known Higgs decay modes. Reproduced from [CMS10YearReview]}
+	\caption{Feynman diagrams of known Higgs decay modes. Heavy vector bosonic decays are shown in g, fermion-antifermion decays are shown in h, and photon/Z boson decays are shown in i and j. Reproduced from \cite{CMS10YearReview}}
 	\label{fig:SingleHDecayModes}
 \end{figure}
+
+As with the production modes, not all of the decay modes are equally likely. Whereas a production mode is assigned a physical cross-section, a decay mode is described by the branching faction, which quantifies what percent of all produced particles will decay through a certain channel. These branching fractions, as with the production cross-sections, can be both theoretically calculated and measured from experiments. Table \ref{tab:singleHDecayBR} shows the branching fractions of the main Higgs decay modes with information obtained from \cite{HiggsCrossSection}. The total fractions are also shown as a pie chart in figure \ref{fig:BRSingleHDecayModes}, which has been reproduced from \cite{CMS10YearReview}.
+\begin{table}
+	\centering
+	\caption{Table showing the theoretical branching fractions of various Higgs decay channels at $\sqrt{s} = 13$TeV. This data has been taken from \cite{HiggsCrossSection}.}
+	\label{tab:singleHDecayBR}
+	\begin{tabular}{c c} 
+		\hline
+		\textbf{Decay Channel} & \textbf{Branching Fraction (\%)} \\
+		\Xhline{2pt}
+		b$\bar{b}$ & 57.63 $\pm$ 0.70\\
+		WW & 22.00 $\pm$ 0.33\\
+		gg & 8.15 $\pm$ 0.42\\
+		$\tau \tau$ & 6.21 $\pm$ 0.09\\
+		cc & 2.86 $\pm$ 0.09\\
+		ZZ & 2.71 $\pm$ 0.04\\
+		$\gamma \gamma$ & 0.227 $\pm$ 0.005\\
+		Z$\gamma$ & 0.157 $\pm$ 0.009\\
+		ss & 0.025 $\pm$ 0.001\\
+		$\mu \mu$ & 0.0216 $\pm$ 0.0004\\
+		\hline
+	\end{tabular}
+\end{table}
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\linewidth]{./Figures/SingleHBranchFracts_From10YearReview.png}
-	\caption[]{Decay branching fractions for a single Higgs. Reproduced from [CMS10YearReview]}
+	\includegraphics[width=0.75\linewidth]{./Figures/SingleHBRPieChart.png}
+	\caption{Theoretical branching fractions for a single Higgs. Reproduced from \cite{CMS10YearReview}}
 	\label{fig:BRSingleHDecayModes}
 \end{figure}
+
+As seen in the table, the b$\bar{b}$ decay channel is by far the most likely for the Higgs boson. This channel therefore will be produced at high rate at the LHC. The b quarks, however, will produce many hadronic jets as described in \ref{sec:QCD}. So, while this decay is very high-rate, it can be quite hard to measure reliable due to the preponderance of produced particles. The WW (heavy vector boson) decay is the next most common. These bosons most often decay into a 4 lepton final state, which can be hard to disentangle from the possible sources of background. Additionally, if not all 4 leptons are correctly identified, the event may be very hard to reconstruct. Together, these two high-rate but less clean signal signatures make up more than 75\% of the total branching fraction for single Higgs decay.
+
 \section{Higgs Boson Decaying to Two Photons ($H \rightarrow \gamma\gamma$) }
+For this analysis, the major decay channel of interest will be the diphoton, or $\gamma \gamma$ decay. This is, again, represented by the Feynman diagrams in figure \ref{fig:SingleHDecayModes}i\&j. Looking at table \ref{tab:singleHDecayBR} and figure \ref{fig:BRSingleHDecayModes}, it is clear that this decay channel has a very low branching fraction compared to some of the higher-rate channels at only only 0.2 \%. 
+
 \subsection{Useful Properties for Analysis}
 \subsection{Historical Results}
 \section{Di-Higgs Production and Properties}
@@ -233,7 +296,7 @@ Use PDG Physics summary page 211-218
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{./Figures/DiHiggsProdModes_From10YearReview.png}
-	\caption[]{Feynman diagrams of known Higgs decay modes. Reproduced from [CMS10YearReview]}
+	\caption{Feynman diagrams of known Higgs decay modes. Reproduced from [CMS10YearReview]}
 	\label{fig:DiHiggsProdModes}
 \end{figure}
 \subsection{Di-Higgs Decay Modes}
@@ -250,7 +313,7 @@ The following section is summarized from \cite{LHC2008}. A simplified schematic 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\linewidth]{./Figures/LHCFullLayout.png}
-	\caption[]{A simplified schematic of the overall layout of the LHC. The counter-rotating beams are shown in red (clockwise) and blue (counterclockwise). Reproduced from \cite{LHC2008}. }
+	\caption{A simplified schematic of the overall layout of the LHC. The counter-rotating beams are shown in red (clockwise) and blue (counterclockwise). Reproduced from \cite{LHC2008}. }
 	\label{fig:LHCLayout}
 \end{figure}
 
@@ -283,7 +346,7 @@ This section is largely summarized from \cite{CMS2008} and \cite{CMS2024}. The C
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{./Figures/FullCMS.png}
-	\caption[]{A full view of the CMS Detector, with each major system labled. Reproduced from \cite{CMS2024}.}
+	\caption{A full view of the CMS Detector, with each major system labled. Reproduced from \cite{CMS2024}.}
 	\label{fig:FullCMS}
 \end{figure}
 
@@ -301,7 +364,7 @@ The pixel detectors achieve high spatial resolution by using 124 million channel
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{./Figures/PixelDetector.png}
-	\caption[]{Longitudinal view of the pixel detector, where the beampipe is represented at the bottom of the image. Reproduced from \cite{CMS2024}}
+	\caption{Longitudinal view of the pixel detector, where the beampipe is represented at the bottom of the image. Reproduced from \cite{CMS2024}}
 	\label{fig:PixelDetector}
 \end{figure}
 
@@ -311,7 +374,7 @@ The innermost pixel detector is rather small, only extending 160mm radially from
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{./Figures/FullTracker.png}
-	\caption[]{Full view of the tracker system. The inner pixel tracker is shown in green. Reproduced from \cite{CMS2024}}
+	\caption{Full view of the tracker system. The inner pixel tracker is shown in green. Reproduced from \cite{CMS2024}}
 	\label{fig:FullTracker}
 \end{figure}
 \subsection{Electromagnetic Calorimeter} \label{sec:ECal}
@@ -319,7 +382,7 @@ Beyond the inner tracking system, the ECAL system is designed to measure the ene
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{./Figures/ECalSchematic.png}
-	\caption[]{A simplified schematic of the ECal. Reproduced from \cite{CMS2008}}
+	\caption{A simplified schematic of the ECal. Reproduced from \cite{CMS2008}}
 	\label{fig:ECal}
 \end{figure}
 
@@ -358,7 +421,7 @@ Both the Layer-2 calorimeter trigger and the $\mu$GMT output to the Global Trigg
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\linewidth]{./Figures/L1TriggerArchitecture.png}
-	\caption[]{A diagram of the L1 Trigger architecture, where the lefthand tree corresponds to the muon triggers and the righthand tree to the calorimeter triggers. Reproduced from \cite{L12020}.}
+	\caption{A diagram of the L1 Trigger architecture, where the lefthand tree corresponds to the muon triggers and the righthand tree to the calorimeter triggers. Reproduced from \cite{L12020}.}
 	\label{fig:L1Architecture}
 \end{figure}
 \subsection{The L1 e/$\gamma$ Reconstruction}
@@ -371,7 +434,7 @@ The next major reconstructed quantity at the L1 trigger is the energy isolation.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\linewidth]{./Figures/L1Clustering.png}
-	\caption[]{A diagram of an L1 e/$\gamma$ cluster. The central seed tower is shown in red, and the clustered contiguous towers are shown in orange and yellow. The isolation region is shown in blue. Reproduced from \cite{L12020}.}
+	\caption{A diagram of an L1 e/$\gamma$ cluster. The central seed tower is shown in red, and the clustered contiguous towers are shown in orange and yellow. The isolation region is shown in blue. Reproduced from \cite{L12020}.}
 	\label{fig:L1Clustering}
 \end{figure}
 
@@ -383,7 +446,7 @@ The full L1 consists of a suite of many individual triggers combined together, w
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\linewidth]{./Figures/L1MenuPercents.png}
-	\caption[]{A comparison of the percentage of the total rate allowed for each category of trigger. Reproduced from \cite{L12020}.}
+	\caption{A comparison of the percentage of the total rate allowed for each category of trigger. Reproduced from \cite{L12020}.}
 	\label{fig:L1Menu}
 \end{figure}
 
@@ -403,7 +466,7 @@ The mustache algorithm is so termed because it looks for clusters associated tog
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\linewidth]{./Figures/ECalMustache.png}
-	\caption[]{A distribution of the $\Delta \eta$ versus $\Delta \phi$ for the superclustering of simulated electrons. The z-axis represents the number of clusteres matched with the simulation around the seed. The red line represents the set of clusters selected by the mustache algorith. The seed cluster can be seen as the while region in the center of the plot (where both $\Delta \eta$ and $\Delta \phi$ are equal to 0). Reproduced from \cite{OfflineReco2021}.}
+	\caption{A distribution of the $\Delta \eta$ versus $\Delta \phi$ for the superclustering of simulated electrons. The z-axis represents the number of clusteres matched with the simulation around the seed. The red line represents the set of clusters selected by the mustache algorith. The seed cluster can be seen as the while region in the center of the plot (where both $\Delta \eta$ and $\Delta \phi$ are equal to 0). Reproduced from \cite{OfflineReco2021}.}
 	\label{fig:SuperClusterMustache}
 \end{figure}
 
@@ -422,7 +485,7 @@ The limit for the total rate of the HLT in Run 3 is 7kHz \cite{Run3HLTPerformanc
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\linewidth]{./Figures/HLTRateConsumptionPieChartRun2.png}
-	\caption[]{A pie chart showing the percentage of the full rate alloted for each physics object group for 2018 data. Note that this example of rate shares operates at a lower instantaneous luminosity and trigger rate than the Run3 data will have. Reproduced from \cite{Run2HLT2024}.}
+	\caption{A pie chart showing the percentage of the full rate alloted for each physics object group for 2018 data. Note that this example of rate shares operates at a lower instantaneous luminosity and trigger rate than the Run3 data will have. Reproduced from \cite{Run2HLT2024}.}
 	\label{fig:HLTRateShares}
 \end{figure}
 
@@ -435,7 +498,7 @@ Moving from Run2 into Run3, the overall data rate has consistently increased yea
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.99\linewidth]{./Figures/Run3RatesAndTimings.png}
-	\caption[]{On the left, the rates of the scouting dataset (top), prompt (middle, solid), and parking (middle, hatched) data streams are shown. Additionally, the instantaneous luminosity is shown (bottom). To the right, the menu timing is shown with CPU-only and CPU+GPU processing for the 2022 running year. Reproduced from (REF? LHCP PAPER)}
+	\caption{On the left, the rates of the scouting dataset (top), prompt (middle, solid), and parking (middle, hatched) data streams are shown. Additionally, the instantaneous luminosity is shown (bottom). To the right, the menu timing is shown with CPU-only and CPU+GPU processing for the 2022 running year. Reproduced from (REF? LHCP PAPER)}
 	\label{fig:HLTRateAndTiming}
 \end{figure}
 
@@ -461,7 +524,7 @@ The rest of the showershape and isolation cuts depend on the $R_9$ of the photon
 Finally, these two filter legs are combined into one final filter. This filter also applies a minimum mass requirement at $M_{\gamma \gamma} > 90 GeV/c^2$. So, then, the final HLT requires that two photons (one with $E_T > 30 GeV$, another with $E_T > 22GeV$) pass the showershape and isolation cuts, and that their combined invariant mass is greater than $90 GeV/c^2$. These showershape and isolation cuts are tabulated in table \ref{tab:sHLTCuts}.
 \begin{table}
 	\centering
-	\caption[E]{Table showing the cuts applied by the standard diphoton HLT for $H \rightarrow \gamma \gamma$. The track isolation cut is only applied to the unseeded second leg.}
+	\caption{Table showing the cuts applied by the standard diphoton HLT for $H \rightarrow \gamma \gamma$. The track isolation cut is only applied to the unseeded second leg.}
 	\label{tab:sHLTCuts}
 	\begin{tabular}{| c | c | c | c | c | c | c |} 
 		\hline
@@ -483,7 +546,7 @@ Many of the details of the offline reconstruction have already been given in sec
 
 Both the HLT and offline electron track reconstruction are based on a Gaussian Sum Filter (GSF) \cite{GSFTracking}. Since this process is very CPU-intensive, it is not done for all possible tracker hits. Instead, electron tracks begin with a hit pattern that might correspond to an electron track, called a "seed". These seeds take two forms. ECal-driven seeds start from a mustache SC satisfying specific criteria, then finds tracker hits that may be associated with this seed. All HLT-level tracks are ECal driven, which is one of the major ways that the processing time is kept within the strict limits of that level. Tracker-driven seeding looks at all possible generic tracks and applies algorithmic selections to identify those possibly originating from an electron.
 
-ECal-driven tracker seeds first select a mustache SC which satisfies $E_{SC,T} > 4 GeV$ and $H/E_{SC} < 0.15$, where $E_{SC}$ is the total supercluster energy and H is the energy of all HCal towers within $\Delta R = \sqrt{(\Delta \eta)^2 + (\Delta \phi)^2} = 0.15$ of the center of the SC position \cite{OfflineReco2021}. Then, triplets and doublets of inner pixel tracker hits are combined, and the relative positions of these possible tracks in $\phi$ and z are compared to the ECal SC. The track is then extrapolated back towards the collision vertex using the SC location the seed energy, and the strength of the magnetic field in the region through which the track moves. If the first two hits of a tracker seed are matched to this predicted trajectory from the SC, then the tracker seed is chosen to seed a GSF track. This ECal-driven track seeding is > 95\% efficient for tracks with $E_T > 10GeV$ \cite{OfflineReco2021}.
+ECal-driven tracker seeds first select a mustache SC which satisfies $E_{SC,T} > 4 GeV$ and $H/E_{SC} < 0.15$, where $E_{SC}$ is the total supercluster energy and H is the energy of all HCal towers within $\Delta R = \sqrt{(\Delta \eta)^2 + (\Delta \phi)^2} = 0.15$ of the center of the SC position \cite{OfflineReco2021}. Then, triplets and doublets of inner pixel tracker hits are combined, and the relative positions of these possible tracks in $\phi$ and z are compared to the ECal SC. The track is then extrapolated back towards the collision vertex using the SC location the seed energy, and the strength of the magnetic field in the region through which the track moves. If the first two hits of a tracker seed are matched to this predicted trajectory from the SC, then the tracker seed is chosen to seed a GSF track. This ECal-driven track seeding is $>$ 95\% efficient for tracks with $E_T > 10GeV$ \cite{OfflineReco2021}.
 
 The tracker-driven approach iterates over all possible generic tracks coming from the interaction vertex, and is therefore much less CPU-efficient. An iterative algorithm called the Kalman Filter (KF) is used to reconstruct every possible track. A combination of cut-based selection OR a BDT-based selection criteria are applied to each track, and if it is found to be compatible with a ECal cluster it is used as a seed for a GSF track. Given the complexity of this seeding procedure, it becomes clear why this tracking algorithm is not applied in the HLT reconstruction.
 
@@ -566,7 +629,7 @@ At the trigger level, background simulation poses a major challenge. Background 
 After signal and background samples are selected, input variables for the BDT must be chosen such that signal and background events can be separated. The most obvious starting place for this is by analogy to the current HLT; since cuts on the kinematic, isolation, and showershape variables have been successfully used in the preexisting trigger, a BDT should be able to use these variables to even greater effect. Below, in table \ref{tab:HLTInputVars}, the chosen input variables are listed along with their definitions.
 \begin{table}
 	\centering
-	\caption[E]{Table of input variable names, and a short description of each.}
+	\caption{Table of input variable names, and a short description of each.}
 	\label{tab:HLTInputVars}
 	\begin{tabular}{ | c | c | } 
 		\hline
@@ -690,7 +753,7 @@ Below, in figure \ref{fig:HLTOutputScores}, the high and low scores for signal M
 	\subfloat[BkgScores][]{
 		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png}
 	}
-	\caption[]{XGBoost output scores for two selected photon candidates in the Winter 2024 ggH signal MC. The higher of the two scores is plotted on the X-axis, while the lower of the two is plotted on the Y-axis.}
+	\caption{XGBoost output scores for two selected photon candidates in the Winter 2024 ggH signal MC. The higher of the two scores is plotted on the X-axis, while the lower of the two is plotted on the Y-axis.}
 	\label{fig:HLTOutputScores}
 \end{figure}
 
@@ -741,7 +804,7 @@ Events that satisfy these requirements can be plotted on top of figures \ref{fig
 	\subfloat[][]{
 		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png}
 	}
-	\caption[]{XGBoost output scores for two selected photon candidates in the Winter 2024 ggH signal MC (a), and 2023 Data (b). The higher of the two scores is plotted on the X-axis, while the lower of the two is plotted on the Y-axis.}
+	\caption{XGBoost output scores for two selected photon candidates in the Winter 2024 ggH signal MC (a), and 2023 Data (b). The higher of the two scores is plotted on the X-axis, while the lower of the two is plotted on the Y-axis.}
 	\label{fig:HLTAcceptedScoresBB}
 \end{figure}
 
@@ -753,7 +816,7 @@ Events that satisfy these requirements can be plotted on top of figures \ref{fig
 	\subfloat[][]{
 		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png}
 	}
-	\caption[]{XGBoost output scores for two selected photon candidates in the Winter 2024 ggH signal MC (a), and 2023 Data (b). The higher of the two scores is plotted on the X-axis, while the lower of the two is plotted on the Y-axis.}
+	\caption{XGBoost output scores for two selected photon candidates in the Winter 2024 ggH signal MC (a), and 2023 Data (b). The higher of the two scores is plotted on the X-axis, while the lower of the two is plotted on the Y-axis.}
 	\label{fig:HLTAcceptedScoresEE}
 \end{figure}
 
@@ -770,7 +833,7 @@ Below, plots of selected kinematic variables are shown. The events accepted by t
 	\subfloat[][]{
 		\includegraphics[width=.6\linewidth]{./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png}
 	}
-	\caption[]{Diphoton mass for the signal MC (a) and data (b). Events accepted by the MVA-HLT are shown in blue, while events accepted by the standard HLT are shown in green.}
+	\caption{Diphoton mass for the signal MC (a) and data (b). Events accepted by the MVA-HLT are shown in blue, while events accepted by the standard HLT are shown in green.}
 	\label{fig:HLTAcceptedMass}
 \end{figure}
 
@@ -789,7 +852,7 @@ One major consideration when examining the mass is the measured mass width of th
 	\subfloat[][]{
 		\includegraphics[width=.60\linewidth]{./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png}
 	}
-	\caption[]{Photon $\eta$ for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in blue, while events accepted by the standard HLT are shown in green.}
+	\caption{Photon $\eta$ for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in blue, while events accepted by the standard HLT are shown in green.}
 	\label{fig:HLTAcceptedEta}
 \end{figure}
 
@@ -807,7 +870,7 @@ Considering the background, it can immediately be seen that the MVA-HLT has a re
 	\subfloat[][]{
 		\includegraphics[width=.60\linewidth]{./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png}
 	}
-	\caption[]{Photon $E_T$ for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in blue, while events accepted by the standard HLT are shown in green.}
+	\caption{Photon $E_T$ for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in blue, while events accepted by the standard HLT are shown in green.}
 	\label{fig:HLTAcceptedEt}
 \end{figure}
 
@@ -871,7 +934,7 @@ The $H \rightarrow \gamma \gamma$ preselection is described in detail in \cite{R
 Once these single photon preselection cuts are applied, all remaining photon canidates are paired together into a collection of diphotons. For each pair, the higher of the two photons must satistfy $p_T > 35 GeV/c$. Paired with the baseline requirement of $p_T > 25 GeV/c$, these cuts closely mimic the 30 and 22 GeV/c cuts applied at the trigger level. Then, the $p_T/M_{\gamma \gamma}$ cuts are applied to the diphoton pairs. At this point, many of the possible photon combinations have been removed. A final diphoton combination must be selected, however, as HiggsDNA is designed to output a single photon pair of photons. The remaining pairs in the event are sorted by their diphoton $p_T$, and the pair with the highest value is written out into the event \cite{Run2Hgg2018}. These cuts, in their totality, are shown in table \ref{tab:PreselCuts}
 \begin{table}
 	\centering
-	\caption[E]{Table showing the cuts applied by the standard preselection for $H \rightarrow \gamma \gamma$.}
+	\caption{Table showing the cuts applied by the standard preselection for $H \rightarrow \gamma \gamma$.}
 	\label{tab:PreselCuts}
 	\begin{tabular}{| c | c | c | c | c | c | c |} 
 		\hline
@@ -900,7 +963,7 @@ The original idMVA was trained using many of the variables from the preselection
 
 \begin{table}
 	\centering
-	\caption[E]{Table of input variable names for the offline $\gamma + Jet$ MVA, and a short description of each. The final two variables are only used for training the endcap.}
+	\caption{Table of input variable names for the offline $\gamma + Jet$ MVA, and a short description of each. The final two variables are only used for training the endcap.}
 	\label{tab:OfflineSinglePhoInputVars}
 	\begin{tabular}{ | c | c | } 
 		\hline
@@ -1252,7 +1315,7 @@ With the single photon preselection cuts determined, an additional selection mus
 While the goal of the single photon BDTs is to reject individual candidates that appear to not be photons, the diphoton BDT aims to properly differentiate diphton candidates coming from $H \rightarrow \gamma \gamma$ from both events that do not contain two real photons and events with two real photons originating from background processes. As a result, the inputs to this model will consist primarily of lead and sublead single photon variables. By providing both the lead and sublead values to one model, correlations can be found that ensure that selected events contain two real photons with the necessary kinematics to possibly comprise a signal event. Below, in table \ref{tab:DiphotonBDTInputs}, each of the input variables is listed and described. These were largely adopted from the Run2 Diphoton photonID, with a few differences. 
 \begin{table}
 	\centering
-	\caption[E]{Table of diphoton BDT input variable names, and a short description of each.}
+	\caption{Table of diphoton BDT input variable names, and a short description of each.}
 	\label{tab:DiphotonBDTInputs}
 	\begin{tabular}{ | c | c | } 
 		\hline
