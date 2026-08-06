@@ -18,6 +18,7 @@
 \usepackage{float}
 \usepackage[breaklinks=true,pdfborder={0 0 0}]{hyperref}
 \usepackage{graphicx}
+\usepackage[compat=1.0.0]{tikz-feynman}
 \usepackage[
     backend=biber,
     style=numeric,
@@ -189,22 +190,35 @@ In figure \ref{fig:SMOverview}, an overview of the component fundamental particl
 	\label{fig:SMOverview}
 \end{figure}
 
+In rest of this chapter, Feynman diagrams will be used to represent particle interactions. These diagrams are schematics showing the quanta involved in an interaction (represented as straight, wavy, or curly lines) and intersection points where the interactions occur. By general convention, moving from the right to left of such a diagram corresponds to going forward in time. For particles with a corresponding antiparticle (fermions), an arrow on a line pointing towards the right generally denotes the particle while an arrow pointing towards the left denotes the antiparticle. Generally, quarks are shown as solid lines, bosons such as the photon, W, and Z are shown as wavy lines, gluons are shown as curly lines, and a dashed line is used to represent the Higgs boson.
+
+In order to calculate the amplitudes of an interaction in particle physics, complicated path integrals must be computed. Feynman diagrams introduce so-called Feynman rules, which allow these integrals to be constructed using the diagrams themselves \cite{FeynmanRules}. As a reuslt, Feynman diagrams are an invaluable tool to not only qualitatively understand how particles interact in QFTs but also to construct and calculate the relevant amplitudes necessary for a theoretical understanding of the production and decay of fundamental particles.
+
 \section{Quantum Electrodynamics (QED)}\label{sec:QED}
-Quantum electrodynamics was the first successful field theory proposed, and was originally created to describe the phenomena of the electromagnetic forces \cite{SMOverview}. This original theory was built on U(1) gauge symmetry, and therefore has one gauge boson (the photon). 
+Quantum electrodynamics was the first successful field theory proposed, and was originally created to describe the phenomena of the electromagnetic forces \cite{SMOverview}. This original theory was built on U(1) gauge symmetry, and thererefore has one generator corresponding to one gauge boson, the photon. In this theory, there is one type of charge: electric charge can either be positive or negative. Interactions in QED occur when a photon couples with any electrically charged fundamental particle. The fundamental interaction of QED is between any charged fermion-antifermion pair and a photon. The fermion ($f$) and antifermion ($\bar{f}$) can be either a quark or a charged lepton, but not an uncharged neutrino.
 
 \section{Quantum Chromodynamics (QCD)}\label{sec:QCD}
-Use Gaillard, Grannis, and Sciulli AND PDG Physics summary page 153
+The next field theory developed was Quantum Chromodynamics, or QCD. This theory governs the interactions of quarks through the strong nuclear force. Corresponding to an SU(3) gauge symmetry, QCD has 8 generators and therefore 8 force mediators, called gluons \cite{PDGReview}. 
 
-Mention quark confinement, hadronic jets!
+One vital component of QCD is quark confinement. In QED, the electromagnetic force falls of with increasing distance; this fact allows nearby charges to interact, but increasing the separation between the charges is able to weaken the force until the two objects are no longer bound. In contrast, the strong nuclear force actually increases in magnitude as the separation between two color-charged particles increases \cite{SMOverview}. So, as two quarks are separated from eachother, the bond between them contains more and more energy. As the separation grows larger and larger, there comes a point where the energy stored in the gluons binding the quarks together is larger than the energy required to produce a new quark-antiquark pair. 
+
+Quark confinement leads to the production of what are termed QCD jets \cite{PDGReview}. 
 
 \section{Electroweak (EW) Theory}\label{sec:EW}
-Use Gaillard, Grannis, and Sciulli AND PDG Physics summary page 185
+The weak nuclear force was originally formulated by Enrico Fermi in 1938 as a way to explain the process of beta decay of nuclei \cite{FermiWeakPaper}. While this force was originally proposed as the 4th fundamental force, it was also not a complete description and was therefore not a major area of study immediately. After QED began to prove highly fruitful, great efforts to formulate the weak interaction as a field theory were undertaken in earnest in the 1950s. Then, between 1959 and 1961, two papers by first Salam and Ward, and then Glashow, proposed a major step forward in formulating the weak force as a field theory \cite{SalamAndWardEW} \cite{GlashowEW}. This breakthrough came in the form of unifying the electromagnetic and weak nuclear forces into one single electroweak theory. 
+
+By combining the SU(2) gauge symmetry of the weak force with the U(1) symmetry of QED, a new group with total symmetry SU(2)xU(1) can be formulated \cite{PDGReview}. 
+
+
 
 \section{The Higgs Field and Higgs Boson}\label{sec:Higgs}
-\subsection{Motivation for the Higgs Field}
 \subsection{Properties of the Higgs Potential}
+\begin{equation}\label{eqn:HiggsPotential}
+    V(\phi) = frac{1}{2}m^2_H\phi^2 + sqrt{\lambda/2}m_H\phi^3 + frac{1}{4}\lambda\phi^4
+\end{equation}
+
 \subsection{Production Modes of a Single Higgs Boson}\label{sec:SingleHProdModes}
-With the establishment of the existence of the Higgs boson, both the production and decay modes of the particle must be studied and measured. The production modes are all of the theoretically-allowable ways in which a Higgs boson may be created. Determining which modes are allowable is a complicated process of using the relevant quantum field theories (QCD and EW theory for the Higgs boson) to constrain possible interactions using the conservation laws of each theory. 
+With the establishment of the existence of the Higgs boson, both the production and decay modes of the particle must be studied and measured. The production modes are all of the theoretically-allowable ways in which a Higgs boson may be created. Determining which modes are allowable is a complicated process of using the relevant quantum field theories (QCD and EW theory for the Higgs boson) to constrain possible interactions using the conservation laws of each theory.
 
 The primary production modes for the Higgs boson are all shown as feynman diagrams in figure \ref{fig:FDSingleHProdModes}, reproduced from \cite{CMS10YearReview}. Figure \ref{fig:FDSingleHProdModes}a shows what is called gluon fusion (ggH), where two gluons directly fuse through a virtual (top or less commonly bottom) quark loop. It can immediately be seen that this ggH production mode does not produce any additional particles from the primary interaction. The next mode, in figure \ref{fig:FDSingleHProdModes}b is known as Vector Boson Fusion (VBF). This occurs when two quarks each radiate a vector boson (either $W^{\pm}$ or $Z^0$). These vector bosons then interact, and can produce a Higgs boson. VBF production also only produces a single Higgs boson, with the other two outgoing particles simply being the recoiling quarks that originally produced the vector bosons.
 
@@ -216,6 +230,8 @@ The other Higgs production modes shown are called associated production modes; i
 	\caption{Feynman diagrams of known Higgs production modes. a is known as gluon fusion, termed ggH. b is known as vector boson fusion (VBF). c is production of the Higgs in association with a vector boson (either a $W^{\pm}$ or $Z^0$ boson), called VH production. d is the production of the Higgs in association with a pair of top (ttH) or bottom (bbH) quarks. e and f both show Higgs production in association with a single top quark (tH). Reproduced from \cite{CMS10YearReview}}
 	\label{fig:FDSingleHProdModes}
 \end{figure}
+
+Of note are the factors placed at each of the vertices in these diagrams. Coupling parameters are part of the field-theoretical matrix element calculations, and are a factor placed at each vertex of a particular particle combination. In experimental measurements, however, the coupling parameters are generally measured as coupling modifiers, denoted by $\kappa$, which are the ratio of the measured coupling parameter to the SM prediction for its value \cite{CMS10YearReview}. For the coupling of a Higgs and a top quark, for example, a value of $\kappa_t = 1$ would mean that the measured coupling parameter exactly matches that predicted by the standard model. The measurement of the coupling parameters is a major goal of the Higgs physics program at the LHC. As can be seen in figure \ref{fig:FDSingleHProdModes}, vertices on these diagrams are labeled with the relevant coupling modifiers. In red are Higgs-quark couplings, $\kappa_t$ for top quarks and $\kappa_b$ for bottom quarks. In blue are bosonic couplings, $\kappa_V$ for a general vector boson, and $\kappa_W$ for a $W^{\pm}$.
 
 Not all allowed production modes are of equal probability, however; each possible mode has an associated cross-section, represented by $\sigma$. This cross-secton is generally measured in a unit of area called a picobarn (pb), where one picobarn is equal to $10^{-36} cm^2$. The cross-section depends on the total center-of-mass collision energy, $\sqrt{s}$ (measured in units of energy, in this case teraelectronvolt {TeV}). At a center of mass energy of $\sqrt{s} = 13$TeV, recent results have shown the total Higgs boson production cross section as $\sigma_H = 54 \pm 2.6$pb \cite{HiggsCrossSection}. Gluon fusion production accounts for about 87\% of this total cross-section \cite{CMS10YearReview}. Taken together with the next most common mode, VBF, over 93\% of the total cross-section can be accounted for. The cross-section for different production modes are tabulated in table \ref{tab:singleHProductionXS}. The proportions are represented in the pie chart shown in figure \ref{fig:XSSingleHProdModes}, reproduced from \cite{CMS10YearReview}.
 
@@ -286,21 +302,36 @@ As with the production modes, not all of the decay modes are equally likely. Whe
 
 As seen in the table, the b$\bar{b}$ decay channel is by far the most likely for the Higgs boson. This channel therefore will be produced at high rate at the LHC. The b quarks, however, will produce many hadronic jets as described in \ref{sec:QCD}. So, while this decay is very high-rate, it can be quite hard to measure reliable due to the preponderance of produced particles. The WW (heavy vector boson) decay is the next most common. These bosons most often decay into a 4 lepton final state, which can be hard to disentangle from the possible sources of background. Additionally, if not all 4 leptons are correctly identified, the event may be very hard to reconstruct. Together, these two high-rate but less clean signal signatures make up more than 75\% of the total branching fraction for single Higgs decay.
 
-\section{Higgs Boson Decaying to Two Photons ($H \rightarrow \gamma\gamma$) }
-For this analysis, the major decay channel of interest will be the diphoton, or $\gamma \gamma$ decay. This is, again, represented by the Feynman diagrams in figure \ref{fig:SingleHDecayModes}i\&j. Looking at table \ref{tab:singleHDecayBR} and figure \ref{fig:BRSingleHDecayModes}, it is clear that this decay channel has a very low branching fraction compared to some of the higher-rate channels at only only 0.2 \%. 
+\section{Higgs Boson Decaying to Two Photons ($H \rightarrow \gamma\gamma$) }\label{sec:HiggsToGammaGamma}
+For this analysis, the major decay channel of interest will be the diphoton, or $\gamma \gamma$ decay. This is, again, represented by the Feynman diagrams in figure \ref{fig:SingleHDecayModes}i\&j. Looking at table \ref{tab:singleHDecayBR} and figure \ref{fig:BRSingleHDecayModes}, it is clear that this decay channel has a very low branching fraction compared to some of the higher-rate channels at only 0.2\%. Its major advantage, however, comes from the purity of signal. As discussed in section \ref{sec:QCD}, pp scatting processes produce a nearly uncountable number of QCD jets. So, any final state where jets are expected can be very hard to separate from the backgrounds at play. Additionally, individual jets can contain dozens to hundreds of individual signatures, and are therefore very challenging to reconstruct with high accuracy.
 
-\subsection{Useful Properties for Analysis}
+Diphoton decays sidestep many of these issues with QCD-like decay channels. While there will be many background photons, their rate is considerably lower than that of jets. Additionally, photon signatures are relatively well-resolved and much easier to properly reconstruct than jet signatures. As will be discussed in section \ref{sec:HLTReco}, photon signatures tend to be well-columnated and more likely to be isolated from other signatures. Additionally, since the CMS detector places the detector element that measures photon signatures closer to the particle interaction point, photons tend to spread out less than QCD jets and produce fewer additional particles for each real signature. So, then, the $H \rightarrow \gamma \gamma$ has always proven to be a very fruitful Higgs decay despite its low rate.
+
 \subsection{Historical Results}
 \section{Di-Higgs Production and Properties}
+Another major area of investigation are in diHiggs production modes. One major benefit of such analyses is the ability to probe the Higgs self-coupling, $\lambda$, introduced in equation \ref{eqn:HiggsPotential} \cite{CMS10YearReview}. Since both $m_H$ and $\lambda$ are free parameters in the BEH potential, experimentally constraining both $m_H$ and $\lambda$ would allow for a more complete picture of the overall BEH field. This process provides one way to probe possible beyond standard model physics, as a better understanding of the BEH field may point fundamental physics in a new direction.
+
+As with single Higgs physics, DiHiggs processes can be understood in terms of their production and decay modes. There is no additional physics to be found in DiHiggs decays; once the two independent Higgs bosons are produced, they both decay exactly according to the decay modes described in section \ref{sec:SingleHDecayModes}. The possible Higgs boson pair production modes, however, are of considerable interest. As opposed to the variety of possible production modes for the single Higgs, diHiggs modes come in one of two flavors: ggH and VBF. 
+
 \subsection{Di-Higgs Production Modes}
+There are two ggH processes, shown in figure \ref{fig:DiHiggsProdModes}k\&l. The first, k, shows the creation of a virtual Higgs, $H^*$, through the same standard top/bottom quark loop as the single Higgs ggH process. This virtual Higgs then decays into two further on-shell (real) Higgs bosons. This process has a tri-linear Higgs coupling vertex, allowing the direct probing of the Higgs self-interaction, $\kappa_{\lambda}$. The second ggH process does not have this tri-linear coupling, instead having a 4-part virtual top/bottom quark loop where one Higgs is produced at each of the forward corners. 
+
+There are three separate VBF modes for DiHiggs production. The first, m, involves the fusion of two vector bosons, then the creation of a virtual $H^*$ which then decays into two final state Higgs bosons. As a result, this production moode probes both $\kappa_{\lambda}$ and $\kappa_V$. The next diagram, n, follows the same process but skips the virtual Higgs. Instead, two Higgs bosons are produced directly at the interaction vertex between the two vector bosons. This introduces a new coupling modifier, $\kappa_{2V}$. The final diagram in o consists of the exchange of a vector boson, leading two two individual $\kappa_V$ vertices. 
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{./Figures/DiHiggsProdModes_From10YearReview.png}
-	\caption{Feynman diagrams of known Higgs decay modes. Reproduced from [CMS10YearReview]}
+	\caption{Feynman diagrams of known DiHiggs production modes. Figures k and l correspond to the two methods of ggH production, and m,n, and o correspond to the three methods of VBF production. Reproduced from \cite{CMS10YearReview}.}
 	\label{fig:DiHiggsProdModes}
 \end{figure}
-\subsection{Di-Higgs Decay Modes}
-\subsection{Usefulness of the $HH \rightarrow b\bar{b}\gamma\gamma$ Channel}
+
+When calculating the scattering amplitudes for DiHiggs production, an interesting phenomenon occurs. The ggH production modes, which are the two most common, actually produce amplitudes of similar magnitude but opposite signs \cite{CMS10YearReview}. So, constructive interference between the amplitudes occurs. This leads to a very small total production cross-section. In fact, whereas the single Higgs production cross section is about $\sigma_H = 54$ pb, the theoretical HH cross-section is calculated to be $\sigma_HH = 32.76 \substack{+1.95 \\ -6.83}$ fb, where a femtobarn is 1/1000th the size of a petabarn. So, then, HH processes are theoretically more than a factor of 1000 more rare than single Higgs processes. As a result, no conclusive results of their measurement have been achieved for Run 2 or Run 3 of the LHC \cite{CMS10YearReview}.
+
+\subsection{The $HH \rightarrow b\bar{b}\gamma\gamma$ Channel}\label{sec:HH2b2g}
+
+Given the incredibly low expected rate of HH production as mentioned in the previous section, all possible pains must be taken to maximize the signal efficiency for relatively high-rate decays of diHiggs production. The $H \rightarrow \gamma \gamma$ decay is still useful for single Higgs production -- as discussed in section \ref{sec:HiggsToGammaGamma} -- because even though it has a relatively low rate, single Higgs production is common enough that the ease of separating the signal from background is a worthwhile tradeoff. That same logic doesn't hold for HH production however; since 0.2\% of single Higgs decay to two photons, only 0.004\% of HH productions would decay to four photons. 
+
+In order to get around this low rate but still take advantage of the ease of identifying $H \rightarrow \gamma\gamma$, the decay $HH \rightarrow \bar{b}b$ can be used. $H \rightarrow \bar{b}b$ has a branching fraction of 57.63\%, but can be quite hard to separate from background given its jet-jet final state. Combining this higher-rate process, however, with the much more easy to disentangle $H \rightarrow \gamma\gamma$ process, however, provides the best possible compromise between rate and ease of identification. 
 
 \chapter{The LHC and CMS Detector}
 \section{The Large Hadron Collider}
@@ -949,7 +980,7 @@ Once these single photon preselection cuts are applied, all remaining photon can
 	\end{tabular}
 \end{table}
 
-In addition, there are cuts on the $p_T/M_{\gamma \gamma}$ applied as part of what are termed the Standard Analysis(SA) cuts. These are kept separate from the single photon preselection cuts, as some analyses may want to make adjustments to them. For the Run 3 preselection, a geometric mean $p_T/M_{\gamma \gamma}$ cut is used \cite{Run3Hgg2025}. The cut on the second (sublead) photon is straightforward, at $p^{\gamma^1}_T/M_{\gamma \gamma} > 1/4$. The second cut, however, uses the geometric mean of the two $p_T$ values as $\sqrt{p^{\gamma^1}_T p^{\gamma^2}_T }/M_{\gamma \gamma} > 1/3$. There is no explicit $M_{\gamma \gamma}$ cut applied within the preselection, as the possibility for high- and low-mass Higgs analysis is left open. For the purposes of comparing this preselection to the new MVA-based selection, only the standard mass Higgs is considered. So, a loose cut of $90 < M_{\gamma \gamma} < 180 GeV/c^2$ is applied to all resulting diphotons.
+In addition, there are cuts on the $p_T/M_{\gamma \gamma}$ applied as part of what are termed the Standard Analysis(SA) cuts. These are kept separate from the single photon preselection cuts, as some analyses may want to make adjustments to them. For the Run 3 preselection, a geometric mean $p_T/M_{\gamma \gamma}$ cut is used \cite{Run3Hgg2025}. The cut on the second (sublead) photon is straightforward, at $p^{\gamma1}_T/M_{\gamma \gamma} > 1/4$. The second cut, however, uses the geometric mean of the two $p_T$ values as $\sqrt{p^{\gamma1}_T p^{\gamma2}_T }/M_{\gamma \gamma} > 1/3$. There is no explicit $M_{\gamma \gamma}$ cut applied within the preselection, as the possibility for high- and low-mass Higgs analysis is left open. For the purposes of comparing this preselection to the new MVA-based selection, only the standard mass Higgs is considered. So, a loose cut of $90 < M_{\gamma \gamma} < 180 GeV/c^2$ is applied to all resulting diphotons.
 
 \section{Development of MVA-Based Offline Preselection}
 Since the offline selection is designed to cover the HLT used, it is clear that applying the preexisting preselection described above on top of the MVA-HLT is a suboptimal strategy. In fact, since these cuts mirror the standard HLT quite closely, it is expected that applying the standard preselection on top of the MVA-HLT would likely reduce or even entirely remove the signal efficiency gains obtained by the new trigger. As a result, an alternative set of preselection cuts must be proposed that allows the trigger-level gains to be realized at the offline analysis level. 
