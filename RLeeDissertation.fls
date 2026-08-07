@@ -468,6 +468,10 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7v.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT ./Figures/HiggsProdModes_From10YearReview.png
 INPUT ./Figures/HiggsProdModes_From10YearReview.png
 INPUT ./Figures/HiggsProdModes_From10YearReview.png
@@ -555,10 +559,6 @@ INPUT ./Figures/FullCMS.png
 INPUT ./Figures/FullCMS.png
 INPUT ./Figures/FullCMS.png
 INPUT ./Figures/FullCMS.png
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7v.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm

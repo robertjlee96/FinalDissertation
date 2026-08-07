@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.30)  6 AUG 2026 19:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.7.30)  7 AUG 2026 15:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1269,7 +1269,7 @@ Chapter 1.
 [3
 
 ]
-<./Figures/SMChart.png, id=903, 963.6pt x 730.73pt>
+<./Figures/SMChart.png, id=908, 963.6pt x 730.73pt>
 File: ./Figures/SMChart.png Graphic file (type png)
 <use ./Figures/SMChart.png>
 Package pdftex.def Info: ./Figures/SMChart.png  used on input line 188.
@@ -1283,129 +1283,133 @@ Package pdftex.def Info: ./Figures/SMChart.png  used on input line 188.
 [6]
 
 [7]
-<./Figures/HiggsProdModes_From10YearReview.png, id=946, 987.69pt x 449.68pt>
+
+[8]
+<./Figures/HiggsProdModes_From10YearReview.png, id=964, 987.69pt x 449.68pt>
 File: ./Figures/HiggsProdModes_From10YearReview.png Graphic file (type png)
 <use ./Figures/HiggsProdModes_From10YearReview.png>
-Package pdftex.def Info: ./Figures/HiggsProdModes_From10YearReview.png  used on input line 232.
+Package pdftex.def Info: ./Figures/HiggsProdModes_From10YearReview.png  used on input line 244.
 (pdftex.def)             Requested size: 455.30016pt x 207.28758pt.
 
 
-[8]
+[9]
 
-[9 <./Figures/HiggsProdModes_From10YearReview.png>]
-<./Figures/SingleHProdXSPieChart.png, id=965, 581.17125pt x 362.35374pt>
+[10 <./Figures/HiggsProdModes_From10YearReview.png>]
+<./Figures/SingleHProdXSPieChart.png, id=983, 581.17125pt x 362.35374pt>
 File: ./Figures/SingleHProdXSPieChart.png Graphic file (type png)
 <use ./Figures/SingleHProdXSPieChart.png>
-Package pdftex.def Info: ./Figures/SingleHProdXSPieChart.png  used on input line 262.
+Package pdftex.def Info: ./Figures/SingleHProdXSPieChart.png  used on input line 274.
 (pdftex.def)             Requested size: 341.47511pt x 212.90773pt.
-<./Figures/HiggsDecayModes_From10YearReview.png, id=974, 651.43375pt x 449.68pt>
+
+
+[11]
+<./Figures/HiggsDecayModes_From10YearReview.png, id=996, 651.43375pt x 449.68pt>
 File: ./Figures/HiggsDecayModes_From10YearReview.png Graphic file (type png)
 <use ./Figures/HiggsDecayModes_From10YearReview.png>
-Package pdftex.def Info: ./Figures/HiggsDecayModes_From10YearReview.png  used on input line 271.
+Package pdftex.def Info: ./Figures/HiggsDecayModes_From10YearReview.png  used on input line 283.
 (pdftex.def)             Requested size: 455.30016pt x 314.3004pt.
 
 
-[10 <./Figures/SingleHProdXSPieChart.png>]
-
-[11 <./Figures/HiggsDecayModes_From10YearReview.png>]
-<./Figures/SingleHBRPieChart.png, id=991, 464.73625pt x 362.35374pt>
+[12 <./Figures/SingleHProdXSPieChart.png>]
+<./Figures/SingleHBRPieChart.png, id=1009, 464.73625pt x 362.35374pt>
 File: ./Figures/SingleHBRPieChart.png Graphic file (type png)
 <use ./Figures/SingleHBRPieChart.png>
-Package pdftex.def Info: ./Figures/SingleHBRPieChart.png  used on input line 301.
+Package pdftex.def Info: ./Figures/SingleHBRPieChart.png  used on input line 313.
 (pdftex.def)             Requested size: 341.47511pt x 266.25215pt.
 
 
-[12]
+[13 <./Figures/HiggsDecayModes_From10YearReview.png>]
+
+[14 <./Figures/SingleHBRPieChart.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 308.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 320.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 308.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 320.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 308.
+(hyperref)                removing `math shift' on input line 320.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 308.
+(hyperref)                removing `\rightarrow' on input line 320.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 308.
+(hyperref)                removing `\gamma' on input line 320.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 308.
+(hyperref)                removing `\gamma' on input line 320.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 308.
+(hyperref)                removing `math shift' on input line 320.
 
 
 
-[13 <./Figures/SingleHBRPieChart.png>]
-
-[14]
-<./Figures/DiHiggsProdModes_From10YearReview.png, id=1018, 1294.8375pt x 188.705pt>
-File: ./Figures/DiHiggsProdModes_From10YearReview.png Graphic file (type png)
-<use ./Figures/DiHiggsProdModes_From10YearReview.png>
-Package pdftex.def Info: ./Figures/DiHiggsProdModes_From10YearReview.png  used on input line 326.
-(pdftex.def)             Requested size: 455.30016pt x 66.35295pt.
-
-
-[15 <./Figures/DiHiggsProdModes_From10YearReview.png>]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 333.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 333.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 333.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 333.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 333.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 333.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 333.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 333.
-
-
+[15]
 
 [16]
+<./Figures/DiHiggsProdModes_From10YearReview.png, id=1040, 1294.8375pt x 188.705pt>
+File: ./Figures/DiHiggsProdModes_From10YearReview.png Graphic file (type png)
+<use ./Figures/DiHiggsProdModes_From10YearReview.png>
+Package pdftex.def Info: ./Figures/DiHiggsProdModes_From10YearReview.png  used on input line 338.
+(pdftex.def)             Requested size: 455.30016pt x 66.35295pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 345.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 345.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 345.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 345.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 345.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 345.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 345.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 345.
+
+
+
+[17 <./Figures/DiHiggsProdModes_From10YearReview.png>]
+
+[18]
 Chapter 2.
 
 
-[17
+[19
 
 ]
-<./Figures/LHCFullLayout.png, id=1041, 779.91376pt x 810.02625pt>
+<./Figures/LHCFullLayout.png, id=1064, 779.91376pt x 810.02625pt>
 File: ./Figures/LHCFullLayout.png Graphic file (type png)
 <use ./Figures/LHCFullLayout.png>
-Package pdftex.def Info: ./Figures/LHCFullLayout.png  used on input line 349.
+Package pdftex.def Info: ./Figures/LHCFullLayout.png  used on input line 361.
 (pdftex.def)             Requested size: 341.47511pt x 354.65753pt.
 
 
-[18]
-
-[19 <./Figures/LHCFullLayout.png>]
-
 [20]
-<./Figures/FullCMS.png, id=1071, 2392.43813pt x 1690.06406pt>
+
+[21 <./Figures/LHCFullLayout.png>]
+
+[22]
+<./Figures/FullCMS.png, id=1092, 2392.43813pt x 1690.06406pt>
 File: ./Figures/FullCMS.png Graphic file (type png)
 <use ./Figures/FullCMS.png>
-Package pdftex.def Info: ./Figures/FullCMS.png  used on input line 382.
+Package pdftex.def Info: ./Figures/FullCMS.png  used on input line 394.
 (pdftex.def)             Requested size: 455.30016pt x 321.63127pt.
 
 
@@ -1413,162 +1417,158 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[21]
+[23]
 
-[22 <./Figures/FullCMS.png>]
-<./Figures/PixelDetector.png, id=1088, 1110.1475pt x 368.37625pt>
+[24 <./Figures/FullCMS.png>]
+<./Figures/PixelDetector.png, id=1109, 1110.1475pt x 368.37625pt>
 File: ./Figures/PixelDetector.png Graphic file (type png)
 <use ./Figures/PixelDetector.png>
-Package pdftex.def Info: ./Figures/PixelDetector.png  used on input line 400.
+Package pdftex.def Info: ./Figures/PixelDetector.png  used on input line 412.
 (pdftex.def)             Requested size: 455.30016pt x 151.0802pt.
 
 
-[23]
-<./Figures/FullTracker.png, id=1094, 885.3075pt x 368.37625pt>
+[25]
+<./Figures/FullTracker.png, id=1115, 885.3075pt x 368.37625pt>
 File: ./Figures/FullTracker.png Graphic file (type png)
 <use ./Figures/FullTracker.png>
-Package pdftex.def Info: ./Figures/FullTracker.png  used on input line 410.
+Package pdftex.def Info: ./Figures/FullTracker.png  used on input line 422.
 (pdftex.def)             Requested size: 455.30016pt x 189.4545pt.
 
 
-[24 <./Figures/PixelDetector.png>]
-<./Figures/ECalSchematic.png, id=1105, 893.3375pt x 604.2575pt>
+[26 <./Figures/PixelDetector.png>]
+<./Figures/ECalSchematic.png, id=1125, 893.3375pt x 604.2575pt>
 File: ./Figures/ECalSchematic.png Graphic file (type png)
 <use ./Figures/ECalSchematic.png>
-Package pdftex.def Info: ./Figures/ECalSchematic.png  used on input line 418.
+Package pdftex.def Info: ./Figures/ECalSchematic.png  used on input line 430.
 (pdftex.def)             Requested size: 455.30016pt x 307.97362pt.
 
 
-[25 <./Figures/FullTracker.png>]
+[27 <./Figures/FullTracker.png>]
 
-[26 <./Figures/ECalSchematic.png>]
+[28 <./Figures/ECalSchematic.png>]
 
-[27]
+[29]
 
-[28]
+[30]
 Chapter 3.
 
 
-[29
+[31
 
 ]
 
-[30]
+[32]
 
-[31]
-<./Figures/L1TriggerArchitecture.png, id=1162, 729.72626pt x 697.60625pt>
+[33]
+<./Figures/L1TriggerArchitecture.png, id=1182, 729.72626pt x 697.60625pt>
 File: ./Figures/L1TriggerArchitecture.png Graphic file (type png)
 <use ./Figures/L1TriggerArchitecture.png>
-Package pdftex.def Info: ./Figures/L1TriggerArchitecture.png  used on input line 457.
+Package pdftex.def Info: ./Figures/L1TriggerArchitecture.png  used on input line 469.
 (pdftex.def)             Requested size: 341.47511pt x 326.43796pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 461.
+(hyperref)                removing `math shift' on input line 473.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 461.
+(hyperref)                removing `\gamma' on input line 473.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 461.
+(hyperref)                removing `math shift' on input line 473.
 
 
 
-[32 <./Figures/L1TriggerArchitecture.png>]
-<./Figures/L1Clustering.png, id=1173, 938.50626pt x 585.18625pt>
+[34 <./Figures/L1TriggerArchitecture.png>]
+<./Figures/L1Clustering.png, id=1193, 938.50626pt x 585.18625pt>
 File: ./Figures/L1Clustering.png Graphic file (type png)
 <use ./Figures/L1Clustering.png>
-Package pdftex.def Info: ./Figures/L1Clustering.png  used on input line 470.
+Package pdftex.def Info: ./Figures/L1Clustering.png  used on input line 482.
 (pdftex.def)             Requested size: 341.47511pt x 212.91704pt.
 
 
-[33]
-<./Figures/L1MenuPercents.png, id=1180, 903.375pt x 494.84875pt>
+[35]
+<./Figures/L1MenuPercents.png, id=1200, 903.375pt x 494.84875pt>
 File: ./Figures/L1MenuPercents.png Graphic file (type png)
 <use ./Figures/L1MenuPercents.png>
-Package pdftex.def Info: ./Figures/L1MenuPercents.png  used on input line 482.
+Package pdftex.def Info: ./Figures/L1MenuPercents.png  used on input line 494.
 (pdftex.def)             Requested size: 341.47511pt x 187.05533pt.
 
 
-[34 <./Figures/L1Clustering.png>]
+[36 <./Figures/L1Clustering.png>]
 
-[35 <./Figures/L1MenuPercents.png>]
+[37 <./Figures/L1MenuPercents.png>]
 
-[36]
-<./Figures/ECalMustache.png, id=1205, 491.8375pt x 470.75874pt>
+[38]
+<./Figures/ECalMustache.png, id=1225, 491.8375pt x 470.75874pt>
 File: ./Figures/ECalMustache.png Graphic file (type png)
 <use ./Figures/ECalMustache.png>
-Package pdftex.def Info: ./Figures/ECalMustache.png  used on input line 502.
+Package pdftex.def Info: ./Figures/ECalMustache.png  used on input line 514.
 (pdftex.def)             Requested size: 341.47511pt x 326.84955pt.
 
 
-[37]
-
-[38 <./Figures/ECalMustache.png>]
-
 [39]
-<./Figures/HLTRateConsumptionPieChartRun2.png, id=1227, 721.69624pt x 604.2575pt>
+
+[40 <./Figures/ECalMustache.png>]
+
+[41]
+<./Figures/HLTRateConsumptionPieChartRun2.png, id=1248, 721.69624pt x 604.2575pt>
 File: ./Figures/HLTRateConsumptionPieChartRun2.png Graphic file (type png)
 <use ./Figures/HLTRateConsumptionPieChartRun2.png>
-Package pdftex.def Info: ./Figures/HLTRateConsumptionPieChartRun2.png  used on input line 521.
+Package pdftex.def Info: ./Figures/HLTRateConsumptionPieChartRun2.png  used on input line 533.
 (pdftex.def)             Requested size: 341.47511pt x 285.90965pt.
 
 
-[40 <./Figures/HLTRateConsumptionPieChartRun2.png>]
-<./Figures/Run3RatesAndTimings.png, id=1238, 1675.25874pt x 674.52pt>
+[42 <./Figures/HLTRateConsumptionPieChartRun2.png>]
+<./Figures/Run3RatesAndTimings.png, id=1260, 1675.25874pt x 674.52pt>
 File: ./Figures/Run3RatesAndTimings.png Graphic file (type png)
 <use ./Figures/Run3RatesAndTimings.png>
-Package pdftex.def Info: ./Figures/Run3RatesAndTimings.png  used on input line 534.
+Package pdftex.def Info: ./Figures/Run3RatesAndTimings.png  used on input line 546.
 (pdftex.def)             Requested size: 450.74965pt x 181.48471pt.
-
-
-[41]
-
-[42 <./Figures/Run3RatesAndTimings.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 548.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 548.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 548.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 548.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 548.
-
 
 
 [43]
 
-[44]
+[44 <./Figures/Run3RatesAndTimings.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 578.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 578.
+(hyperref)                removing `math shift' on input line 560.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 578.
+(hyperref)                removing `\rightarrow' on input line 560.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 560.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 560.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 560.
 
 
 
 [45]
 
 [46]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 590.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 590.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 590.
+
+
 
 [47]
 
@@ -1581,35 +1581,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [51]
 
 [52]
-Chapter 4.
 
-
-[53
-
-]
+[53]
 
 [54]
-Chapter 5.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 644.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 644.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 644.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 644.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 644.
-
+Chapter 4.
 
 
 [55
@@ -1617,1060 +1593,1088 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ]
 
 [56]
+Chapter 5.
 
-[57]
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 656.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 656.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 656.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 656.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 656.
+
+
+
+[57
+
+]
 
 [58]
-<./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png, id=1375, 901.3675pt x 879.285pt>
+
+[59]
+
+[60]
+<./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png, id=1396, 901.3675pt x 879.285pt>
 File: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png Graphic file (type png)
 <use ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png  used on input line 695.
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png  used on input line 707.
 (pdftex.def)             Requested size: 227.65007pt x 222.06131pt.
-<./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png, id=1376, 901.3675pt x 879.285pt>
+<./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png, id=1397, 901.3675pt x 879.285pt>
 File: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png Graphic file (type png)
 <use ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png  used on input line 700.
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png  used on input line 712.
 (pdftex.def)             Requested size: 227.65007pt x 222.06131pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 701.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 713.
 
 
-[59 <./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png> <./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png>]
-<./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png, id=1383, 901.3675pt x 879.285pt>
+[61 <./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png> <./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png>]
+<./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png, id=1404, 901.3675pt x 879.285pt>
 File: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png Graphic file (type png)
 <use ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png  used on input line 712.
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png  used on input line 724.
 (pdftex.def)             Requested size: 227.65007pt x 222.06131pt.
-<./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png, id=1384, 901.3675pt x 879.285pt>
+<./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png, id=1405, 901.3675pt x 879.285pt>
 File: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png Graphic file (type png)
 <use ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png  used on input line 717.
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png  used on input line 729.
 (pdftex.def)             Requested size: 227.65007pt x 222.06131pt.
 
 
-[60 <./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png> <./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png>]
-<./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png, id=1392, 901.3675pt x 879.285pt>
+[62 <./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png> <./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png>]
+<./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png, id=1412, 901.3675pt x 879.285pt>
 File: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png Graphic file (type png)
 <use ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png  used on input line 730.
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png  used on input line 742.
 (pdftex.def)             Requested size: 227.65007pt x 222.06131pt.
-<./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png, id=1393, 901.3675pt x 879.285pt>
+<./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png, id=1413, 901.3675pt x 879.285pt>
 File: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png Graphic file (type png)
 <use ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png  used on input line 735.
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png  used on input line 747.
 (pdftex.def)             Requested size: 227.65007pt x 222.06131pt.
 
 
-[61 <./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png> <./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png>]
-<./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png, id=1399, 901.3675pt x 879.285pt>
+[63 <./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png> <./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png>]
+<./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png, id=1419, 901.3675pt x 879.285pt>
 File: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png Graphic file (type png)
 <use ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png  used on input line 747.
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png  used on input line 759.
 (pdftex.def)             Requested size: 227.65007pt x 222.06131pt.
-<./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png, id=1400, 901.3675pt x 879.285pt>
+<./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png, id=1420, 901.3675pt x 879.285pt>
 File: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png Graphic file (type png)
 <use ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png  used on input line 752.
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png  used on input line 764.
 (pdftex.def)             Requested size: 227.65007pt x 222.06131pt.
 
 
-[62 <./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png> <./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png>]
-
-[63]
-
-[64]
-<./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png, id=1420, 901.3675pt x 879.285pt>
-File: ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png Graphic file (type png)
-<use ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png  used on input line 786.
-(pdftex.def)             Requested size: 218.54211pt x 213.1794pt.
-<./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png, id=1421, 901.3675pt x 879.285pt>
-File: ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png Graphic file (type png)
-<use ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png  used on input line 789.
-(pdftex.def)             Requested size: 218.54211pt x 213.1794pt.
-
+[64 <./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png> <./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png>]
 
 [65]
 
-[66 <./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png> <./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png>]
-<./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png, id=1439, 901.3675pt x 879.285pt>
-File: ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png Graphic file (type png)
-<use ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png  used on input line 837.
+[66]
+<./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png, id=1441, 901.3675pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png  used on input line 798.
 (pdftex.def)             Requested size: 218.54211pt x 213.1794pt.
-<./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png, id=1440, 901.3675pt x 879.285pt>
-File: ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png Graphic file (type png)
-<use ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png  used on input line 840.
+<./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png, id=1442, 901.3675pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png  used on input line 801.
 (pdftex.def)             Requested size: 218.54211pt x 213.1794pt.
 
 
 [67]
-<./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png, id=1445, 901.3675pt x 879.285pt>
-File: ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png Graphic file (type png)
-<use ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png  used on input line 849.
-(pdftex.def)             Requested size: 218.54211pt x 213.1794pt.
-<./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png, id=1446, 901.3675pt x 879.285pt>
-File: ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png Graphic file (type png)
-<use ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png  used on input line 852.
-(pdftex.def)             Requested size: 218.54211pt x 213.1794pt.
 
-
-[68 <./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png> <./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png> <./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png> <./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png>]
-<./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png, id=1452, 901.3675pt x 879.285pt>
-File: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png Graphic file (type png)
-<use ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png  used on input line 866.
-(pdftex.def)             Requested size: 273.18286pt x 266.48431pt.
-<./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png, id=1453, 901.3675pt x 879.285pt>
-File: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png Graphic file (type png)
-<use ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png  used on input line 869.
-(pdftex.def)             Requested size: 273.18286pt x 266.48431pt.
+[68 <./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png> <./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png>]
+<./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png, id=1459, 901.3675pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png  used on input line 849.
+(pdftex.def)             Requested size: 218.54211pt x 213.1794pt.
+<./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png, id=1460, 901.3675pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png  used on input line 852.
+(pdftex.def)             Requested size: 218.54211pt x 213.1794pt.
 
 
 [69]
+<./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png, id=1465, 901.3675pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png  used on input line 861.
+(pdftex.def)             Requested size: 218.54211pt x 213.1794pt.
+<./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png, id=1466, 901.3675pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png  used on input line 864.
+(pdftex.def)             Requested size: 218.54211pt x 213.1794pt.
 
-[70 <./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png> <./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png>]
-<./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png, id=1462, 901.3675pt x 879.285pt>
-File: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png Graphic file (type png)
-<use ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png  used on input line 883.
+
+[70 <./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png> <./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png> <./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png> <./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png>]
+<./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png, id=1473, 901.3675pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png  used on input line 878.
 (pdftex.def)             Requested size: 273.18286pt x 266.48431pt.
-<./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png, id=1463, 901.3675pt x 879.285pt>
-File: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png Graphic file (type png)
-<use ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png  used on input line 886.
+<./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png, id=1474, 901.3675pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png  used on input line 881.
 (pdftex.def)             Requested size: 273.18286pt x 266.48431pt.
 
 
 [71]
 
-[72 <./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png> <./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png>]
-<./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png, id=1475, 901.3675pt x 879.285pt>
-File: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png Graphic file (type png)
-<use ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png  used on input line 901.
+[72 <./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png> <./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png>]
+<./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png, id=1484, 901.3675pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png  used on input line 895.
 (pdftex.def)             Requested size: 273.18286pt x 266.48431pt.
-<./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png, id=1476, 901.3675pt x 879.285pt>
-File: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png Graphic file (type png)
-<use ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png  used on input line 904.
+<./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png, id=1485, 901.3675pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png  used on input line 898.
 (pdftex.def)             Requested size: 273.18286pt x 266.48431pt.
 
 
 [73]
 
-[74 <./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png> <./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png>]
+[74 <./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png> <./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png>]
+<./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png, id=1495, 901.3675pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png  used on input line 913.
+(pdftex.def)             Requested size: 273.18286pt x 266.48431pt.
+<./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png, id=1496, 901.3675pt x 879.285pt>
+File: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png Graphic file (type png)
+<use ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png>
+Package pdftex.def Info: ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png  used on input line 916.
+(pdftex.def)             Requested size: 273.18286pt x 266.48431pt.
+
 
 [75]
 
-[76]
+[76 <./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png> <./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png>]
+
+[77]
+
+[78]
 Chapter 6.
 
-LaTeX Warning: Reference `sec:HiggsDNA' on page 77 undefined on input line 959.
+LaTeX Warning: Reference `sec:HiggsDNA' on page 79 undefined on input line 971.
 
 
 
-[77
+[79
 
 ]
 
-[78]
-
-[79]
-
 [80]
-<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png, id=1528, 901.3675pt x 877.2775pt>
+
+[81]
+
+[82]
+<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png, id=1548, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png  used on input line 1045.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png  used on input line 1057.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png, id=1529, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png, id=1549, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png  used on input line 1050.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png  used on input line 1062.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png, id=1531, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png, id=1551, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png  used on input line 1062.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png  used on input line 1074.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png, id=1532, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png, id=1552, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png  used on input line 1067.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png  used on input line 1079.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[81 <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png> <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png>]
-<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png, id=1538, 901.3675pt x 877.2775pt>
+[83 <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/SCRawE.png> <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/scEta.png>]
+<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png, id=1558, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png  used on input line 1079.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png  used on input line 1091.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png, id=1539, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png, id=1559, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png  used on input line 1084.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png  used on input line 1096.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[82 <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png> <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png>]
-<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/etaWidth.png, id=1545, 901.3675pt x 877.2775pt>
+[84 <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/r9.png> <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/s4.png>]
+<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/etaWidth.png, id=1566, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/etaWidth.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/etaWidth.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/etaWidth.png  used on input line 1096.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/etaWidth.png  used on input line 1108.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phiWidth.png, id=1546, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phiWidth.png, id=1567, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phiWidth.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phiWidth.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phiWidth.png  used on input line 1101.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phiWidth.png  used on input line 1113.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[83 <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png> <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png>]
-<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/hadronicOverEm.png, id=1552, 901.3675pt x 877.2775pt>
+[85 <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/sigmaIetaIeta.png> <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/covIEtaIPhi.png>]
+<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/hadronicOverEm.png, id=1573, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/hadronicOverEm.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/hadronicOverEm.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/hadronicOverEm.png  used on input line 1113.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/hadronicOverEm.png  used on input line 1125.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phoIso03.png, id=1553, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phoIso03.png, id=1574, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phoIso03.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phoIso03.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phoIso03.png  used on input line 1118.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phoIso03.png  used on input line 1130.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[84 <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/etaWidth.png> <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phiWidth.png>]
-<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtWorstVtx.png, id=1562, 901.3675pt x 877.2775pt>
+[86 <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/etaWidth.png> <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phiWidth.png>]
+<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtWorstVtx.png, id=1582, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtWorstVtx.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtWorstVtx.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtWorstVtx.png  used on input line 1130.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtWorstVtx.png  used on input line 1142.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtChosenVtx.png, id=1563, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtChosenVtx.png, id=1583, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtChosenVtx.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtChosenVtx.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtChosenVtx.png  used on input line 1135.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtChosenVtx.png  used on input line 1147.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[85 <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/hadronicOverEm.png> <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phoIso03.png>]
-<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEffSigmaRR.png, id=1568, 901.3675pt x 877.2775pt>
+[87 <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/hadronicOverEm.png> <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/phoIso03.png>]
+<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEffSigmaRR.png, id=1588, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEffSigmaRR.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEffSigmaRR.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEffSigmaRR.png  used on input line 1147.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEffSigmaRR.png  used on input line 1159.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEnergyOverRawE.png, id=1569, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEnergyOverRawE.png, id=1589, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEnergyOverRawE.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEnergyOverRawE.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEnergyOverRawE.png  used on input line 1152.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEnergyOverRawE.png  used on input line 1164.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[86 <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtWorstVtx.png> <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtChosenVtx.png>]
+[88 <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtWorstVtx.png> <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/chgIsoWrtChosenVtx.png>]
 
-[87 <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEffSigmaRR.png> <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEnergyOverRawE.png>]
-<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/SCRawE.png, id=1579, 901.3675pt x 877.2775pt>
+[89 <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEffSigmaRR.png> <./Figures/Offline Selection Plots/0709_Updated_GJet_TrainingPlots/esEnergyOverRawE.png>]
+<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/SCRawE.png, id=1600, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/SCRawE.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/SCRawE.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/SCRawE.png  used on input line 1171.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/SCRawE.png  used on input line 1183.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/scEta.png, id=1580, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/scEta.png, id=1601, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/scEta.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/scEta.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/scEta.png  used on input line 1176.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/scEta.png  used on input line 1188.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[88]
-<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/r9.png, id=1587, 901.3675pt x 877.2775pt>
+[90]
+<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/r9.png, id=1609, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/r9.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/r9.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/r9.png  used on input line 1188.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/r9.png  used on input line 1200.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/s4.png, id=1588, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/s4.png, id=1610, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/s4.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/s4.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/s4.png  used on input line 1193.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/s4.png  used on input line 1205.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[89 <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/SCRawE.png> <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/scEta.png>]
-<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/sigmaIetaIeta.png, id=1595, 901.3675pt x 877.2775pt>
+[91 <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/SCRawE.png> <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/scEta.png>]
+<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/sigmaIetaIeta.png, id=1617, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/sigmaIetaIeta.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/sigmaIetaIeta.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/sigmaIetaIeta.png  used on input line 1205.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/sigmaIetaIeta.png  used on input line 1217.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/covIEtaIPhi.png, id=1596, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/covIEtaIPhi.png, id=1618, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/covIEtaIPhi.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/covIEtaIPhi.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/covIEtaIPhi.png  used on input line 1210.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/covIEtaIPhi.png  used on input line 1222.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[90 <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/r9.png> <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/s4.png>]
-<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/etaWidth.png, id=1604, 901.3675pt x 877.2775pt>
+[92 <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/r9.png> <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/s4.png>]
+<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/etaWidth.png, id=1624, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/etaWidth.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/etaWidth.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/etaWidth.png  used on input line 1222.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/etaWidth.png  used on input line 1234.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phiWidth.png, id=1605, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phiWidth.png, id=1625, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phiWidth.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phiWidth.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phiWidth.png  used on input line 1227.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phiWidth.png  used on input line 1239.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[91 <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/sigmaIetaIeta.png> <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/covIEtaIPhi.png>]
-<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/hadronicOverEm.png, id=1611, 901.3675pt x 877.2775pt>
+[93 <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/sigmaIetaIeta.png> <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/covIEtaIPhi.png>]
+<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/hadronicOverEm.png, id=1631, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/hadronicOverEm.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/hadronicOverEm.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/hadronicOverEm.png  used on input line 1239.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/hadronicOverEm.png  used on input line 1251.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phoIso03.png, id=1612, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phoIso03.png, id=1632, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phoIso03.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phoIso03.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phoIso03.png  used on input line 1244.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phoIso03.png  used on input line 1256.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[92 <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/etaWidth.png> <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phiWidth.png>]
-<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png, id=1618, 901.3675pt x 877.2775pt>
+[94 <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/etaWidth.png> <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phiWidth.png>]
+<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png, id=1638, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png  used on input line 1256.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png  used on input line 1268.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png, id=1619, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png, id=1639, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png  used on input line 1261.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png  used on input line 1273.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[93 <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/hadronicOverEm.png> <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phoIso03.png>]
-<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEffSigmaRR.png, id=1625, 901.3675pt x 877.2775pt>
+[95 <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/hadronicOverEm.png> <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/phoIso03.png>]
+<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEffSigmaRR.png, id=1645, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEffSigmaRR.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEffSigmaRR.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEffSigmaRR.png  used on input line 1273.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEffSigmaRR.png  used on input line 1285.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEnergyOverRawE.png, id=1626, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEnergyOverRawE.png, id=1646, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEnergyOverRawE.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEnergyOverRawE.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEnergyOverRawE.png  used on input line 1278.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEnergyOverRawE.png  used on input line 1290.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[94 <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png> <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png>]
+[96 <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png> <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1288.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 1288.
+(hyperref)                removing `math shift' on input line 1300.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 1288.
+(hyperref)                removing `\rightarrow' on input line 1300.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 1288.
+(hyperref)                removing `\gamma' on input line 1300.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1288.
+(hyperref)                removing `\gamma' on input line 1300.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1300.
 
 
 
-[95 <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEffSigmaRR.png> <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEnergyOverRawE.png>]
-<./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png, id=1636, 901.3675pt x 877.2775pt>
+[97 <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEffSigmaRR.png> <./Figures/Offline Selection Plots/0709_Updated_DataMC_TrainingPlots/esEnergyOverRawE.png>]
+<./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png, id=1657, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png  used on input line 1295.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png  used on input line 1307.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png, id=1637, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png, id=1658, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png  used on input line 1300.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png  used on input line 1312.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[96 <./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png> <./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png>]
-<./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png, id=1644, 901.3675pt x 877.2775pt>
+[98 <./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png> <./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png>]
+<./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png, id=1664, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png  used on input line 1312.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png  used on input line 1324.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png, id=1645, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png, id=1665, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png  used on input line 1317.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png  used on input line 1329.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png, id=1647, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png, id=1667, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png  used on input line 1329.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png  used on input line 1341.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png, id=1648, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png, id=1668, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png  used on input line 1334.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png  used on input line 1346.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[97 <./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png> <./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png>]
+[99 <./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png> <./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1344.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 1344.
+(hyperref)                removing `math shift' on input line 1356.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 1344.
+(hyperref)                removing `\rightarrow' on input line 1356.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 1344.
+(hyperref)                removing `\gamma' on input line 1356.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1344.
+(hyperref)                removing `\gamma' on input line 1356.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1356.
 
 
 
-[98 <./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png> <./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png>]
+[100 <./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png> <./Figures/Offline Selection Plots/0710_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png>]
 
-[99]
-<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/sigMovrM.png, id=1665, 901.3675pt x 877.2775pt>
+[101]
+<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/sigMovrM.png, id=1685, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/sigMovrM.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/sigMovrM.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/sigMovrM.png  used on input line 1379.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/sigMovrM.png  used on input line 1391.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/cosDPhi.png, id=1666, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/cosDPhi.png, id=1686, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/cosDPhi.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/cosDPhi.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/cosDPhi.png  used on input line 1384.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/cosDPhi.png  used on input line 1396.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png, id=1668, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png, id=1688, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png  used on input line 1397.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png  used on input line 1409.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subGJetXGBScore.png, id=1669, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subGJetXGBScore.png, id=1689, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subGJetXGBScore.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subGJetXGBScore.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subGJetXGBScore.png  used on input line 1402.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subGJetXGBScore.png  used on input line 1414.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[100 <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/sigMovrM.png> <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/cosDPhi.png>]
+[102 <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/sigMovrM.png> <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/cosDPhi.png>]
 
-[101 <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png> <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subGJetXGBScore.png>]
-<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png, id=1680, 901.3675pt x 877.2775pt>
+[103 <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png> <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subGJetXGBScore.png>]
+<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png, id=1701, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png  used on input line 1416.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png  used on input line 1428.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png, id=1681, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png, id=1702, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png  used on input line 1421.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png  used on input line 1433.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadScEta.png, id=1685, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadScEta.png, id=1706, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadScEta.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadScEta.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadScEta.png  used on input line 1432.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadScEta.png  used on input line 1444.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subScEta.png, id=1686, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subScEta.png, id=1707, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subScEta.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subScEta.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subScEta.png  used on input line 1437.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subScEta.png  used on input line 1449.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[102 <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png> <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png>]
-<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadPtOvrM.png, id=1693, 901.3675pt x 877.2775pt>
+[104 <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png> <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png>]
+<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadPtOvrM.png, id=1713, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadPtOvrM.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadPtOvrM.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadPtOvrM.png  used on input line 1449.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadPtOvrM.png  used on input line 1461.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subPtOvrM.png, id=1694, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subPtOvrM.png, id=1714, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subPtOvrM.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subPtOvrM.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subPtOvrM.png  used on input line 1454.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subPtOvrM.png  used on input line 1466.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[103 <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadScEta.png> <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subScEta.png>]
+[105 <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadScEta.png> <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subScEta.png>]
 
-[104 <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadPtOvrM.png> <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subPtOvrM.png>]
-<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadElectronVeto.png, id=1706, 901.3675pt x 877.2775pt>
+[106 <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadPtOvrM.png> <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subPtOvrM.png>]
+<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadElectronVeto.png, id=1726, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadElectronVeto.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadElectronVeto.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadElectronVeto.png  used on input line 1468.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadElectronVeto.png  used on input line 1480.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subElectronVeto.png, id=1707, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subElectronVeto.png, id=1727, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subElectronVeto.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subElectronVeto.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subElectronVeto.png  used on input line 1473.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subElectronVeto.png  used on input line 1485.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-LaTeX Warning: Reference `sec:HiggsDNA' on page 105 undefined on input line 1485.
+LaTeX Warning: Reference `sec:HiggsDNA' on page 107 undefined on input line 1497.
 
 
 
-[105 <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadElectronVeto.png> <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subElectronVeto.png>]
-<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/SCRawE.png, id=1716, 901.3675pt x 877.2775pt>
+[107 <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/leadElectronVeto.png> <./Figures/Offline Selection Plots/0709_Updated_DiphotonBDT_TrainingPlots/subElectronVeto.png>]
+<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/SCRawE.png, id=1737, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/SCRawE.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/SCRawE.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/SCRawE.png  used on input line 1489.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/SCRawE.png  used on input line 1501.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/scEta.png, id=1717, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/scEta.png, id=1738, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/scEta.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/scEta.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/scEta.png  used on input line 1494.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/scEta.png  used on input line 1506.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/r9.png, id=1719, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/r9.png, id=1740, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/r9.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/r9.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/r9.png  used on input line 1506.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/r9.png  used on input line 1518.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/s4.png, id=1720, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/s4.png, id=1741, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/s4.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/s4.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/s4.png  used on input line 1511.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/s4.png  used on input line 1523.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[106 <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/SCRawE.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/scEta.png>]
-<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/sigmaIetaIeta.png, id=1725, 901.3675pt x 877.2775pt>
+[108 <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/SCRawE.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/scEta.png>]
+<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/sigmaIetaIeta.png, id=1747, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/sigmaIetaIeta.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/sigmaIetaIeta.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/sigmaIetaIeta.png  used on input line 1523.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/sigmaIetaIeta.png  used on input line 1535.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/covIEtaIPhi.png, id=1726, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/covIEtaIPhi.png, id=1748, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/covIEtaIPhi.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/covIEtaIPhi.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/covIEtaIPhi.png  used on input line 1528.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/covIEtaIPhi.png  used on input line 1540.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[107 <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/r9.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/s4.png>]
-<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/etaWidth.png, id=1732, 901.3675pt x 877.2775pt>
+[109 <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/r9.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/s4.png>]
+<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/etaWidth.png, id=1753, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/etaWidth.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/etaWidth.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/etaWidth.png  used on input line 1538.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/etaWidth.png  used on input line 1550.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phiWidth.png, id=1733, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phiWidth.png, id=1754, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phiWidth.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phiWidth.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phiWidth.png  used on input line 1543.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phiWidth.png  used on input line 1555.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/hadronicOverEm.png, id=1734, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/hadronicOverEm.png, id=1755, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/hadronicOverEm.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/hadronicOverEm.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/hadronicOverEm.png  used on input line 1553.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/hadronicOverEm.png  used on input line 1565.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phoIso03.png, id=1735, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phoIso03.png, id=1756, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phoIso03.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phoIso03.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phoIso03.png  used on input line 1558.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phoIso03.png  used on input line 1570.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[108 <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/sigmaIetaIeta.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/covIEtaIPhi.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/etaWidth.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phiWidth.png>]
-<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png, id=1741, 901.3675pt x 877.2775pt>
+[110 <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/sigmaIetaIeta.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/covIEtaIPhi.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/etaWidth.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phiWidth.png>]
+<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png, id=1761, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png  used on input line 1568.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png  used on input line 1580.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png, id=1742, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png, id=1762, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png  used on input line 1573.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png  used on input line 1585.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEffSigmaRR.png, id=1743, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEffSigmaRR.png, id=1763, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEffSigmaRR.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEffSigmaRR.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEffSigmaRR.png  used on input line 1583.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEffSigmaRR.png  used on input line 1595.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEnergyOverRawE.png, id=1744, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEnergyOverRawE.png, id=1764, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEnergyOverRawE.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEnergyOverRawE.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEnergyOverRawE.png  used on input line 1588.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEnergyOverRawE.png  used on input line 1600.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[109 <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/hadronicOverEm.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phoIso03.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png>]
+[111 <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/hadronicOverEm.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/phoIso03.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtWorstVtx.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/chgIsoWrtChosenVtx.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1596.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 1596.
+(hyperref)                removing `math shift' on input line 1608.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 1596.
+(hyperref)                removing `\rightarrow' on input line 1608.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 1596.
+(hyperref)                removing `\gamma' on input line 1608.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1596.
+(hyperref)                removing `\gamma' on input line 1608.
 
-<./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png, id=1749, 901.3675pt x 877.2775pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1608.
+
+<./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png, id=1769, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png  used on input line 1601.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png  used on input line 1613.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png, id=1750, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png, id=1770, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png  used on input line 1606.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png  used on input line 1618.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[110 <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEffSigmaRR.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEnergyOverRawE.png>]
-<./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png, id=1755, 901.3675pt x 877.2775pt>
+[112 <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEffSigmaRR.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DataMC_TrainingPlots/esEnergyOverRawE.png>]
+<./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png, id=1775, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png  used on input line 1617.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png  used on input line 1629.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png, id=1756, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png, id=1776, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png  used on input line 1622.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png  used on input line 1634.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[111 <./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png> <./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png>]
-<./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png, id=1761, 901.3675pt x 877.2775pt>
+[113 <./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png> <./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png>]
+<./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png, id=1781, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png  used on input line 1634.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png  used on input line 1646.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png, id=1762, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png, id=1782, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png  used on input line 1639.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png  used on input line 1651.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1649.
+(hyperref)                removing `math shift' on input line 1661.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 1649.
+(hyperref)                removing `\rightarrow' on input line 1661.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 1649.
+(hyperref)                removing `\gamma' on input line 1661.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 1649.
+(hyperref)                removing `\gamma' on input line 1661.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1649.
+(hyperref)                removing `math shift' on input line 1661.
 
-<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/sigMovrM.png, id=1765, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/sigMovrM.png, id=1785, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/sigMovrM.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/sigMovrM.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/sigMovrM.png  used on input line 1654.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/sigMovrM.png  used on input line 1666.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/cosDPhi.png, id=1766, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/cosDPhi.png, id=1786, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/cosDPhi.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/cosDPhi.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/cosDPhi.png  used on input line 1659.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/cosDPhi.png  used on input line 1671.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[112 <./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png>]
-<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png, id=1771, 901.3675pt x 877.2775pt>
+[114 <./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_SinglePhoOfflineCuts_SingleSquarePlots/pt_All_Bkg.png>]
+<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png, id=1792, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png  used on input line 1671.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png  used on input line 1683.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subGJetXGBScore.png, id=1772, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subGJetXGBScore.png, id=1793, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subGJetXGBScore.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subGJetXGBScore.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subGJetXGBScore.png  used on input line 1676.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subGJetXGBScore.png  used on input line 1688.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[113 <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/sigMovrM.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/cosDPhi.png>]
-<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png, id=1777, 901.3675pt x 877.2775pt>
+[115 <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/sigMovrM.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/cosDPhi.png>]
+<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png, id=1798, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png  used on input line 1688.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png  used on input line 1700.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png, id=1778, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png, id=1799, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png  used on input line 1693.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png  used on input line 1705.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[114 <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subGJetXGBScore.png>]
-<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadScEta.png, id=1785, 901.3675pt x 877.2775pt>
+[116 <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadGJetXGBScore.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subGJetXGBScore.png>]
+<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadScEta.png, id=1805, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadScEta.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadScEta.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadScEta.png  used on input line 1705.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadScEta.png  used on input line 1717.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subScEta.png, id=1786, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subScEta.png, id=1806, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subScEta.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subScEta.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subScEta.png  used on input line 1710.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subScEta.png  used on input line 1722.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[115 <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png>]
-<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadPtOvrM.png, id=1791, 901.3675pt x 877.2775pt>
+[117 <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadDataMCXGBScore.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subDataMCXGBScore.png>]
+<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadPtOvrM.png, id=1811, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadPtOvrM.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadPtOvrM.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadPtOvrM.png  used on input line 1722.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadPtOvrM.png  used on input line 1734.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subPtOvrM.png, id=1792, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subPtOvrM.png, id=1812, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subPtOvrM.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subPtOvrM.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subPtOvrM.png  used on input line 1727.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subPtOvrM.png  used on input line 1739.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[116 <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadScEta.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subScEta.png>]
-<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadElectronVeto.png, id=1798, 901.3675pt x 877.2775pt>
+[118 <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadScEta.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subScEta.png>]
+<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadElectronVeto.png, id=1818, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadElectronVeto.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadElectronVeto.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadElectronVeto.png  used on input line 1739.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadElectronVeto.png  used on input line 1751.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subElectronVeto.png, id=1799, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subElectronVeto.png, id=1819, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subElectronVeto.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subElectronVeto.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subElectronVeto.png  used on input line 1744.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subElectronVeto.png  used on input line 1756.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[117 <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadPtOvrM.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subPtOvrM.png>]
-LaTeX Font Info:    Trying to load font information for OML+ptm on input line 1752.
+[119 <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadPtOvrM.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subPtOvrM.png>]
+LaTeX Font Info:    Trying to load font information for OML+ptm on input line 1764.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1752.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1764.
 
 
-[118 <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadElectronVeto.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subElectronVeto.png>]
+[120 <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/leadElectronVeto.png> <./Figures/Offline Selection Plots/DiHiggs/0715_DiphotonBDT_TrainingPlots/subElectronVeto.png>]
 Chapter 7.
 
 
-[119
+[121
 
 ]
 
-LaTeX Warning: Reference `sec:HiggsDNA' on page 120 undefined on input line 1767.
+LaTeX Warning: Reference `sec:HiggsDNA' on page 122 undefined on input line 1779.
 
-
-
-[120]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1776.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 1776.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 1776.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 1776.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1776.
-
-
-
-[121]
-<./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png, id=1834, 901.3675pt x 877.2775pt>
-File: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png Graphic file (type png)
-<use ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png  used on input line 1783.
-(pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png, id=1835, 901.3675pt x 877.2775pt>
-File: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png Graphic file (type png)
-<use ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png  used on input line 1788.
-(pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
 [122]
-<./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png, id=1842, 901.3675pt x 877.2775pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1788.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 1788.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 1788.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 1788.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1788.
+
+
+
+[123]
+<./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png, id=1854, 901.3675pt x 877.2775pt>
+File: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png Graphic file (type png)
+<use ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png>
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png  used on input line 1795.
+(pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
+<./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png, id=1855, 901.3675pt x 877.2775pt>
+File: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png Graphic file (type png)
+<use ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png>
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png  used on input line 1800.
+(pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
+
+
+[124]
+<./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png, id=1862, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png  used on input line 1802.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png  used on input line 1814.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png, id=1843, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png, id=1863, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png  used on input line 1807.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png  used on input line 1819.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[123 <./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png> <./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png>]
-<./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png, id=1849, 901.3675pt x 877.2775pt>
+[125 <./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png> <./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png>]
+<./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png, id=1870, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png  used on input line 1818.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png  used on input line 1830.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png, id=1850, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png, id=1871, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png  used on input line 1823.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png  used on input line 1835.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[124 <./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png> <./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png>]
+[126 <./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png> <./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[125 <./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png> <./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png>]
+[127 <./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png> <./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1868.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 1868.
+(hyperref)                removing `math shift' on input line 1880.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 1868.
+(hyperref)                removing `\rightarrow' on input line 1880.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 1868.
+(hyperref)                removing `\gamma' on input line 1880.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1868.
+(hyperref)                removing `\gamma' on input line 1880.
 
-<./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png, id=1864, 901.3675pt x 877.2775pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1880.
+
+<./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png, id=1886, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png  used on input line 1876.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png  used on input line 1888.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png, id=1865, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png, id=1887, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png  used on input line 1881.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png  used on input line 1893.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[126]
-<./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png, id=1872, 901.3675pt x 877.2775pt>
+[128]
+<./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png, id=1892, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png  used on input line 1893.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png  used on input line 1905.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png, id=1873, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png, id=1893, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png  used on input line 1898.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png  used on input line 1910.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[127 <./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png>]
-<./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png, id=1879, 901.3675pt x 877.2775pt>
+[129 <./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/hggMass_All_Bkg.png>]
+<./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png, id=1899, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png  used on input line 1910.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png  used on input line 1922.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png, id=1880, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png, id=1900, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png  used on input line 1915.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png  used on input line 1927.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[128 <./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png>]
+[130 <./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/scEta_All_Bkg.png>]
 
-[129 <./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png>]
-
-[130]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1965.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 1965.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 1965.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 1965.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1965.
-
-
-
-[131]
-<./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png, id=1908, 901.3675pt x 877.2775pt>
-File: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png Graphic file (type png)
-<use ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png  used on input line 1975.
-(pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png, id=1909, 901.3675pt x 877.2775pt>
-File: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png Graphic file (type png)
-<use ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png  used on input line 1980.
-(pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-
+[131 <./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png>]
 
 [132]
 
-[133 <./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png> <./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png>]
-<./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png, id=1922, 901.3675pt x 877.2775pt>
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1977.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rightarrow' on input line 1977.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 1977.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gamma' on input line 1977.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1977.
+
+
+
+[133]
+<./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png, id=1929, 901.3675pt x 877.2775pt>
+File: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png Graphic file (type png)
+<use ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png>
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png  used on input line 1987.
+(pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
+<./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png, id=1930, 901.3675pt x 877.2775pt>
+File: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png Graphic file (type png)
+<use ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png>
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png  used on input line 1992.
+(pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
+
+
+[134]
+
+[135 <./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png> <./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png>]
+<./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png, id=1942, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png  used on input line 1994.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png  used on input line 2006.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png, id=1923, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png, id=1943, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png  used on input line 1999.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png  used on input line 2011.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[134 <./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png> <./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png>]
-<./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png, id=1930, 901.3675pt x 877.2775pt>
+[136 <./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png> <./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png>]
+<./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png, id=1950, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png  used on input line 2011.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png  used on input line 2023.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png, id=1931, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png, id=1951, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png  used on input line 2016.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png  used on input line 2028.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[135 <./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png> <./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png>]
+[137 <./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png> <./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2059.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightarrow' on input line 2059.
+(hyperref)                removing `math shift' on input line 2071.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 2059.
+(hyperref)                removing `\rightarrow' on input line 2071.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 2059.
+(hyperref)                removing `\gamma' on input line 2071.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2059.
+(hyperref)                removing `\gamma' on input line 2071.
 
-<./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png, id=1941, 901.3675pt x 877.2775pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 2071.
+
+<./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png, id=1961, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png  used on input line 2066.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png  used on input line 2078.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png, id=1942, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png, id=1962, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png  used on input line 2071.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png  used on input line 2083.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[136]
-<./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png, id=1948, 901.3675pt x 877.2775pt>
+[138]
+<./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png, id=1969, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png  used on input line 2083.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png  used on input line 2095.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png, id=1949, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png, id=1970, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png  used on input line 2088.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png  used on input line 2100.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[137 <./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png>]
-<./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png, id=1957, 901.3675pt x 877.2775pt>
+[139 <./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/hggMass_All_Bkg.png>]
+<./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png, id=1978, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png  used on input line 2100.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png  used on input line 2112.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
-<./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png, id=1958, 901.3675pt x 877.2775pt>
+<./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png, id=1979, 901.3675pt x 877.2775pt>
 File: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png Graphic file (type png)
 <use ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png>
-Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png  used on input line 2105.
+Package pdftex.def Info: ./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png  used on input line 2117.
 (pdftex.def)             Requested size: 227.65007pt x 221.55432pt.
 
 
-[138 <./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png>]
+[140 <./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/scEta_All_Bkg.png>]
 
-[139 <./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png>]
+[141 <./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Sig.png> <./Figures/Offline Selection Plots/DiHiggs/0715_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png>]
 Chapter 8.
 
 
-[140
+[142
 
 ]
 Chapter 9.
 
 
-[141
+[143
 
 ]
 
-[142
+[144
 
 
 ]
 
-[143]
+[145]
 
-[144]
-Overfull \hbox (20.79568pt too wide) in paragraph at lines 2159--2159
+[146]
+Overfull \hbox (20.79568pt too wide) in paragraph at lines 2171--2171
 \OT1/ptm/m/it/12 (-20) Physics A \OT1/ptm/m/n/12 (-20) 27.26 (Oct. 2012), p. 1230025. \OT1/ptm/m/sc/12 (-20) issn\OT1/ptm/m/n/12 (-20) : 1793-656X. \OT1/ptm/m/sc/12 (-20) doi\OT1/ptm/m/n/12 (-20) : []$10 . 1142 / s0217751x12300256$[].|
  []
 
 
 
-[145] (./RLeeDissertation.aux)
+[147] (./RLeeDissertation.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
@@ -2683,24 +2687,24 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `RLeeDissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 3F9042E5BC1ECB689F863C210CB391CF;17201.
+(rerunfilecheck)             Checksum: 7D92A547BE80D372821622D60F219BA2;17413.
 Package logreq Info: Writing requests to 'RLeeDissertation.run.xml'.
 \openout1 = `RLeeDissertation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39597 strings out of 467816
- 843791 string characters out of 5432252
- 1683750 words of memory out of 5000000
- 66794 multiletter control sequences out of 15000+600000
+ 39609 strings out of 467816
+ 844084 string characters out of 5432252
+ 1683935 words of memory out of 5000000
+ 66800 multiletter control sequences out of 15000+600000
  707740 words of font info for 431 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,16n,106p,1596b,3008s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on RLeeDissertation.pdf (164 pages, 8633407 bytes).
+Output written on RLeeDissertation.pdf (166 pages, 8637377 bytes).
 PDF statistics:
- 2200 PDF objects out of 2487 (max. 8388607)
- 1837 compressed objects within 19 object streams
- 382 named destinations out of 1000 (max. 500000)
- 83788 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 2224 PDF objects out of 2487 (max. 8388607)
+ 1859 compressed objects within 19 object streams
+ 388 named destinations out of 1000 (max. 500000)
+ 83796 words of extra memory for PDF output out of 89155 (max. 10000000)
 

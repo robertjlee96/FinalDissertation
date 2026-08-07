@@ -210,15 +210,27 @@ Quark confinement leads to the production of what are termed QCD jets \cite{PDGR
 \subsection{Electroweak (EW) Theory}\label{sec:EW}
 The weak nuclear force was originally formulated by Enrico Fermi in 1938 as a way to explain the process of beta decay of nuclei \cite{FermiWeakPaper}. While this force was originally proposed as the 4th fundamental force, it was also not a complete description and was therefore not a major area of study immediately. After QED began to prove highly fruitful, great efforts to formulate the weak interaction as a field theory were undertaken in earnest in the 1950s. Then, between 1959 and 1961, two papers by first Salam and Ward, and then Glashow, proposed a major step forward in formulating the weak force as a field theory \cite{SalamAndWardEW} \cite{GlashowEW}. This breakthrough came in the form of unifying the electromagnetic and weak nuclear forces into one single electroweak theory. 
 
-By combining the SU(2) gauge symmetry of the weak force with the U(1) symmetry of QED, a new group with total symmetry SU(2)xU(1) can be formulated \cite{PDGReview}. 
+By combining the SU(2) gauge symmetry of the weak force with the U(1) symmetry of QED, a new group with total symmetry SU(2)xU(1) can be formulated \cite{PDGReview}. This correctly predicts the existence of 3 gauge bosons corresponding to the weak part of the symmetry (called the charged $W^{\pm}$ and neutral $Z^0$ boson), and one gauge boson corresponding to the electromagnetic term (the photon). Requiring gauge invariance of this theory, however, implies that the 3 weak force gauge bosons must be massless. Due to the limited interaction range of the weak force, however, it was clear that the gauge bosons responsible for the weak force must have some finite (and relatively large) mass. If a mechanism was introduced that broke the SU(3) symmetry, however, electroweak theory could allow for massive W and Z bosons \cite{SMOverview}.
 
+The concept of spontaneous symmetry breaking was first understood in terms of quantum field theories by considering a lagrangian for a simple scalar field that obeys U(1) symmetry. The general Lagrangian for such a field can be given by equation \ref{eqn:ScalarLagrangian}, where $\phi$ represents the field itself, $\partial^{\mu}$ is the partial derivartive relative to a spacetime dimension, $\mu$ and $V(\phi)$ is some general potential.   
+\begin{equation}\label{eqn:ScalarLagrangian}
+    \mathcal{L} = \partial_{\mu} \phi^* \partial^{\mu} \phi- V(\phi)
+\end{equation}
+
+The first term in this equation is invariant under rotations of the form $\phi \rightarrow e^{-i\theta}\phi$, and represents the kinetic term of the Lagrangian. The second term, the potential term, is where this U(1) symmetry can be broken. Then, a potential of the form shown in equation \ref{eqn:GoldstonePotential} is introduced to the lagrangian \cite{EWSymmetryBreaking}. In this potential, $\lambda$ and $\eta$ are taken to be constants. This is still invariant under global phase translations of the form $\phi \rightarrow e^{-i\theta}\phi$.
+\begin{equation}\label{eqn:GoldstonePotential}
+    V(\phi) = \frac{1}{2}\lambda (\phi^2 \phi - \frac{1}{2}\eta^2)^2
+\end{equation}
+
+The key feature of this potential, however, is that the field achieves its maximum at $\phi = 0$, which is known as the vacuum state. This means that there is a non-zero vacuum expectation value.
 
 \section{The Brout–Englert–Higgs Field and Higgs Boson}\label{sec:Higgs}
 \subsection{The Brout–Englert–Higgs (BEH) Mechanism}
 \subsection{Properties of the BEH Field}
 \begin{equation}\label{eqn:HiggsPotential}
-    V(\phi) = frac{1}{2}m^2_H\phi^2 + sqrt{\lambda/2}m_H\phi^3 + frac{1}{4}\lambda\phi^4
+    V(\phi) = \frac{1}{2}m^2_H\phi^2 + \sqrt{\lambda/2}m_H\phi^3 + \frac{1}{4}\lambda\phi^4
 \end{equation}
+\section{Properties of the Higgs Boson}
 
 \subsection{Production Modes of a Single Higgs Boson}\label{sec:SingleHProdModes}
 With the establishment of the existence of the Higgs boson, both the production and decay modes of the particle must be studied and measured. The production modes are all of the theoretically-allowable ways in which a Higgs boson may be created. Determining which modes are allowable is a complicated process of using the relevant quantum field theories (QCD and EW theory for the Higgs boson) to constrain possible interactions using the conservation laws of each theory.

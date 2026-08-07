@@ -912,6 +912,46 @@
       \verb http://dx.doi.org/10.1103/PhysRevLett.13.508
       \endverb
     \endentry
+    \entry{EWSymmetryBreaking}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=1883efffc08bdae3bc040fa63579aa40}{%
+           family={Kibble},
+           familyi={K\bibinitperiod},
+           given={T\bibnamedelima W\bibnamedelima B},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{1883efffc08bdae3bc040fa63579aa40}
+      \strng{fullhash}{1883efffc08bdae3bc040fa63579aa40}
+      \strng{fullhashraw}{1883efffc08bdae3bc040fa63579aa40}
+      \strng{bibnamehash}{1883efffc08bdae3bc040fa63579aa40}
+      \strng{authorbibnamehash}{1883efffc08bdae3bc040fa63579aa40}
+      \strng{authornamehash}{1883efffc08bdae3bc040fa63579aa40}
+      \strng{authorfullhash}{1883efffc08bdae3bc040fa63579aa40}
+      \strng{authorfullhashraw}{1883efffc08bdae3bc040fa63579aa40}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1742-6596}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{title}{History of electroweak symmetry breaking}
+      \field{volume}{626}
+      \field{year}{2015}
+      \field{pages}{012001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1742-6596/626/1/012001
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1742-6596/626/1/012001
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1742-6596/626/1/012001
+      \endverb
+    \endentry
     \entry{Run3HLTPerformanceConference}{inbook}{}{}
       \name{author}{1}{}{%
         {{hash=2b6dbcfe737f46735c151f1928eabe90}{%
