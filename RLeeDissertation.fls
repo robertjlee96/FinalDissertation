@@ -463,9 +463,9 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT ./Figures/HiggsProdModes_From10YearReview.png
@@ -647,20 +647,20 @@ INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
+INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png

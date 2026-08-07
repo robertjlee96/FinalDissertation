@@ -1,8 +1,8 @@
 \babel@toc {english}{}\relax 
-\contentsline {table}{\numberline {1.1}{\ignorespaces Table showing the calculated cross-sections (in pb) of the single Higgs boson production modes for $\sqrt {s} = 13$TeV. This data has been taken from \blx@tocontentsinit {0}\cite {HiggsCrossSection}.}}{9}{table.caption.15}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces Table showing the calculated cross-sections (in pb) of the single Higgs boson production modes for $\sqrt {s} = 13$TeV. This data has been taken from \blx@tocontentsinit {0}\cite {HiggsCrossSection}.}}{10}{table.caption.15}%
 \contentsline {table}{\numberline {1.2}{\ignorespaces Table showing the theoretical branching fractions of various Higgs decay channels at $\sqrt {s} = 13$TeV. This data has been taken from \blx@tocontentsinit {0}\cite {HiggsCrossSection}.}}{12}{table.caption.18}%
 \contentsline {table}{\numberline {3.1}{\ignorespaces Table showing the cuts applied by the standard diphoton HLT for $H \rightarrow \gamma \gamma $. The track isolation cut is only applied to the unseeded second leg.}}{45}{table.caption.36}%
-\contentsline {table}{\numberline {5.1}{\ignorespaces Table of input variable names, and a short description of each.}}{58}{table.caption.39}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Table of BDT input variable names, and a short description of each.}}{59}{table.caption.39}%
 \contentsline {table}{\numberline {5.2}{\ignorespaces Chosen score cuts for BB and EE events}}{67}{table.caption.45}%
 \contentsline {table}{\numberline {5.3}{\ignorespaces Signal efficiencies and background acceptances for both triggers, broken down by diphoton $\eta _{sc}$}}{75}{table.caption.51}%
 \contentsline {table}{\numberline {6.1}{\ignorespaces Table showing the cuts applied by the standard preselection for $H \rightarrow \gamma \gamma $.}}{78}{table.caption.52}%
