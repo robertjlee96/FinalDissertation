@@ -16,14 +16,14 @@
 \contentsline {subsection}{\numberline {1.1.3}Electroweak (EW) Theory}{7}{subsection.1.1.3}%
 \contentsline {section}{\numberline {1.2}The Brout–Englert–Higgs Field and Higgs Boson}{9}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}The Brout–Englert–Higgs (BEH) Mechanism}{9}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Properties of the BEH Field}{11}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.2}The BEH Mechanism and Electroweak Unification}{11}{subsection.1.2.2}%
 \contentsline {section}{\numberline {1.3}Properties of the Higgs Boson}{11}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Production Modes of a Single Higgs Boson}{11}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Decay Modes of a Single Higgs Boson}{14}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.2}Decay Modes of a Single Higgs Boson}{15}{subsection.1.3.2}%
 \contentsline {section}{\numberline {1.4}Higgs Boson Decaying to Two Photons ($H \rightarrow \gamma \gamma $) }{17}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Di-Higgs Production and Properties}{18}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Di-Higgs Production Modes}{18}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}The $HH \rightarrow b\bar {b}\gamma \gamma $ Channel}{19}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.1}Di-Higgs Production Modes}{19}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}The $HH \rightarrow b\bar {b}\gamma \gamma $ Channel}{20}{subsection.1.5.2}%
 \contentsline {chapter}{\numberline {2}The LHC and CMS Detector}{21}{chapter.2}%
 \contentsline {section}{\numberline {2.1}The Large Hadron Collider}{21}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}LHC Design}{22}{subsection.2.1.1}%
