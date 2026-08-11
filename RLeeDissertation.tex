@@ -18,6 +18,7 @@
 \usepackage{float}
 \usepackage[breaklinks=true,pdfborder={0 0 0}]{hyperref}
 \usepackage{graphicx}
+\usepackage{upgreek}
 \usepackage[compat=1.0.0]{tikz-feynman}
 \usepackage[
     backend=biber,
@@ -213,19 +214,69 @@ The weak nuclear force was originally formulated by Enrico Fermi in 1938 as a wa
 By combining the SU(2) gauge symmetry of the weak force with the U(1) symmetry of QED, a new group with total symmetry SU(2)xU(1) can be formulated \cite{PDGReview}. This correctly predicts the existence of 3 gauge bosons corresponding to the weak part of the symmetry (called the charged $W^{\pm}$ and neutral $Z^0$ boson), and one gauge boson corresponding to the electromagnetic term (the photon). Requiring gauge invariance of this theory, however, implies that the 3 weak force gauge bosons must be massless. Due to the limited interaction range of the weak force, however, it was clear that the gauge bosons responsible for the weak force must have some finite (and relatively large) mass. If a mechanism was introduced that broke the SU(3) symmetry, however, electroweak theory could allow for massive W and Z bosons \cite{SMOverview}.
 
 The concept of spontaneous symmetry breaking was first understood in terms of quantum field theories by considering a lagrangian for a simple scalar field that obeys U(1) symmetry. The general Lagrangian for such a field can be given by equation \ref{eqn:ScalarLagrangian}, where $\phi$ represents the field itself, $\partial^{\mu}$ is the partial derivartive relative to a spacetime dimension, $\mu$ and $V(\phi)$ is some general potential.   
+
 \begin{equation}\label{eqn:ScalarLagrangian}
     \mathcal{L} = \partial_{\mu} \phi^* \partial^{\mu} \phi- V(\phi)
 \end{equation}
 
-The first term in this equation is invariant under rotations of the form $\phi \rightarrow e^{-i\theta}\phi$, and represents the kinetic term of the Lagrangian. The second term, the potential term, is where this U(1) symmetry can be broken. Then, a potential of the form shown in equation \ref{eqn:GoldstonePotential} is introduced to the lagrangian \cite{EWSymmetryBreaking}. In this potential, $\lambda$ and $\eta$ are taken to be constants. This is still invariant under global phase translations of the form $\phi \rightarrow e^{-i\theta}\phi$.
+The first term in this equation is invariant under rotations of the form $\phi \rightarrow e^{-i\alpha}\phi$, and represents the kinetic term of the Lagrangian. The second term, the potential term, is where this U(1) symmetry can be broken. Then, a potential of the form shown in equation \ref{eqn:GoldstonePotential} is introduced to the lagrangian \cite{EWSymmetryBreaking}. In this potential, $\lambda$ and $\eta$ are taken to be constants. This is still invariant under global phase translations of the form $\phi \rightarrow e^{-i\alpha}\phi$.
+
 \begin{equation}\label{eqn:GoldstonePotential}
-    V(\phi) = \frac{1}{2}\lambda (\phi^2 \phi - \frac{1}{2}\eta^2)^2
+    V(\phi) = \frac{1}{2}\lambda (\phi^* \phi - \frac{1}{2}\eta^2)^2
 \end{equation}
 
-The key feature of this potential, however, is that the field achieves its maximum at $\phi = 0$, which is known as the vacuum state. This means that there is a non-zero vacuum expectation value.
+The key feature of this potential, however, is that the field achieves a local maximum at $\phi = 0$. This is termed as a non-zero vacuum expectation value (VEV). Instead, the lowest energy state (ground) state can be seen in equation \ref{eqn:VacuumStates}.
+
+\begin{equation}\label{eqn:VacuumStates}
+    \langle 0 | \phi(x) | 0 \rangle = \frac{1}{\sqrt{2}} \eta e^{i\alpha}
+\end{equation}
+
+This represents a vacuum state which is infinitely-degenerate in the coordinate $\alpha$. The VEV being non-zero means that the symmetery respected by the initial lagrangian is not respected by the vacuum state of the field. The ground (lowest energy) state, however, is now removed from $\phi = 0$. This leads to the so-called "sombrero potential", given that there is a peak at 0 then a lower state removed from the axis as seen in figure \ref{fig:SombreroPotential} (reproduced from )
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./Figures/HiggsProdModes_From10YearReview.png}
+	\caption{The "Sombrero Potential" which spontaneously breaks the symmetry of an example U(1) group. The non-zero vacuum expecation value can be seen with a value of.}
+	\label{fig:SombreroPotential}
+\end{figure}
+
+This mechanism, originally proposed by Yoichiro Nambu in the context of superconductivity and expanded upon by Jefferey Goldstone in the early 1960s, made a prediction that became a huge sticking point in the development of the electroweak theory; while it allows a mechanism for spontaneous symmetry breaking,Goldstone's theorem predicts the existence of a massless spin-0 Nambu-Goldstone boson \cite{EWSymmetryBreaking}. These bosons should be easy to detect, but had never been seen. So, an additional mechanism was necessary to explain the absence of these Nambu-Goldstone bosons.
 
 \section{The Brout–Englert–Higgs Field and Higgs Boson}\label{sec:Higgs}
 \subsection{The Brout–Englert–Higgs (BEH) Mechanism}
+The final piece of electroweak unification that allowed both spontaneous symmetry breaking and the lack of Nambu-Goldstone bosons was elucidated separately in 1964 by Brout and Englert \cite{BroutEnglerPaper}, Higgs \cite{Higgs1964}, and Guralnik, Hagen and Kibble \cite{KibblePaper}. This mechanism, later termed the Brout-Englert-Higgs (BEH) mechanism, adds the kinetic term for a gauge field, $A_{\mu}$, into the lagrangian. Then, the lagrangian of the Goldstone formulation can further be written in a gauage-invariant way by replacing the partial derivative with the covariant derivated as given in equation \ref{eqn:HiggsLagrangian}. This is termed the Abelian Higgs model, as it is the Lagrangian for an Abelian gauge group. In this formulation, the covariant derivative is defined as given in equation \ref{eqn:CovariantDerivative} and a field tensor is introduced as defined in equation \ref{eqn:FieldTensor} \cite{EWSymmetryBreaking}. In this case, q is the fundamental unit charge (i.e. q = -e).
+
+\begin{equation}\label{eqn:HiggsLagrangian}
+    \mathcal{L} = D_{\mu}\phi^* D^{\mu}\phi - \frac{1}{4}F_{\mu\nu}F^{\mu\nu} - \frac{1}{2}\lambda (\phi^* \phi - \frac{1}{2}\eta^2)^2
+\end{equation}
+
+\begin{equation}\label{eqn:CovariantDerivative}
+    D_{\mu} = \partial_{\mu} - i g A_{\mu} 
+\end{equation}
+\begin{equation}\label{eqn:FieldTensor}
+    F_{\mu \nu} = \partial_{\mu} A_{\nu} - \partial_{\nu} A_{\mu}
+\end{equation}
+
+For this formulation, it becomes important to decompose the scalar field $\phi$ into real and imaginary components as given in equation \ref{eqn:PhiComponents}. Here, $\upvarphi_1$ will be the real component of the complex scalar field, $\phi$, whereas $\upvarphi_2$ will be the complex component. 
+
+\begin{equation}\label{eqn:PhiComponents}
+    \phi = \frac{1}{\sqrt{2}}(\eta + \upvarphi_1 + i \upvarphi_2)
+\end{equation}
+
+Now, one last convenient choice can be made to make the final result more illuminating. A new vector field can be defined in terms of $A_{\mu}$ as given in equation \ref{eqn:BField}.
+
+\begin{equation}\label{eqn:BField}
+    B_{\mu} = A_{\mu} + \frac{1}{q \eta} \partial_{\mu} \upvarphi_2
+\end{equation}
+
+This takes the form of a gauge transformation, which allows the field tensor to remain unchanged with $A_{\mu} \rightarrow B_{\mu}$. The final is to insert the definitions of equations \ref{eqn:CovariantDerivative}, \ref{eqn:PhiComponents}, and \ref{eqn:BField} into the above-defined lagrangian. While this will lead to many terms, it turns out that all of the important information that must be gleaned from this mechanism can be done while discarding terms above those quadratic in $\upvarphi_1$. So, then, the final result can be written as in equation \ref{eqn:BEHLagrangian}.
+
+\begin{equation}\label{eqn:BEHLagrangian}
+    \mathcal{L} = \frac{1}{2}\partial_{\mu} \upvarphi_1 \partial^{\mu} \upvarphi_1 - \frac{1}{4}F_{\mu\nu}F^{\mu\nu} - \frac{1}{2}\lambda \eta^2 \upvarphi^{2}_{1} - \frac{1}{2} g^2 \eta^2 B_{\mu} B^{\mu}.
+\end{equation}
+
+It can immediately be seen that there are two kinetic terms in this equation: $\frac{1}{2}\partial_{\mu} \upvarphi_1 \partial^{\mu} \upvarphi_1$ and $- \frac{1}{2} g^2 \eta^2 B_{\mu} B^{\mu}$. So then, there are no more massless terms. Instead, with the deployment of the BEH mechanism, there is a massive scalar, $\upvarphi_1$, and a massive vector, $B_{\mu}$.
+
 \subsection{Properties of the BEH Field}
 \begin{equation}\label{eqn:HiggsPotential}
     V(\phi) = \frac{1}{2}m^2_H\phi^2 + \sqrt{\lambda/2}m_H\phi^3 + \frac{1}{4}\lambda\phi^4
@@ -322,7 +373,6 @@ For this analysis, the major decay channel of interest will be the diphoton, or 
 
 Diphoton decays sidestep many of these issues with QCD-like decay channels. While there will be many background photons, their rate is considerably lower than that of jets. Additionally, photon signatures are relatively well-resolved and much easier to properly reconstruct than jet signatures. As will be discussed in section \ref{sec:HLTReco}, photon signatures tend to be well-columnated and more likely to be isolated from other signatures. Additionally, since the CMS detector places the detector element that measures photon signatures closer to the particle interaction point, photons tend to spread out less than QCD jets and produce fewer additional particles for each real signature. So, then, the $H \rightarrow \gamma \gamma$ has always proven to be a very fruitful Higgs decay despite its low rate.
 
-\subsection{Historical Results}
 \section{Di-Higgs Production and Properties}
 Another major area of investigation are in diHiggs production modes. One major benefit of such analyses is the ability to probe the Higgs self-coupling, $\lambda$, introduced in equation \ref{eqn:HiggsPotential} \cite{CMS10YearReview}. Since both $m_H$ and $\lambda$ are free parameters in the BEH potential, experimentally constraining both $m_H$ and $\lambda$ would allow for a more complete picture of the overall BEH field. This process provides one way to probe possible beyond standard model physics, as a better understanding of the BEH field may point fundamental physics in a new direction.
 

@@ -702,6 +702,53 @@
       \verb http://dx.doi.org/10.1051/epjconf/202024506002
       \endverb
     \endentry
+    \entry{BroutEnglerPaper}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=82b6e353dc84a901c43d47c8a96bb827}{%
+           family={Englert},
+           familyi={E\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=3ac21375f75f40f8eabab8128c8cfdd6}{%
+           family={Brout},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{fullhash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{fullhashraw}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{bibnamehash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{authorbibnamehash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{authornamehash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{authorfullhash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{authorfullhashraw}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0031-9007}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{8}
+      \field{number}{9}
+      \field{title}{Broken Symmetry and the Mass of Gauge Vector Mesons}
+      \field{volume}{13}
+      \field{year}{1964}
+      \field{pages}{321\bibrangedash 323}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1103/physrevlett.13.321
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1103/PhysRevLett.13.321
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/PhysRevLett.13.321
+      \endverb
+    \endentry
     \entry{LHC2008}{article}{}{}
       \name{author}{2}{}{%
         {{hash=29a80b4592e6086f593501c4decfbdee}{%
@@ -868,6 +915,58 @@
       \endverb
       \verb{url}
       \verb http://dx.doi.org/10.1016/0029-5582(61)90469-2
+      \endverb
+    \endentry
+    \entry{KibblePaper}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=fa48aa499dcf3937690622de5501ec81}{%
+           family={Guralnik},
+           familyi={G\bibinitperiod},
+           given={G.\bibnamedelimi S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d67b74ee7bea81b882b2589ff0d0d020}{%
+           family={Hagen},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=1883efffc08bdae3bc040fa63579aa40}{%
+           family={Kibble},
+           familyi={K\bibinitperiod},
+           given={T.\bibnamedelimi W.\bibnamedelimi B.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{fullhash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{fullhashraw}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{bibnamehash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{authorbibnamehash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{authornamehash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{authorfullhash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{authorfullhashraw}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0031-9007}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{11}
+      \field{number}{20}
+      \field{title}{Global Conservation Laws and Massless Particles}
+      \field{volume}{13}
+      \field{year}{1964}
+      \field{pages}{585\bibrangedash 587}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1103/physrevlett.13.585
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1103/PhysRevLett.13.585
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/PhysRevLett.13.585
       \endverb
     \endentry
     \entry{Higgs1964}{article}{}{}
