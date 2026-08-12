@@ -235,8 +235,8 @@ This represents a vacuum state which is infinitely-degenerate in the coordinate 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\linewidth]{./Figures/HiggsProdModes_From10YearReview.png}
-	\caption{The "Sombrero Potential" which spontaneously breaks the symmetry of an example U(1) group. The non-zero vacuum expecation value can be seen with a value of.}
+	\includegraphics[width=\linewidth]{./Figures/SombreroPotential.png}
+	\caption{The "Sombrero Potential" which spontaneously breaks the symmetry of an example U(1) group. Reproduced from \cite{SombreroPotential}}
 	\label{fig:SombreroPotential}
 \end{figure}
 
@@ -244,9 +244,9 @@ This mechanism, originally proposed by Yoichiro Nambu in the context of supercon
 
 \section{The Brout–Englert–Higgs Field and Higgs Boson}\label{sec:Higgs}
 \subsection{The Brout–Englert–Higgs (BEH) Mechanism}
-The final piece of electroweak unification that allowed both spontaneous symmetry breaking and the lack of Nambu-Goldstone bosons was elucidated separately in 1964 by Brout and Englert \cite{BroutEnglerPaper}, Higgs \cite{Higgs1964}, and Guralnik, Hagen and Kibble \cite{KibblePaper}. This mechanism, later termed the Brout-Englert-Higgs (BEH) mechanism, adds the kinetic term for a gauge field, $A_{\mu}$, into the lagrangian. Then, the lagrangian of the Goldstone formulation can further be written in a gauage-invariant way by replacing the partial derivative with the covariant derivated as given in equation \ref{eqn:HiggsLagrangian}. This is termed the Abelian Higgs model, as it is the Lagrangian for an Abelian gauge group. In this formulation, the covariant derivative is defined as given in equation \ref{eqn:CovariantDerivative} and a field tensor is introduced as defined in equation \ref{eqn:FieldTensor} \cite{EWSymmetryBreaking}. In this case, q is the fundamental unit charge (i.e. q = -e).
+The final piece of electroweak unification that allowed both spontaneous symmetry breaking and the lack of Nambu-Goldstone bosons was elucidated separately in 1964 by Brout and Englert \cite{BroutEnglerPaper}, Higgs \cite{Higgs1964}, and Guralnik, Hagen and Kibble \cite{KibblePaper}. This mechanism, later termed the Brout-Englert-Higgs (BEH) mechanism, adds the kinetic term for a gauge field, $A_{\mu}$, into the lagrangian. Then, the lagrangian of the Goldstone formulation can further be written in a gauage-invariant way by replacing the partial derivative with the covariant derivated as given in equation \ref{eqn:BEHLagrangian}. This is termed the Abelian Higgs model, as it is the Lagrangian for an Abelian gauge group. In this formulation, the covariant derivative is defined as given in equation \ref{eqn:CovariantDerivative} and a field tensor is introduced as defined in equation \ref{eqn:FieldTensor} \cite{EWSymmetryBreaking}. In this case, q is the fundamental unit charge (i.e. q = -e).
 
-\begin{equation}\label{eqn:HiggsLagrangian}
+\begin{equation}\label{eqn:BEHLagrangian}
     \mathcal{L} = D_{\mu}\phi^* D^{\mu}\phi - \frac{1}{4}F_{\mu\nu}F^{\mu\nu} - \frac{1}{2}\lambda (\phi^* \phi - \frac{1}{2}\eta^2)^2
 \end{equation}
 
@@ -275,16 +275,73 @@ This takes the form of a gauge transformation, which allows the field tensor to 
     \mathcal{L} = \frac{1}{2}\partial_{\mu} \upvarphi_1 \partial^{\mu} \upvarphi_1 - \frac{1}{4}F_{\mu\nu}F^{\mu\nu} - \frac{1}{2}\lambda \eta^2 \upvarphi^{2}_{1} - \frac{1}{2} g^2 \eta^2 B_{\mu} B^{\mu}.
 \end{equation}
 
-It can immediately be seen that there are two kinetic terms in this equation: $\frac{1}{2}\partial_{\mu} \upvarphi_1 \partial^{\mu} \upvarphi_1$ and $- \frac{1}{2} g^2 \eta^2 B_{\mu} B^{\mu}$. So then, there are no more massless terms. Instead, with the deployment of the BEH mechanism, there is a massive scalar, $\upvarphi_1$, and a massive vector, $B_{\mu}$. So, then, this mechanism would allow for spontaneous symmetery breaking without the need for massless bosons. Of course, this is still essentially a toy version of the theory that introduces the BEH mechanism as a way to produce the necessary properties beginning from the goldstone lagrangian. Work still needed to be done to extend this mechanism into the SM as a way to unify electromagnetism and the weak force in a way that was consistent with existing measurements \cite{SMOverview}.
+It can immediately be seen that there are two kinetic terms in this equation: $\frac{1}{2}\partial_{\mu} \upvarphi_1 \partial^{\mu} \upvarphi_1$ and $- \frac{1}{2} g^2 \eta^2 B_{\mu} B^{\mu}$. So then, there are no more massless terms. Instead, with the deployment of the BEH mechanism, there is a massive scalar, $\upvarphi_1$, and a massive vector, $B_{\mu}$. Therefore, this mechanism would allow for spontaneous symmetery breaking without the need for massless bosons. Of course, this is still essentially a toy version of the theory that introduces the BEH mechanism as a way to produce the necessary properties beginning from the goldstone lagrangian. Work still needed to be done to extend this mechanism into the SM as a way to unify electromagnetism and the weak force in a way that was consistent with existing measurements \cite{SMOverview}.
 
 \subsection{The BEH Mechanism and Electroweak Unification}
 
+With the tool of BEH created, the electroweak gauge theory could finally be constructed in a way consistent with observations of previous experiments. In 1967, Weinberg and Salam built on the work Glashow had done 6 years prior by inserting the BEH spontaneous symmetry breaking into the existing attempts at electroweak unification \cite{CMS10YearReview}. The electroweak gauge theory is invariant under the $SU(3)_L x U(1)_Y$ symmetry group, where the L signifies the doublets of left-handed chirality, and Y signifies the weak hypercharge scalar \cite{PDGReview}.
+
+Just as a field with a potential given in equation \ref{eqn:BEHLagrangian} can be inserted into the gauged version of the Goldstone theory, a field can be inserted into the electroweak lagrangian to spontaneously break the symmetry of the $SU(3)_L x U(1)_Y$ group. This field is usually written in the form given by equation \ref{eqn:HiggsPotential}.
 
 \begin{equation}\label{eqn:HiggsPotential}
-    V(\phi) = \frac{1}{2}m^2_H\phi^2 + \sqrt{\lambda/2}m_H\phi^3 + \frac{1}{4}\lambda\phi^4
+    V(\Phi) = m^2 \Phi^{\dagger} \Phi + \lambda (\Phi^{\dagger}\Phi)^2
 \end{equation}
-\section{Properties of the Higgs Boson}
 
+One key difference of this formulation is that now the Higgs field, $\Phi$, is a complex doublet in $SU(2)_L$, meaning that is has 4 degrees of freedom. In the definition given in equation \ref{eqn:HiggsDoublet}, $\phi^0$ and $a^0$ are neutral components that are even and odd in charge conjugation and parity (CP) symmetry, respectively. $\phi^+$, on the other hand, is the complex charged component. 
+
+\begin{equation}\label{eqn:HiggsDoublet}
+\Phi = \frac{1}{\sqrt{2}} \begin{bmatrix} \sqrt{2}\phi^+ \\ \phi^0 + ia^0 \end{bmatrix}
+\end{equation}
+
+If $\lambda$ is taken as negative in equation \ref{eqn:HiggsPotential}, then the potential takes the form of a sombrero, as in the original formulation of electroweak symmetry breaking. Then, the vacuum expectation value can again be taken, yielding the form givne in equation \ref{eqn:HiggsVEV}.
+
+\begin{equation}\label{eqn:HiggsVEV}
+	\langle 0 | \Phi | 0 \rangle = \frac{1}{\sqrt{2}} \begin{bmatrix} 0 \\ v \end{bmatrix}
+\end{equation}
+
+The value, v, is termed the Higgs vacuum expectation value, and is found to be $v = 246.22$ GeV \cite{PDGReview}. Three of the four generators of the $SU(3)_L x U(1)_Y$ symmetry are then spontaneously broken, implying the existence of 3 massless goldstone bosons. Of course, given the previous discussion of the BEH mechanism, this can be resolved. A new Higgs lagrangian can then be written with the covariant derivative, as before. This is shown in equation \ref{eqn:HiggsLagrangian}
+
+\begin{equation}\label{eqn:HiggsLagrangian}
+    \mathcal{L} = (D_{\mu}\Phi)^{\dagger}(D^{\mu}\Phi) - m^2 \Phi^{\dagger} \Phi - \lambda (\Phi^{\dagger}\Phi)^2
+\end{equation}
+
+Now, the covariant derivative must be defined in terms of the gauge fields defined for the $SU(3)_L x U(1)_Y$ group. Whereas the original formulation of BEH was constructed with respect to the gauge field $A_{\mu}$, the electoweak lagrangian must be written in terms of the $W_{\mu}$ and $B_{\mu}$ gauge fields. Just as there was a coupling constant associated with the coupling of the generic BEH field to the goldstone lagrangian, there are coupling constants associated with the coupling of the Higgs field to the $W_{\mu}$ and $B_{\mu}$ fields. These constants, $g$ (for the $SU(2)_L$ gauge) and $g'$ (for the $U(1)_Y$ gauge) are inserted into the covariant derivative along with the corresponding fields as given in equation \ref{eqn:HiggsCovDerivative} \cite{PDGReview}.
+
+\begin{equation}\label{eqn:HiggsCovDerivative}
+    D_{\mu}\Phi = (\partial_{\mu} + 1/2(i g \sigma^a W^{a}_{\mu}/2 + i g' Y B_{\mu}))\Phi
+\end{equation}
+
+Here, the index a = 1,2,3 runs over the 3 usual pauli matrices, $\sigma^a$. So, then, the covariant derivative is now a matrix that "mixes" the three goldstone bosons generated by breaking the $SU(3)_L$ symmetry with the Higgs field, giving them masses. The fourth generator of the $SU(3)_L x U(1)_Y$ symmetry is not broken, and therefore remains massless. This unbroken generator corresponding to the U(1) component of the gauge is the massless photon. The masses of the W and Z bosons, corresponding to the charged and uncharged massive gauge bosons of the electroweak force can be given in terms of the coupling constants as in equation \ref{eqn:WandZMass} \cite{PDGReview}.
+
+\begin{equation}\label{eqn:WandZMass}
+    m^2_W = \frac{g^2 v^2}{4} \hspace{2cm} m^2_Z = \frac{(g'^2 + g^2)v^2}{4}
+\end{equation}
+
+These masses, then, depend on the coupling parameters. In a practical sense, the logic of that is best reversed; by measuring the masses of the W and Z bosons, the coupling parameters g and g' can be measured. Many experiments have been undertaken to measure the masses of these vector bosons, and the particle data group has published a value for each as given in equation \ref{eqn:WandZMassNumber} \cite{PDGReview}. These values are based on a combination of all of the measurements obtained by different groups and different experimental methods.
+
+\begin{equation}\label{eqn:WandZMassNumber}
+    m_W = 80.3692 \pm 0.0133 GeV/c^2 \hspace{2cm} m_Z = 91.1880 \pm 0.0020 GeV/c^2
+\end{equation}
+
+\subsection{Properties of the Higgs Field and the Higgs Boson}
+
+So, then, of the four degrees of freedom in the complex Higgs scalar doublet, $\Phi$, three have been "consumed" to generate the masses for the $W^{\pm}$ and $Z^0$ vector (spin 1) gauge bosons. The remaining degree of freedom manifests as a new scalar (spin 0) gauge boson called the Higgs boson. This Higgs boson can be seen as the manifestation of the Higgs field, and provides a measureable particle with which to understand the underlying Higgs field. The Higgs boson has neutral electric charge, and does not couple to either the photon or gluon \cite{SMOverview}.
+
+As with the W and Z bosons, the mass of the Higgs boson is considered a parameter in the standard model. By constructing the lagrangian for the interaction between the Higgs and vector bosons, a mass in terms of previously-discussed quantities can be obtained as in equation \ref{eqn:HiggsMass}. Here, $v$ is the Higgs vacuum expectation value and $\lambda$ is the constant introduced within the Higgs potential. The vev can be measured by its relation to the fermi constant (which can be probed by muon decay rate), or the masses of the vector bosons. Current measurements put this vev at $v = 246.22$ GeV \cite{PDGReview}.
+
+\begin{equation}\label{eqn:HiggsMass}
+    m_H = \lambda v
+\end{equation}
+
+There are still two parameters in this relationship that cannot be theoretically derived or measured by other methods. This means that there was no theoretical prediction whatsoever for the mass of the Higgs boson before its discovery. If the mass of the Higgs boson can be measured, however, the parameter $\lambda$ can be inferred and the overall shape of the Higgs potential can be better understood. Since this potential is responsible for the masses of the massive vector bosons, as well as all other fundamental particles (through the Yukawa interaction), measurement of the Higgs boson mass is of vital importance \cite{CMS10YearReview}.
+
+The BEH potential can be rewritten in a way that alligns more with the phenomenological measurements that can be taken at particle accelerators. Equation \ref{eqn:HiggsExpansion} shows the potential in terms of the Higgs mass, $m_H$, the parameter $\lambda$, and powers of the Higgs field. Each of these terms can be used to better understand the Higgs field in terms of particle interactions. The first term immediately accounts for the mass of the Higgs boson. The second term, however, shows the meaning behind the parameter $\lambda$. The factor $\Phi^3$ in this term is called a tri-linear coupling; this represents an interaction vertex between three Higgs bosons. So, then, the parameter $\lambda$ can be understood as the self-coupling strength of the Higgs. Whereas many particles in the standard model do not couple to themseleves, the Higgs does. This has far-reaching implications for the allowed production and decay modes of the Higgs boson, as will be discussed further in section \ref{sec:HiggsModes}.
+
+\begin{equation}\label{eqn:HiggsExpansion}
+    V(\Phi) = \frac{1}{2}m^2_H\Phi^2 + \sqrt{\lambda/2}m_H\Phi^3 + \frac{1}{4}\lambda\Phi^4
+\end{equation}
+
+\section{Phenomenology of the Higgs Boson}\label{sec:HiggsModes}
 \subsection{Production Modes of a Single Higgs Boson}\label{sec:SingleHProdModes}
 With the establishment of the existence of the Higgs boson, both the production and decay modes of the particle must be studied and measured. The production modes are all of the theoretically-allowable ways in which a Higgs boson may be created. Determining which modes are allowable is a complicated process of using the relevant quantum field theories (QCD and EW theory for the Higgs boson) to constrain possible interactions using the conservation laws of each theory.
 
@@ -376,7 +433,7 @@ For this analysis, the major decay channel of interest will be the diphoton, or 
 Diphoton decays sidestep many of these issues with QCD-like decay channels. While there will be many background photons, their rate is considerably lower than that of jets. Additionally, photon signatures are relatively well-resolved and much easier to properly reconstruct than jet signatures. As will be discussed in section \ref{sec:HLTReco}, photon signatures tend to be well-columnated and more likely to be isolated from other signatures. Additionally, since the CMS detector places the detector element that measures photon signatures closer to the particle interaction point, photons tend to spread out less than QCD jets and produce fewer additional particles for each real signature. So, then, the $H \rightarrow \gamma \gamma$ has always proven to be a very fruitful Higgs decay despite its low rate.
 
 \section{Di-Higgs Production and Properties}
-Another major area of investigation are in diHiggs production modes. One major benefit of such analyses is the ability to probe the Higgs self-coupling, $\lambda$, introduced in equation \ref{eqn:HiggsPotential} \cite{CMS10YearReview}. Since both $m_H$ and $\lambda$ are free parameters in the BEH potential, experimentally constraining both $m_H$ and $\lambda$ would allow for a more complete picture of the overall BEH field. This process provides one way to probe possible beyond standard model physics, as a better understanding of the BEH field may point fundamental physics in a new direction.
+Another major area of investigation are in diHiggs production modes. One major benefit of such analyses is the ability to probe the Higgs self-coupling, $\lambda$, introduced in equation \ref{eqn:HiggsExpansion} \cite{CMS10YearReview}. Since both $m_H$ and $\lambda$ are free parameters in the BEH potential, experimentally constraining both $m_H$ and $\lambda$ would allow for a more complete picture of the overall BEH field. This process provides one way to probe possible beyond standard model physics, as a better understanding of the BEH field may point fundamental physics in a new direction.
 
 As with single Higgs physics, DiHiggs processes can be understood in terms of their production and decay modes. There is no additional physics to be found in DiHiggs decays; once the two independent Higgs bosons are produced, they both decay exactly according to the decay modes described in section \ref{sec:SingleHDecayModes}. The possible Higgs boson pair production modes, however, are of considerable interest. As opposed to the variety of possible production modes for the single Higgs, diHiggs modes come in one of two flavors: ggH and VBF. 
 

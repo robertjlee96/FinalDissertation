@@ -626,6 +626,52 @@
       \verb http://dx.doi.org/10.1088/1748-0221/12/01/P01020
       \endverb
     \endentry
+    \entry{SombreroPotential}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=4d546eea48ef6a3abbd293dd7db15476}{%
+           family={Duff},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=eafa1babe098f9163a4020c174d172ce}{%
+           family={Stelle},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi S.},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{a447a7fa0623541e1fe72d5538db32e0}
+      \strng{fullhash}{a447a7fa0623541e1fe72d5538db32e0}
+      \strng{fullhashraw}{a447a7fa0623541e1fe72d5538db32e0}
+      \strng{bibnamehash}{a447a7fa0623541e1fe72d5538db32e0}
+      \strng{authorbibnamehash}{a447a7fa0623541e1fe72d5538db32e0}
+      \strng{authornamehash}{a447a7fa0623541e1fe72d5538db32e0}
+      \strng{authorfullhash}{a447a7fa0623541e1fe72d5538db32e0}
+      \strng{authorfullhashraw}{a447a7fa0623541e1fe72d5538db32e0}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-8494}
+      \field{journaltitle}{Biographical Memoirs of Fellows of the Royal Society}
+      \field{month}{3}
+      \field{title}{Sir Thomas Walter Bannerman Kibble. 23 December 1932—2 June 2016}
+      \field{volume}{70}
+      \field{year}{2021}
+      \field{pages}{225\bibrangedash 244}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1098/rsbm.2020.0040
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1098/rsbm.2020.0040
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1098/rsbm.2020.0040
+      \endverb
+    \endentry
     \entry{NanoAOD}{article}{}{}
       \name{author}{1}{}{%
         {{hash=8f4199881644ef6d3451bdb6727882c8}{%
