@@ -2480,11 +2480,17 @@
     <bcf:citekey order="123" intorder="1">NanoAOD</bcf:citekey>
     <bcf:citekey order="124" intorder="1">BDTPaper</bcf:citekey>
     <bcf:citekey order="125" intorder="1">BDTPaper</bcf:citekey>
-    <bcf:citekey order="126" intorder="1">Run2Hgg2018</bcf:citekey>
-    <bcf:citekey order="127" intorder="1">Run2Hgg2018</bcf:citekey>
-    <bcf:citekey order="128" intorder="1">Run3Hgg2025</bcf:citekey>
-    <bcf:citekey order="129" intorder="1">Run2Hgg2018</bcf:citekey>
-    <bcf:citekey order="130" intorder="1">OfflineReco2021</bcf:citekey>
+    <bcf:citekey order="126" intorder="1">BDTPaper</bcf:citekey>
+    <bcf:citekey order="127" intorder="1">BDTPaper</bcf:citekey>
+    <bcf:citekey order="128" intorder="1">XGBoostDocumentation</bcf:citekey>
+    <bcf:citekey order="129" intorder="1">XGBoostPaper</bcf:citekey>
+    <bcf:citekey order="130" intorder="1">XGBoostDocumentation</bcf:citekey>
+    <bcf:citekey order="131" intorder="1">XGBoostPaper</bcf:citekey>
+    <bcf:citekey order="132" intorder="1">Run2Hgg2018</bcf:citekey>
+    <bcf:citekey order="133" intorder="1">Run2Hgg2018</bcf:citekey>
+    <bcf:citekey order="134" intorder="1">Run3Hgg2025</bcf:citekey>
+    <bcf:citekey order="135" intorder="1">Run2Hgg2018</bcf:citekey>
+    <bcf:citekey order="136" intorder="1">OfflineReco2021</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

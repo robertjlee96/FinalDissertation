@@ -16,6 +16,7 @@
 \usepackage{amsmath}
 \usepackage{mathtools}
 \usepackage{float}
+\usepackage{bm}
 \usepackage[breaklinks=true,pdfborder={0 0 0}]{hyperref}
 \usepackage{graphicx}
 \usepackage{upgreek}
@@ -172,7 +173,9 @@ Since the discovery of the Higgs boson in 2012, the Large Hadron Collider has un
 
 This software is constructed using a layered approach, where each subsequent step in the processing of the data serves to further reduce the total ammount of data events being analyzed, while, ideally, preserving as many events considered signal as possible. The first stages of this data reduction are achieved by a set of triggers. These triggers are relatively coarse-grain, seeking to reject the most obvious background events and thereby reduce the amount of data being stored and analyzed by three to four orders of magnitude. Of course, given the large number of different final states of the Higgs boson decay, many different triggers must be developed to dig out the specific signal signature required for a specific analysis. Once these triggers are applied, further analysis software is used on the resulting data to produce final results of the measurements of the various properies of the desired physics process. 
 
-The goal of this paper is to examine the improvement of a specific set of these triggers and analysis-level cuts. While many channels of Higgs boson decay exist, the decay into two photons has been proven to be a major component of the analysis of the Higgs boson; this process provides a relatively clean decay signature, and occurs at a high enough rate to provide ample statistics for analysis.
+The goal of this paper is to examine the improvement of a specific set of these triggers and analysis-level cuts. While many channels of Higgs boson decay exist, the decay into two photons has been proven to be a major component of the analysis of the Higgs boson; this process provides a relatively clean decay signature, and occurs at a high enough rate to provide ample statistics for analysis. Additionally, the diphoton channel can play a vital role in the search for diHiggs production. These lower-rate processes benefit greatly from improved signal efficiency, so accurate triggering is a vital component of probing both SM and beyond-SM physics.
+
+While the historical standard for triggering at the CMS experiment was to place carefully selected cuts on various measureable variables, the use of machine learning techniques has exploded over the last 10 years. Since triggering is a binary classification problem, ML techniques are exceedingly well-suited to perform the necessary selections. This paper will explore the development and application of a ML-based approach to triggering for Higgs to two photons processes at CMS. A theoretical description of the SM and Higgs Boson will be given in chapter \ref{chapter:Theory}. The CMS detector and the detector elements relevant to the development of the $H \rightarrow \gamma \gamma$ trigger will be given in chapter \ref{chapter:LHCandCMS}. The structure of CMS triggers and the software used to run and evaluate them will be discussed in chapter \ref{chapter:Software}. Chapter \ref{chapter:BDTs} will provide details on the Boosted Decision Tree ML technique, as well as the specific software used to develop one for the CMS triggering system. Chapters \ref{chapter:HLT} and \ref{chapter:OfflineSelection} will describe the development of the BDT-based trigger and a complementary downstream selection for $H \rightarrow \gamma\gamma$. Finally, chapter \ref{chapter:Results} will present the improvement in signal efficiency and data rate provided by this novel triggering approach.
 \end{dissertationintroduction}
 
 \chapter{The Standard Model and Higgs Boson} \label{chapter:Theory}
@@ -457,7 +460,7 @@ Given the incredibly low expected rate of HH production as mentioned in the prev
 
 In order to get around this low rate but still take advantage of the ease of identifying $H \rightarrow \gamma\gamma$, the decay $HH \rightarrow \bar{b}b$ can be used. $H \rightarrow \bar{b}b$ has a branching fraction of 57.63\%, but can be quite hard to separate from background given its jet-jet final state. Combining this higher-rate process, however, with the much more easy to disentangle $H \rightarrow \gamma\gamma$ process, however, provides the best possible compromise between rate and ease of identification. 
 
-\chapter{The LHC and CMS Detector}
+\chapter{The LHC and CMS Detector} \label{chapter:LHCandCMS}
 \section{The Large Hadron Collider}
 The Large Hadron Collider, which replaced the prexisting Large Electron-Positron Collider, was constructed between 2000 and 2008. Designed to reach new energy fronteirs by colliding protons at up to 14 TeV, the LHC provided particles physicists with their most powerful tool yet to test the Standard Model and beyond. At the most basic level, these proton-proton collisions are achieved by crossing two counter-rotating proton beams at specific points. These counter-rotating beams are accelerated along the 26.7 km circumference of the LHC within a tunnel of 3.7 m internal diameter \cite{LHC2008}. Initial designes proposed two completely separated proton beam pipes, but it became clear that the space requirements of the existing CERN tunnel (constructed for LEP) precluded this possibility. As a result, a "two-in-one" superconducting magnet design was adopted that allowed the two beams to be transported in separate magnetic coils sharing the same mechanical and cryostat space.
 
@@ -747,7 +750,7 @@ In order to achieve this massive reduction in event size, much of the low-level 
 
 \chapter{Boosted Decision Trees and XGBoost} \label{chapter:BDTs}
 The newly-proposed trigger and complementary offline selection -- discussed in chapters \ref{chapter:HLT} and \ref{chapter:OfflineSelection}, respectively -- is based on a machine learning construct called a Boosted Decision Tree (BDT). This ML method provides a robust and relatively simple algorithm for binary classification problems, which works well both with the HLT and with subsequent offline classification and event selection. The theoretical details and structure of BDTs is described in section \ref{sec:BDTBasics}. The software package XGBoost (short for eXtreme Gradient Boosting) will be used for both the creation and evaluation of the BDTs employed at the trigger and offline analysis levels. This software is described in more detail in section \ref{sec:XGBoost}.
-\section{Gradient Descent Boosting} \label{sec:BDTBasics}
+\section{Tree Boosting Basics} \label{sec:BDTBasics}
 The original description of boosted decision trees and gradient descent boosting is described in "Greedy Function Approximation: A Gradient Boosting Machine" by Jerome H. Friedman \cite{BDTPaper}. The following section is largely based on this seminal paper, with emphasis placed on the facets of the technique most relevant to this paper. 
 
 At its core, a binary classification problem is a function estimation problem; a function must be constructed that maps some input values onto a single output score. The general parlance is to label the input variables for a single event as $\vec{x} = \{x_1, x_2, ... x_n\}$, where n is the total number of selected input values. The output, however, is a single score, usually labeled $y$. There exists some theoretical function, $F^{*}(\vec{x})$ that directly maps $\vec{x}$ onto $y$. This function cannot be known exactly for problems of moderate complexity, so an estimate of this function, $\hat{F}(\vec{x})$, is the goal of the gradient boosting process. 
@@ -757,8 +760,46 @@ To quantify how closely the approximation $\hat{F}(\vec{x})$ follows the true $F
     F^{*} = \underset{F}{min} \: E_{y,\vec{x}}[L(y,F(\vec{x}))]
 \end{equation}
 
-\section{The Objective Function} \label{sec:Objective Function}
-\section{XGBoost Software} \label{sec:XGBoost}
+Functional approximation is a rich and complex field with many possible approaches. So-called "additive" approaches often tend to be both conceptually and computationally simple. In this approach, the total mapping function can be built iteratively as a sum of many simpler functions with well-understood parameters. These functions can be combined as a linear combination with a weight, $\beta$, applied to each of the simple functions. The generic functions being added together, in the case of a boosted decision tree, is an individual regression tree \cite{BDTPaper}. Terming these generic regression functions as $h(\vec{x},\vec{a_m})$, where $\vec{a_m}$ are the chosen parameters for the individual regression tree allows the function defined in \ref{eqn:FriedmanOverallFunction} to be rewritten as given in equation \ref{eqn:BDTLinearCombination}.
+
+\begin{equation}\label{eqn:BDTLinearCombination}
+    F(\vec{x};\{\beta_m,\vec{a_m}\}) = \sum_{m=1}^{M} \beta_m h(\vec{x};\vec{a_m})
+\end{equation}
+
+So, then, the goal of the BDT algorithm is no longer to find a functional form that best approximates the mapping function between the inputs and an output score. Instead, with the functional form of h selected as a regression tree, the parameters for each tree, $\vec{a_m}$, and the weights used in adding the trees together, $\beta_m$, must be optimized. This addative approach underpins the methods used by the software package XGBoost, described in the next section.
+% The problem, then, can be mathematically reframed. Instead, an optimized parameter set, $\vec{P^*}$, must be found where $\vec{P^*}$ minimizes the loss function. This parameter set can be expressed as in equation \ref{eqn:OptimizedParameterSet}.
+
+% \begin{equation}\label{eqn:OptimizedParameterSet}
+%     \vec{P^*} = \underset{\vec{P}}{min} \Phi(\vec{P}) \hspace{2cm} \Phi(\vec{P}) \equiv E_{y,\vec{x}} L(y, F(\vec{x};\vec{P}))
+% \end{equation}
+
+% How, though, are the parameters, $\vec{P}$ optimized? This is where the iterative nature of the BDT method comes into play. One can begin with some initial guess for the parameters, $p_0$. Then, M steps can be taken towards optimization (each step being termed a boost). These M steps, each of which can be denoted as $\vec{p_m}$, are taken with some optimization process as will be described next. The optimal parameter configuration, $\vec{P^*}$, can then be written as in equation \ref{eqn:OptimizedParams}.
+
+% \begin{equation}\label{eqn:OptimizedParams}
+%     \vec{P^*} = \sum_{m=1}^{M} \vec{p_m}
+% \end{equation}
+
+\section{XGBoost Software and Binary Classification} \label{sec:XGBoost}
+
+XGBoost is a standard software package for ML methods. Specifically, an HLT must generate a decision on whether to keep or discard and event being evaluated. As a result, triggering is a binary classification problem. The goal, then, is to map the input features for each event, $\vec{x_i}$, onto a label for each event, $y_i$. For a binary classification problem, these $y_i$ values are a label of 0 or 1, denoting the two possible classes (in the case of triggering, these cases are 0 for background and 1 for signal). To arrive at a final yes or no decision on each event, the BDT must generate a prediction, $\hat{y_i}$, for each event given the input features $\vec{x_i}$. Within XGBoost, this prediction can be given as a score between 0 and 1. This score can be understood as the probability that the chosen event is in the signal class. A value of 0 means a predicted 0\% probability of the event being signal (thereby meaning the event is certainly background), whereas a score of 1 means a predicted 100\% probability of the event being signal. In practice, most scores will lie somewhere between these two extremes. As a result, some threshold can be placed on these output scores to separate signal and background. So, even though XGBoost will output a continuous score between 0 and 1, this threshold (called a score cut) converts this continuous variable into a binary decision on whether to keep or discard and event.
+
+As with the description in the previous section, XGBoost uses a linear combination of so-called decision trees. The full space of possible decision trees is often referred to as the set of classification and regression trees (CART) \cite{BDTPaper}. Individual instances of functions within the CART can be denoted $f_k(\vec{x})$, where k ranges the number of functions employed, and the vector $\vec{x}$ still contains all of the input variables chosen for the model. The output decision scores can then be mathematically expressed as given in equation \ref{eqn:GeneralPrediction} (note the similarity to equation \ref{eqn:BDTLinearCombination}). Of note is the fact that this value is not explicitly normalized; in fact, these predictions may sum to any arbitrary positive or negative value \cite{XGBoostDocumentation}. In section \ref{sec:SciKitLearn}, it will be described how the sci-kit learn function allows the normalization of the scores and the output of a probability score between 0 and 1.
+
+\begin{equation}\label{eqn:GeneralPrediction}
+    \hat{y_i} = \sum_{k=1}^{K} f_k(\vec{x_i})
+\end{equation}
+
+\subsection{The Objective Function} \label{sec:ObjectiveFunction}
+While the loss function alone, employed in equation \ref{eqn:FriedmanOverallFunction}, is a good starting point for function approximation, it does not capture all the necessary complexity of a software-based algorithm. Instead, a so-called objective function can be constructed \cite{XGBoostPaper} \cite{XGBoostDocumentation}. The objective function begins from a chosen loss function as before. An additional term, called a regularization term, is added to the objective function to penalize overly-complex models. This works toward two aims: so-called overfitting must be avoided, as finding a final functional form that too closely fits the input data reduces the generalizability of the model; the penalization of model complexity further works to ensure that the software selects the simplest possible tree structure to achieve the desired accuracy. Since ML algorithms are, in practice, deployed on finite computational resources, penalizing overly complex models is necessary.
+
+The new objective function can then be written as shown in equation \ref{eqn:BasicObjective} \cite{XGBoostPaper}.
+
+
+\begin{equation}\label{eqn:BDTLinearCombination}
+    obj(vec{\theta}) = L(vec{\theta}) + \Omega(\vec{\theta})
+\end{equation}
+
+\subsection{SciKit-Learn Implementation of XGBoost} \label{sec:SciKitLearn}
 
 
 \chapter{Development of an MVA-Based High Level Trigger}\label{chapter:HLT}
