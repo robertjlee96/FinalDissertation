@@ -628,6 +628,26 @@ INPUT ./Figures/Run3RatesAndTimings.png
 INPUT ./Figures/Run3RatesAndTimings.png
 INPUT ./Figures/Run3RatesAndTimings.png
 INPUT ./Figures/Run3RatesAndTimings.png
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omsptm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omsptm.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omsptm.fd
+INPUT ./Figures/IndividualDecisionTreeSchematic.png
+INPUT ./Figures/IndividualDecisionTreeSchematic.png
+INPUT ./Figures/IndividualDecisionTreeSchematic.png
+INPUT ./Figures/IndividualDecisionTreeSchematic.png
+INPUT ./Figures/IndividualDecisionTreeSchematic.png
+INPUT ./Figures/CombinedDecisionTreeSchematic.png
+INPUT ./Figures/CombinedDecisionTreeSchematic.png
+INPUT ./Figures/CombinedDecisionTreeSchematic.png
+INPUT ./Figures/CombinedDecisionTreeSchematic.png
+INPUT ./Figures/CombinedDecisionTreeSchematic.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
 INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png

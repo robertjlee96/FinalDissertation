@@ -755,7 +755,7 @@ The original description of boosted decision trees and gradient descent boosting
 
 At its core, a binary classification problem is a function estimation problem; a function must be constructed that maps some input values onto a single output score. The general parlance is to label the input variables for a single event as $\vec{x} = \{x_1, x_2, ... x_n\}$, where n is the total number of selected input values. The output, however, is a single score, usually labeled $y$. There exists some theoretical function, $F^{*}(\vec{x})$ that directly maps $\vec{x}$ onto $y$. This function cannot be known exactly for problems of moderate complexity, so an estimate of this function, $\hat{F}(\vec{x})$, is the goal of the gradient boosting process. 
 
-To quantify how closely the approximation $\hat{F}(\vec{x})$ follows the true $F^{*}(\vec{x})$, some loss function must be defined. There are many forms of loss function, as will be described in section \ref{sec:Objective Function}. The loss function is termed $L(y,F(\vec{x}))$, meaning that  it quantifies how closely the approximate points, $F(\vec{x})$ , follow the true classification values of the events, $y$. Given these definitions, the goal of the BDT algorithm can be written as given by Friedman \cite{BDTPaper}.
+To quantify how closely the approximation $\hat{F}(\vec{x})$ follows the true $F^{*}(\vec{x})$, some loss function must be defined. There are many forms of loss function, as will be described in section \ref{sec:ObjectiveFunction}. The loss function is termed $L(y,F(\vec{x}))$, meaning that  it quantifies how closely the approximate points, $F(\vec{x})$ , follow the true classification values of the events, $y$. Given these definitions, the goal of the BDT algorithm can be written as given by Friedman \cite{BDTPaper}.
 \begin{equation}\label{eqn:FriedmanOverallFunction}
     F^{*} = \underset{F}{min} \: E_{y,\vec{x}}[L(y,F(\vec{x}))]
 \end{equation}
@@ -783,24 +783,87 @@ So, then, the goal of the BDT algorithm is no longer to find a functional form t
 
 XGBoost is a standard software package for ML methods. Specifically, an HLT must generate a decision on whether to keep or discard and event being evaluated. As a result, triggering is a binary classification problem. The goal, then, is to map the input features for each event, $\vec{x_i}$, onto a label for each event, $y_i$. For a binary classification problem, these $y_i$ values are a label of 0 or 1, denoting the two possible classes (in the case of triggering, these cases are 0 for background and 1 for signal). To arrive at a final yes or no decision on each event, the BDT must generate a prediction, $\hat{y_i}$, for each event given the input features $\vec{x_i}$. Within XGBoost, this prediction can be given as a score between 0 and 1. This score can be understood as the probability that the chosen event is in the signal class. A value of 0 means a predicted 0\% probability of the event being signal (thereby meaning the event is certainly background), whereas a score of 1 means a predicted 100\% probability of the event being signal. In practice, most scores will lie somewhere between these two extremes. As a result, some threshold can be placed on these output scores to separate signal and background. So, even though XGBoost will output a continuous score between 0 and 1, this threshold (called a score cut) converts this continuous variable into a binary decision on whether to keep or discard and event.
 
-As with the description in the previous section, XGBoost uses a linear combination of so-called decision trees. The full space of possible decision trees is often referred to as the set of classification and regression trees (CART) \cite{BDTPaper}. Individual instances of functions within the CART can be denoted $f_k(\vec{x})$, where k ranges the number of functions employed, and the vector $\vec{x}$ still contains all of the input variables chosen for the model. The output decision scores can then be mathematically expressed as given in equation \ref{eqn:GeneralPrediction} (note the similarity to equation \ref{eqn:BDTLinearCombination}). Of note is the fact that this value is not explicitly normalized; in fact, these predictions may sum to any arbitrary positive or negative value \cite{XGBoostDocumentation}. In section \ref{sec:SciKitLearn}, it will be described how the sci-kit learn function allows the normalization of the scores and the output of a probability score between 0 and 1.
+As with the description in the previous section, XGBoost uses a linear combination of so-called decision trees. The full space of possible decision trees is often referred to as the set of classification and regression trees (CART) \cite{BDTPaper}. Individual instances of functions within the CART can be denoted $f_k(\vec{x})$, where k ranges the number of functions employed, and the vector $\vec{x}$ still contains all of the input variables chosen for the model. The output decision scores can then be mathematically expressed as given in equation \ref{eqn:GeneralPrediction} (note the similarity to equation \ref{eqn:BDTLinearCombination}). Of note is the fact that this value is not explicitly normalized; in fact, these predictions may sum to any arbitrary positive or negative value \cite{XGBoostDocumentation}. Normalization and transformation of these scores into a probability must be done to provide the appropriate output, which is handled by XGBoost and the SciKit-Learn package.
 
 \begin{equation}\label{eqn:GeneralPrediction}
     \hat{y_i} = \sum_{k=1}^{K} f_k(\vec{x_i})
 \end{equation}
 
+While a very simple task may be accomplished with a single decision tree, a complex model can be constructed with what is known as a tree ensemble. In order to understand this linear combination of decision trees, of course, the individual decision tree must first be understood. A very basic schematic approach can first be taken. A decision tree is so called due to its branching structure. Essentially, a decision tree functions like a flow chart. Each "node" of the tree is essentially a question with a yes or no answer. If the answer is yes, the chart splits in one direction to the next node whereas an answer of no splits the chart to a different node. This branching structure allows relatively complex decisions to be made with relatively simple individual nodes. The more layers of nodes are nested together, the more complex the model becomes. In figure \ref{fig:SingleDTNode}, a very simple schematic of a two-layer decision tree can be seen. In this schematic, the input features, $\vec{x_i}$, are probed by each node. The features for this tree could be denoted as $\vec{x_i} = $= \{age, gender\}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{./Figures/IndividualDecisionTreeSchematic.png}
+	\caption{A very simple schematic of a single decision tree. Each question, called a node, employs an individual feature of the input data to determine which of the next nodes should be traversed. The weights applied by the nodes can be seen under each classification group. Reproduced from \cite{XGBoostPaper}.}
+	\label{fig:SingleDTNode}
+\end{figure}
+
+This schematic shows not only the basic structure of a decision tree, but also the mathematical weights assigned by the decision tree. So, then, by using the inputs $\vec{x_i}$, the score of the tree can then be given by $\hat{y_{i,k}} = f_k(\vec{x_i})$ as in equation \ref{eqn:GeneralPrediction}. Of course, the ensemble will consist of a number of such trees, such that the total weight will be assigned by the linear combination of individual tree weights. Schematically, this can be shown in figure \ref{fig:TreeEnsemble}, which has been reproduced from \cite{XGBoostPaper}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\linewidth]{./Figures/CombinedDecisionTreeSchematic.png}
+	\caption{A very simple schematic of an ensemble of two decision trees. Each tree assigns a weight given by $f_k{\vec{x_i}}$, and these weights can be summed for each input member, i, to render the final event score. Reproduced from \cite{XGBoostPaper}.}
+	\label{fig:TreeEnsemble}
+\end{figure}
+
+Of course, the determination of the weights at each node must be optimized. In addition, the number of trees and the overall comlplexity of these trees must be quantified and optimized for the specific problem at hand. This leads to the implementation of an objective function, described in the next section.
+
 \subsection{The Objective Function} \label{sec:ObjectiveFunction}
 While the loss function alone, employed in equation \ref{eqn:FriedmanOverallFunction}, is a good starting point for function approximation, it does not capture all the necessary complexity of a software-based algorithm. Instead, a so-called objective function can be constructed \cite{XGBoostPaper} \cite{XGBoostDocumentation}. The objective function begins from a chosen loss function as before. An additional term, called a regularization term, is added to the objective function to penalize overly-complex models. This works toward two aims: so-called overfitting must be avoided, as finding a final functional form that too closely fits the input data reduces the generalizability of the model; the penalization of model complexity further works to ensure that the software selects the simplest possible tree structure to achieve the desired accuracy. Since ML algorithms are, in practice, deployed on finite computational resources, penalizing overly complex models is necessary.
 
-The new objective function can then be written as shown in equation \ref{eqn:BasicObjective} \cite{XGBoostPaper}.
-
-
-\begin{equation}\label{eqn:BDTLinearCombination}
-    obj(vec{\theta}) = L(vec{\theta}) + \Omega(\vec{\theta})
+\begin{equation}\label{eqn:BasicObjective}
+    obj(\vec{\theta}) = L(\vec{\theta}) + \Omega(\vec{\theta})
 \end{equation}
 
-\subsection{SciKit-Learn Implementation of XGBoost} \label{sec:SciKitLearn}
+The new objective function can then be written schematically as shown in equation \ref{eqn:BasicObjective} \cite{XGBoostPaper}. Here, $L(\vec{\theta})$ is a loss function, and $\Omega(\vec{\theta})$ is the regularization term. Beginning with the loss function, a form must be selected. While the mean squared error is a common option, so-called logistic loss is commonly used in binary classification. The form of this loss function can be seen below in equation \ref{eqn:LogisticLoss} \cite{XGBoostDocumentation}. 
 
+% \begin{equation}\label{eqn:LogisticLoss}
+%     L(\vec{\theta}) = \sum_{i} [y_i ln(1 + e^{- \hat{y_i}}) + (1-y_i)ln(1 + e^{\hat{y_i}})]
+% \end{equation}
+
+% So, for each data point, the closeness of the predicted probability is compared to the actual label. Immediately, it can be seen that this logistic loss ascribes a very high loss value for predictions that vary considerably from the true label of an event. In the case where $\hat{y_i} = y_i$, the loss function is minimized (as one would hope). For 
+
+While the loss function concerns itself with individual data points, the regularization term concerns itself with each decision tree in the ensemble. So, The loss function will be summed over all data points, whereas the regularization will be summed over each tree in the ensemble. If we take the functions within the CART space, $f_k(\vec{x_i})$ as in equation \ref{eqn:GeneralPrediction}, we can then express the overall objective function more concretely as equation \ref{eqn:ImprovedObjective} \cite{XGBoostDocumentation}.
+
+\begin{equation}\label{eqn:ImprovedObjective}
+    obj(\vec{\theta}) = \sum_{i=1}^{n} L(y_i, \hat{y_i}^{(t)}) + \sum_{k= 1}^{t} \omega(f_k)
+\end{equation}
+
+Where n is the total number of data points and t is the total number of individual trees in the ensemble. In this new formulation, $\omega{f_k}$ is referred to as the complexity score of the model -- simpler decision trees will have a lower complexity score. While a more complex model will likely lower the loss function, it will also raise the complexity score of the trees and therefore may not necessarily minimize the objective function. This objective function, then, must be minimized; the inclusion of both the loss and regularization term allows the optimal balance between accuracy and complexity to be reached.  
+
+In equation \ref{eqn:ImprovedObjective}, one can notice that the prediction has been given a superscript (t). This prediction, $\hat{y_i}^{(t)}$ denotes the predicted value at the $t^{th}$ step in the training process. In XGBoost, each step t introduces one additional decision tree to the ensemble. This addative process leads to two different avenues to control the complexity of the model; each individual decision tree may have fewer nodes, or the total number of trees may be reduced. The prediction score at each step can then by built up iteration by iteration. A starting point is chosen, then each additional tree added to the ensemble seeks to further refine the model. Of course, the parameters of each tree, $\vec{\theta}$, can be optimized at each step to minimize the objective function. This additive approach is shown iteratively in equation \ref{eqn:AdditiveTrees}, where the connection to the previous definition in equation \ref{eqn:GeneralPrediction} is obvious. 
+
+\begin{equation}\label{eqn:AdditiveTrees}
+    \begin{split}
+        \hat{y_i}^{(0)} = 0 \\
+        \hat{y_i}^{(1)} = f_1(\vec{x_i}) = \hat{y_i}^{(0)} + f_1(\vec{x_i}) \\
+		\hat{y_i}^{(2)} = f_1(\vec{x_i}) + f_2(\vec{x_i})= \hat{y_i}^{(1)} + f_2(\vec{x_i}) \\
+		... \\
+		\hat{y_i}^{(t)} = \sum_{k}^{t} f_k(\vec{x_i}) = \hat{y_i}^{(t-1)} + f_t(\vec{x_i})
+    \end{split}
+\end{equation}
+
+Combining this with the defintion of the objective function in equation \ref{eqn:ImprovedObjective} gets to the heart of the XGBoost boosted decision tree algorithm; at each iterative step, a new tree must be added that seeks to further minimize the objective function. To best elucidate the iterative construction of an optimized tree, the objective function at each step must be quantified. The definition of the $t^{th}$ prediction given in equation \ref{eqn:AdditiveTrees} can then be added to the definition of the objective function given in equation \ref{eqn:ImprovedObjective}. This yields the expression in equation \ref{eqn:IterativeObjective}.
+
+\begin{equation}\label{eqn:IterativeObjective}
+    obj(\vec{\theta})^{(t)} = \sum_{i=1}^{n} L(y_i, \hat{y_i}^{(t-1)} + f_t(\vec{x_i})) + \sum_{k= 1}^{t} \omega(f_k)
+\end{equation}
+
+(ASK! How can we reduce the sum over omega(fk) to just omega(ft) + constant??)
+
+Now, of course, the loss and regularization terms must be defined and understood such that the objective at each step can be concretely defined in terms of the model parameters, $\vec{\theta}$. For the case of a logistic loss, an analytical form of the iterative loss function is rather complex, espectially if a summation over it is desired. Instead, the taylor expansion of the loss function can be employed. It is generally a sound procedure to only keep up to the quadratic term in the taylor expansion \cite{XGBoostPaper}. The expansion up to the quadratic term can be seen in equation \ref{eqn:IterativeObjectiveTE}. As they will be used in subsequent steps, the first and second derivative terms are defined as $g_i$ and $h_i$, respectively (as seen in equation \ref{eqn:TETerms}).
+
+\begin{equation}\label{eqn:IterativeObjectiveTE}
+    obj(\vec{\theta})^{(t)} = \sum_{i=1}^{n} [L(y_i, \hat{y_i}^{(t-1)}) + g_i f_t(\vec{x_i}) + \frac{1}{2} h_i f^2_t(\vec{x_i})] + \sum_{k= 1}^{t} \omega(f_k)
+\end{equation}
+
+\begin{equation}\label{eqn:TETerms}
+    \begin{split}
+        g_i = \partial_{\hat{y_i}^{(t-1)}} L(y_i, \hat{y_i}^{(t-1)})\\
+        h_i = \partial_{\hat{y_i}^{(t-1)}} L(y_i, \hat{y_i}^{(t-1)})
+    \end{split}
+\end{equation}
 
 \chapter{Development of an MVA-Based High Level Trigger}\label{chapter:HLT}
 \section{Limitations and Benefits of Current $H \rightarrow \gamma \gamma$ Trigger} 
