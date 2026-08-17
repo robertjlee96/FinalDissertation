@@ -2511,28 +2511,28 @@
     \endentry
     \entry{FeynmanRules}{article}{}{}
       \name{author}{2}{}{%
-        {{hash=56f04375d467aea87fffb1eac7f15671}{%
-           family={ROMÃO},
+        {{hash=b9f5b2d8ed0d8e363e5aa674900f89f0}{%
+           family={Romao},
            familyi={R\bibinitperiod},
-           given={JORGE\bibnamedelima C.},
+           given={Jorge\bibnamedelima C.},
            giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=ea917f23982ce455139d15fe26afc4ab}{%
-           family={SILVA},
+        {{hash=cdc38206ff4acfcf97598aad1ce20f72}{%
+           family={Silva},
            familyi={S\bibinitperiod},
-           given={JOÃO\bibnamedelima P.},
+           given={Joao\bibnamedelima P.},
            giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {World Scientific Pub Co Pte Ltd}%
       }
-      \strng{namehash}{81970782eb91dc443c12fe8cf3c0fc40}
-      \strng{fullhash}{81970782eb91dc443c12fe8cf3c0fc40}
-      \strng{fullhashraw}{81970782eb91dc443c12fe8cf3c0fc40}
-      \strng{bibnamehash}{81970782eb91dc443c12fe8cf3c0fc40}
-      \strng{authorbibnamehash}{81970782eb91dc443c12fe8cf3c0fc40}
-      \strng{authornamehash}{81970782eb91dc443c12fe8cf3c0fc40}
-      \strng{authorfullhash}{81970782eb91dc443c12fe8cf3c0fc40}
-      \strng{authorfullhashraw}{81970782eb91dc443c12fe8cf3c0fc40}
+      \strng{namehash}{5ea3910b5073ea03ec5404b3776a8848}
+      \strng{fullhash}{5ea3910b5073ea03ec5404b3776a8848}
+      \strng{fullhashraw}{5ea3910b5073ea03ec5404b3776a8848}
+      \strng{bibnamehash}{5ea3910b5073ea03ec5404b3776a8848}
+      \strng{authorbibnamehash}{5ea3910b5073ea03ec5404b3776a8848}
+      \strng{authornamehash}{5ea3910b5073ea03ec5404b3776a8848}
+      \strng{authorfullhash}{5ea3910b5073ea03ec5404b3776a8848}
+      \strng{authorfullhashraw}{5ea3910b5073ea03ec5404b3776a8848}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labelnamesource}{author}
@@ -2541,7 +2541,7 @@
       \field{journaltitle}{International Journal of Modern Physics A}
       \field{month}{10}
       \field{number}{26}
-      \field{title}{A RESOURCE FOR SIGNS AND FEYNMAN DIAGRAMS OF THE STANDARD MODEL}
+      \field{title}{A Resource for Signs and Feynman Diagrams of the Standard Model}
       \field{volume}{27}
       \field{year}{2012}
       \field{pages}{1230025}
