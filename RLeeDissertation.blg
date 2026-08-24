@@ -1,24 +1,24 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'RLeeDissertation.blg'
-[33] biber-darwin:342> INFO - === Mon Aug 17, 2026, 16:29:11
-[40] Biber.pm:421> INFO - Reading 'RLeeDissertation.bcf'
-[84] Biber.pm:1002> INFO - Found 33 citekeys in bib section 0
-[90] Biber.pm:4487> INFO - Processing section 0
-[95] Biber.pm:4678> INFO - Looking for bibtex file 'RLeeDissertation.bib' for section 0
-[96] bibtex.pm:1713> INFO - LaTeX decoding ...
-[115] bibtex.pm:1519> INFO - Found BibTeX data source 'RLeeDissertation.bib'
-[346] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[346] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[346] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[346] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[364] bbl.pm:676> INFO - Writing 'RLeeDissertation.bbl' with encoding 'UTF-8'
-[392] bbl.pm:779> INFO - Output to RLeeDissertation.bbl
-[392] Biber.pm:132> WARN - ISBN '9789819515134' in entry 'Run3HLTPerformanceConference' is invalid - run biber with '--validate_datamodel' for details.
-[392] Biber.pm:132> WARN - BibTeX subsystem: /var/folders/r6/9pwysdzn4654jtzwfcz39mqr0000gn/T/biber_tmp_zNAV/18e7467c24fdd6a9024a36606a17de6a_10806.utf8, line 11, warning: undefined macro "July"
-[392] Biber.pm:132> WARN - BibTeX subsystem: /var/folders/r6/9pwysdzn4654jtzwfcz39mqr0000gn/T/biber_tmp_zNAV/18e7467c24fdd6a9024a36606a17de6a_10806.utf8, line 25, warning: undefined macro "August"
-[393] Biber.pm:132> WARN - BibTeX subsystem: /var/folders/r6/9pwysdzn4654jtzwfcz39mqr0000gn/T/biber_tmp_zNAV/18e7467c24fdd6a9024a36606a17de6a_10806.utf8, line 75, warning: undefined macro "June"
-[393] Biber.pm:132> WARN - BibTeX subsystem: /var/folders/r6/9pwysdzn4654jtzwfcz39mqr0000gn/T/biber_tmp_zNAV/18e7467c24fdd6a9024a36606a17de6a_10806.utf8, line 102, warning: undefined macro "August"
-[393] Biber.pm:132> WARN - BibTeX subsystem: /var/folders/r6/9pwysdzn4654jtzwfcz39mqr0000gn/T/biber_tmp_zNAV/18e7467c24fdd6a9024a36606a17de6a_10806.utf8, line 114, warning: undefined macro "August"
-[393] Biber.pm:132> WARN - BibTeX subsystem: /var/folders/r6/9pwysdzn4654jtzwfcz39mqr0000gn/T/biber_tmp_zNAV/18e7467c24fdd6a9024a36606a17de6a_10806.utf8, line 246, warning: undefined macro "July"
-[393] Biber.pm:132> WARN - BibTeX subsystem: /var/folders/r6/9pwysdzn4654jtzwfcz39mqr0000gn/T/biber_tmp_zNAV/18e7467c24fdd6a9024a36606a17de6a_10806.utf8, line 380, warning: undefined macro "July"
-[393] Biber.pm:134> INFO - WARNINGS: 8
+[34] biber-darwin:342> INFO - === Sun Aug 23, 2026, 11:38:07
+[41] Biber.pm:421> INFO - Reading 'RLeeDissertation.bcf'
+[87] Biber.pm:1002> INFO - Found 33 citekeys in bib section 0
+[93] Biber.pm:4487> INFO - Processing section 0
+[97] Biber.pm:4678> INFO - Looking for bibtex file 'RLeeDissertation.bib' for section 0
+[98] bibtex.pm:1713> INFO - LaTeX decoding ...
+[118] bibtex.pm:1519> INFO - Found BibTeX data source 'RLeeDissertation.bib'
+[336] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[336] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[336] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[336] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[354] bbl.pm:676> INFO - Writing 'RLeeDissertation.bbl' with encoding 'UTF-8'
+[380] bbl.pm:779> INFO - Output to RLeeDissertation.bbl
+[380] Biber.pm:132> WARN - ISBN '9789819515134' in entry 'Run3HLTPerformanceConference' is invalid - run biber with '--validate_datamodel' for details.
+[380] Biber.pm:132> WARN - BibTeX subsystem: /var/folders/r6/9pwysdzn4654jtzwfcz39mqr0000gn/T/biber_tmp_6KAS/18e7467c24fdd6a9024a36606a17de6a_18669.utf8, line 11, warning: undefined macro "July"
+[380] Biber.pm:132> WARN - BibTeX subsystem: /var/folders/r6/9pwysdzn4654jtzwfcz39mqr0000gn/T/biber_tmp_6KAS/18e7467c24fdd6a9024a36606a17de6a_18669.utf8, line 25, warning: undefined macro "August"
+[380] Biber.pm:132> WARN - BibTeX subsystem: /var/folders/r6/9pwysdzn4654jtzwfcz39mqr0000gn/T/biber_tmp_6KAS/18e7467c24fdd6a9024a36606a17de6a_18669.utf8, line 75, warning: undefined macro "June"
+[380] Biber.pm:132> WARN - BibTeX subsystem: /var/folders/r6/9pwysdzn4654jtzwfcz39mqr0000gn/T/biber_tmp_6KAS/18e7467c24fdd6a9024a36606a17de6a_18669.utf8, line 102, warning: undefined macro "August"
+[380] Biber.pm:132> WARN - BibTeX subsystem: /var/folders/r6/9pwysdzn4654jtzwfcz39mqr0000gn/T/biber_tmp_6KAS/18e7467c24fdd6a9024a36606a17de6a_18669.utf8, line 114, warning: undefined macro "August"
+[380] Biber.pm:132> WARN - BibTeX subsystem: /var/folders/r6/9pwysdzn4654jtzwfcz39mqr0000gn/T/biber_tmp_6KAS/18e7467c24fdd6a9024a36606a17de6a_18669.utf8, line 246, warning: undefined macro "July"
+[380] Biber.pm:132> WARN - BibTeX subsystem: /var/folders/r6/9pwysdzn4654jtzwfcz39mqr0000gn/T/biber_tmp_6KAS/18e7467c24fdd6a9024a36606a17de6a_18669.utf8, line 380, warning: undefined macro "July"
+[380] Biber.pm:134> INFO - WARNINGS: 8
