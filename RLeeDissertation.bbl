@@ -98,6 +98,42 @@
       \verb http://dx.doi.org/10.1088/0954-3899/31/9/n01
       \endverb
     \endentry
+    \entry{LHCPRun3TriggerReport}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=d3393b0cf7d9fda6b8bdf1bcb0b65ce3}{%
+           family={Aruta},
+           familyi={A\bibinitperiod},
+           given={Caterina},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \strng{namehash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
+      \strng{fullhash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
+      \strng{fullhashraw}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
+      \strng{bibnamehash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
+      \strng{authorbibnamehash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
+      \strng{authornamehash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
+      \strng{authorfullhash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
+      \strng{authorfullhashraw}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Strategies and performances of the CMS trigger in Run 3}}
+      \field{type}{techreport}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2944714
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2944714
+      \endverb
+    \endentry
     \entry{HiggsCrossSection}{article}{}{}
       \name{author}{1}{}{%
         {{hash=350ae988c85cf1a13c8cc0d38f28d0ee}{%
