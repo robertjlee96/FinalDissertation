@@ -1,0 +1,14 @@
+\babel@toc {english}{}\relax 
+\contentsline {table}{\numberline {1.1}{\ignorespaces Table showing the calculated cross-sections (in pb) of the single Higgs boson production modes for $\sqrt {s} = 13$ TeV. This data has been taken from \blx@tocontentsinit {0}\cite {HiggsCrossSection}.}}{19}{table.caption.13}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces Table showing the theoretical branching fractions of various Higgs decay channels at $\sqrt {s} = 13$ TeV. This data has been taken from \blx@tocontentsinit {0}\cite {HiggsCrossSection}.}}{21}{table.caption.16}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Table showing the cuts applied by the standard diphoton HLT for $H \rightarrow \gamma \gamma $. The track isolation cut is only applied to the unseeded second leg.}}{56}{table.caption.34}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Table of BDT input variable names, and a short description of each.}}{82}{table.caption.39}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Chosen score cuts for BB and EE events}}{90}{table.caption.45}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Signal efficiencies and background acceptances for both triggers, broken down by diphoton $\eta _{sc}$}}{98}{table.caption.51}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Table showing the cuts applied by the standard preselection for $H \rightarrow \gamma \gamma $.}}{101}{table.caption.52}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Table of input variable names for the offline $\gamma + Jet$ MVA, and a short description of each. The final two variables are only used for training the endcap.}}{103}{table.caption.53}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Table of diphoton BDT input variable names, and a short description of each.}}{125}{table.caption.73}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces $H \rightarrow \gamma \gamma $ signal efficiencies and background acceptances for both triggers, broken down by the location of each photon candidate in $\eta _{sc}$.}}{152}{table.caption.100}%
+\contentsline {table}{\numberline {7.2}{\ignorespaces $HH \rightarrow b \bar {b} \gamma \gamma $ signal efficiencies and background acceptances for both triggers, broken down by the location of each photon candidate in $\eta _{sc}$.}}{155}{table.caption.104}%
+\contentsline {table}{\numberline {7.3}{\ignorespaces $H \rightarrow \gamma \gamma $ signal efficiencies and background acceptances for both offline selections, broken down by the location of each photon candidate in $\eta _{sc}$}}{162}{table.caption.108}%
+\contentsline {table}{\numberline {7.4}{\ignorespaces $HH \rightarrow b \bar {b} \gamma \gamma $ signal efficiencies and background acceptances for both offline selections, broken down by the location of each photon candidate in $\eta _{sc}$}}{165}{table.caption.112}%

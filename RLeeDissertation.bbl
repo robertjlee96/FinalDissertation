@@ -18,972 +18,7 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global/global}
-    \entry{ParkingAndScouting2024}{article}{}{}
-      \list{publisher}{1}{%
-        {Elsevier BV}%
-      }
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{issn}{0370-1573}
-      \field{journaltitle}{Physics Reports}
-      \field{month}{4}
-      \field{volume}{1115}
-      \field{year}{2025}
-      \field{pages}{678\bibrangedash 772}
-      \range{pages}{95}
-      \verb{doi}
-      \verb 10.1016/j.physrep.2024.09.006
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1016/j.physrep.2024.09.006
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1016/j.physrep.2024.09.006
-      \endverb
-    \endentry
-    \entry{GSFTracking}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=3e2872e7b083881b9e21df137964a7b5}{%
-           family={Adam},
-           familyi={A\bibinitperiod},
-           given={W},
-           giveni={W\bibinitperiod}}}%
-        {{hash=4c3042252e8d06204259c915a43511c9}{%
-           family={Frühwirth},
-           familyi={F\bibinitperiod},
-           given={R},
-           giveni={R\bibinitperiod}}}%
-        {{hash=a3bcb1bfa84780d66eb9272a8c488e23}{%
-           family={Strandlie},
-           familyi={S\bibinitperiod},
-           given={A},
-           giveni={A\bibinitperiod}}}%
-        {{hash=116925ac51245ecdcb1a91375644d045}{%
-           family={Todorov},
-           familyi={T\bibinitperiod},
-           given={T},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{8d1d4b8aafa5f124f701b79ee65cff8c}
-      \strng{fullhash}{9a7a81e179c41d0dafa4bf4e55b15dbd}
-      \strng{fullhashraw}{9a7a81e179c41d0dafa4bf4e55b15dbd}
-      \strng{bibnamehash}{8d1d4b8aafa5f124f701b79ee65cff8c}
-      \strng{authorbibnamehash}{8d1d4b8aafa5f124f701b79ee65cff8c}
-      \strng{authornamehash}{8d1d4b8aafa5f124f701b79ee65cff8c}
-      \strng{authorfullhash}{9a7a81e179c41d0dafa4bf4e55b15dbd}
-      \strng{authorfullhashraw}{9a7a81e179c41d0dafa4bf4e55b15dbd}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1361-6471}
-      \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
-      \field{number}{9}
-      \field{title}{Reconstruction of electrons with the Gaussian-sum filter in the CMS tracker at the LHC}
-      \field{volume}{31}
-      \field{year}{2005}
-      \field{pages}{N9\bibrangedash N20}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1088/0954-3899/31/9/n01
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1088/0954-3899/31/9/n01
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1088/0954-3899/31/9/n01
-      \endverb
-    \endentry
-    \entry{LHCPRun3TriggerReport}{report}{}{}
-      \name{author}{1}{}{%
-        {{hash=d3393b0cf7d9fda6b8bdf1bcb0b65ce3}{%
-           family={Aruta},
-           familyi={A\bibinitperiod},
-           given={Caterina},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {CERN}%
-      }
-      \list{location}{1}{%
-        {Geneva}%
-      }
-      \strng{namehash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
-      \strng{fullhash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
-      \strng{fullhashraw}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
-      \strng{bibnamehash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
-      \strng{authorbibnamehash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
-      \strng{authornamehash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
-      \strng{authorfullhash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
-      \strng{authorfullhashraw}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Strategies and performances of the CMS trigger in Run 3}}
-      \field{type}{techreport}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://cds.cern.ch/record/2944714
-      \endverb
-      \verb{url}
-      \verb https://cds.cern.ch/record/2944714
-      \endverb
-    \endentry
-    \entry{HiggsCrossSection}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=350ae988c85cf1a13c8cc0d38f28d0ee}{%
-           family={{CERN}},
-           familyi={C\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \list{publisher}{1}{%
-        {CERN}%
-      }
-      \strng{namehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
-      \strng{fullhash}{350ae988c85cf1a13c8cc0d38f28d0ee}
-      \strng{fullhashraw}{350ae988c85cf1a13c8cc0d38f28d0ee}
-      \strng{bibnamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
-      \strng{authorbibnamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
-      \strng{authornamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
-      \strng{authorfullhash}{350ae988c85cf1a13c8cc0d38f28d0ee}
-      \strng{authorfullhashraw}{350ae988c85cf1a13c8cc0d38f28d0ee}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{CERN Yellow Reports: Monographs, Vol 2 (2017): Handbook of LHC Higgs cross sections: 4. Deciphering the nature of the Higgs sector}
-      \field{year}{2017}
-      \verb{doi}
-      \verb 10.23731/CYRM-2017-002
-      \endverb
-      \verb{urlraw}
-      \verb https://e-publishing.cern.ch/index.php/CYRM/issue/view/32
-      \endverb
-      \verb{url}
-      \verb https://e-publishing.cern.ch/index.php/CYRM/issue/view/32
-      \endverb
-    \endentry
-    \entry{XGBoostPaper}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=48461ccdf50ba5a54e29a354aa734c0b}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Tianqi},
-           giveni={T\bibinitperiod}}}%
-        {{hash=c9ab8ac486d7f85ac914b1a8e51e512b}{%
-           family={Guestrin},
-           familyi={G\bibinitperiod},
-           given={Carlos},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{fullhash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{fullhashraw}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{bibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{authorbibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{authornamehash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{authorfullhash}{f79ceb030bcf791e5521f87ac6ada03b}
-      \strng{authorfullhashraw}{f79ceb030bcf791e5521f87ac6ada03b}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{XGBoost: A Scalable Tree Boosting System}
-      \field{year}{2016}
-      \verb{doi}
-      \verb 10.1145/2939672.2939785
-      \endverb
-      \verb{eprint}
-      \verb arXiv:1603.02754
-      \endverb
-    \endentry
-    \entry{Run3Hgg2025}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=e742ba4e105e5341464c3528b118ff41}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={CMS},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{fullhashraw}{e742ba4e105e5341464c3528b118ff41}
-      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
-      \strng{authorfullhashraw}{e742ba4e105e5341464c3528b118ff41}
-      \field{extraname}{1}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{JHEP 09 (2025) 070}
-      \field{title}{Measurements of inclusive and differential Higgs boson production cross sections at $\sqrt{s}$ = 13.6 TeV in the H $\to$ $\gamma \gamma$ decay channel}
-      \field{year}{2025}
-      \verb{doi}
-      \verb 10.1007/JHEP09(2025)070
-      \endverb
-      \verb{eprint}
-      \verb arXiv:2504.17755
-      \endverb
-    \endentry
-    \entry{PhotonReco2015}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={The\bibnamedelima CMS},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{2}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{issn}{1748-0221}
-      \field{journaltitle}{Journal of Instrumentation}
-      \field{month}{8}
-      \field{number}{08}
-      \field{volume}{10}
-      \field{year}{2015}
-      \field{pages}{P08010\bibrangedash P08010}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1088/1748-0221/10/08/p08010
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1088/1748-0221/10/08/P08010
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1088/1748-0221/10/08/P08010
-      \endverb
-    \endentry
-    \entry{CMS10YearReview}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={The\bibnamedelima CMS},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Springer Science}%
-        {Business Media LLC}%
-      }
-      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{3}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1476-4687}
-      \field{journaltitle}{Nature}
-      \field{number}{7917}
-      \field{title}{A portrait of the Higgs boson by the CMS experiment ten years after the discovery}
-      \field{volume}{607}
-      \field{year}{2022}
-      \field{pages}{1\bibrangedash 1}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1038/s41586-022-04892-x
-      \endverb
-    \endentry
-    \entry{CMS2024}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={The\bibnamedelima CMS},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{4}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1748-0221}
-      \field{journaltitle}{Journal of Instrumentation}
-      \field{month}{5}
-      \field{number}{05}
-      \field{title}{Development of the CMS detector for the CERN LHC Run 3}
-      \field{volume}{19}
-      \field{year}{2024}
-      \field{pages}{1\bibrangedash 1}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1748-0221/19/05/p05064
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1088/1748-0221/19/05/P05064
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1088/1748-0221/19/05/P05064
-      \endverb
-    \endentry
-    \entry{OfflineReco2021}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={The\bibnamedelima CMS},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{5}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1748-0221}
-      \field{journaltitle}{Journal of Instrumentation}
-      \field{month}{5}
-      \field{number}{05}
-      \field{title}{Electron and photon reconstruction and identification with the CMS experiment at the CERN LHC}
-      \field{volume}{16}
-      \field{year}{2021}
-      \field{pages}{P05014}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1088/1748-0221/16/05/p05014
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1088/1748-0221/16/05/P05014
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1088/1748-0221/16/05/P05014
-      \endverb
-    \endentry
-    \entry{Run2Hgg2018}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={The\bibnamedelima CMS},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Springer Science}%
-        {Business Media LLC}%
-      }
-      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{6}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1029-8479}
-      \field{journaltitle}{Journal of High Energy Physics}
-      \field{month}{11}
-      \field{number}{11}
-      \field{title}{Measurements of Higgs boson properties in the diphoton decay channel in proton-proton collisions at $\sqrt{s}=13$ TeV}
-      \field{volume}{2018}
-      \field{year}{2018}
-      \verb{doi}
-      \verb 10.1007/jhep11(2018)185
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1007/JHEP11(2018)185
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1007/JHEP11(2018)185
-      \endverb
-    \endentry
-    \entry{HiggsDiscovery2013}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={The\bibnamedelima CMS},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Springer Science}%
-        {Business Media LLC}%
-      }
-      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{7}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1029-8479}
-      \field{journaltitle}{Journal of High Energy Physics}
-      \field{number}{6}
-      \field{title}{Observation of a new boson with mass near 125 GeV in pp collisions at $\sqrt{s}=7$ and 8 TeV}
-      \field{volume}{2013}
-      \field{year}{2013}
-      \verb{doi}
-      \verb 10.1007/jhep06(2013)081
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1007/JHEP06(2013)081
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1007/JHEP06(2013)081
-      \endverb
-    \endentry
-    \entry{ParticleFlow}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={The\bibnamedelima CMS},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{8}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1748-0221}
-      \field{journaltitle}{Journal of Instrumentation}
-      \field{month}{10}
-      \field{number}{10}
-      \field{title}{Particle-flow reconstruction and global event description with the CMS detector}
-      \field{volume}{12}
-      \field{year}{2017}
-      \field{pages}{P10003\bibrangedash P10003}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1088/1748-0221/12/10/p10003
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1088/1748-0221/12/10/P10003
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1088/1748-0221/12/10/P10003
-      \endverb
-    \endentry
-    \entry{Run2HLT2024}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={The\bibnamedelima CMS},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{9}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1748-0221}
-      \field{journaltitle}{Journal of Instrumentation}
-      \field{month}{11}
-      \field{number}{11}
-      \field{title}{Performance of the CMS high-level trigger during LHC Run 2}
-      \field{volume}{19}
-      \field{year}{2024}
-      \field{pages}{1\bibrangedash 1}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1748-0221/19/11/p11021
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1088/1748-0221/19/11/P11021
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1088/1748-0221/19/11/P11021
-      \endverb
-    \endentry
-    \entry{L12020}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={The\bibnamedelima CMS},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{10}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1748-0221}
-      \field{journaltitle}{Journal of Instrumentation}
-      \field{month}{10}
-      \field{number}{10}
-      \field{title}{Performance of the CMS Level-1 trigger in proton-proton collisions at $\sqrt{s} $ = 13 TeV}
-      \field{volume}{15}
-      \field{year}{2020}
-      \field{pages}{1\bibrangedash 1}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1748-0221/15/10/p10017
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1088/1748-0221/15/10/P10017
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1088/1748-0221/15/10/P10017
-      \endverb
-    \endentry
-    \entry{CMS2008}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={The\bibnamedelima CMS},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{11}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1748-0221}
-      \field{journaltitle}{Journal of Instrumentation}
-      \field{number}{08}
-      \field{title}{The CMS experiment at the CERN LHC}
-      \field{volume}{3}
-      \field{year}{2008}
-      \field{pages}{1\bibrangedash 1}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1748-0221/3/08/s08004
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1088/1748-0221/3/08/S08004
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1088/1748-0221/3/08/S08004
-      \endverb
-    \endentry
-    \entry{CMSTrigger2017}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
-           family={Collaboration},
-           familyi={C\bibinitperiod},
-           given={The\bibnamedelima CMS},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
-      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
-      \field{extraname}{12}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1748-0221}
-      \field{journaltitle}{Journal of Instrumentation}
-      \field{month}{1}
-      \field{number}{01}
-      \field{title}{The CMS trigger system}
-      \field{volume}{12}
-      \field{year}{2017}
-      \field{pages}{1\bibrangedash 1}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1748-0221/12/01/p01020
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1088/1748-0221/12/01/P01020
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1088/1748-0221/12/01/P01020
-      \endverb
-    \endentry
-    \entry{XGBoostDocumentation}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=fe0caca28a9999ca95e647dab39f2f67}{%
-           family={Developers},
-           familyi={D\bibinitperiod},
-           given={XGBoost},
-           giveni={X\bibinitperiod}}}%
-      }
-      \strng{namehash}{fe0caca28a9999ca95e647dab39f2f67}
-      \strng{fullhash}{fe0caca28a9999ca95e647dab39f2f67}
-      \strng{fullhashraw}{fe0caca28a9999ca95e647dab39f2f67}
-      \strng{bibnamehash}{fe0caca28a9999ca95e647dab39f2f67}
-      \strng{authorbibnamehash}{fe0caca28a9999ca95e647dab39f2f67}
-      \strng{authornamehash}{fe0caca28a9999ca95e647dab39f2f67}
-      \strng{authorfullhash}{fe0caca28a9999ca95e647dab39f2f67}
-      \strng{authorfullhashraw}{fe0caca28a9999ca95e647dab39f2f67}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{XGBoost Documentation}
-      \field{urlday}{12}
-      \field{urlmonth}{7}
-      \field{urlyear}{2026}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://xgboost.readthedocs.io/en/release_3.2.0/index.html
-      \endverb
-      \verb{url}
-      \verb https://xgboost.readthedocs.io/en/release_3.2.0/index.html
-      \endverb
-    \endentry
-    \entry{SombreroPotential}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=4d546eea48ef6a3abbd293dd7db15476}{%
-           family={Duff},
-           familyi={D\bibinitperiod},
-           given={M.\bibnamedelimi J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=eafa1babe098f9163a4020c174d172ce}{%
-           family={Stelle},
-           familyi={S\bibinitperiod},
-           given={K.\bibnamedelimi S.},
-           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {The Royal Society}%
-      }
-      \strng{namehash}{a447a7fa0623541e1fe72d5538db32e0}
-      \strng{fullhash}{a447a7fa0623541e1fe72d5538db32e0}
-      \strng{fullhashraw}{a447a7fa0623541e1fe72d5538db32e0}
-      \strng{bibnamehash}{a447a7fa0623541e1fe72d5538db32e0}
-      \strng{authorbibnamehash}{a447a7fa0623541e1fe72d5538db32e0}
-      \strng{authornamehash}{a447a7fa0623541e1fe72d5538db32e0}
-      \strng{authorfullhash}{a447a7fa0623541e1fe72d5538db32e0}
-      \strng{authorfullhashraw}{a447a7fa0623541e1fe72d5538db32e0}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1748-8494}
-      \field{journaltitle}{Biographical Memoirs of Fellows of the Royal Society}
-      \field{month}{3}
-      \field{title}{Sir Thomas Walter Bannerman Kibble. 23 December 1932—2 June 2016}
-      \field{volume}{70}
-      \field{year}{2021}
-      \field{pages}{225\bibrangedash 244}
-      \range{pages}{20}
-      \verb{doi}
-      \verb 10.1098/rsbm.2020.0040
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1098/rsbm.2020.0040
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1098/rsbm.2020.0040
-      \endverb
-    \endentry
-    \entry{NanoAOD}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=8f4199881644ef6d3451bdb6727882c8}{%
-           family={Ehatäht},
-           familyi={E\bibinitperiod},
-           given={Karl},
-           giveni={K\bibinitperiod}}}%
-      }
-      \name{editor}{6}{}{%
-        {{hash=b91804adecb2246153e6628b7e21b5b2}{%
-           family={Doglioni},
-           familyi={D\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=a3ee7bee5a5ecb7a55a51ecdd4e78cef}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=15ed541dccf4571d529123c49ed13f93}{%
-           family={Stewart},
-           familyi={S\bibinitperiod},
-           given={G.A.},
-           giveni={G\bibinitperiod}}}%
-        {{hash=39b91e9705a818ad2f37d8358a90307a}{%
-           family={Silvestris},
-           familyi={S\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=e0dbbea4048ce99738ceeeeaabb574e4}{%
-           family={Jackson},
-           familyi={J\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=fc7fcc4cf5e83cae20b3e32ef741df2d}{%
-           family={Kamleh},
-           familyi={K\bibinitperiod},
-           given={W.},
-           giveni={W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {EDP Sciences}%
-      }
-      \strng{namehash}{8f4199881644ef6d3451bdb6727882c8}
-      \strng{fullhash}{8f4199881644ef6d3451bdb6727882c8}
-      \strng{fullhashraw}{8f4199881644ef6d3451bdb6727882c8}
-      \strng{bibnamehash}{8f4199881644ef6d3451bdb6727882c8}
-      \strng{authorbibnamehash}{8f4199881644ef6d3451bdb6727882c8}
-      \strng{authornamehash}{8f4199881644ef6d3451bdb6727882c8}
-      \strng{authorfullhash}{8f4199881644ef6d3451bdb6727882c8}
-      \strng{authorfullhashraw}{8f4199881644ef6d3451bdb6727882c8}
-      \strng{editorbibnamehash}{45b3528a3f1a979c11ce6bbaf476c404}
-      \strng{editornamehash}{45b3528a3f1a979c11ce6bbaf476c404}
-      \strng{editorfullhash}{030505ccada724ffd55c871411d8098e}
-      \strng{editorfullhashraw}{030505ccada724ffd55c871411d8098e}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2100-014X}
-      \field{journaltitle}{EPJ Web of Conferences}
-      \field{title}{NANOAOD: a new compact event data format in CMS}
-      \field{volume}{245}
-      \field{year}{2020}
-      \field{pages}{06002}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1051/epjconf/202024506002
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1051/epjconf/202024506002
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1051/epjconf/202024506002
-      \endverb
-    \endentry
-    \entry{BroutEnglerPaper}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=82b6e353dc84a901c43d47c8a96bb827}{%
-           family={Englert},
-           familyi={E\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=3ac21375f75f40f8eabab8128c8cfdd6}{%
-           family={Brout},
-           familyi={B\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society (APS)}%
-      }
-      \strng{namehash}{c1dc9fb1a07d4fc62bc5f78904256007}
-      \strng{fullhash}{c1dc9fb1a07d4fc62bc5f78904256007}
-      \strng{fullhashraw}{c1dc9fb1a07d4fc62bc5f78904256007}
-      \strng{bibnamehash}{c1dc9fb1a07d4fc62bc5f78904256007}
-      \strng{authorbibnamehash}{c1dc9fb1a07d4fc62bc5f78904256007}
-      \strng{authornamehash}{c1dc9fb1a07d4fc62bc5f78904256007}
-      \strng{authorfullhash}{c1dc9fb1a07d4fc62bc5f78904256007}
-      \strng{authorfullhashraw}{c1dc9fb1a07d4fc62bc5f78904256007}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0031-9007}
-      \field{journaltitle}{Physical Review Letters}
-      \field{month}{8}
-      \field{number}{9}
-      \field{title}{Broken Symmetry and the Mass of Gauge Vector Mesons}
-      \field{volume}{13}
-      \field{year}{1964}
-      \field{pages}{321\bibrangedash 323}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1103/physrevlett.13.321
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1103/PhysRevLett.13.321
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1103/PhysRevLett.13.321
-      \endverb
-    \endentry
-    \entry{LHC2008}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=29a80b4592e6086f593501c4decfbdee}{%
-           family={Evans},
-           familyi={E\bibinitperiod},
-           given={Lyndon},
-           giveni={L\bibinitperiod}}}%
-        {{hash=41f2644da40bcd4713a96eaebb76449c}{%
-           family={Bryant},
-           familyi={B\bibinitperiod},
-           given={Philip},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{7f72fc335ecb8657f6c5536563996deb}
-      \strng{fullhash}{7f72fc335ecb8657f6c5536563996deb}
-      \strng{fullhashraw}{7f72fc335ecb8657f6c5536563996deb}
-      \strng{bibnamehash}{7f72fc335ecb8657f6c5536563996deb}
-      \strng{authorbibnamehash}{7f72fc335ecb8657f6c5536563996deb}
-      \strng{authornamehash}{7f72fc335ecb8657f6c5536563996deb}
-      \strng{authorfullhash}{7f72fc335ecb8657f6c5536563996deb}
-      \strng{authorfullhashraw}{7f72fc335ecb8657f6c5536563996deb}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1748-0221}
-      \field{journaltitle}{Journal of Instrumentation}
-      \field{number}{08}
-      \field{title}{LHC Machine}
-      \field{volume}{3}
-      \field{year}{2008}
-      \field{pages}{1\bibrangedash 1}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1748-0221/3/08/s08001
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1088/1748-0221/3/08/S08001
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1088/1748-0221/3/08/S08001
-      \endverb
-    \endentry
-    \entry{BDTPaper}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=ce884cc144616c39e723a8fe2eb3c879}{%
-           family={Friedman},
-           familyi={F\bibinitperiod},
-           given={Jerome\bibnamedelima H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Institute of Mathematical Statistics}%
-      }
-      \strng{namehash}{ce884cc144616c39e723a8fe2eb3c879}
-      \strng{fullhash}{ce884cc144616c39e723a8fe2eb3c879}
-      \strng{fullhashraw}{ce884cc144616c39e723a8fe2eb3c879}
-      \strng{bibnamehash}{ce884cc144616c39e723a8fe2eb3c879}
-      \strng{authorbibnamehash}{ce884cc144616c39e723a8fe2eb3c879}
-      \strng{authornamehash}{ce884cc144616c39e723a8fe2eb3c879}
-      \strng{authorfullhash}{ce884cc144616c39e723a8fe2eb3c879}
-      \strng{authorfullhashraw}{ce884cc144616c39e723a8fe2eb3c879}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0090-5364}
-      \field{journaltitle}{The Annals of Statistics}
-      \field{month}{10}
-      \field{number}{5}
-      \field{title}{Greedy function approximation: A gradient boosting machine.}
-      \field{volume}{29}
-      \field{year}{2001}
-      \verb{doi}
-      \verb 10.1214/aos/1013203451
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1214/aos/1013203451
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1214/aos/1013203451
-      \endverb
-    \endentry
+  \datalist[entry]{none/global//global/global/global}
     \entry{SMOverview}{article}{}{}
       \name{author}{3}{}{%
         {{hash=b4ffd4d2e0ca0fedaeb72e14399f99be}{%
@@ -1010,8 +45,8 @@
       \strng{authornamehash}{3c5179cdd8b0782a5040ad59fd7451cd}
       \strng{authorfullhash}{3c5179cdd8b0782a5040ad59fd7451cd}
       \strng{authorfullhashraw}{3c5179cdd8b0782a5040ad59fd7451cd}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Rev.Mod.Phys.71:S96-S111,1999}
@@ -1022,100 +57,6 @@
       \endverb
       \verb{eprint}
       \verb arXiv:hep-ph/9812285
-      \endverb
-    \endentry
-    \entry{GlashowEW}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=532b5faf0324eeafc258846002eb2e93}{%
-           family={Glashow},
-           familyi={G\bibinitperiod},
-           given={Sheldon\bibnamedelima L.},
-           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier BV}%
-      }
-      \strng{namehash}{532b5faf0324eeafc258846002eb2e93}
-      \strng{fullhash}{532b5faf0324eeafc258846002eb2e93}
-      \strng{fullhashraw}{532b5faf0324eeafc258846002eb2e93}
-      \strng{bibnamehash}{532b5faf0324eeafc258846002eb2e93}
-      \strng{authorbibnamehash}{532b5faf0324eeafc258846002eb2e93}
-      \strng{authornamehash}{532b5faf0324eeafc258846002eb2e93}
-      \strng{authorfullhash}{532b5faf0324eeafc258846002eb2e93}
-      \strng{authorfullhashraw}{532b5faf0324eeafc258846002eb2e93}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0029-5582}
-      \field{journaltitle}{Nuclear Physics}
-      \field{month}{2}
-      \field{number}{4}
-      \field{title}{Partial-symmetries of weak interactions}
-      \field{volume}{22}
-      \field{year}{1961}
-      \field{pages}{579\bibrangedash 588}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1016/0029-5582(61)90469-2
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1016/0029-5582(61)90469-2
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1016/0029-5582(61)90469-2
-      \endverb
-    \endentry
-    \entry{KibblePaper}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=fa48aa499dcf3937690622de5501ec81}{%
-           family={Guralnik},
-           familyi={G\bibinitperiod},
-           given={G.\bibnamedelimi S.},
-           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=d67b74ee7bea81b882b2589ff0d0d020}{%
-           family={Hagen},
-           familyi={H\bibinitperiod},
-           given={C.\bibnamedelimi R.},
-           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=1883efffc08bdae3bc040fa63579aa40}{%
-           family={Kibble},
-           familyi={K\bibinitperiod},
-           given={T.\bibnamedelimi W.\bibnamedelimi B.},
-           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society (APS)}%
-      }
-      \strng{namehash}{41f0c66c2adcbc541746a2fb2cfdf2df}
-      \strng{fullhash}{41f0c66c2adcbc541746a2fb2cfdf2df}
-      \strng{fullhashraw}{41f0c66c2adcbc541746a2fb2cfdf2df}
-      \strng{bibnamehash}{41f0c66c2adcbc541746a2fb2cfdf2df}
-      \strng{authorbibnamehash}{41f0c66c2adcbc541746a2fb2cfdf2df}
-      \strng{authornamehash}{41f0c66c2adcbc541746a2fb2cfdf2df}
-      \strng{authorfullhash}{41f0c66c2adcbc541746a2fb2cfdf2df}
-      \strng{authorfullhashraw}{41f0c66c2adcbc541746a2fb2cfdf2df}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0031-9007}
-      \field{journaltitle}{Physical Review Letters}
-      \field{month}{11}
-      \field{number}{20}
-      \field{title}{Global Conservation Laws and Massless Particles}
-      \field{volume}{13}
-      \field{year}{1964}
-      \field{pages}{585\bibrangedash 587}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1103/physrevlett.13.585
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1103/PhysRevLett.13.585
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1103/PhysRevLett.13.585
       \endverb
     \endentry
     \entry{Higgs1964}{article}{}{}
@@ -1137,8 +78,8 @@
       \strng{authornamehash}{3e19a08b8763d812b642d1d6654aa521}
       \strng{authorfullhash}{3e19a08b8763d812b642d1d6654aa521}
       \strng{authorfullhashraw}{3e19a08b8763d812b642d1d6654aa521}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0031-9007}
@@ -1160,84 +101,92 @@
       \verb http://dx.doi.org/10.1103/PhysRevLett.13.508
       \endverb
     \endentry
-    \entry{EWSymmetryBreaking}{article}{}{}
+    \entry{HiggsDiscovery2013}{article}{}{}
       \name{author}{1}{}{%
-        {{hash=1883efffc08bdae3bc040fa63579aa40}{%
-           family={Kibble},
-           familyi={K\bibinitperiod},
-           given={T\bibnamedelima W\bibnamedelima B},
-           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelima CMS},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
       }
-      \strng{namehash}{1883efffc08bdae3bc040fa63579aa40}
-      \strng{fullhash}{1883efffc08bdae3bc040fa63579aa40}
-      \strng{fullhashraw}{1883efffc08bdae3bc040fa63579aa40}
-      \strng{bibnamehash}{1883efffc08bdae3bc040fa63579aa40}
-      \strng{authorbibnamehash}{1883efffc08bdae3bc040fa63579aa40}
-      \strng{authornamehash}{1883efffc08bdae3bc040fa63579aa40}
-      \strng{authorfullhash}{1883efffc08bdae3bc040fa63579aa40}
-      \strng{authorfullhashraw}{1883efffc08bdae3bc040fa63579aa40}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1742-6596}
-      \field{journaltitle}{Journal of Physics: Conference Series}
-      \field{title}{History of electroweak symmetry breaking}
-      \field{volume}{626}
-      \field{year}{2015}
-      \field{pages}{012001}
-      \range{pages}{1}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{number}{6}
+      \field{title}{Observation of a new boson with mass near 125 GeV in pp collisions at $\sqrt{s}=7$ and 8 TeV}
+      \field{volume}{2013}
+      \field{year}{2013}
       \verb{doi}
-      \verb 10.1088/1742-6596/626/1/012001
+      \verb 10.1007/jhep06(2013)081
       \endverb
       \verb{urlraw}
-      \verb http://dx.doi.org/10.1088/1742-6596/626/1/012001
+      \verb http://dx.doi.org/10.1007/JHEP06(2013)081
       \endverb
       \verb{url}
-      \verb http://dx.doi.org/10.1088/1742-6596/626/1/012001
+      \verb http://dx.doi.org/10.1007/JHEP06(2013)081
       \endverb
     \endentry
-    \entry{Run3HLTPerformanceConference}{inbook}{}{}
-      \name{author}{1}{}{%
-        {{hash=2b6dbcfe737f46735c151f1928eabe90}{%
-           family={Maity},
-           familyi={M\bibinitperiod},
-           given={Dipak},
-           giveni={D\bibinitperiod}}}%
+    \entry{FeynmanRules}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=b9f5b2d8ed0d8e363e5aa674900f89f0}{%
+           family={Romao},
+           familyi={R\bibinitperiod},
+           given={Jorge\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=cdc38206ff4acfcf97598aad1ce20f72}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Joao\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Springer Nature Singapore}%
+        {World Scientific Pub Co Pte Ltd}%
       }
-      \strng{namehash}{2b6dbcfe737f46735c151f1928eabe90}
-      \strng{fullhash}{2b6dbcfe737f46735c151f1928eabe90}
-      \strng{fullhashraw}{2b6dbcfe737f46735c151f1928eabe90}
-      \strng{bibnamehash}{2b6dbcfe737f46735c151f1928eabe90}
-      \strng{authorbibnamehash}{2b6dbcfe737f46735c151f1928eabe90}
-      \strng{authornamehash}{2b6dbcfe737f46735c151f1928eabe90}
-      \strng{authorfullhash}{2b6dbcfe737f46735c151f1928eabe90}
-      \strng{authorfullhashraw}{2b6dbcfe737f46735c151f1928eabe90}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \strng{namehash}{5ea3910b5073ea03ec5404b3776a8848}
+      \strng{fullhash}{5ea3910b5073ea03ec5404b3776a8848}
+      \strng{fullhashraw}{5ea3910b5073ea03ec5404b3776a8848}
+      \strng{bibnamehash}{5ea3910b5073ea03ec5404b3776a8848}
+      \strng{authorbibnamehash}{5ea3910b5073ea03ec5404b3776a8848}
+      \strng{authornamehash}{5ea3910b5073ea03ec5404b3776a8848}
+      \strng{authorfullhash}{5ea3910b5073ea03ec5404b3776a8848}
+      \strng{authorfullhashraw}{5ea3910b5073ea03ec5404b3776a8848}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the XXVI DAE-BRNS High Energy Physics (HEP) Symposium 2024, 19-23 December, Varanasi, India}
-      \field{isbn}{9789819515134}
-      \field{issn}{1867-4941}
-      \field{title}{CMS High Level Trigger(HLT) Performance in Run 3}
-      \field{year}{2025}
-      \field{pages}{1513\bibrangedash 1516}
-      \range{pages}{4}
+      \field{issn}{1793-656X}
+      \field{journaltitle}{International Journal of Modern Physics A}
+      \field{month}{10}
+      \field{number}{26}
+      \field{title}{A Resource for Signs and Feynman Diagrams of the Standard Model}
+      \field{volume}{27}
+      \field{year}{2012}
+      \field{pages}{1230025}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1007/978-981-95-1513-4_346
+      \verb 10.1142/s0217751x12300256
       \endverb
       \verb{urlraw}
-      \verb http://dx.doi.org/10.1007/978-981-95-1513-4_346
+      \verb http://dx.doi.org/10.1142/S0217751X12300256
       \endverb
       \verb{url}
-      \verb http://dx.doi.org/10.1007/978-981-95-1513-4_346
+      \verb http://dx.doi.org/10.1142/S0217751X12300256
       \endverb
     \endentry
     \entry{PDGReview}{article}{}{}
@@ -2478,8 +1427,8 @@
       \strng{authornamehash}{9e02c695d9a57f6e8669b26d9be3e077}
       \strng{authorfullhash}{a14869aa182476438774e3f1419cdb55}
       \strng{authorfullhashraw}{a14869aa182476438774e3f1419cdb55}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{3}
@@ -2491,6 +1440,969 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevD.110.030001
+      \endverb
+    \endentry
+    \entry{FermiWeakPaper}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b0389913f00d6a1a3e04c38c1038779d}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Fred\bibnamedelima L.},
+           giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association of Physics Teachers (AAPT)}%
+      }
+      \strng{namehash}{b0389913f00d6a1a3e04c38c1038779d}
+      \strng{fullhash}{b0389913f00d6a1a3e04c38c1038779d}
+      \strng{fullhashraw}{b0389913f00d6a1a3e04c38c1038779d}
+      \strng{bibnamehash}{b0389913f00d6a1a3e04c38c1038779d}
+      \strng{authorbibnamehash}{b0389913f00d6a1a3e04c38c1038779d}
+      \strng{authornamehash}{b0389913f00d6a1a3e04c38c1038779d}
+      \strng{authorfullhash}{b0389913f00d6a1a3e04c38c1038779d}
+      \strng{authorfullhashraw}{b0389913f00d6a1a3e04c38c1038779d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1943-2909}
+      \field{journaltitle}{American Journal of Physics}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Fermi’s Theory of Beta Decay}
+      \field{volume}{36}
+      \field{year}{1968}
+      \field{pages}{1150\bibrangedash 1160}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1119/1.1974382
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1119/1.1974382
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1119/1.1974382
+      \endverb
+    \endentry
+    \entry{SalamAndWardEW}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=5196fd7e08485dbc6a7dd05adc133fdf}{%
+           family={Salam},
+           familyi={S\bibinitperiod},
+           given={Abdus},
+           giveni={A\bibinitperiod}}}%
+        {{hash=eb2469c6b7d20b7a6875adfa436fccbe}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{6b5442dbdbae66a93d5b5678be47336b}
+      \strng{fullhash}{6b5442dbdbae66a93d5b5678be47336b}
+      \strng{fullhashraw}{6b5442dbdbae66a93d5b5678be47336b}
+      \strng{bibnamehash}{6b5442dbdbae66a93d5b5678be47336b}
+      \strng{authorbibnamehash}{6b5442dbdbae66a93d5b5678be47336b}
+      \strng{authornamehash}{6b5442dbdbae66a93d5b5678be47336b}
+      \strng{authorfullhash}{6b5442dbdbae66a93d5b5678be47336b}
+      \strng{authorfullhashraw}{6b5442dbdbae66a93d5b5678be47336b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1827-6121}
+      \field{journaltitle}{Il Nuovo Cimento}
+      \field{month}{2}
+      \field{number}{4}
+      \field{title}{Weak and electromagnetic interactions}
+      \field{volume}{11}
+      \field{year}{1959}
+      \field{pages}{568\bibrangedash 577}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/bf02726525
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/BF02726525
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/BF02726525
+      \endverb
+    \endentry
+    \entry{GlashowEW}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=532b5faf0324eeafc258846002eb2e93}{%
+           family={Glashow},
+           familyi={G\bibinitperiod},
+           given={Sheldon\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{532b5faf0324eeafc258846002eb2e93}
+      \strng{fullhash}{532b5faf0324eeafc258846002eb2e93}
+      \strng{fullhashraw}{532b5faf0324eeafc258846002eb2e93}
+      \strng{bibnamehash}{532b5faf0324eeafc258846002eb2e93}
+      \strng{authorbibnamehash}{532b5faf0324eeafc258846002eb2e93}
+      \strng{authornamehash}{532b5faf0324eeafc258846002eb2e93}
+      \strng{authorfullhash}{532b5faf0324eeafc258846002eb2e93}
+      \strng{authorfullhashraw}{532b5faf0324eeafc258846002eb2e93}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0029-5582}
+      \field{journaltitle}{Nuclear Physics}
+      \field{month}{2}
+      \field{number}{4}
+      \field{title}{Partial-symmetries of weak interactions}
+      \field{volume}{22}
+      \field{year}{1961}
+      \field{pages}{579\bibrangedash 588}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/0029-5582(61)90469-2
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/0029-5582(61)90469-2
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/0029-5582(61)90469-2
+      \endverb
+    \endentry
+    \entry{EWSymmetryBreaking}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=1883efffc08bdae3bc040fa63579aa40}{%
+           family={Kibble},
+           familyi={K\bibinitperiod},
+           given={T\bibnamedelima W\bibnamedelima B},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{1883efffc08bdae3bc040fa63579aa40}
+      \strng{fullhash}{1883efffc08bdae3bc040fa63579aa40}
+      \strng{fullhashraw}{1883efffc08bdae3bc040fa63579aa40}
+      \strng{bibnamehash}{1883efffc08bdae3bc040fa63579aa40}
+      \strng{authorbibnamehash}{1883efffc08bdae3bc040fa63579aa40}
+      \strng{authornamehash}{1883efffc08bdae3bc040fa63579aa40}
+      \strng{authorfullhash}{1883efffc08bdae3bc040fa63579aa40}
+      \strng{authorfullhashraw}{1883efffc08bdae3bc040fa63579aa40}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1742-6596}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{title}{History of electroweak symmetry breaking}
+      \field{volume}{626}
+      \field{year}{2015}
+      \field{pages}{012001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1742-6596/626/1/012001
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1742-6596/626/1/012001
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1742-6596/626/1/012001
+      \endverb
+    \endentry
+    \entry{SombreroPotential}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=4d546eea48ef6a3abbd293dd7db15476}{%
+           family={Duff},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=eafa1babe098f9163a4020c174d172ce}{%
+           family={Stelle},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi S.},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{a447a7fa0623541e1fe72d5538db32e0}
+      \strng{fullhash}{a447a7fa0623541e1fe72d5538db32e0}
+      \strng{fullhashraw}{a447a7fa0623541e1fe72d5538db32e0}
+      \strng{bibnamehash}{a447a7fa0623541e1fe72d5538db32e0}
+      \strng{authorbibnamehash}{a447a7fa0623541e1fe72d5538db32e0}
+      \strng{authornamehash}{a447a7fa0623541e1fe72d5538db32e0}
+      \strng{authorfullhash}{a447a7fa0623541e1fe72d5538db32e0}
+      \strng{authorfullhashraw}{a447a7fa0623541e1fe72d5538db32e0}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-8494}
+      \field{journaltitle}{Biographical Memoirs of Fellows of the Royal Society}
+      \field{month}{3}
+      \field{title}{Sir Thomas Walter Bannerman Kibble. 23 December 1932—2 June 2016}
+      \field{volume}{70}
+      \field{year}{2021}
+      \field{pages}{225\bibrangedash 244}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1098/rsbm.2020.0040
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1098/rsbm.2020.0040
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1098/rsbm.2020.0040
+      \endverb
+    \endentry
+    \entry{BroutEnglerPaper}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=82b6e353dc84a901c43d47c8a96bb827}{%
+           family={Englert},
+           familyi={E\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=3ac21375f75f40f8eabab8128c8cfdd6}{%
+           family={Brout},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{fullhash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{fullhashraw}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{bibnamehash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{authorbibnamehash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{authornamehash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{authorfullhash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{authorfullhashraw}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0031-9007}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{8}
+      \field{number}{9}
+      \field{title}{Broken Symmetry and the Mass of Gauge Vector Mesons}
+      \field{volume}{13}
+      \field{year}{1964}
+      \field{pages}{321\bibrangedash 323}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1103/physrevlett.13.321
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1103/PhysRevLett.13.321
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/PhysRevLett.13.321
+      \endverb
+    \endentry
+    \entry{KibblePaper}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=fa48aa499dcf3937690622de5501ec81}{%
+           family={Guralnik},
+           familyi={G\bibinitperiod},
+           given={G.\bibnamedelimi S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d67b74ee7bea81b882b2589ff0d0d020}{%
+           family={Hagen},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=1883efffc08bdae3bc040fa63579aa40}{%
+           family={Kibble},
+           familyi={K\bibinitperiod},
+           given={T.\bibnamedelimi W.\bibnamedelimi B.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{fullhash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{fullhashraw}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{bibnamehash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{authorbibnamehash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{authornamehash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{authorfullhash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{authorfullhashraw}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0031-9007}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{11}
+      \field{number}{20}
+      \field{title}{Global Conservation Laws and Massless Particles}
+      \field{volume}{13}
+      \field{year}{1964}
+      \field{pages}{585\bibrangedash 587}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1103/physrevlett.13.585
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1103/PhysRevLett.13.585
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1103/PhysRevLett.13.585
+      \endverb
+    \endentry
+    \entry{CMS10YearReview}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelima CMS},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{number}{7917}
+      \field{title}{A portrait of the Higgs boson by the CMS experiment ten years after the discovery}
+      \field{volume}{607}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41586-022-04892-x
+      \endverb
+    \endentry
+    \entry{HiggsCrossSection}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=350ae988c85cf1a13c8cc0d38f28d0ee}{%
+           family={{CERN}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {CERN}%
+      }
+      \strng{namehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{fullhash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{fullhashraw}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{bibnamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authorbibnamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authornamehash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authorfullhash}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \strng{authorfullhashraw}{350ae988c85cf1a13c8cc0d38f28d0ee}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CERN Yellow Reports: Monographs, Vol 2 (2017): Handbook of LHC Higgs cross sections: 4. Deciphering the nature of the Higgs sector}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.23731/CYRM-2017-002
+      \endverb
+      \verb{urlraw}
+      \verb https://e-publishing.cern.ch/index.php/CYRM/issue/view/32
+      \endverb
+      \verb{url}
+      \verb https://e-publishing.cern.ch/index.php/CYRM/issue/view/32
+      \endverb
+    \endentry
+    \entry{LHC2008}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=29a80b4592e6086f593501c4decfbdee}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Lyndon},
+           giveni={L\bibinitperiod}}}%
+        {{hash=41f2644da40bcd4713a96eaebb76449c}{%
+           family={Bryant},
+           familyi={B\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{fullhash}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{fullhashraw}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{bibnamehash}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{authorbibnamehash}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{authornamehash}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{authorfullhash}{7f72fc335ecb8657f6c5536563996deb}
+      \strng{authorfullhashraw}{7f72fc335ecb8657f6c5536563996deb}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{number}{08}
+      \field{title}{LHC Machine}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/3/08/s08001
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1748-0221/3/08/S08001
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1748-0221/3/08/S08001
+      \endverb
+    \endentry
+    \entry{Run3Hgg2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=e742ba4e105e5341464c3528b118ff41}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={CMS},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{fullhashraw}{e742ba4e105e5341464c3528b118ff41}
+      \strng{bibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorbibnamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authornamehash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhash}{e742ba4e105e5341464c3528b118ff41}
+      \strng{authorfullhashraw}{e742ba4e105e5341464c3528b118ff41}
+      \field{extraname}{3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{JHEP 09 (2025) 070}
+      \field{title}{Measurements of inclusive and differential Higgs boson production cross sections at $\sqrt{s}$ = 13.6 TeV in the H $\to$ $\gamma \gamma$ decay channel}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1007/JHEP09(2025)070
+      \endverb
+      \verb{eprint}
+      \verb arXiv:2504.17755
+      \endverb
+    \endentry
+    \entry{LHCPRun3TriggerReport}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=d3393b0cf7d9fda6b8bdf1bcb0b65ce3}{%
+           family={Aruta},
+           familyi={A\bibinitperiod},
+           given={Caterina},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \strng{namehash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
+      \strng{fullhash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
+      \strng{fullhashraw}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
+      \strng{bibnamehash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
+      \strng{authorbibnamehash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
+      \strng{authornamehash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
+      \strng{authorfullhash}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
+      \strng{authorfullhashraw}{d3393b0cf7d9fda6b8bdf1bcb0b65ce3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Strategies and performances of the CMS trigger in Run 3}}
+      \field{type}{techreport}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2944714
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2944714
+      \endverb
+    \endentry
+    \entry{CMS2008}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelima CMS},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \field{extraname}{4}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{number}{08}
+      \field{title}{The CMS experiment at the CERN LHC}
+      \field{volume}{3}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/3/08/s08004
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1748-0221/3/08/S08004
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1748-0221/3/08/S08004
+      \endverb
+    \endentry
+    \entry{CMS2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelima CMS},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \field{extraname}{5}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{5}
+      \field{number}{05}
+      \field{title}{Development of the CMS detector for the CERN LHC Run 3}
+      \field{volume}{19}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/19/05/p05064
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1748-0221/19/05/P05064
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1748-0221/19/05/P05064
+      \endverb
+    \endentry
+    \entry{Run3HLTPerformanceConference}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{hash=2b6dbcfe737f46735c151f1928eabe90}{%
+           family={Maity},
+           familyi={M\bibinitperiod},
+           given={Dipak},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Singapore}%
+      }
+      \strng{namehash}{2b6dbcfe737f46735c151f1928eabe90}
+      \strng{fullhash}{2b6dbcfe737f46735c151f1928eabe90}
+      \strng{fullhashraw}{2b6dbcfe737f46735c151f1928eabe90}
+      \strng{bibnamehash}{2b6dbcfe737f46735c151f1928eabe90}
+      \strng{authorbibnamehash}{2b6dbcfe737f46735c151f1928eabe90}
+      \strng{authornamehash}{2b6dbcfe737f46735c151f1928eabe90}
+      \strng{authorfullhash}{2b6dbcfe737f46735c151f1928eabe90}
+      \strng{authorfullhashraw}{2b6dbcfe737f46735c151f1928eabe90}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the XXVI DAE-BRNS High Energy Physics (HEP) Symposium 2024, 19-23 December, Varanasi, India}
+      \field{isbn}{9789819515134}
+      \field{issn}{1867-4941}
+      \field{title}{CMS High Level Trigger(HLT) Performance in Run 3}
+      \field{year}{2025}
+      \field{pages}{1513\bibrangedash 1516}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1007/978-981-95-1513-4_346
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1007/978-981-95-1513-4_346
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1007/978-981-95-1513-4_346
+      \endverb
+    \endentry
+    \entry{L12020}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelima CMS},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \field{extraname}{6}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Performance of the CMS Level-1 trigger in proton-proton collisions at $\sqrt{s} $ = 13 TeV}
+      \field{volume}{15}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/15/10/p10017
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1748-0221/15/10/P10017
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1748-0221/15/10/P10017
+      \endverb
+    \endentry
+    \entry{CMSTrigger2017}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelima CMS},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \field{extraname}{7}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{1}
+      \field{number}{01}
+      \field{title}{The CMS trigger system}
+      \field{volume}{12}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/12/01/p01020
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1748-0221/12/01/P01020
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1748-0221/12/01/P01020
+      \endverb
+    \endentry
+    \entry{Run2HLT2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelima CMS},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \field{extraname}{8}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Performance of the CMS high-level trigger during LHC Run 2}
+      \field{volume}{19}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/19/11/p11021
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1748-0221/19/11/P11021
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1748-0221/19/11/P11021
+      \endverb
+    \endentry
+    \entry{OfflineReco2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelima CMS},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \field{extraname}{9}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{5}
+      \field{number}{05}
+      \field{title}{Electron and photon reconstruction and identification with the CMS experiment at the CERN LHC}
+      \field{volume}{16}
+      \field{year}{2021}
+      \field{pages}{P05014}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/16/05/p05014
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1748-0221/16/05/P05014
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1748-0221/16/05/P05014
+      \endverb
+    \endentry
+    \entry{PhotonReco2015}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelima CMS},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \field{extraname}{10}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{8}
+      \field{number}{08}
+      \field{volume}{10}
+      \field{year}{2015}
+      \field{pages}{P08010\bibrangedash P08010}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/10/08/p08010
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1748-0221/10/08/P08010
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1748-0221/10/08/P08010
+      \endverb
+    \endentry
+    \entry{ParkingAndScouting2024}{article}{}{}
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{issn}{0370-1573}
+      \field{journaltitle}{Physics Reports}
+      \field{month}{4}
+      \field{volume}{1115}
+      \field{year}{2025}
+      \field{pages}{678\bibrangedash 772}
+      \range{pages}{95}
+      \verb{doi}
+      \verb 10.1016/j.physrep.2024.09.006
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.physrep.2024.09.006
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.physrep.2024.09.006
+      \endverb
+    \endentry
+    \entry{GSFTracking}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=3e2872e7b083881b9e21df137964a7b5}{%
+           family={Adam},
+           familyi={A\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod}}}%
+        {{hash=4c3042252e8d06204259c915a43511c9}{%
+           family={Frühwirth},
+           familyi={F\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a3bcb1bfa84780d66eb9272a8c488e23}{%
+           family={Strandlie},
+           familyi={S\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=116925ac51245ecdcb1a91375644d045}{%
+           family={Todorov},
+           familyi={T\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{8d1d4b8aafa5f124f701b79ee65cff8c}
+      \strng{fullhash}{9a7a81e179c41d0dafa4bf4e55b15dbd}
+      \strng{fullhashraw}{9a7a81e179c41d0dafa4bf4e55b15dbd}
+      \strng{bibnamehash}{8d1d4b8aafa5f124f701b79ee65cff8c}
+      \strng{authorbibnamehash}{8d1d4b8aafa5f124f701b79ee65cff8c}
+      \strng{authornamehash}{8d1d4b8aafa5f124f701b79ee65cff8c}
+      \strng{authorfullhash}{9a7a81e179c41d0dafa4bf4e55b15dbd}
+      \strng{authorfullhashraw}{9a7a81e179c41d0dafa4bf4e55b15dbd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1361-6471}
+      \field{journaltitle}{Journal of Physics G: Nuclear and Particle Physics}
+      \field{number}{9}
+      \field{title}{Reconstruction of electrons with the Gaussian-sum filter in the CMS tracker at the LHC}
+      \field{volume}{31}
+      \field{year}{2005}
+      \field{pages}{N9\bibrangedash N20}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/0954-3899/31/9/n01
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/0954-3899/31/9/n01
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/0954-3899/31/9/n01
+      \endverb
+    \endentry
+    \entry{ParticleFlow}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelima CMS},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \field{extraname}{11}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Particle-flow reconstruction and global event description with the CMS detector}
+      \field{volume}{12}
+      \field{year}{2017}
+      \field{pages}{P10003\bibrangedash P10003}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/12/10/p10003
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1748-0221/12/10/P10003
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1748-0221/12/10/P10003
       \endverb
     \endentry
     \entry{MiniAOD}{article}{}{}
@@ -2522,8 +2434,8 @@
       \strng{authornamehash}{e5da7091939ec85bc0bf8083094ca834}
       \strng{authorfullhash}{e5da7091939ec85bc0bf8083094ca834}
       \strng{authorfullhashraw}{e5da7091939ec85bc0bf8083094ca834}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1742-6596}
@@ -2545,141 +2457,229 @@
       \verb http://dx.doi.org/10.1088/1742-6596/664/7/072052
       \endverb
     \endentry
-    \entry{FeynmanRules}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=b9f5b2d8ed0d8e363e5aa674900f89f0}{%
-           family={Romao},
-           familyi={R\bibinitperiod},
-           given={Jorge\bibnamedelima C.},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=cdc38206ff4acfcf97598aad1ce20f72}{%
-           family={Silva},
+    \entry{NanoAOD}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=8f4199881644ef6d3451bdb6727882c8}{%
+           family={Ehatäht},
+           familyi={E\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+      }
+      \name{editor}{6}{}{%
+        {{hash=b91804adecb2246153e6628b7e21b5b2}{%
+           family={Doglioni},
+           familyi={D\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a3ee7bee5a5ecb7a55a51ecdd4e78cef}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=15ed541dccf4571d529123c49ed13f93}{%
+           family={Stewart},
            familyi={S\bibinitperiod},
-           given={Joao\bibnamedelima P.},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+           given={G.A.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=39b91e9705a818ad2f37d8358a90307a}{%
+           family={Silvestris},
+           familyi={S\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e0dbbea4048ce99738ceeeeaabb574e4}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=fc7fcc4cf5e83cae20b3e32ef741df2d}{%
+           family={Kamleh},
+           familyi={K\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {World Scientific Pub Co Pte Ltd}%
+        {EDP Sciences}%
       }
-      \strng{namehash}{5ea3910b5073ea03ec5404b3776a8848}
-      \strng{fullhash}{5ea3910b5073ea03ec5404b3776a8848}
-      \strng{fullhashraw}{5ea3910b5073ea03ec5404b3776a8848}
-      \strng{bibnamehash}{5ea3910b5073ea03ec5404b3776a8848}
-      \strng{authorbibnamehash}{5ea3910b5073ea03ec5404b3776a8848}
-      \strng{authornamehash}{5ea3910b5073ea03ec5404b3776a8848}
-      \strng{authorfullhash}{5ea3910b5073ea03ec5404b3776a8848}
-      \strng{authorfullhashraw}{5ea3910b5073ea03ec5404b3776a8848}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \strng{namehash}{8f4199881644ef6d3451bdb6727882c8}
+      \strng{fullhash}{8f4199881644ef6d3451bdb6727882c8}
+      \strng{fullhashraw}{8f4199881644ef6d3451bdb6727882c8}
+      \strng{bibnamehash}{8f4199881644ef6d3451bdb6727882c8}
+      \strng{authorbibnamehash}{8f4199881644ef6d3451bdb6727882c8}
+      \strng{authornamehash}{8f4199881644ef6d3451bdb6727882c8}
+      \strng{authorfullhash}{8f4199881644ef6d3451bdb6727882c8}
+      \strng{authorfullhashraw}{8f4199881644ef6d3451bdb6727882c8}
+      \strng{editorbibnamehash}{45b3528a3f1a979c11ce6bbaf476c404}
+      \strng{editornamehash}{45b3528a3f1a979c11ce6bbaf476c404}
+      \strng{editorfullhash}{030505ccada724ffd55c871411d8098e}
+      \strng{editorfullhashraw}{030505ccada724ffd55c871411d8098e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1793-656X}
-      \field{journaltitle}{International Journal of Modern Physics A}
-      \field{month}{10}
-      \field{number}{26}
-      \field{title}{A Resource for Signs and Feynman Diagrams of the Standard Model}
-      \field{volume}{27}
-      \field{year}{2012}
-      \field{pages}{1230025}
+      \field{issn}{2100-014X}
+      \field{journaltitle}{EPJ Web of Conferences}
+      \field{title}{NANOAOD: a new compact event data format in CMS}
+      \field{volume}{245}
+      \field{year}{2020}
+      \field{pages}{06002}
       \range{pages}{1}
       \verb{doi}
-      \verb 10.1142/s0217751x12300256
+      \verb 10.1051/epjconf/202024506002
       \endverb
       \verb{urlraw}
-      \verb http://dx.doi.org/10.1142/S0217751X12300256
+      \verb http://dx.doi.org/10.1051/epjconf/202024506002
       \endverb
       \verb{url}
-      \verb http://dx.doi.org/10.1142/S0217751X12300256
+      \verb http://dx.doi.org/10.1051/epjconf/202024506002
       \endverb
     \endentry
-    \entry{SalamAndWardEW}{article}{}{}
+    \entry{BDTPaper}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ce884cc144616c39e723a8fe2eb3c879}{%
+           family={Friedman},
+           familyi={F\bibinitperiod},
+           given={Jerome\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Institute of Mathematical Statistics}%
+      }
+      \strng{namehash}{ce884cc144616c39e723a8fe2eb3c879}
+      \strng{fullhash}{ce884cc144616c39e723a8fe2eb3c879}
+      \strng{fullhashraw}{ce884cc144616c39e723a8fe2eb3c879}
+      \strng{bibnamehash}{ce884cc144616c39e723a8fe2eb3c879}
+      \strng{authorbibnamehash}{ce884cc144616c39e723a8fe2eb3c879}
+      \strng{authornamehash}{ce884cc144616c39e723a8fe2eb3c879}
+      \strng{authorfullhash}{ce884cc144616c39e723a8fe2eb3c879}
+      \strng{authorfullhashraw}{ce884cc144616c39e723a8fe2eb3c879}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0090-5364}
+      \field{journaltitle}{The Annals of Statistics}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{Greedy function approximation: A gradient boosting machine.}
+      \field{volume}{29}
+      \field{year}{2001}
+      \verb{doi}
+      \verb 10.1214/aos/1013203451
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1214/aos/1013203451
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1214/aos/1013203451
+      \endverb
+    \endentry
+    \entry{XGBoostDocumentation}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=fe0caca28a9999ca95e647dab39f2f67}{%
+           family={Developers},
+           familyi={D\bibinitperiod},
+           given={XGBoost},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe0caca28a9999ca95e647dab39f2f67}
+      \strng{fullhash}{fe0caca28a9999ca95e647dab39f2f67}
+      \strng{fullhashraw}{fe0caca28a9999ca95e647dab39f2f67}
+      \strng{bibnamehash}{fe0caca28a9999ca95e647dab39f2f67}
+      \strng{authorbibnamehash}{fe0caca28a9999ca95e647dab39f2f67}
+      \strng{authornamehash}{fe0caca28a9999ca95e647dab39f2f67}
+      \strng{authorfullhash}{fe0caca28a9999ca95e647dab39f2f67}
+      \strng{authorfullhashraw}{fe0caca28a9999ca95e647dab39f2f67}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{XGBoost Documentation}
+      \field{urlday}{12}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://xgboost.readthedocs.io/en/release_3.2.0/index.html
+      \endverb
+      \verb{url}
+      \verb https://xgboost.readthedocs.io/en/release_3.2.0/index.html
+      \endverb
+    \endentry
+    \entry{XGBoostPaper}{article}{}{}
       \name{author}{2}{}{%
-        {{hash=5196fd7e08485dbc6a7dd05adc133fdf}{%
-           family={Salam},
-           familyi={S\bibinitperiod},
-           given={Abdus},
-           giveni={A\bibinitperiod}}}%
-        {{hash=eb2469c6b7d20b7a6875adfa436fccbe}{%
-           family={Ward},
-           familyi={W\bibinitperiod},
-           given={J.\bibnamedelimi C.},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=48461ccdf50ba5a54e29a354aa734c0b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tianqi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c9ab8ac486d7f85ac914b1a8e51e512b}{%
+           family={Guestrin},
+           familyi={G\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{fullhash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{fullhashraw}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{bibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorbibnamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authornamehash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorfullhash}{f79ceb030bcf791e5521f87ac6ada03b}
+      \strng{authorfullhashraw}{f79ceb030bcf791e5521f87ac6ada03b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{XGBoost: A Scalable Tree Boosting System}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1145/2939672.2939785
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1603.02754
+      \endverb
+    \endentry
+    \entry{Run2Hgg2018}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4cb2e77a14335bb3218633a36b56e696}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelima CMS},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
       }
       \list{publisher}{2}{%
         {Springer Science}%
         {Business Media LLC}%
       }
-      \strng{namehash}{6b5442dbdbae66a93d5b5678be47336b}
-      \strng{fullhash}{6b5442dbdbae66a93d5b5678be47336b}
-      \strng{fullhashraw}{6b5442dbdbae66a93d5b5678be47336b}
-      \strng{bibnamehash}{6b5442dbdbae66a93d5b5678be47336b}
-      \strng{authorbibnamehash}{6b5442dbdbae66a93d5b5678be47336b}
-      \strng{authornamehash}{6b5442dbdbae66a93d5b5678be47336b}
-      \strng{authorfullhash}{6b5442dbdbae66a93d5b5678be47336b}
-      \strng{authorfullhashraw}{6b5442dbdbae66a93d5b5678be47336b}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \strng{namehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{fullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{bibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorbibnamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authornamehash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhash}{4cb2e77a14335bb3218633a36b56e696}
+      \strng{authorfullhashraw}{4cb2e77a14335bb3218633a36b56e696}
+      \field{extraname}{12}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1827-6121}
-      \field{journaltitle}{Il Nuovo Cimento}
-      \field{month}{2}
-      \field{number}{4}
-      \field{title}{Weak and electromagnetic interactions}
-      \field{volume}{11}
-      \field{year}{1959}
-      \field{pages}{568\bibrangedash 577}
-      \range{pages}{10}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Measurements of Higgs boson properties in the diphoton decay channel in proton-proton collisions at $\sqrt{s}=13$ TeV}
+      \field{volume}{2018}
+      \field{year}{2018}
       \verb{doi}
-      \verb 10.1007/bf02726525
+      \verb 10.1007/jhep11(2018)185
       \endverb
       \verb{urlraw}
-      \verb http://dx.doi.org/10.1007/BF02726525
+      \verb http://dx.doi.org/10.1007/JHEP11(2018)185
       \endverb
       \verb{url}
-      \verb http://dx.doi.org/10.1007/BF02726525
-      \endverb
-    \endentry
-    \entry{FermiWeakPaper}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=b0389913f00d6a1a3e04c38c1038779d}{%
-           family={Wilson},
-           familyi={W\bibinitperiod},
-           given={Fred\bibnamedelima L.},
-           giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Association of Physics Teachers (AAPT)}%
-      }
-      \strng{namehash}{b0389913f00d6a1a3e04c38c1038779d}
-      \strng{fullhash}{b0389913f00d6a1a3e04c38c1038779d}
-      \strng{fullhashraw}{b0389913f00d6a1a3e04c38c1038779d}
-      \strng{bibnamehash}{b0389913f00d6a1a3e04c38c1038779d}
-      \strng{authorbibnamehash}{b0389913f00d6a1a3e04c38c1038779d}
-      \strng{authornamehash}{b0389913f00d6a1a3e04c38c1038779d}
-      \strng{authorfullhash}{b0389913f00d6a1a3e04c38c1038779d}
-      \strng{authorfullhashraw}{b0389913f00d6a1a3e04c38c1038779d}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1943-2909}
-      \field{journaltitle}{American Journal of Physics}
-      \field{month}{12}
-      \field{number}{12}
-      \field{title}{Fermi’s Theory of Beta Decay}
-      \field{volume}{36}
-      \field{year}{1968}
-      \field{pages}{1150\bibrangedash 1160}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1119/1.1974382
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1119/1.1974382
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1119/1.1974382
+      \verb http://dx.doi.org/10.1007/JHEP11(2018)185
       \endverb
     \endentry
   \enddatalist
