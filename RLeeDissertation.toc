@@ -2,9 +2,9 @@
 \contentsline {chapter}{Dissertation Approval Page}{iii}{section*.2}%
 \contentsline {chapter}{Table of Contents}{iv}{section*.3}%
 \contentsline {chapter}{List of Figures}{vii}{section*.4}%
-\contentsline {chapter}{List of Tables}{xv}{section*.5}%
-\contentsline {chapter}{Vita}{xvi}{section*.6}%
-\contentsline {chapter}{Abstract of the Dissertation}{xvii}{section*.7}%
+\contentsline {chapter}{List of Tables}{xvi}{section*.5}%
+\contentsline {chapter}{Vita}{xvii}{section*.6}%
+\contentsline {chapter}{Abstract of the Dissertation}{xviii}{section*.7}%
 \contentsline {chapter}{Introduction}{1}{section*.8}%
 \contentsline {chapter}{\numberline {1}The Standard Model and Higgs Boson}{4}{chapter.1}%
 \contentsline {section}{\numberline {1.1}The Major Quantum Field Theories of the Standard Model}{6}{section.1.1}%
@@ -84,6 +84,6 @@
 \contentsline {subsection}{\numberline {7.2.2}$HH \rightarrow b \bar {b} \gamma \gamma $ MVA-HLT Acceptance}{152}{subsection.7.2.2}%
 \contentsline {section}{\numberline {7.3}Evaluation of Offline Selection Eficiency with MVA-HLT }{156}{section.7.3}%
 \contentsline {subsection}{\numberline {7.3.1}$H \rightarrow \gamma \gamma $ Offline Selection Acceptance}{157}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}$HH \rightarrow b \bar {b} \gamma \gamma $ Offline Selection Acceptance}{162}{subsection.7.3.2}%
-\contentsline {chapter}{\numberline {8}Conclusions}{166}{chapter.8}%
+\contentsline {subsection}{\numberline {7.3.2}$HH \rightarrow b \bar {b} \gamma \gamma $ Offline Selection Acceptance}{164}{subsection.7.3.2}%
+\contentsline {chapter}{\numberline {8}Conclusions}{172}{chapter.8}%
 \def \@chapapp {\appendixname }
