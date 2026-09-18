@@ -80,10 +80,10 @@
 \contentsline {chapter}{\numberline {7}Evaluation of the MVA-HLT and Complementary Offline Selection}{146}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Measurement of Trigger Rate and Timing}{146}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Evaluation of MVA-HLT Eficiency on Selected Signal Samples}{147}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}$H \rightarrow \gamma \gamma $ MVA-HLT Acceptance}{148}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.1}$H \rightarrow \gamma \gamma $ MVA-HLT Signal Efficiency}{148}{subsection.7.2.1}%
 \contentsline {subsection}{\numberline {7.2.2}$HH \rightarrow b \bar {b} \gamma \gamma $ MVA-HLT Acceptance}{152}{subsection.7.2.2}%
 \contentsline {section}{\numberline {7.3}Evaluation of Offline Selection Eficiency with MVA-HLT }{156}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}$H \rightarrow \gamma \gamma $ Offline Selection Acceptance}{157}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}$HH \rightarrow b \bar {b} \gamma \gamma $ Offline Selection Acceptance}{164}{subsection.7.3.2}%
-\contentsline {chapter}{\numberline {8}Conclusions}{172}{chapter.8}%
+\contentsline {subsection}{\numberline {7.3.1}$H \rightarrow \gamma \gamma $ Offline Selection Efficiency}{157}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}$HH \rightarrow b \bar {b} \gamma \gamma $ Offline Selection Acceptance}{167}{subsection.7.3.2}%
+\contentsline {chapter}{\numberline {8}Conclusions}{176}{chapter.8}%
 \def \@chapapp {\appendixname }

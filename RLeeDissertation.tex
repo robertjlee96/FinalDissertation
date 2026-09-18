@@ -2115,8 +2115,8 @@ In order to assess these results in terms of real physics yeilds, the counts of 
     Expected Count = Event Weight * \sigma (pb) * \mathcal{L}_{Equiv.} (fb^{-1}) * 1000 * \left(\frac{\mathcal{L}_{Target} (fb^{-1})}{\mathcal{L}_{Equiv.} (fb^{-1})}\right)
 \end{equation}
 
-\subsection{$H \rightarrow \gamma \gamma$ MVA-HLT Acceptance} \label{sec:OfflineHLTSingleH}
-Beginning with the $M_{\gamma \gamma}$ distribution (fig. \ref{fig:SingleH:HLTAcceptance:Mgg}), it can be seen that the MVA-HLT (blue) has considerably improved signal MC efficiency compared to the standard HLT. In fact, there is a 9.7\% relative signal efficiency gain (97.32\% vs 88.68\%) when considering both the barrel and endcap events together. This is a bit lower than the 13.6\% signal gain seen at the RAW trigger level (93.86\% vs 82.64\%). This is partly due to the improvement in overall signal efficiency for the standard HLT at the NanoAOD level. Because the NanoAOD reconstruction is improved relative to that at the trigger RAW level, it is expected that the total signal efficiency at this level will be increased. Overall, however, it can be seen that the $H \rightarrow \gamma \gamma$ signal eficiency is very high for the MVA-HLT, as desired.
+\subsection{$H \rightarrow \gamma \gamma$ MVA-HLT Signal Efficiency} \label{sec:OfflineHLTSingleH}
+Beginning with the $M_{\gamma \gamma}$ distribution (fig. \ref{fig:SingleH:HLTAcceptance:Mgg}), it can be seen that the MVA-HLT (blue) has considerably improved signal MC efficiency compared to the standard HLT. In fact, there is a 9.7\% relative signal efficiency gain (97.32\% vs 88.68\%) when considering both the barrel and endcap events together. This is a bit lower than the 13.6\% signal gain seen at the RAW trigger level (93.86\% vs 82.64\%). This is partly due to the fact that a lerger percentage of the events reconstructed at the NanoAOD level pass the sHLT. Because the NanoAOD reconstruction is improved relative to that at the trigger RAW level, it is expected that the final NanoAOD sample will not contain some events that were poorly reconstructed at the RAW level. Overall, however, it can be seen that the $H \rightarrow \gamma \gamma$ signal eficiency is very high for the MVA-HLT, as desired.
 
 Another major advantage of the MVA-HLT is the reduction in data rate. As demonstrated in section \ref{sec:TriggerRate}, the MVA-HLT has approximately half the trigger rate of the standard trigger. This is approximately confirmed by data distribution shown in \ref{SingleHBkg:HLTAcceptance:Mgg}. For all $\eta_{SC}$, the total data acceptance is 22.41\% compared to thr 42.62\% of the standard HLT. The light blue curve, additionally, can be used as a proxy for seeing the pure rate measured in section \ref{sec:TriggerRate}; about 13.4\% of the data passes the MVA-HLT but fails the standard HLT. 
 
@@ -2131,7 +2131,7 @@ Another major advantage of the MVA-HLT is the reduction in data rate. As demonst
 		\caption{Data $M_{\gamma \gamma}$}
 		\label{SingleHBkg:HLTAcceptance:Mgg}
 	\end{subfigure}
-	\caption{$H \rightarrow \gamma \gamma$ acceptance of the MVA-HLT (dark blue) vs. the current diphoton sHLT (green) for $M_{\gamma \gamma}$. Events that pass the MVA-HLT but fail the sHLT can be seen in light blue.}
+	\caption{$H \rightarrow \gamma \gamma$ $M_{\gamma \gamma}$ distribution of events accepted by the MVA-HLT (dark blue) vs. the current diphoton sHLT (green). Events that pass the MVA-HLT but fail the sHLT can be seen in light blue.}
 	\label{fig:SingleH:HLTAcceptance:Mgg}
 \end{figure}
 
@@ -2150,7 +2150,7 @@ The acceptance of the data, shown in figure \ref{SingleHBkg:HLTAcceptance:Eta}, 
 		\caption{Data $\eta_{SC}$}
 		\label{SingleHBkg:HLTAcceptance:Eta}
 	\end{subfigure}
-	\caption{$H \rightarrow \gamma \gamma$ acceptance of the MVA-HLT (dark blue) vs. the current diphoton sHLT (green) for $\eta_{SC}$. Both the lead and sublead photons are plotted together. Events that pass the MVA-HLT but fail the sHLT can be seen in light blue.}
+	\caption{$H \rightarrow \gamma \gamma$ $\eta_{SC}$ distribution of events accepted by the MVA-HLT (dark blue) vs. the current diphoton sHLT (green). Events that pass the MVA-HLT but fail the sHLT can be seen in light blue.}
 	\label{fig:SingleH:HLTAcceptance:Eta}
 \end{figure}
 
@@ -2158,15 +2158,15 @@ Next, the photon candidate $p_T/M_{\gamma \gamma}$ can be examined. Given the lo
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png}
-		\caption{Signal MC Diphoton $p_{T}$}
+		\caption{Signal MC Diphoton $p_T/M_{\gamma \gamma}$}
 		\label{SingleHSig:HLTAcceptance:Ptm}
 	\end{subfigure}\hfill
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Bkg.png}
-		\caption{Data Diphoton $p_{T}$}
+		\caption{Data Diphoton $p_T/M_{\gamma \gamma}$}
 		\label{SingleHBkg:HLTAcceptance:Ptm}
 	\end{subfigure}
-	\caption{$H \rightarrow \gamma \gamma$ acceptance of the MVA-HLT (dark blue) vs. the current standard diphoton HLT (green) for $p_{T}$. Both the lead and sublead photons are plotted together. Events that pass the MVA-HLT but fail the standard HLT can be seen in light blue.}
+	\caption{$H \rightarrow \gamma \gamma$ $p_T/M_{\gamma \gamma}$ distribution of events accepted by the MVA-HLT (dark blue) vs. the current diphoton sHLT (green). Events that pass the MVA-HLT but fail the sHLT can be seen in light blue.}
 	\label{fig:SingleH:HLTAcceptance:Ptm}
 \end{figure}
 
@@ -2209,7 +2209,7 @@ Overall, it can be seen that the MVA-HLT achieves the desired result at the Nano
 
 \subsection{$HH \rightarrow b \bar{b} \gamma \gamma$ MVA-HLT Acceptance} \label{sec:OfflineHLTDiHiggs}
 
-Where the MVA-HLT can sine best, however, is for more rare processes like the $HH \rightarrow b \bar{b} \gamma \gamma$. As with the single Higgs results, plots can be made comparing the signal efficiency and data acceptance for the sHLT versus the MVA-HLT. These distributions are shown in figures \ref{fig:DiHiggs:HLTAcceptance:Mgg}-\ref{fig:DiHiggs:HLTAcceptance:Ptm}. Given that the cross section of the DiHiggs is much lower than that of the single Higgs (as described in section \ref{sec:Higgs}), the equivalent counts for this signal MC are lower.
+Where the MVA-HLT can be best leveraged, however, is for more rare processes like the $HH \rightarrow b \bar{b} \gamma \gamma$. As with the single Higgs results, plots can be made comparing the signal efficiency and data rate for the sHLT versus the MVA-HLT. These distributions are shown in figures \ref{fig:DiHiggs:HLTAcceptance:Mgg}-\ref{fig:DiHiggs:HLTAcceptance:Ptm}. Given that the cross section of the DiHiggs is much lower than that of the single Higgs (as described in section \ref{sec:Higgs}), the equivalent counts for this signal MC are lower.
 
 Similarly to the MVA-HLT results for the $H \rightarrow \gamma \gamma$ signal MC, very high signal efficiency is immediately seen for $HH \rightarrow b \bar{b} \gamma \gamma$. In figure \ref{fig:DiHiggs:HLTAcceptance:Mgg}, it can be seen that the signal acceptance has near-perfect kinematic coverage in $M_{\gamma \gamma}$ and achieves a total efficiency of 98.45\%. Compared to the sHLT (88.45\%), this is an 11.3\% relative gain.  This is, in fact, slightly higher than the 97.32\% achieved for the single Higgs. Since the MVA-HLT is largely aimed at improving the signal efficiency for rarer processes, this is a welcome result. The data acceptance is lower than that for the single Higgs, but the ratio between the sHLT and the MVA-HLT is approximately constant -- while the sHLT accepts 33.2\% of the data, the MVA-HLT accepts 16.86\%. There is no particular $M_{\gamma \gamma}$ dependence to the acceptance of either HLT for the signal or background.
 
@@ -2224,7 +2224,7 @@ Similarly to the MVA-HLT results for the $H \rightarrow \gamma \gamma$ signal MC
 		\caption{Data $M_{\gamma \gamma}$}
 		\label{DiHiggsBkg:HLTAcceptance:Mgg}
 	\end{subfigure}
-	\caption{$HH \rightarrow b \bar{b} \gamma \gamma$ acceptance of the MVA-HLT (dark blue) vs. the current standard diphoton HLT (green) for $M_{\gamma \gamma}$. Events that pass the MVA-HLT but fail the standard HLT can be seen in light blue.}
+	\caption{$HH \rightarrow b \bar{b} \gamma \gamma$ $M_{\gamma \gamma}$ distribution of events accepted by the MVA-HLT (dark blue) vs. the current diphoton sHLT (green). Events that pass the MVA-HLT but fail the sHLT can be seen in light blue.}
 	\label{fig:DiHiggs:HLTAcceptance:Mgg}
 \end{figure}
 
@@ -2241,7 +2241,7 @@ Upon examining the $\eta_{SC}$ distributions, the kinematic differences between 
 		\caption{Data $\eta_{SC}$}
 		\label{DiHiggsBkg:HLTAcceptance:Eta}
 	\end{subfigure}
-	\caption{$HH \rightarrow b \bar{b} \gamma \gamma$ acceptance of the MVA-HLT (dark blue) vs. the current standard diphoton HLT (green) for $\eta_{SC}$. Events that pass the MVA-HLT but fail the standard HLT can be seen in light blue.}
+	\caption{$HH \rightarrow b \bar{b} \gamma \gamma$ $\eta_{SC}$ distribution of events accepted by the MVA-HLT (dark blue) vs. the current diphoton sHLT (green). Events that pass the MVA-HLT but fail the sHLT can be seen in light blue.}
 	\label{fig:DiHiggs:HLTAcceptance:Eta}
 \end{figure}
 
@@ -2258,7 +2258,7 @@ As seen in figure \ref{DiHiggsSig:HLTAcceptance:Eta}, the diHiggs signal MC show
 		\caption{Data $p_T/M_{\gamma \gamma}$}
 		\label{DiHiggsBkg:HLTAcceptance:PtM}
 	\end{subfigure}
-	\caption{$HH \rightarrow b \bar{b} \gamma \gamma$ acceptance of the MVA-HLT (dark blue) vs. the current standard diphoton HLT (green) for $p_T/M_{\gamma \gamma}$. Events that pass the MVA-HLT but fail the standard HLT can be seen in light blue.}
+	\caption{$HH \rightarrow b \bar{b} \gamma \gamma$ $p_T/M_{\gamma \gamma}$ distribution of events accepted by the MVA-HLT (dark blue) vs. the current diphoton sHLT (green). Events that pass the MVA-HLT but fail the sHLT can be seen in light blue.}
 	\label{fig:DiHiggs:HLTAcceptance:Ptm}
 \end{figure}
 
@@ -2304,7 +2304,7 @@ Any chosen offline selection cuts are only given as a point of comparison; the p
 
 For both the single and diHiggs samples, the plots will be shown in much the same way. The same event scaling described in equation \ref{eqn:ExpectedCount} will be used to display the expected counts for the signal MC. The plots will contain six curves total: the black curve will show all reconstructed events selected by the basic selection criteria described before; the dark blue, light blue, and light green will show the standard, tight, and loosest BDT-based selections, respectively; the yellow and orange curves will show the single photon preselection and the overall standard analysis cuts, respctively. 
 
-\subsection{$H \rightarrow \gamma \gamma$ Offline Selection Acceptance}\label{sec:OfflineSingleHSelection}
+\subsection{$H \rightarrow \gamma \gamma$ Offline Selection Efficiency}\label{sec:OfflineSingleHSelection}
 
 The $M_{\gamma \gamma}$, shown in figure \ref{fig:SingleH:OfflineAcceptance:Mgg}, contains all of the curves described above. Beginning with the signal in figure \ref{SingleHSig:OfflineAcceptance:Mgg}, the improved signal efficiency of all three BDT-based analyses is immediately manifest. Whereas the standard analysis (SA) cuts only achieve a signal efficiency of 70.53\%, the diphoton BDT cuts that accept the same amount of backround are able to attain a 91.27\% signal efficiency. So, then, the BDT-based selection is not only able to leverage the improved signal performance of the MVA-HLT, but it is able to gain a relative 29.4\% improvement in overall signal efficiency. Even the tight selection, which has half the background acceptance of the SA, reaches a signal efficiency of 83.51\%. The loosest selection, with twice the background of the SA, has a very high signal efficiency of 95.74\%. This selection could be useful for very well-tagged analyses that have some additional criteria that allow the background rate to be brought down considerably without the need for a tight $H \rightarrow \gamma \gamma$ selection.
 
@@ -2323,7 +2323,7 @@ The background mass distribution in figure \ref{SingleHBkg:OfflineAcceptance:Mgg
 		\caption{Data $M_{\gamma \gamma}$}
 		\label{SingleHBkg:OfflineAcceptance:Mgg}
 	\end{subfigure}
-	\caption{Total offline selection acceptances for $H \rightarrow \gamma \gamma$. Three tightnesses of BDT-based selection cuts are shown in dark blue (standard), light blue (tighter), and light green (looser). The acceptance of the preselection is shown in yellow, while the full standard analysis cuts are shown in orange.}
+	\caption{$M_{\gamma \gamma}$ distributions for $H \rightarrow \gamma \gamma$ events accepted by different offline selections.. Three tightnesses of BDT-based selection cuts are shown in dark blue (standard), light blue (tighter), and light green (looser). The preselection is shown in yellow, while the full standard analysis cuts are shown in orange.}
 	\label{fig:SingleH:OfflineAcceptance:Mgg}
 \end{figure}
 
@@ -2338,7 +2338,7 @@ The background mass distribution in figure \ref{SingleHBkg:OfflineAcceptance:Mgg
 		\caption{Data $M_{\gamma \gamma}$ Efficiency}
 		\label{SingleHBkg:OfflineEfficiency:Mgg}
 	\end{subfigure}
-	\caption{Total offline efficiency for $H \rightarrow \gamma \gamma$. Three tightnesses of BDT-based selection cuts are shown in dark blue (standard), light blue (tighter), and light green (looser). The acceptance of the preselection is shown in yellow, while the full standard analysis cuts are shown in orange.}
+	\caption{$M_{\gamma \gamma}$ distributions for $H \rightarrow \gamma \gamma$ events accepted by different offline selections. Three tightnesses of BDT-based selection cuts are shown in dark blue (standard), light blue (tighter), and light green (looser). The preselection is shown in yellow, while the full standard analysis cuts are shown in orange.}
 	\label{fig:SingleH:OfflineEfficiency:Mgg}
 \end{figure}
 
@@ -2357,10 +2357,12 @@ There are, additionally, clear differences with the data $\eta_{SC}$ distributio
 		\caption{Data $\eta_{SC}$}
 		\label{SingleHBkg:OfflineAcceptance:ScEta}
 	\end{subfigure}
-	\caption{Total offline selection acceptances for $H \rightarrow \gamma \gamma$. Three tightnesses of BDT-based selection cuts are shown in dark blue (standard), light blue (tighter), and light green (looser). The acceptance of the preselection is shown in yellow, while the full standard analysis cuts are shown in orange. Both the lead and sublead photons are plotted together.}
+	\caption{$\eta_{SC}$ distributions for $H \rightarrow \gamma \gamma$ events accepted by different offline selections. Three tightnesses of BDT-based selection cuts are shown in dark blue (standard), light blue (tighter), and light green (looser). The preselection is shown in yellow, while the full standard analysis cuts are shown in orange. Both the lead and sublead photons are plotted together.}
 	\label{fig:SingleH:OfflineAcceptance:ScEta}
 \end{figure}
 
+In addition to the distribution of accepted events, it is also useful to consider the kinematically-binned signal efficiency and percentage of accepted background for each of the selections. The "All Events" curve in the previous plot can simply be used as a denominator, and each curve can be divided by it. This gives a plot with a range between 0 and 1. Of course, the goal of the offline selection is to maximize the signal efficiency and therefore have a nearly flat distribution approaching one. In figure \ref{SingleHSig:OfflineEfficiency:ScEta}, the efficiency plot for $\eta_{SC}$ can be seen. Clearly, while the SA curve shows a decently flat efficiency throughout the barrel, it falls off considerably in the endcaps. Additionally, the maximum efficiency achieved by the SA is quite a bit lower than that of any of the offline selections. Meanwhile, all three BDT-based offline selections have relatively flat signal efficiencies. This again shows the increase in kinematic coverage in $\eta_{SC}$ for the new selection. Additionally, the increase in background rejection for high-$\eta_{SC}$ events can be seen for the background in figure \ref{SingleHBkg:OfflineEfficiency:ScEta}. Since there is less signal in this region, rejecting more data should help increase the purity of the selected samples.
+ 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0831_FullOfflineCuts_Efficiency_SingleSquarePlots/scEta_All_Sig.png}
@@ -2368,7 +2370,7 @@ There are, additionally, clear differences with the data $\eta_{SC}$ distributio
 		\label{SingleHSig:OfflineEfficiency:ScEta}
 	\end{subfigure}\hfill
 	\begin{subfigure}{0.50\linewidth}
-		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0831_FullOfflineCuts_Efficiency_SingleSquarePlots/scEta_All_Sig.png}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0831_FullOfflineCuts_Efficiency_SingleSquarePlots/scEta_All_Bkg.png}
 		\caption{Data $\eta_{SC}$ Efficiency}
 		\label{SingleHBkg:OfflineEfficiency:ScEta}
 	\end{subfigure}
@@ -2387,11 +2389,13 @@ The final distribution to consider, as with the HLT results, is the $p_T/M_{\gam
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0710_FullOfflineCuts_SingleSquarePlots/ptOvrM_All_Bkg.png}
 		\caption{Data $p_T/M_{\gamma\gamma}$}
-		\label{SingleHBkg:OfflineAcceptance:PtOvrM}
+		\label{SingleHBkg:OfflineAcceptance:PtOvrM} 
 	\end{subfigure}
-	\caption{Total offline selection acceptances for $H \rightarrow \gamma \gamma$. Three tightnesses of BDT-based selection cuts are shown in dark blue (standard), light blue (tighter), and light green (looser). The acceptance of the preselection is shown in yellow, while the full standard analysis cuts are shown in orange. Both the lead and sublead photons are plotted together.}
+	\caption{$p_T/M_{\gamma \gamma}$ distributions for $H \rightarrow \gamma \gamma$ events accepted by different offline selections. Three tightnesses of BDT-based selection cuts are shown in dark blue (standard), light blue (tighter), and light green (looser). The preselection is shown in yellow, while the full standard analysis cuts are shown in orange. Both the lead and sublead photons are plotted together.}
 	\label{fig:SingleH:OfflineAcceptance:PtM}
 \end{figure}
+
+The efficiency plot for $p_T/M_{\gamma \gamma}$ (figure \ref{fig:SingleH:OfflineEfficiency:PtM}) tells a similar story; by removing the hard cuts on $p_T/M_{\gamma \gamma}$, the offline selection is able to achieve consistently high signal efficiency. In addition to filling in the signal efficiency at low $p_T/M_{\gamma \gamma}$, the efficiency stays high out to $p_T/M_{\gamma \gamma}$ = 1.8 whereas the SA curve begins to fall off quickly in this region. Again, this points towards both the overall improvement in signal efficiency and the increase in kinematic coverage achieved by the BDT-based selection.
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
@@ -2443,6 +2447,10 @@ As with the HLT results, a table of signal efficiencies and data acceptances for
     \end{subtable}
 \end{table}
 
+The final measure to assess the performance of an offline selection is to plot the value of (physics weighted) signal MC events divided by background events in each kinematic bin. By assessing S/B for each selection, the purity of the samples selected by each set of cuts can directly be assessed. In the following plots, the S/B for the BDT-based offline selection will be shown at left, while the SA selection will be shown at right. Additionally, it will be shown on the same plot for B-B events (black), B-E events (blue), and E-E events (red). 
+
+First, in figure \ref{fig:SingleH:OfflineSovrB:ScEta}, the S/B for $\eta_{SC}$ can be seen. Of note, the S/B for the B-B events does not change appreciably between the BDT-based and standard analysis selections -- while the BDT-based selection accepts more B-B signal events, it also accepts a bit more data in this region. Immediately, howeber, it can be seen that the B-E and E-E S/B is drastically improved for the BDT-based selection at left. As has been shown, the acceptance of signal events in the endcap has been increased considerably, while the acceptance of data events has been reduced. So, then, these new analysis selection cuts are able to improve the overall S/B. 
+
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0914_SOvrBPlots_SingleSquarePlots/scEta_XGB.png}
@@ -2458,6 +2466,35 @@ As with the HLT results, a table of signal efficiencies and data acceptances for
 	\label{fig:SingleH:OfflineSovrB:ScEta}
 \end{figure}
 
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0914_SOvrBPlots_SingleSquarePlots/hggMass_XGB.png}
+		\caption{Signal/Background for XGBoost Selection}
+		\label{SingleHSig:OfflineSovrB:hggMass}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0914_SOvrBPlots_SingleSquarePlots/hggMass_SA.png}
+		\caption{Signal/Background for SA Selection}
+		\label{SingleHBkg:OfflineSovrB:hggMass}
+	\end{subfigure}
+	\caption{Signal/Background measurement for $H \rightarrow \gamma \gamma$. }
+	\label{fig:SingleH:OfflineSovrB:hggMass}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0914_SOvrBPlots_SingleSquarePlots/ptOvrM_XGB.png}
+		\caption{Signal/Background for XGBoost Selection}
+		\label{SingleHSig:OfflineSovrB:PtOvrM}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/0914_SOvrBPlots_SingleSquarePlots/ptOvrM_SA.png}
+		\caption{Signal/Background for SA Selection}
+		\label{SingleHBkg:OfflineSovrB:PtOvrM}
+	\end{subfigure}
+	\caption{Signal/Background measurement for $H \rightarrow \gamma \gamma$. }
+	\label{fig:SingleH:OfflineSovrB:PtOvrM}
+\end{figure}
 
 \subsection{$HH \rightarrow b \bar{b} \gamma \gamma$ Offline Selection Acceptance}\label{sec:OfflineDiHiggsSelection}
 
@@ -2511,6 +2548,8 @@ The $\eta_{SC}$ distributions in figure \ref{fig:DiHiggs:OfflineAcceptance:ScEta
 	\label{fig:DiHiggs:OfflineAcceptance:ScEta}
 \end{figure}
 
+As for the single Higgs results, it is clear that the signal efficiency for the DiHiggs in figure \ref{DiHiggsSig:OfflineEfficiency:ScEta} is much flatter for the BDT-based selections than it is for the SA cuts. 
+
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/DiHiggs/0831_FullOfflineCuts_Efficiency_SingleSquarePlots/scEta_All_Sig.png}
@@ -2542,6 +2581,8 @@ The $p_T/M_{\gamma\gamma}$ distributions in figure \ref{fig:DiHiggs:OfflineAccep
 	\caption{Total offline selection acceptances for $HH \rightarrow b \bar{b} \gamma \gamma$. Three tightnesses of BDT-based selection cuts are shown in dark blue (standard), light blue (tighter), and light green (looser). The acceptance of the preselection is shown in yellow, while the full standard analysis cuts are shown in orange. Both the lead and sublead photons are plotted together.}
 	\label{fig:DiHiggs:OfflineAcceptance:PtOvrM}
 \end{figure}
+
+The signal efficiency for $p_T/M_{\gamma\gamma}$, seen in figure \ref{DiHiggsSig:OfflineEfficiency:PtOvrM}, shows an even greater increase in kinematic coverage than that of the single Higgs. Wile there is a sharp falloff as the $p_T/M_{\gamma\gamma}$ drops below 0.2, the overall signal efficiency is above 90\% for the entire range up to 1.8 beyond this. 
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
@@ -2593,6 +2634,8 @@ The overall $HH \rightarrow b \bar{b} \gamma \gamma$ signal MC efficiencies and 
     \end{subtable}
 \end{table}
 
+Since the DiHiggs process is much more rare than the single Higgs process, it is expected that the overall S/B will be much lower. While fewer data events are likely to satisfy the selection cuts on both the $H \rightarrow \gamma \gamma$ and the $H \rightarrow b \bar{b}$, the incredibly low cross section of the signal MC means that more than 1000$\times$ fewer signal events are to be expected for this process. Still, in figure \ref{fig:DiHiggs:OfflineSovrB:ScEta}, very similar features can be seen in the S/B compared to the single Higgs. While the S/B in the background remains relatively unchanged between the BDT-based selection (left) and the SA selection (right) for B-B events, the B-E and E-E S/B are greatly improved. This, agian, points to the overall improvement in the kinematic coverage. 
+
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/DiHiggs/0914_SOvrBPlots_SingleSquarePlots/scEta_XGB.png}
@@ -2606,6 +2649,36 @@ The overall $HH \rightarrow b \bar{b} \gamma \gamma$ signal MC efficiencies and 
 	\end{subfigure}
 	\caption{Signal/Background measurement for $HH \rightarrow b \bar{b} \gamma \gamma$. }
 	\label{fig:DiHiggs:OfflineSovrB:ScEta}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/DiHiggs/0914_SOvrBPlots_SingleSquarePlots/hggMass_XGB.png}
+		\caption{Signal/Background for XGBoost Selection}
+		\label{DiHiggsSig:OfflineSovrB:hggMass}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/DiHiggs/0914_SOvrBPlots_SingleSquarePlots/hggMass_SA.png}
+		\caption{Signal/Background for SA Selection}
+		\label{DiHiggsBkg:OfflineSovrB:hggMass}
+	\end{subfigure}
+	\caption{Signal/Background measurement for $HH \rightarrow b \bar{b} \gamma \gamma$. }
+	\label{fig:DiHiggs:OfflineSovrB:hggMass}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/DiHiggs/0914_SOvrBPlots_SingleSquarePlots/ptOvrM_XGB.png}
+		\caption{Signal/Background for XGBoost Selection}
+		\label{DiHiggsSig:OfflineSovrB:ptOvrM}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.50\linewidth}
+		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/DiHiggs/0914_SOvrBPlots_SingleSquarePlots/ptOvrM_SA.png}
+		\caption{Signal/Background for SA Selection}
+		\label{DiHiggsBkg:OfflineSovrB:ptOvrM}
+	\end{subfigure}
+	\caption{Signal/Background measurement for $HH \rightarrow b \bar{b} \gamma \gamma$. }
+	\label{fig:DiHiggs:OfflineSovrB:ptOvrM}
 \end{figure}
 
 \chapter{Conclusions}
