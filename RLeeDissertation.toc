@@ -2,9 +2,9 @@
 \contentsline {chapter}{Dissertation Approval Page}{iii}{section*.2}%
 \contentsline {chapter}{Table of Contents}{iv}{section*.3}%
 \contentsline {chapter}{List of Figures}{vii}{section*.4}%
-\contentsline {chapter}{List of Tables}{xvi}{section*.5}%
-\contentsline {chapter}{Vita}{xvii}{section*.6}%
-\contentsline {chapter}{Abstract of the Dissertation}{xviii}{section*.7}%
+\contentsline {chapter}{List of Tables}{xvii}{section*.5}%
+\contentsline {chapter}{Vita}{xviii}{section*.6}%
+\contentsline {chapter}{Abstract of the Dissertation}{xix}{section*.7}%
 \contentsline {chapter}{Introduction}{1}{section*.8}%
 \contentsline {chapter}{\numberline {1}The Standard Model and Higgs Boson}{4}{chapter.1}%
 \contentsline {section}{\numberline {1.1}The Major Quantum Field Theories of the Standard Model}{6}{section.1.1}%
@@ -19,7 +19,7 @@
 \contentsline {subsection}{\numberline {1.3.1}Production Modes of a Single Higgs Boson}{16}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Decay Modes of a Single Higgs Boson}{20}{subsection.1.3.2}%
 \contentsline {section}{\numberline {1.4}Higgs Boson Decaying to Two Photons ($H \rightarrow \gamma \gamma $) }{23}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Di-Higgs Production and Properties}{23}{section.1.5}%
+\contentsline {section}{\numberline {1.5}Di-Higgs Production and Properties}{24}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Di-Higgs Production Modes}{24}{subsection.1.5.1}%
 \contentsline {subsection}{\numberline {1.5.2}The $HH \rightarrow b\bar {b}\gamma \gamma $ Channel}{25}{subsection.1.5.2}%
 \contentsline {chapter}{\numberline {2}The LHC and CMS Detector}{27}{chapter.2}%
@@ -31,8 +31,8 @@
 \contentsline {subsubsection}{Silicon Pixel Detector}{34}{subsubsection*.21}%
 \contentsline {subsubsection}{Silicon Strip Detector}{35}{subsubsection*.23}%
 \contentsline {subsection}{\numberline {2.2.2}Electromagnetic Calorimeter}{35}{subsection.2.2.2}%
-\contentsline {subsubsection}{ECal Barrel (EB)}{36}{subsubsection*.26}%
-\contentsline {subsubsection}{ECal Endcaps (EE)}{37}{subsubsection*.27}%
+\contentsline {subsubsection}{ECAL Barrel (EB)}{36}{subsubsection*.26}%
+\contentsline {subsubsection}{ECAL Endcaps (EE)}{37}{subsubsection*.27}%
 \contentsline {subsection}{\numberline {2.2.3}Hadron Calorimeter}{38}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.2.4}The Muon Detector}{38}{subsection.2.2.4}%
 \contentsline {chapter}{\numberline {3}Triggering and Offline Software}{40}{chapter.3}%
@@ -62,28 +62,29 @@
 \contentsline {subsection}{\numberline {5.2.2}Signal and Background Samples for Classification}{80}{subsection.5.2.2}%
 \contentsline {subsubsection}{Signal Samples}{80}{subsubsection*.37}%
 \contentsline {subsubsection}{Background Samples}{80}{subsubsection*.38}%
-\contentsline {subsection}{\numberline {5.2.3}Determination of Input Variables}{81}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Hyperparameter Tuning}{86}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}Determination of BDT Cuts}{88}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Evaluation of BDT Cuts}{92}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Final Implementation in HLT Menu}{98}{section.5.5}%
-\contentsline {chapter}{\numberline {6}MVA-Based Offline Preselection}{100}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Current Diphoton Preselection}{100}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Development of MVA-Based Offline Preselection}{102}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Creation of a Single Photon $\gamma + Jet$ BDT}{102}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Creation of a Single Photon Data/MC BDT for $H \rightarrow \gamma \gamma $}{112}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Determination of Loose Single Photon MVA Cuts for $H \rightarrow \gamma \gamma $}{119}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Creation of Diphoton BDT for $H \rightarrow \gamma \gamma $}{124}{subsection.6.2.4}%
-\contentsline {subsection}{\numberline {6.2.5}Creation of a Data/MC BDT for $HH \rightarrow b \bar {b} \gamma \gamma $}{131}{subsection.6.2.5}%
-\contentsline {subsection}{\numberline {6.2.6}Determination of Loose Single Photon MVA Cuts for $HH \rightarrow b \bar {b} \gamma \gamma $}{136}{subsection.6.2.6}%
-\contentsline {subsection}{\numberline {6.2.7}Creation of a Diphoton BDT for $HH \rightarrow b \bar {b} \gamma \gamma $}{139}{subsection.6.2.7}%
-\contentsline {chapter}{\numberline {7}Evaluation of the MVA-HLT and Complementary Offline Selection}{146}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Measurement of Trigger Rate and Timing}{146}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Evaluation of MVA-HLT Eficiency on Selected Signal Samples}{147}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}$H \rightarrow \gamma \gamma $ MVA-HLT Signal Efficiency}{148}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}$HH \rightarrow b \bar {b} \gamma \gamma $ MVA-HLT Acceptance}{152}{subsection.7.2.2}%
-\contentsline {section}{\numberline {7.3}Evaluation of Offline Selection Eficiency with MVA-HLT }{156}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}$H \rightarrow \gamma \gamma $ Offline Selection Efficiency}{157}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}$HH \rightarrow b \bar {b} \gamma \gamma $ Offline Selection Acceptance}{167}{subsection.7.3.2}%
-\contentsline {chapter}{\numberline {8}Conclusions}{176}{chapter.8}%
+\contentsline {subsubsection}{Total Number of Training Events}{81}{subsubsection*.39}%
+\contentsline {subsection}{\numberline {5.2.3}Determination of Input Variables}{82}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Hyperparameter Tuning}{87}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}Determination of BDT Cuts}{89}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Evaluation of BDT Cuts}{93}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Final Implementation in HLT Menu}{99}{section.5.5}%
+\contentsline {chapter}{\numberline {6}MVA-Based Offline Preselection}{102}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Current Diphoton Preselection}{102}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Development of MVA-Based Offline Preselection}{104}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Creation of a Single Photon $\gamma + Jet$ BDT}{104}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Creation of a Single Photon Data/MC BDT for $H \rightarrow \gamma \gamma $}{114}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Determination of Loose Single Photon MVA Cuts for $H \rightarrow \gamma \gamma $}{121}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Creation of Diphoton BDT for $H \rightarrow \gamma \gamma $}{126}{subsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.2.5}Creation of a Data/MC BDT for $HH \rightarrow b \bar {b} \gamma \gamma $}{133}{subsection.6.2.5}%
+\contentsline {subsection}{\numberline {6.2.6}Determination of Loose Single Photon MVA Cuts for $HH \rightarrow b \bar {b} \gamma \gamma $}{138}{subsection.6.2.6}%
+\contentsline {subsection}{\numberline {6.2.7}Creation of a Diphoton BDT for $HH \rightarrow b \bar {b} \gamma \gamma $}{141}{subsection.6.2.7}%
+\contentsline {chapter}{\numberline {7}Evaluation of the MVA-HLT and Complementary Offline Selection}{148}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Measurement of Trigger Rate and Timing}{148}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Evaluation of MVA-HLT Efficiency on Selected Signal Samples}{149}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}$H \rightarrow \gamma \gamma $ MVA-HLT Signal Efficiency}{150}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}$HH \rightarrow b \bar {b} \gamma \gamma $ MVA-HLT Acceptance}{154}{subsection.7.2.2}%
+\contentsline {section}{\numberline {7.3}Evaluation of Offline Selection Efficiency with MVA-HLT }{158}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}$H \rightarrow \gamma \gamma $ Offline Selection Efficiency}{159}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}$HH \rightarrow b \bar {b} \gamma \gamma $ Offline Selection Acceptance}{169}{subsection.7.3.2}%
+\contentsline {chapter}{\numberline {8}Conclusions}{178}{chapter.8}%
 \def \@chapapp {\appendixname }
