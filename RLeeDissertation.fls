@@ -504,16 +504,16 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/rawEnergy.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/rawEnergy.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/rawEnergy.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/rawEnergy.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/rawEnergy.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/r9.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/r9.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/r9.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/r9.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/r9.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7m.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7y.tfm
@@ -533,100 +533,100 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/siEtaiEta.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/siEtaiEta.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/siEtaiEta.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/siEtaiEta.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/siEtaiEta.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/eta.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/eta.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/eta.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/eta.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/eta.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png
-INPUT ./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
-INPUT ./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/phiW.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/phiW.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/phiW.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/phiW.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/phiW.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/etaW.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/etaW.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/etaW.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/etaW.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/etaW.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/HoE.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/HoE.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/HoE.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/HoE.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/HoE.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/iso.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/iso.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/iso.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/iso.png
+INPUT ./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/iso.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_NoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_NoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_NoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_NoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_NoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_NoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_NoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_NoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_NoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_NoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
+INPUT ./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/mass_All_Sig.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/mass_All_Sig.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/mass_All_Sig.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/mass_All_Sig.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/mass_All_Sig.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/mass_All_Bkg.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/mass_All_Bkg.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/mass_All_Bkg.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/mass_All_Bkg.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/mass_All_Bkg.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/eta_All_Sig.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/eta_All_Sig.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/eta_All_Sig.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/eta_All_Sig.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/eta_All_Sig.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/eta_All_Bkg.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/eta_All_Bkg.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/eta_All_Bkg.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/eta_All_Bkg.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/eta_All_Bkg.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/et_All_Sig.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/et_All_Sig.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/et_All_Sig.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/et_All_Sig.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/et_All_Sig.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/et_All_Bkg.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/et_All_Bkg.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/et_All_Bkg.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/et_All_Bkg.png
+INPUT ./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/et_All_Bkg.png
 INPUT ./Figures/Offline Selection Plots/GJetFinal/0921_GJet_ReweightingPlots/pt_All.png
 INPUT ./Figures/Offline Selection Plots/GJetFinal/0921_GJet_ReweightingPlots/pt_All.png
 INPUT ./Figures/Offline Selection Plots/GJetFinal/0921_GJet_ReweightingPlots/pt_All.png

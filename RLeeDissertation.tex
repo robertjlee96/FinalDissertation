@@ -57,7 +57,7 @@
 \committee{Javier Duerte}
 \committee{Michael Gilson}
 \committee{Marco Pieri}
-\committee{Yi-Zhuang You }
+\committee{Yi-Zhuang You}
 \degreeyear{2026}
 
 % Start the document
@@ -554,7 +554,7 @@ The HB consists of 36 identical "wedges" arranged azimuthally around the beamlin
 The final, outermost detector element is the muon detector. This was a major motivator for the construction of the CMS detector. The muon system is designed entirely to measure muon signatures across the entire kinematic range of the LHC. As with the two calorimeter elements, the muon system is designed as a large barrel detector with two additional endcaps covering the higher-$\eta$ regions near the beamline. Many high-momentum muons are created at the interaction vertex, and these may be hard to measure with just the inner trackers and calorimeters. Since muons will have such a high penetration depth, the muon chambers beyond all other detector elements can provide a way to measure these high-momentum muons while minimizing additional backgrounds. While this impressive system marks a monumental step towards precision measurements of processes containing muons (such as Z boson decay), it has little relation to the measurement of $H \rightarrow \gamma \gamma$ signatures. The general size and shape of the muon system can be seen in figure \ref{fig:FullCMS}, but no further details need be supplied for this analysis.
 
 \chapter{Triggering and Offline Software} \label{chapter:Software}
-In Run 3 of the LHC, the increased luminosity leads to a very high data rate that the Data Acquisition System (DAQ) is not capable of reading out and transferring in its entirety. This increased luminosity furthermore means that there are an average of 57 collisions per bunch crossing (termed "Pileup") \cite{LHCPRun3TriggerReport}. So, any interesting physics event is usually accompanied by an additional 50+ pileup collisions. Given that these bunch crossings occur at a rate of 40 MHz (every 25 ns) and can create a large number of individual particles, the processing and storage facilities of CMS are incapable of saving and analyzing every interaction from each bunch crossing. In fact, storing all the raw data at this rate of 40 MHz would generate up to 40 TB/s of data \cite{Run3HLTPerformanceConference}. The triggering system, therefore, is designed to drastically reduce the number of output events while preserving as many events matching signal signatures as possible. Overall, the triggers aim to reduce the data rate from 40 MHz down to just 7 kHz. This reduction is achieved by a two-tiered trigger system consisting of the Level 1 (L1) triggers and the High Level Triggers (HLT). Since there are many possible signal signatures depending on the analysis being conducted, there are many individual triggers at both L1 and HLT. Details of the L1 triggers will be given below in section \ref{sec:L1}, and the HLT will be described in great detail in section \ref{sec:HLT}. 
+At the LHC, the high luminosity leads to a very high data rate that the Data Acquisition System (DAQ) is not capable of reading out and transferring in its entirety. This increased luminosity furthermore means that there are an average of 57 collisions per bunch crossing (termed "Pileup") \cite{LHCPRun3TriggerReport}. So, any interesting physics event is usually accompanied by an additional 50+ pileup collisions. Given that these bunch crossings occur at a rate of 40 MHz (every 25 ns) and can create a large number of individual particles, the processing and storage facilities of CMS are incapable of saving and analyzing every interaction from each bunch crossing. In fact, storing all the raw data at this rate of 40 MHz would generate up to 40 TB/s of data \cite{Run3HLTPerformanceConference}. The triggering system, therefore, is designed to drastically reduce the number of output events while preserving as many events matching signal signatures as possible. Overall, the triggers aim to reduce the data rate from 40 MHz down to just 7 kHz. This reduction is achieved by a two-tiered trigger system consisting of the Level 1 (L1) triggers and the High Level Triggers (HLT). Since there are many possible signal signatures depending on the analysis being conducted, there are many individual triggers at both L1 and HLT. Details of the L1 triggers will be given below in section \ref{sec:L1}, and the HLT will be described in great detail in section \ref{sec:HLT}. 
 \section{Level-1 Triggers} \label{sec:L1}
 The Level 1 trigger is described in detail in \cite{L12020}, but the primary points are summarized in this section. As described in section \ref{sec:Collisions}, bunch crossings in CMS during Run 3 occur at a rate of 40 million per second (40 MHz). The goal of the L1 trigger is to select at most 110,000 of these crossings per second (110 kHz) to pass on to the next level of the trigger, the HLT, which cannot process more than this number of bunch crossings. The L1 trigger is designed to operate as quickly as possible, with a target latency of just 4 $\mu$s. In order to achieve this very low latency, as little event reconstruction as possible is done at L1; instead, this trigger performs minimal processing on the so-called trigger primitives (TP), which are the raw outputs from detector elements. The details of these TPs will be discussed below in section \ref{sec:L1Info}. 
 
@@ -567,11 +567,11 @@ The inputs to the L1 trigger are entirely in the form of Trigger Primitives (TPs
 The L1 TPs for the muon triggers are considerably more complex, as there are more detector elements to consider. The cathode strip chambers, drift tubes, and resistive plate chambers described in section \ref{sec:MuonDetector} all overlap and must be combined in each TT. Furthermore, the TPs in the muon L1 system are not merely energy depositions. Instead, the muon detector subsystems provide energy, coordinate, and quality information that is later used to reconstruct a track. 
 
 \subsection{The L1 Trigger Architecture} \label{sec:L1Architecture}
-The calorimeter L1 trigger consists of two distinct layers of processing. Layer-1 recieves the inputs directly from the TPs listed above, and sorts and calibrates them rapidly. Layer-2 takes the outputs from Layer-1 and performs primitive calibration and reconstruction, which allows the trigger to roughly identify physics objects such as electrons, $\tau$ and $\mu$ leptons, and jets. A rather complex time-multiplexed hardware system is used in Layer-2, which allows the low, fixed latency necessary at the L1 trigger. Layer-2 consists of several separate reconstruction algorithms, of which primarily the e/$\gamma$ reconstruction algorithm is of interest for the $H \rightarrow \gamma \gamma$ trigger. Details of this reconstruction will be provided in the next section. Once the objects are reconstructed, they are passed to the next stage in the trigger system.
+The calorimeter L1 trigger consists of two distinct layers of processing. Layer-1 receives the inputs directly from the TPs listed above, and sorts and calibrates them rapidly. Layer-2 takes the outputs from Layer-1 and performs primitive calibration and reconstruction, which allows the trigger to roughly identify physics objects such as electrons, $\tau$ and $\mu$ leptons, and jets. A rather complex time-multiplexed hardware system is used in Layer-2, which allows the low, fixed latency necessary at the L1 trigger. Layer-2 consists of several separate reconstruction algorithms, of which primarily the e/$\gamma$ reconstruction algorithm is of interest for the $H \rightarrow \gamma \gamma$ trigger. Details of this reconstruction will be provided in the next section. Once the objects are reconstructed, they are passed to the next stage in the trigger system.
 
-The muon L1 trigger has 3 separate muon track finders (MTFs) which aim to reconstruct tracks in three distinct regions of the detector (barrel, endcap, and overlap). In the barrel, only the DT and RPC TPs are used to reconstruct tracks. In the endcap, only the CSC and RPC TPs are used to achieve the same goal. In the overlap region, all three subdetectors are combined. These MTFs feed their outputs directly to the global muon trigger ($\mu$GMT), which recieves up to 108 muon tracks per event. The $\mu$GMT then sorts the tracks and removes duplicates. The final output of the muon triggers has at most 8 muon tracks.
+The muon L1 trigger has 3 separate muon track finders (MTFs) which aim to reconstruct tracks in three distinct regions of the detector (barrel, endcap, and overlap). In the barrel, only the DT and RPC TPs are used to reconstruct tracks. For the endcap, only the CSC and RPC TPs are used to achieve the same goal. In the overlap region, all three subdetectors are combined. These MTFs feed their outputs directly to the global muon trigger ($\mu$GMT), which receives up to 108 muon tracks per event. The $\mu$GMT then sorts the tracks and removes duplicates. The final output of the muon triggers has at most 8 muon tracks.
 
-Both the Layer-2 calorimeter trigger and the $\mu$GMT output to the Global Trigger ($\mu$GT). The $\mu$GT combines this information using a set of complex algorithms called the trigger menu described below in section \ref{sec:L1Menu}. Six independent boards are used to distribute the processessing of the L1 menu, and a final decision is rendered on whether to keep or discard and event. Below, in figure \ref{fig:L1Architecture}, a schematic of the full process from TPs to $\mu$GT is reproduced from \cite{L12020}.
+Both the Layer-2 calorimeter trigger and the $\mu$GMT output to the Global Trigger ($\mu$GT). The $\mu$GT combines this information using a set of complex algorithms called the trigger menu described below in section \ref{sec:L1Menu}. Six independent boards are used to distribute the processing of the L1 menu, and a final decision is rendered on whether to keep or discard and event. Below, in figure \ref{fig:L1Architecture}, a schematic of the full process from TPs to $\mu$GT is reproduced from \cite{L12020}.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\linewidth]{./Figures/L1TriggerArchitecture.png}
@@ -647,7 +647,7 @@ In addition to parking and prompt data streams, "scouting" data streams are take
 
 Since many of the events at the trigger level are processed in real time, the amount of time taken per event is a key metric. This timing includes all the necessary HLT-level reconstruction, as well as the application of whatever cuts and calculations that each individual HLT requires. Since 11 kHz of events are passed from the L1 trigger during a standard run period, it is vital that the processing time per event is carefully monitored. As with the trigger rate, any proposed addition to the HLT menu must be verified to have little to no impact on the overall processing time per event. Since much of the time spent processing each event goes towards reconstruction and tracking algorithms, and individual HLT is not likely to noticeably impact the total processing time unless it is egregiously inefficient.
 
-Moving from Run2 into Run 3, the overall data rate has consistently increased year over year. As the storage and processing capabilities have risen, the total allowed rate of the prompt, parking, and scouting datasets has also risen. Additionally, due to improvements to the hardware used to perform the HLT reconstruction (namely, the addition of GPUs in addition to CPUs used in many algorithms), the processing time per event has actually decreased considerably during Run 3. Figure \ref{fig:HLTRateAndTiming}, reproduced from \cite{LHCPRun3TriggerReport}, shows both of these effects in detail. At the left, the rates of the various data streams as well as the instantaneous luminosity is shown as a function of the run year. At the right, the total timing is shown for both CPU-only and CPU+GPU processing for the 2022 running year. Of particular interest for this paper is the 2024 run period, as this will be used for the results given in chapter \ref{chapter:Results}.
+Moving from Run2 into Run 3, the overall data rate has consistently increased year over year. As the storage and processing capabilities have risen, the total allowed rate of the prompt, parking, and scouting datasets has also risen. Additionally, due to improvements to the hardware used to perform the HLT reconstruction (namely, the addition of GPUs in addition to CPUs used in many algorithms), the speed with which reconstruction algorithms can be run as increased considerably in Run 3. Since the HLT filter farm is always used to maximum effect and the data rate is fixed by storage constraints, this means that more complex reconstruction steps can be performed in Run 3 (often including the use of machine learning techniques). Figure \ref{fig:HLTRateAndTiming}, reproduced from \cite{LHCPRun3TriggerReport}, shows both of these effects in detail. At the left, the rates of the various data streams as well as the instantaneous luminosity is shown as a function of the run year. At the right, the total timing is shown for both CPU-only and CPU+GPU processing for the 2022 running year. Of particular interest for this paper is the 2024 run period, as this will be used for the results given in chapter \ref{chapter:Results}.
 
 \begin{figure}[H]
 	\centering
@@ -749,7 +749,7 @@ The original description of boosted decision trees and gradient descent boosting
 
 At its core, a binary classification problem is a function estimation problem; a function must be constructed that maps some input values onto a single output score. The general parlance is to label the input variables for a single event as $\vec{x} = \{x_1, x_2, ... x_n\}$, where n is the total number of selected input values. The output, however, is a single score, usually labeled $y$. There exists some theoretical function, $F^{*}(\vec{x})$ that directly maps $\vec{x}$ onto $y$. This function cannot be known exactly for problems of moderate complexity, so an estimate of this function, $\hat{F}(\vec{x})$, is the goal of the gradient boosting process. 
 
-To quantify how closely the approximation $\hat{F}(\vec{x})$ follows the true $F^{*}(\vec{x})$, some loss function must be defined. There are many forms of loss function, as will be described in section \ref{sec:ObjectiveFunction}. The loss function is termed $L(y,F(\vec{x}))$, meaning that  it quantifies how closely the approximate points, $F(\vec{x})$ , follow the true classification values of the events, $y$. Given these definitions, the goal of the BDT algorithm can be written as given by Friedman \cite{BDTPaper}.
+To quantify how closely the approximation $\hat{F}(\vec{x})$ follows the true $F^{*}(\vec{x})$, some loss function must be defined. There are many forms of loss function, as will be described in section \ref{sec:ObjectiveFunction}. The loss function is termed $L(y,F(\vec{x}))$, meaning that  it quantifies how closely the approximate points, $F(\vec{x})$, follow the true classification values of the events, $y$. Given these definitions, the goal of the BDT algorithm can be written as given by Friedman \cite{BDTPaper}.
 \begin{equation}\label{eqn:FriedmanOverallFunction}
     F^{*} = \underset{F}{min} \: E_{y,\vec{x}}[L(y,F(\vec{x}))]
 \end{equation}
@@ -830,7 +830,7 @@ In equation \ref{eqn:ImprovedObjective}, one can notice that the prediction has 
     \end{split}
 \end{equation}
 
-Combining this with the defintion of the objective function in equation \ref{eqn:ImprovedObjective} gets to the heart of the XGBoost boosted decision tree algorithm; at each iterative step, a new tree must be added that seeks to further minimize the objective function. To best elucidate the iterative construction of an optimized tree, the objective function at each step must be quantified. The definition of the $t^{th}$ prediction given in equation \ref{eqn:AdditiveTrees} can then be added to the definition of the objective function given in equation \ref{eqn:ImprovedObjective}. This yields the expression in equation \ref{eqn:IterativeObjective}.
+Combining this with the definition of the objective function in equation \ref{eqn:ImprovedObjective} gets to the heart of the XGBoost boosted decision tree algorithm; at each iterative step, a new tree must be added that seeks to further minimize the objective function. To best elucidate the iterative construction of an optimized tree, the objective function at each step must be quantified. The definition of the $t^{th}$ prediction given in equation \ref{eqn:AdditiveTrees} can then be added to the definition of the objective function given in equation \ref{eqn:ImprovedObjective}. This yields the expression in equation \ref{eqn:IterativeObjective}.
 
 \begin{equation}\label{eqn:IterativeObjective}
     obj(\vec{\theta})^{(t)} = \sum_{i=1}^{n} L(y_i, \hat{y_i}^{(t-1)} + f_t(\vec{x_i})) + \sum_{k= 1}^{t} \omega(f_k)
@@ -1014,12 +1014,12 @@ The chosen variables are largely shower-shape and isolation variables, as these 
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
-		\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/rawEnergy.png}
+		\includegraphics[width=\linewidth]{./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/rawEnergy.png}
 		\caption{Raw Energy}
 		\label{HLTVars:RawE}
 	\end{subfigure}\hfill
 	\begin{subfigure}{0.50\linewidth}
-		\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/r9.png}
+		\includegraphics[width=\linewidth]{./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/r9.png}
 		\caption{$R_9$}
 		\label{HLTVars:r9}
 	\end{subfigure}
@@ -1031,12 +1031,12 @@ The raw supercluster energy gives a measure of the total energy deposited in the
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
-		\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/siEtaiEta.png}
+		\includegraphics[width=\linewidth]{./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/siEtaiEta.png}
 		\caption{$\sigma_{i \eta i \eta}$}
 		\label{HLTVars:Sieie}
 	\end{subfigure}\hfill
 	\begin{subfigure}{0.50\linewidth}
-		\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/eta.png}
+		\includegraphics[width=\linewidth]{./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/eta.png}
 		\caption{$\eta_{SC}$}
 		\label{HLTVars:Eta}
 	\end{subfigure}
@@ -1049,12 +1049,12 @@ The $\sigma_{i \eta i \eta}$ is another shower-shape variable that has powerful 
 The $\eta_{SC}$ can help provide information on the kinematics of the event, as different reactions and decays will be arranged differently. While the barrel and endcap are self-normalized here, the relative difference in shapes for signal and background in both the barrel and endcap can be examined. In the barrel, it is clear that the single Higgs signal MC tends to be more central, while the data sample eschews this region in favor of the higher-$\eta$ regions of the barrel. These kinematic differences are less pronounced in the endcap, where the signal MC and data shapes are relatively similar. 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
-		\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/etaW.png}
+		\includegraphics[width=\linewidth]{./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/phiW.png}
 		\caption{$\phi$ Width}
 		\label{HLTVars:PhiW}
 	\end{subfigure}\hfill
 	\begin{subfigure}{0.50\linewidth}
-		\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/phiW.png}
+		\includegraphics[width=\linewidth]{./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/etaW.png}
 		\caption{$\eta$ Width}
 		\label{HLTVars:EtaW}
 	\end{subfigure}
@@ -1066,12 +1066,12 @@ Next, the $\eta$ and $\phi$ widths (in figure \ref{fig:HLTVars3}) are shower-sha
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
-		\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/HoE.png}
+		\includegraphics[width=\linewidth]{./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/HoE.png}
 		\caption{H/E}
 		\label{HLTVars:HoE}
 	\end{subfigure}\hfill
 	\begin{subfigure}{0.50\linewidth}
-		\includegraphics[width=\linewidth]{./Figures/Trigger Training Plots/0713_2026_NormalizedTrainingVars/iso.png}
+		\includegraphics[width=\linewidth]{./Figures/TriggerFinal/1104_2026_NormalizedTrainingVars/iso.png}
 		\caption{Iso}
 		\label{HLTVars:Iso}
 	\end{subfigure}
@@ -1133,10 +1133,10 @@ In figure \ref{fig:HLTOutputScores}, the high and low scores for signal MC are s
 \begin{figure}[H]
 	\centering
 	\subfloat[SigScores][]{
-		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png}
+		\includegraphics[width=.48\linewidth]{./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_NoCuts/highandLowScore_XGBCut_M90_Sig_0617_All.png}
 	} \hfill
 	\subfloat[BkgScores][]{
-		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_ScorePlotsNoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png}
+		\includegraphics[width=.48\linewidth]{./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_NoCuts/highandLowScore_XGBCut_M90_Bkg_0617_All.png}
 	}
 	\caption{XGBoost output scores for two selected photon candidates in the Winter 2024 ggH signal MC (a) and 2023 Data (b). The higher of the two scores is plotted on the X-axis, while the lower of the two is plotted on the Y-axis.}
 	\label{fig:HLTOutputScores}
@@ -1184,10 +1184,10 @@ Events that satisfy these requirements can be plotted on top of figures \ref{fig
 \begin{figure}[H]
 	\centering
 	\subfloat[][]{
-		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png}
+		\includegraphics[width=.48\linewidth]{./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Sig_0617_BB.png}
 	} \hfill
 	\subfloat[][]{
-		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png}
+		\includegraphics[width=.48\linewidth]{./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Bkg_0617_BB.png}
 	}
 	\caption{XGBoost output scores for two selected photon candidates in the Winter 2024 ggH signal MC (a), and 2023 Data (b). The higher of the two scores is plotted on the X-axis, while the lower of the two is plotted on the Y-axis. Here, both photon candidates are in the barrel (BB)}
 	\label{fig:HLTAcceptedScoresBB}
@@ -1196,10 +1196,10 @@ Events that satisfy these requirements can be plotted on top of figures \ref{fig
 \begin{figure}[H]
 	\centering
 	\subfloat[][]{
-		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png}
+		\includegraphics[width=.48\linewidth]{./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Sig_0617_EE.png}
 	} \hfill
 	\subfloat[][]{
-		\includegraphics[width=.48\linewidth]{./Figures/Trigger Training Plots/0618_ScorePlotsWithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png}
+		\includegraphics[width=.48\linewidth]{./Figures/TriggerFinal/1104_2026_SquareXGBScorePlots_WithCuts/highandLowScore_XGBCut_M90_Bkg_0617_EE.png}
 	}
 	\caption{XGBoost output scores for two selected photon candidates in the Winter 2024 ggH signal MC (a), and 2023 Data (b). The higher of the two scores is plotted on the X-axis, while the lower of the two is plotted on the Y-axis. Here, both photon candidates are in the endcap (EE)}
 	\label{fig:HLTAcceptedScoresEE}
@@ -1213,10 +1213,10 @@ Next, plots of selected kinematic variables are shown. The events accepted by th
 \begin{figure}[H]
 	\centering
 	\subfloat[][]{
-		\includegraphics[width=.6\linewidth]{./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Sig.png}
+		\includegraphics[width=.6\linewidth]{./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/mass_All_Sig.png}
 	} \hfill \\
 	\subfloat[][]{
-		\includegraphics[width=.6\linewidth]{./Figures/Trigger Training Plots/0618_OnlineValidationPlots/mass_All_Bkg.png}
+		\includegraphics[width=.6\linewidth]{./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/mass_All_Bkg.png}
 	}
 	\caption{Diphoton mass for the signal MC (a) and data (b). Events accepted by the MVA-HLT are shown in blue, while events accepted by the sHLT are shown in green.}
 	\label{fig:HLTAcceptedMass}
@@ -1230,28 +1230,28 @@ One major consideration when examining the mass is the measured mass width of th
 \begin{figure}[H]
 	\centering
 	\subfloat[][]{
-		\includegraphics[width=.60\linewidth]{./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Sig.png}
+		\includegraphics[width=.60\linewidth]{./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/eta_All_Sig.png}
 	} \hfill \\
 	\subfloat[][]{
-		\includegraphics[width=.60\linewidth]{./Figures/Trigger Training Plots/0618_OnlineValidationPlots/eta_All_Bkg.png}
+		\includegraphics[width=.60\linewidth]{./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/eta_All_Bkg.png}
 	}
 	\caption{Photon $\eta$ for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in blue, while events accepted by the standard HLT are shown in green.}
 	\label{fig:HLTAcceptedEta}
 \end{figure}
 
 
-The next kinematic variable shown is the $\eta_{sc}$ of both photons plotted together (figure \ref{fig:HLTAcceptedEta}). As seen in both signal and background, the separation between the ECAL Barrel (EB) and ECAL Endcap (EE) can be seen at $\eta_{sc} \approx \pm 1.5$. For the signal, thoughout the barrel, both the MVA-HLT and sHLT accept photon candidates in relatively constant propotion to the total distribution, though the MVA-HLT has overall improved acceptance. While the MVA-HLT still has relatively constant acceptance in the EE, it can immediately be seen that the sHLT is excluding many events in the lowest-$\eta_{sc}$ region of the endcap. Investigations have shown that this is due to the $R_{9}$ cuts made within the trigger. This represents a reduction in kinematic coverage for the standard HLT, whereas the MVA-HLT is able to resolve this issue and maintain maximum kinematic coverage. 
+The next kinematic variable shown is the $\eta_{sc}$ of both photons plotted together (figure \ref{fig:HLTAcceptedEta}). As seen in both signal and background, the separation between the ECAL Barrel (EB) and ECAL Endcap (EE) can be seen at $\eta_{sc} \approx \pm 1.5$. For the signal, throughout the barrel, both the MVA-HLT and sHLT accept photon candidates in relatively constant proportion to the total distribution, though the MVA-HLT has overall improved acceptance. While the MVA-HLT still has relatively constant acceptance in the EE, it can immediately be seen that the sHLT is excluding many events in the lowest-$\eta_{sc}$ region of the endcap. Investigations have shown that this is due to the $R_{9}$ cuts made within the trigger. This represents a reduction in kinematic coverage for the standard HLT, whereas the MVA-HLT is able to resolve this issue and maintain maximum kinematic coverage. 
 
-Considering the background, it can immediately be seen that the MVA-HLT has a relatively flat acceptance in both the EB and EE, while the standard HLT appears to accept more data at the extreme-$\eta_{sc}$ reigions of the endcap. As can be seen from the  MC, this region tends to contain less of the $H \rightarrow \gamma \gamma$ signal events and therefore represents a lower signal to background ratio. 
+Considering the background, it can immediately be seen that the MVA-HLT has a relatively flat acceptance in both the EB and EE, while the standard HLT appears to accept more data at the extreme-$\eta_{sc}$ regions of the endcap. As can be seen from the  MC, this region tends to contain less of the $H \rightarrow \gamma \gamma$ signal events and therefore represents a lower signal to background ratio. 
 
 
 \begin{figure}[H]
 	\centering
 	\subfloat[][]{
-		\includegraphics[width=.60\linewidth]{./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Sig.png}
+		\includegraphics[width=.60\linewidth]{./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/et_All_Sig.png}
 	} \hfill \\
 	\subfloat[][]{
-		\includegraphics[width=.60\linewidth]{./Figures/Trigger Training Plots/0618_OnlineValidationPlots/et_All_Bkg.png}
+		\includegraphics[width=.60\linewidth]{./Figures/TriggerFinal/1104_2026_SingleSquareVarPlots_JustTwoTriggers/et_All_Bkg.png}
 	}
 	\caption{Photon $E_T$ for the signal MC (left) and data (right). Events accepted by the MVA-HLT are shown in blue, while events accepted by the standard HLT are shown in green.}
 	\label{fig:HLTAcceptedEt}
@@ -1423,7 +1423,7 @@ The first two variables, SCRawE and $\eta_{SC}$, are not designed to be clear di
 	\label{fig:GJetVars1}
 \end{figure}
 
-Next, the energy ratios, $R_9$ and $S_4$ can be examined. It is expected that a real (prompt) photon will have relatively well-localized energy; since the photon is a relatively clean signal in the detector, it is expected that most of the energy will be deposited in the center of the supercluster. It is clear that this is the case for both the barrel and endcap, as seen in figure \ref{fig:GJetVars2}. Since the fake photon corresponds to a jet, it is expected that the energy deposition will be more spread in the supercluster, which can also be seen in the plots. As a result, $R_9$ and $S_4$ can be relativelty powerful discrimination variables. 
+Next, the energy ratios, $R_9$ and $S_4$ can be examined. It is expected that a real (prompt) photon will have relatively well-localized energy; since the photon is a relatively clean signal in the detector, it is expected that most of the energy will be deposited in the center of the supercluster. It is clear that this is the case for both the barrel and endcap, as seen in figure \ref{fig:GJetVars2}. Since the fake photon corresponds to a jet, it is expected that the energy deposition will be more spread in the supercluster, which can also be seen in the plots. As a result, $R_9$ and $S_4$ can be relatively powerful discrimination variables. 
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
@@ -1730,7 +1730,7 @@ Maximizing the kinematic acceptance of the signal events in $\eta_{SC}$ is a key
 	\label{fig:SinglePhoCutsPt}
 \end{figure}
 
-A major advantage to these loose single photon cuts can be seen in figure \ref{fig:SinglePhoCutsPt}. Clearly, the standard preselection cuts considerably reduce the signal MC kinematic phase space by making relatively tight cuts of $p^{Lead}_{T} > 35 \ \mathrm{GeV/c}$ and $p^{Sub}_{T} > 25 \ \mathrm{GeV/c}$. While this also leads to a considerable reduction in data rate, the loss of good Higgs events with low-$p_T$ photons may impact future analyses with different kinematics. By comparison, the loose single photon cuts, being based entirely on the single photon BDT scores, do not noticably impact the $p_T$ distributions of either the signal or background.
+A major advantage to these loose single photon cuts can be seen in figure \ref{fig:SinglePhoCutsPt}. Clearly, the standard preselection cuts considerably reduce the signal MC kinematic phase space by making relatively tight cuts of $p^{Lead}_{T} > 35 \ \mathrm{GeV/c}$ and $p^{Sub}_{T} > 25 \ \mathrm{GeV/c}$. While this also leads to a considerable reduction in data rate, the loss of good Higgs events with low-$p_T$ photons may impact future analyses with different kinematics. By comparison, the loose single photon cuts, being based entirely on the single photon BDT scores, do not noticeably impact the $p_T$ distributions of either the signal or background.
 
 \subsection{Creation of Diphoton BDT for $H \rightarrow \gamma \gamma$}\label{sec:DiphotonBDT}
 With the single photon preselection cuts determined, an additional selection must be placed on the diphoton objects. The most obvious continuation of the current strategy is to create an additional MVA that now works on diphoton quantities. Previous analysis strategies have, in fact, employed a diphoton MVA for the classification of events \cite{Run2Hgg2018}. A new diphoton BDT can be constructed in reference to this, with the aim of making final cuts on this score such that the background rate is controlled while maintaining maximum signal efficiency.
@@ -2072,7 +2072,7 @@ The final step is to consider the recreation of the diphoton BDT for the DiHiggs
 	\label{fig:DiHiggs:DiphoVars1}
 \end{figure}
 
-While the $\sigma(M_{\gamma \gamma})/M_{\gamma \gamma}$ disributions are relatively similar to their single Higgs counterparts, there are minor differences in the cos($\Delta \phi$). The single Higgs for both the data and signal MC was strongly peaked at -1, with a very similar shape for both samples. In the DiHiggs, however, there is far better separation between the signal and background; the data is still relatively well clustered at -1, but the signal MC has a sloped shape favoring higher values (especially increasing approaching 1). This, again, is due to the kinematics of the DiHiggs production. Cos($\Delta \phi$) = -1 corresponds to a $\Delta \phi = \pi$, whereas Cos($\Delta \phi$) = 1 corresponds to a $\Delta \phi = 0$. As expected, then, the DiHiggs signal is more likely to have a lower separation in $\phi$. So, the discrimination power of this variable should have increased relative to the single Higgs.
+While the $\sigma(M_{\gamma \gamma})/M_{\gamma \gamma}$ distributions are relatively similar to their single Higgs counterparts, there are minor differences in the cos($\Delta \phi$). The single Higgs for both the data and signal MC was strongly peaked at -1, with a very similar shape for both samples. In the DiHiggs, however, there is far better separation between the signal and background; the data is still relatively well clustered at -1, but the signal MC has a sloped shape favoring higher values (especially increasing approaching 1). This, again, is due to the kinematics of the DiHiggs production. Cos($\Delta \phi$) = -1 corresponds to a $\Delta \phi = \pi$, whereas Cos($\Delta \phi$) = 1 corresponds to a $\Delta \phi = 0$. As expected, then, the DiHiggs signal is more likely to have a lower separation in $\phi$. So, the discrimination power of this variable should have increased relative to the single Higgs.
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
@@ -2106,7 +2106,7 @@ Next, there are clear differences in the $\gamma$ + Jet BDT score distributions 
 	\label{fig:DiHiggs:DiphoVars3}
 \end{figure}
 
-The single photon Data/MC BDT scores are quite well-separated for the lead photon, perhaps moreso than they were for the single Higgs sample. Clearly, as well, the sublead scores for the data are very well-placed near 0. Again, in conjunction with the $\gamma$ + Jet scores shown in figure \ref{fig:DiHiggs:DiphoVars2}, these data/MC BDT scores will have strong discrimination power.
+The single photon Data/MC BDT scores are quite well-separated for the lead photon, perhaps more so than they were for the single Higgs sample. Clearly, as well, the sublead scores for the data are very well-placed near 0. Again, in conjunction with the $\gamma$ + Jet scores shown in figure \ref{fig:DiHiggs:DiphoVars2}, these data/MC BDT scores will have strong discrimination power.
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
@@ -2140,7 +2140,7 @@ As mentioned for the selection of the single photon cuts, the $\eta_{SC}$ distri
 	\label{fig:DiHiggs:DiphoVars5}
 \end{figure}
 
-While the separation between the signal and background for both lead and sublead $p_T/M_{\gamma \gamma}$ is still quite good (as seen in figure \ref{fig:DiHiggs:DiphoVars5}), the distributions for the signal MC are quite different than those for the single Higgs. Specifically, the values tend to be, on average, a bit higher for both the lead and sublead. Additionally, the spread of the values for the signal MC is quite a bit higher, which likely reduces the discrimination power of the $p_T/M_{\gamma \gamma}$ for the DiHiggs samples.
+While the separation between the signal and background for both lead and sublead $p_T/M_{\gamma \gamma}$ is still quite good (as seen in figure \ref{fig:DiHiggs:DiphoVars5}), the distributions for the signal MC are quite different from those for the single Higgs. Specifically, the values tend to be, on average, a bit higher for both the lead and sublead. Additionally, the spread of the values for the signal MC is quite a bit higher, which likely reduces the discrimination power of the $p_T/M_{\gamma \gamma}$ for the DiHiggs samples.
 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
@@ -2219,7 +2219,7 @@ The acceptance of the data, shown in figure \ref{SingleHBkg:HLTAcceptance:Eta}, 
 	\label{fig:SingleH:HLTAcceptance:Eta}
 \end{figure}
 
-Next, the photon candidate $p_T/M_{\gamma \gamma}$ can be examined. Given the lower $p_T$ thresholds of the MVA-HLT, it is expected that there will be some enhancement in acceptance for low-$p_T$ candidates. For the sHLT, the signal MC in figure \ref{SingleHSig:HLTAcceptance:Ptm} goes to 0 around $p_T/M_{\gamma \gamma} = 0.15$, which corresponds to the sublead $p_T > 25$ cut. This leads to an enhancement in the gain below this value, as the MVA-HLT keeps consistent kinematic coverage down to the lowerst values plotted. Of course, these low-$p_T/M_{\gamma \gamma}$ sublead photons correspond to a higher-$p_T/M_{\gamma \gamma}$ lead photon, which is usually not cut out by the sHLT. Since the HLT is a per-event decision, both of these photons will be cut out by the sHLT. So, gains across the whole $p_T/M_{\gamma \gamma}$ range can be seen for the MVA-HLT. For the background, it can be seen that the sHLT begins to fall off at lower values. The MVA-HLT achieves considerably lower data acceptance without explicity cutting out any region of the $p_T/M_{\gamma \gamma}$ distribution. 
+Next, the photon candidate $p_T/M_{\gamma \gamma}$ can be examined. Given the lower $p_T$ thresholds of the MVA-HLT, it is expected that there will be some enhancement in acceptance for low-$p_T$ candidates. For the sHLT, the signal MC in figure \ref{SingleHSig:HLTAcceptance:Ptm} goes to 0 around $p_T/M_{\gamma \gamma} = 0.15$, which corresponds to the sublead $p_T > 25$ cut. This leads to an enhancement in the gain below this value, as the MVA-HLT keeps consistent kinematic coverage down to the lowest values plotted. Of course, these low-$p_T/M_{\gamma \gamma}$ sublead photons correspond to a higher-$p_T/M_{\gamma \gamma}$ lead photon, which is usually not cut out by the sHLT. Since the HLT is a per-event decision, both of these photons will be cut out by the sHLT. So, gains across the whole $p_T/M_{\gamma \gamma}$ range can be seen for the MVA-HLT. For the background, it can be seen that the sHLT begins to fall off at lower values. The MVA-HLT achieves considerably lower data acceptance without explicitly cutting out any region of the $p_T/M_{\gamma \gamma}$ distribution. 
 \begin{figure}[H]
 	\begin{subfigure}{0.50\linewidth}
 		\includegraphics[width=\linewidth]{./Figures/Offline Selection Plots/SingleHFinal/0921_HLTOfflineAcceptance_WithPassFail_SingleSquarePlots/ptOvrM_All_Sig.png}
@@ -2388,7 +2388,7 @@ The background mass distribution in figure \ref{SingleHBkg:OfflineAcceptance:Mgg
 		\caption{Data $M_{\gamma \gamma}$}
 		\label{SingleHBkg:OfflineAcceptance:Mgg}
 	\end{subfigure}
-	\caption{$M_{\gamma \gamma}$ distributions for $H \rightarrow \gamma \gamma$ events accepted by different offline selections.. Three tightnesses of BDT-based selection cuts are shown in dark blue (standard), light blue (tighter), and light green (looser). The preselection is shown in yellow, while the full standard analysis cuts are shown in orange.}
+	\caption{$M_{\gamma \gamma}$ distributions for $H \rightarrow \gamma \gamma$ events accepted by different offline selections. Three tightnesses of BDT-based selection cuts are shown in dark blue (standard), light blue (tighter), and light green (looser). The preselection is shown in yellow, while the full standard analysis cuts are shown in orange.}
 	\label{fig:SingleH:OfflineAcceptance:Mgg}
 \end{figure}
 
@@ -2527,7 +2527,7 @@ First, in figure \ref{fig:SingleH:OfflineSovrB:ScEta}, the S/B for $\eta_{SC}$ c
 		\caption{Signal/Background for SA Selection}
 		\label{SingleHBkg:OfflineSovrB:ScEta}
 	\end{subfigure}
-	\caption{Signal/Background measurement for $H \rightarrow \gamma \gamma$ as a function of $\eta_{SC}$ .}
+	\caption{Signal/Background measurement for $H \rightarrow \gamma \gamma$ as a function of $\eta_{SC}$.}
 	\label{fig:SingleH:OfflineSovrB:ScEta}
 \end{figure}
 
@@ -2664,7 +2664,7 @@ The signal efficiency for $p_T/M_{\gamma\gamma}$, seen in figure \ref{DiHiggsSig
 	\label{fig:DiHiggs:OfflineEfficiency:PtOvrM}
 \end{figure}
 
-The overall $HH \rightarrow b \bar{b} \gamma \gamma$ signal MC efficiencies and data acceptances can be seen in table \ref{tab:DiHiggs:offlineTotalEffs}. As with the single Higgs sample, considerable gains are measured accross the whole detector. A particular enhancement is still seen in B-E events, where a relative 64.2\% gain is seen. These massive gains in both the kinematic coverage and the overall signal efficiency should prove a major boon to future DiHiggs analyses, and demonstrate the possible power of leveraging the MVA-HLT for future analyses.
+The overall $HH \rightarrow b \bar{b} \gamma \gamma$ signal MC efficiencies and data acceptances can be seen in table \ref{tab:DiHiggs:offlineTotalEffs}. As with the single Higgs sample, considerable gains are measured across the whole detector. A particular enhancement is still seen in B-E events, where a relative 64.2\% gain is seen. These massive gains in both the kinematic coverage and the overall signal efficiency should prove a major boon to future DiHiggs analyses, and demonstrate the possible power of leveraging the MVA-HLT for future analyses.
 
 \begin{table}[h]
     \centering
@@ -2712,7 +2712,7 @@ Since the DiHiggs process is much rarer than the single Higgs process, it is exp
 		\caption{Signal/Background for SA Selection}
 		\label{DiHiggsBkg:OfflineSovrB:ScEta}
 	\end{subfigure}
-	\caption{Signal/Background measurement for $HH \rightarrow b \bar{b} \gamma \gamma$ as a function of $\eta_{SC}$ .}
+	\caption{Signal/Background measurement for $HH \rightarrow b \bar{b} \gamma \gamma$ as a function of $\eta_{SC}$.}
 	\label{fig:DiHiggs:OfflineSovrB:ScEta}
 \end{figure}
 
@@ -2727,7 +2727,7 @@ Since the DiHiggs process is much rarer than the single Higgs process, it is exp
 		\caption{Signal/Background for SA Selection}
 		\label{DiHiggsBkg:OfflineSovrB:hggMass}
 	\end{subfigure}
-	\caption{Signal/Background measurement for $HH \rightarrow b \bar{b} \gamma \gamma$ as a function of $M_{\gamma\gamma}$ .}
+	\caption{Signal/Background measurement for $HH \rightarrow b \bar{b} \gamma \gamma$ as a function of $M_{\gamma\gamma}$.}
 	\label{fig:DiHiggs:OfflineSovrB:hggMass}
 \end{figure}
 
@@ -2742,7 +2742,7 @@ Since the DiHiggs process is much rarer than the single Higgs process, it is exp
 		\caption{Signal/Background for SA Selection}
 		\label{DiHiggsBkg:OfflineSovrB:ptOvrM}
 	\end{subfigure}
-	\caption{Signal/Background measurement for $HH \rightarrow b \bar{b} \gamma \gamma$ as a function of $p_T/M_{\gamma\gamma}$ .}
+	\caption{Signal/Background measurement for $HH \rightarrow b \bar{b} \gamma \gamma$ as a function of $p_T/M_{\gamma\gamma}$.}
 	\label{fig:DiHiggs:OfflineSovrB:ptOvrM}
 \end{figure}
 
